@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExtremeWorldModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ExtremeWorldEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="ExtremeWorldModel.TUser" />
+    <EntitySet Name="Players" EntityType="ExtremeWorldModel.TPlayer" />
+    <EntitySet Name="Characters" EntityType="ExtremeWorldModel.TCharacters" />
+    <AssociationSet Name="TUserTPlayer" Association="ExtremeWorldModel.TUserTPlayer">
+      <End Role="TUser" EntitySet="Users" />
+      <End Role="TPlayer" EntitySet="Players" />
+    </AssociationSet>
+    <AssociationSet Name="TPlayerTCharacter" Association="ExtremeWorldModel.TPlayerTCharacter">
+      <End Role="TPlayer" EntitySet="Players" />
+      <End Role="TCharacter" EntitySet="Characters" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" />
+    <Property Name="PassWord" Type="String" Nullable="false" />
+    <Property Name="RegisterDate" Type="String" Nullable="false" />
+    <NavigationProperty Name="TPlayer" Relationship="ExtremeWorldModel.TUserTPlayer" FromRole="TUser" ToRole="TPlayer" />
+  </EntityType>
+  <EntityType Name="TPlayer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="TCharacter" Relationship="ExtremeWorldModel.TPlayerTCharacter" FromRole="TPlayer" ToRole="TCharacter" />
+  </EntityType>
+  <EntityType Name="TCharacters">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Class" Type="Int32" Nullable="false" />
+    <Property Name="MapID" Type="Int32" Nullable="false" />
+    <Property Name="MapPosX" Type="Int32" Nullable="false" />
+    <Property Name="MapPosY" Type="Int32" Nullable="false" />
+    <Property Name="MapPosZ" Type="Int32" Nullable="false" />
+    <Property Name="Gold" Type="Int32" Nullable="false" />
+    <Property Name="Level" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TPlayer" Relationship="ExtremeWorldModel.TPlayerTCharacter" FromRole="TCharacter" ToRole="TPlayer" />
+    <Property Name="TPlayerID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="TUserTPlayer">
+    <End Type="ExtremeWorldModel.TUser" Role="TUser" Multiplicity="0..1" />
+    <End Type="ExtremeWorldModel.TPlayer" Role="TPlayer" Multiplicity="1" />
+  </Association>
+  <Association Name="TPlayerTCharacter">
+    <End Type="ExtremeWorldModel.TPlayer" Role="TPlayer" Multiplicity="1" />
+    <End Type="ExtremeWorldModel.TCharacters" Role="TCharacter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TPlayer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TCharacter">
+        <PropertyRef Name="TPlayerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

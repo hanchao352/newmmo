@@ -1,0 +1,60 @@
+2019-05-07 22:12:23,923 [ 1] INFO  Unity: LoadingManager start
+2019-05-07 22:12:27,424 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-07 22:12:35,625 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-07 22:12:35,628 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-07 22:12:35,630 [ 1] INFO  Unity: DoConnect
+2019-05-07 22:12:35,633 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-07 22:12:35,637 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2019-05-07 22:12:35,645 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-07 22:12:41,805 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-07 22:12:41,808 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-07 22:12:42,410 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:12:46,970 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
+2019-05-07 22:12:47,718 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2019-05-07 22:12:47,776 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-07 22:12:47,778 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-07 22:12:47,783 [ 1] INFO  Unity: AddCharacter:1:大大大大 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-07 22:12:47,791 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-07 22:12:48,583 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:12:55,234 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-07 22:12:55,238 [ 1] INFO  Unity: UserGameLeaveRequest
+2019-05-07 22:12:55,278 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:1
+2019-05-07 22:12:55,282 [ 1] INFO  Unity: RemoveCharacter:1
+2019-05-07 22:12:55,287 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2019-05-07 22:12:55,289 [ 1] INFO  Unity: Character_1_大大大大 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-07 22:12:55,764 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:12:56,521 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
+2019-05-07 22:12:57,311 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2019-05-07 22:12:57,344 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-07 22:12:57,346 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-07 22:12:57,347 [ 1] INFO  Unity: AddCharacter:2:大大大大 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-07 22:12:57,350 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-07 22:12:58,060 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:13:00,727 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-07 22:13:00,730 [ 1] INFO  Unity: UserGameLeaveRequest
+2019-05-07 22:13:00,769 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:2
+2019-05-07 22:13:00,773 [ 1] INFO  Unity: RemoveCharacter:2
+2019-05-07 22:13:00,775 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2019-05-07 22:13:00,776 [ 1] INFO  Unity: Character_2_大大大大 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-07 22:13:01,320 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:13:05,075 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
+2019-05-07 22:13:05,898 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2019-05-07 22:13:05,948 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-07 22:13:05,952 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-07 22:13:05,955 [ 1] INFO  Unity: AddCharacter:3:大大大大 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-07 22:13:05,960 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-07 22:13:06,864 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:13:11,880 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-07 22:13:11,883 [ 1] INFO  Unity: UserGameLeaveRequest
+2019-05-07 22:13:11,928 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:3
+2019-05-07 22:13:11,930 [ 1] INFO  Unity: RemoveCharacter:3
+2019-05-07 22:13:11,934 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2019-05-07 22:13:11,936 [ 1] INFO  Unity: Character_3_大大大大 OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-07 22:13:12,294 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-07 22:13:15,794 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-07 22:13:15,795 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

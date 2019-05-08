@@ -1,0 +1,433 @@
+
+2019-05-04 18:45:25,433 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 18:45:26,091 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 18:45:40,486 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 18:45:40,859 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 18:46:29,035 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 18:46:29,437 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 18:46:29,974 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 18:46:29,979 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 18:46:29,980 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 18:46:29,980 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 18:46:29,985 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 18:46:30,031 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,032 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,032 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,032 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,033 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,038 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,033 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,037 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:46:30,099 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 18:47:15,128 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51438]] Connected
+2019-05-04 18:47:15,365 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 18:47:15,602 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 18:47:32,809 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 18:47:32,815 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user1  Pass:123456
+2019-05-04 18:47:33,211 [5] [ERROR] [GameServer] ：Message handler exception:, 对一个或多个实体的验证失败。有关详细信息，请参阅“EntityValidationErrors”属性。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 96
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\newmmo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2019-05-04 18:49:09,588 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 18:49:10,121 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 18:49:10,707 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 18:49:10,714 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 18:49:10,715 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 18:49:10,716 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 18:49:10,721 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 18:49:10,733 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,733 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,763 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,763 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,763 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,763 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,789 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,790 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:49:10,864 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 18:49:48,024 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51516]] Connected
+2019-05-04 18:49:48,122 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 18:49:48,320 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user1  Pass:123456
+2019-05-04 18:50:04,700 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 18:50:04,706 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 18:51:02,235 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2019-05-04 18:51:02,241 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大大大大  Class:Warrior
+2019-05-04 18:52:29,511 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 18:52:41,379 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 18:52:41,859 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 18:52:42,430 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 18:52:42,435 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 18:52:42,435 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 18:52:42,436 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 18:52:42,441 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 18:52:42,489 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,489 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,489 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,491 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,491 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,491 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,495 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,521 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:52:42,565 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 18:53:03,100 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51622]] Connected
+2019-05-04 18:53:03,188 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 18:53:03,396 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 18:53:11,747 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 18:53:11,752 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大大大大 Map:1
+2019-05-04 18:53:11,763 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 18:54:00,309 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 18:55:31,215 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 18:55:31,740 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 18:55:32,351 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 18:55:32,357 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 18:55:32,357 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 18:55:32,358 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 18:55:32,364 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 18:55:32,406 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,411 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,422 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,423 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,428 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,432 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,435 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,441 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 18:55:32,512 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 18:56:01,995 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51743]] Connected
+2019-05-04 18:56:02,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 18:56:02,427 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 18:56:17,230 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2019-05-04 18:56:17,234 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:哈哈  Class:Wizard
+2019-05-04 19:04:22,035 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 19:04:22,524 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 19:04:23,164 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 19:04:23,169 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 19:04:23,170 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 19:04:23,170 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 19:04:23,177 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 19:04:23,251 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,251 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,251 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,251 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,255 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,255 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,256 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,259 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 19:04:23,286 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 19:04:50,230 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51961]] Connected
+2019-05-04 19:04:50,318 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 19:04:50,515 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 19:05:32,367 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2019-05-04 19:05:32,372 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:嘻嘻  Class:Archer
+2019-05-04 19:06:00,438 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 19:06:00,443 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:嘻嘻 Map:1
+2019-05-04 19:06:00,453 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 19:06:06,729 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 19:14:12,547 [13] [WARN ] [GameServer] ：Client[127.0.0.1:52258]] Connected
+2019-05-04 19:14:12,780 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 19:14:12,782 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 19:14:28,461 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2019-05-04 19:14:28,462 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:嘻嘻嘻嘻  Class:Wizard
+2019-05-04 19:14:53,139 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 19:14:53,141 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:嘻嘻嘻嘻 Map:1
+2019-05-04 19:14:53,145 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 19:15:33,954 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 20:44:58,189 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 20:44:58,901 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 20:44:59,963 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 20:44:59,967 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 20:44:59,968 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 20:44:59,968 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 20:44:59,982 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 20:45:00,034 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,035 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,035 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,037 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,036 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,068 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,068 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,091 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 20:45:00,134 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 20:45:56,920 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56214]] Connected
+2019-05-04 20:45:57,104 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 20:45:57,565 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 20:46:11,601 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 20:46:11,609 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:哈哈 Map:1
+2019-05-04 20:46:11,636 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 20:46:40,756 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 21:03:45,852 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 21:03:46,395 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 21:03:47,336 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 21:03:47,343 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 21:03:47,344 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 21:03:47,345 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 21:03:47,367 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 21:03:47,421 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,422 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,430 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,432 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,433 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,433 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,459 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,459 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:03:47,520 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 21:10:08,843 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 21:10:09,254 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 21:10:09,781 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 21:10:09,787 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 21:10:09,787 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 21:10:09,788 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 21:10:09,794 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 21:10:09,836 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,838 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,847 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,847 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,848 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,879 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,879 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,879 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:10:09,938 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 21:10:31,665 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57298]] Connected
+2019-05-04 21:10:31,778 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:10:32,083 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 21:10:43,102 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 21:10:43,109 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:哈哈 Map:1
+2019-05-04 21:10:43,122 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 21:13:04,758 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 21:13:05,155 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 21:13:05,633 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 21:13:05,638 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 21:13:05,638 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 21:13:05,638 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 21:13:05,643 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 21:13:05,688 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,689 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,690 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,689 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,693 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,692 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,693 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,715 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:13:05,790 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 21:13:36,267 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57372]] Connected
+2019-05-04 21:13:36,479 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:13:36,728 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 21:14:10,161 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 21:14:10,169 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:嘻嘻嘻嘻 Map:1
+2019-05-04 21:14:10,181 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 21:14:54,031 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 21:15:20,835 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57408]] Connected
+2019-05-04 21:15:20,967 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:15:20,969 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 21:15:28,100 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 21:15:28,102 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:嘻嘻 Map:1
+2019-05-04 21:15:28,103 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 21:15:45,622 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 21:17:19,290 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 21:17:19,962 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 21:17:20,876 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 21:17:20,887 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 21:17:20,888 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 21:17:20,888 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 21:17:20,893 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 21:17:20,960 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,960 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,961 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,961 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,962 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,962 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,963 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:20,963 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:17:21,059 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 21:17:55,881 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57507]] Connected
+2019-05-04 21:17:56,104 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:17:56,603 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 21:18:09,811 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 21:18:09,824 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:嘻嘻 Map:1
+2019-05-04 21:18:09,840 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 21:18:26,423 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 21:44:32,963 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 21:44:33,466 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 21:44:34,010 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 21:44:34,015 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 21:44:34,016 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 21:44:34,017 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 21:44:34,021 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 21:44:34,093 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,094 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,097 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,097 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,098 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,121 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,121 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,122 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:44:34,172 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 21:45:05,721 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58912]] Connected
+2019-05-04 21:45:05,832 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:45:06,161 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user2  Pass:123456
+2019-05-04 21:45:24,146 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:45:24,151 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-05-04 21:45:38,629 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2019-05-04 21:45:38,636 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:嘻嘻222  Class:Archer
+2019-05-04 21:45:44,074 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 21:45:53,116 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2019-05-04 21:45:53,140 [1] [WARN ] [GameServer] ：Stop NetService...
+2019-05-04 21:45:53,142 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2019-05-04 21:45:53,143 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [6] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,143 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2019-05-04 21:45:53,244 [1] [INFO ] [GameServer] ：Game Server Exited
+2019-05-04 21:57:28,955 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 21:57:29,773 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 21:57:30,716 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 21:57:30,742 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 21:57:30,745 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 21:57:30,748 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 21:57:30,771 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 21:57:30,956 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,956 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,957 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,957 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,963 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,967 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,963 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:30,968 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 21:57:31,006 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 21:59:16,796 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59542]] Connected
+2019-05-04 21:59:16,907 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 21:59:17,431 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 21:59:32,321 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 21:59:32,332 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大大大大 Map:1
+2019-05-04 21:59:32,353 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 22:02:20,935 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59725]] Connected
+2019-05-04 22:02:21,069 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 22:02:21,073 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-05-04 22:02:29,499 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 22:02:29,502 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:嘻嘻222 Map:1
+2019-05-04 22:02:29,503 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2019-05-04 22:02:47,706 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 22:02:47,749 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:0:嘻嘻222 Map:1
+2019-05-04 22:02:47,775 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2019-05-04 22:02:58,426 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 22:03:01,136 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 22:44:07,149 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 22:44:07,959 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 22:44:08,832 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 22:44:08,837 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 22:44:08,837 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 22:44:08,838 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 22:44:08,842 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 22:44:08,875 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,031 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,031 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,034 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,036 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,036 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,037 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,087 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 22:44:09,207 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 23:43:35,511 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 23:43:36,619 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 23:43:37,340 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 23:43:37,345 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 23:43:37,346 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 23:43:37,346 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 23:43:37,352 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 23:43:37,426 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,426 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,426 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,426 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,435 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,436 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,439 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,440 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:43:37,536 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 23:44:20,793 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63515]] Connected
+2019-05-04 23:44:20,869 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:44:21,292 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 23:44:33,392 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:44:33,398 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大大大大 Map:1
+2019-05-04 23:44:33,414 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-04 23:44:35,539 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63523]] Connected
+2019-05-04 23:44:35,770 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:44:35,772 [7] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-05-04 23:44:44,458 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:44:44,459 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:嘻嘻222 Map:1
+2019-05-04 23:44:44,460 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-04 23:44:50,355 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 23:52:33,334 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 23:52:33,788 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 23:52:34,427 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 23:52:34,432 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 23:52:34,433 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 23:52:34,433 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 23:52:34,439 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 23:52:34,504 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,504 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,505 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,506 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,505 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,506 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,508 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,508 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:52:34,609 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 23:53:05,079 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63759]] Connected
+2019-05-04 23:53:05,166 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:53:05,413 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 23:53:16,638 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63762]] Connected
+2019-05-04 23:53:16,834 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:53:16,835 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-05-04 23:53:21,119 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:53:21,124 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:嘻嘻222 Map:1
+2019-05-04 23:53:21,137 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-04 23:53:56,253 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:53:56,260 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:嘻嘻222 Map:1
+2019-05-04 23:53:56,263 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2019-05-04 23:53:58,744 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 23:54:22,700 [15] [WARN ] [GameServer] ：Client[127.0.0.1:63784]] Connected
+2019-05-04 23:54:22,831 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:54:22,832 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-05-04 23:54:26,597 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:54:26,601 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:嘻嘻222 Map:1
+2019-05-04 23:54:26,611 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-04 23:54:41,042 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 23:54:48,682 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 23:55:02,232 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-04 23:55:02,678 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-04 23:55:03,274 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-04 23:55:03,280 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-04 23:55:03,281 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-04 23:55:03,281 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-04 23:55:03,286 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-04 23:55:03,381 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,381 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,381 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,383 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,383 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,384 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,385 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,387 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-04 23:55:03,427 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-04 23:55:23,476 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63819]] Connected
+2019-05-04 23:55:23,593 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:55:23,825 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 23:55:47,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-04 23:55:47,876 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:哈哈 Map:1
+2019-05-04 23:55:47,888 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-04 23:55:55,487 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 23:56:17,201 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63843]] Connected
+2019-05-04 23:56:17,365 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:56:17,366 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-05-04 23:56:20,801 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:56:20,802 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:嘻嘻222 Map:1
+2019-05-04 23:56:20,803 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-04 23:56:53,741 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-04 23:57:13,554 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63916]] Connected
+2019-05-04 23:57:13,678 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-04 23:57:13,679 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-04 23:57:33,527 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-04 23:57:33,528 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大大大大 Map:1
+2019-05-04 23:57:33,529 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-05-04 23:57:58,821 [3] [WARN ] [GameServer] ：Client[] Disconnected
