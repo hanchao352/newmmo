@@ -13,7 +13,11 @@ E:\newmmo\Src\Client\Temp\bin\Debug\System.Runtime.Serialization.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\System.Xml.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\System.Xml.Linq.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\Unity.Locator.dll
+E:\newmmo\Src\Client\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+E:\newmmo\Src\Client\Temp\bin\Debug\Unity.TextMeshPro.dll
+E:\newmmo\Src\Client\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.dll
+E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.StandardEvents.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\UnityEngine.AIModule.dll
 E:\newmmo\Src\Client\Temp\bin\Debug\UnityEngine.Analytics.dll
@@ -177,7 +181,6 @@ E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.dll
 E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.pdb
-E:\newmmo\Src\Client\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
-E:\newmmo\Src\Client\Temp\bin\Debug\Unity.TextMeshPro.dll
-E:\newmmo\Src\Client\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
-E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.StandardEvents.dll
+E:\newmmo\Src\Client\Temp\bin\Debug\Common.pdb
+E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.UI.dll
+E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.UI.xml

@@ -1,59 +1,134 @@
-2019-05-07 22:12:23,923 [ 1] INFO  Unity: LoadingManager start
-2019-05-07 22:12:27,424 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-07 22:12:35,625 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-05-07 22:12:35,628 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-05-07 22:12:35,630 [ 1] INFO  Unity: DoConnect
-2019-05-07 22:12:35,633 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-07 22:12:35,637 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-05-11 22:34:14,577 [ 1] INFO  Unity: LoadingManager start
+2019-05-11 22:34:20,353 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-11 22:34:42,832 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-11 22:34:42,834 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-11 22:34:42,836 [ 1] INFO  Unity: DoConnect
+2019-05-11 22:34:42,838 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-11 22:34:42,859 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-05-07 22:12:35,645 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-05-07 22:12:41,805 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-05-07 22:12:41,808 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-07 22:12:42,410 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:12:46,970 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
-2019-05-07 22:12:47,718 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-07 22:12:47,776 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-07 22:12:47,778 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-07 22:12:47,783 [ 1] INFO  Unity: AddCharacter:1:大大大大 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-07 22:12:47,791 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-07 22:12:48,583 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:12:55,234 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-07 22:12:55,238 [ 1] INFO  Unity: UserGameLeaveRequest
-2019-05-07 22:12:55,278 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:1
-2019-05-07 22:12:55,282 [ 1] INFO  Unity: RemoveCharacter:1
-2019-05-07 22:12:55,287 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2019-05-07 22:12:55,289 [ 1] INFO  Unity: Character_1_大大大大 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-07 22:12:55,764 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:12:56,521 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
-2019-05-07 22:12:57,311 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-07 22:12:57,344 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-07 22:12:57,346 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-07 22:12:57,347 [ 1] INFO  Unity: AddCharacter:2:大大大大 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-07 22:12:57,350 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-07 22:12:58,060 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:13:00,727 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-07 22:13:00,730 [ 1] INFO  Unity: UserGameLeaveRequest
-2019-05-07 22:13:00,769 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:2
-2019-05-07 22:13:00,773 [ 1] INFO  Unity: RemoveCharacter:2
-2019-05-07 22:13:00,775 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2019-05-07 22:13:00,776 [ 1] INFO  Unity: Character_2_大大大大 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-07 22:13:01,320 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:13:05,075 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
-2019-05-07 22:13:05,898 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-07 22:13:05,948 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-07 22:13:05,952 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-07 22:13:05,955 [ 1] INFO  Unity: AddCharacter:3:大大大大 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-07 22:13:05,960 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-07 22:13:06,864 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:13:11,880 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-07 22:13:11,883 [ 1] INFO  Unity: UserGameLeaveRequest
-2019-05-07 22:13:11,928 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:3
-2019-05-07 22:13:11,930 [ 1] INFO  Unity: RemoveCharacter:3
-2019-05-07 22:13:11,934 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2019-05-07 22:13:11,936 [ 1] INFO  Unity: Character_3_大大大大 OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-07 22:13:12,294 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-07 22:13:15,794 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-07 22:13:15,795 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-05-11 22:34:42,866 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-11 22:34:47,847 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-11 22:34:47,849 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-11 22:34:48,328 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-11 22:34:50,324 [ 1] INFO  Unity: Select Char:[1]大大大大[Warrior]
+2019-05-11 22:34:51,175 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2019-05-11 22:34:51,237 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-11 22:34:51,239 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-11 22:34:51,248 [ 1] INFO  Unity: AddCharacter:1:大大大大 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-11 22:34:51,257 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-11 22:34:52,431 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2019-05-11 22:34:52,533 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2019-05-11 22:34:52,811 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-11 22:35:00,504 [ 1] INFO  Unity: MoveForward
+2019-05-11 22:35:00,506 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5000,4000,820) DIR:(100,0,0) SPD:300
+2019-05-11 22:35:01,066 [ 1] INFO  Unity: Stop
+2019-05-11 22:35:01,067 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(100,0,0) SPD:0
+2019-05-11 22:35:01,191 [ 1] INFO  Unity: SetDirection:(98, 20, 0)
+2019-05-11 22:35:01,193 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(98,20,0) SPD:0
+2019-05-11 22:35:01,288 [ 1] INFO  Unity: SetDirection:(92, 38, 0)
+2019-05-11 22:35:01,290 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(92,38,0) SPD:0
+2019-05-11 22:35:01,407 [ 1] INFO  Unity: SetDirection:(83, 56, 0)
+2019-05-11 22:35:01,408 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(83,56,0) SPD:0
+2019-05-11 22:35:01,475 [ 1] INFO  Unity: SetDirection:(71, 70, 0)
+2019-05-11 22:35:01,477 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(71,70,0) SPD:0
+2019-05-11 22:35:01,614 [ 1] INFO  Unity: SetDirection:(55, 83, 0)
+2019-05-11 22:35:01,615 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(55,83,0) SPD:0
+2019-05-11 22:35:01,695 [ 1] INFO  Unity: SetDirection:(37, 93, 0)
+2019-05-11 22:35:01,697 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(37,93,0) SPD:0
+2019-05-11 22:35:01,759 [ 1] INFO  Unity: SetDirection:(20, 98, 0)
+2019-05-11 22:35:01,760 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(20,98,0) SPD:0
+2019-05-11 22:35:01,904 [ 1] INFO  Unity: SetDirection:(1, 100, 0)
+2019-05-11 22:35:01,905 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(1,100,0) SPD:0
+2019-05-11 22:35:02,158 [ 1] INFO  Unity: SetDirection:(-18, 98, 0)
+2019-05-11 22:35:02,160 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-18,98,0) SPD:0
+2019-05-11 22:35:02,275 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
+2019-05-11 22:35:02,276 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-36,93,0) SPD:0
+2019-05-11 22:35:02,378 [ 1] INFO  Unity: SetDirection:(-54, 84, 0)
+2019-05-11 22:35:02,379 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-54,84,0) SPD:0
+2019-05-11 22:35:02,473 [ 1] INFO  Unity: SetDirection:(-70, 71, 0)
+2019-05-11 22:35:02,475 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-70,71,0) SPD:0
+2019-05-11 22:35:02,573 [ 1] INFO  Unity: SetDirection:(-82, 58, 0)
+2019-05-11 22:35:02,575 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-82,58,0) SPD:0
+2019-05-11 22:35:02,690 [ 1] INFO  Unity: SetDirection:(-92, 40, 0)
+2019-05-11 22:35:02,691 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-92,40,0) SPD:0
+2019-05-11 22:35:02,788 [ 1] INFO  Unity: SetDirection:(-97, 22, 0)
+2019-05-11 22:35:02,790 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-97,22,0) SPD:0
+2019-05-11 22:35:08,417 [ 1] INFO  Unity: TestManager.OnNpcInvokeInsrance:NPC:[3:埃布尔] Type:Functional Func:InvokeInsrance
+2019-05-11 22:35:09,546 [ 1] INFO  Unity: MoveForward
+2019-05-11 22:35:09,548 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5165,4000,820) DIR:(-97,22,0) SPD:300
+2019-05-11 22:35:09,591 [ 1] INFO  Unity: SetDirection:(-92, 39, 0)
+2019-05-11 22:35:09,593 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5140,4005,820) DIR:(-92,39,0) SPD:300
+2019-05-11 22:35:09,717 [ 1] INFO  Unity: SetDirection:(-83, 56, 0)
+2019-05-11 22:35:09,718 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5110,4017,820) DIR:(-83,56,0) SPD:300
+2019-05-11 22:35:09,773 [ 1] INFO  Unity: SetDirection:(-72, 70, 0)
+2019-05-11 22:35:09,776 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5090,4032,820) DIR:(-72,70,0) SPD:300
+2019-05-11 22:35:09,872 [ 1] INFO  Unity: SetDirection:(-58, 82, 0)
+2019-05-11 22:35:09,874 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(5066,4056,820) DIR:(-58,82,0) SPD:300
+2019-05-11 22:35:12,421 [ 1] INFO  Unity: SetDirection:(-72, 70, 0)
+2019-05-11 22:35:12,423 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4610,4664,820) DIR:(-72,70,0) SPD:300
+2019-05-11 22:35:13,612 [ 1] INFO  Unity: SetPosition:(4365, 4930, 806)
+2019-05-11 22:35:13,614 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4365,4930,806) DIR:(-72,70,0) SPD:300
+2019-05-11 22:35:14,049 [ 1] INFO  Unity: SetDirection:(-83, 56, 0)
+2019-05-11 22:35:14,050 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4261,5034,806) DIR:(-83,56,0) SPD:300
+2019-05-11 22:35:15,322 [ 1] INFO  Unity: Stop
+2019-05-11 22:35:15,325 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(-83,56,0) SPD:0
+2019-05-11 22:35:16,652 [ 1] INFO  Unity: TestManager.OnNpcInvokeShop:NPC:[4:奥德利奇] Type:Functional Func:InvokeShop
+2019-05-11 22:35:18,385 [ 1] INFO  Unity: SetDirection:(-71, 70, 0)
+2019-05-11 22:35:18,386 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(-71,70,0) SPD:0
+2019-05-11 22:35:18,468 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
+2019-05-11 22:35:18,469 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(-57,82,0) SPD:0
+2019-05-11 22:35:18,561 [ 1] INFO  Unity: SetDirection:(-42, 91, 0)
+2019-05-11 22:35:18,563 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(-42,91,0) SPD:0
+2019-05-11 22:35:18,670 [ 1] INFO  Unity: SetDirection:(-25, 97, 0)
+2019-05-11 22:35:18,672 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(-25,97,0) SPD:0
+2019-05-11 22:35:18,785 [ 1] INFO  Unity: SetDirection:(-5, 100, 0)
+2019-05-11 22:35:18,786 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(-5,100,0) SPD:0
+2019-05-11 22:35:18,848 [ 1] INFO  Unity: SetDirection:(13, 99, 0)
+2019-05-11 22:35:18,849 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(13,99,0) SPD:0
+2019-05-11 22:35:18,963 [ 1] INFO  Unity: SetDirection:(33, 94, 0)
+2019-05-11 22:35:18,964 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(33,94,0) SPD:0
+2019-05-11 22:35:19,018 [ 1] INFO  Unity: SetDirection:(49, 87, 0)
+2019-05-11 22:35:19,019 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(49,87,0) SPD:0
+2019-05-11 22:35:19,109 [ 1] INFO  Unity: MoveForward
+2019-05-11 22:35:19,110 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3957,5262,806) DIR:(49,87,0) SPD:300
+2019-05-11 22:35:19,112 [ 1] INFO  Unity: SetDirection:(66, 75, 0)
+2019-05-11 22:35:19,113 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3963,5274,806) DIR:(66,75,0) SPD:300
+2019-05-11 22:35:19,193 [ 1] INFO  Unity: SetDirection:(78, 62, 0)
+2019-05-11 22:35:19,195 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(3978,5294,806) DIR:(78,62,0) SPD:300
+2019-05-11 22:35:19,317 [ 1] INFO  Unity: SetDirection:(89, 46, 0)
+2019-05-11 22:35:19,318 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4002,5312,806) DIR:(89,46,0) SPD:300
+2019-05-11 22:35:19,463 [ 1] INFO  Unity: SetDirection:(96, 29, 0)
+2019-05-11 22:35:19,464 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4042,5332,806) DIR:(96,29,0) SPD:300
+2019-05-11 22:35:20,752 [ 1] INFO  Unity: Stop
+2019-05-11 22:35:20,754 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4412,5406,806) DIR:(96,29,0) SPD:0
+2019-05-11 22:35:24,095 [ 1] INFO  Unity: SetDirection:(100, 10, 0)
+2019-05-11 22:35:24,096 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4412,5406,806) DIR:(100,10,0) SPD:0
+2019-05-11 22:35:24,169 [ 1] INFO  Unity: MoveForward
+2019-05-11 22:35:24,170 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4412,5406,806) DIR:(100,10,0) SPD:300
+2019-05-11 22:35:24,233 [ 1] INFO  Unity: SetDirection:(100, -9, 0)
+2019-05-11 22:35:24,234 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4437,5411,806) DIR:(100,-9,0) SPD:300
+2019-05-11 22:35:24,523 [ 1] INFO  Unity: Stop
+2019-05-11 22:35:24,526 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(100,-9,0) SPD:0
+2019-05-11 22:35:24,595 [ 1] INFO  Unity: SetDirection:(99, 11, 0)
+2019-05-11 22:35:24,597 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(99,11,0) SPD:0
+2019-05-11 22:35:24,678 [ 1] INFO  Unity: SetDirection:(96, 28, 0)
+2019-05-11 22:35:24,680 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(96,28,0) SPD:0
+2019-05-11 22:35:24,750 [ 1] INFO  Unity: SetDirection:(89, 45, 0)
+2019-05-11 22:35:24,751 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(89,45,0) SPD:0
+2019-05-11 22:35:24,853 [ 1] INFO  Unity: SetDirection:(79, 62, 0)
+2019-05-11 22:35:24,854 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(79,62,0) SPD:0
+2019-05-11 22:35:25,067 [ 1] INFO  Unity: SetDirection:(67, 75, 0)
+2019-05-11 22:35:25,068 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(67,75,0) SPD:0
+2019-05-11 22:35:25,553 [ 1] INFO  Unity: SetDirection:(80, 60, 0)
+2019-05-11 22:35:25,555 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(80,60,0) SPD:0
+2019-05-11 22:35:25,721 [ 1] INFO  Unity: SetDirection:(90, 44, 0)
+2019-05-11 22:35:25,722 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:1 POS:(4532,5411,806) DIR:(90,44,0) SPD:0
+2019-05-11 22:35:26,977 [ 1] INFO  Unity: TestManager.OnNpcInvokeShop:NPC:[2:多丽丝] Type:Functional Func:InvokeShop
+2019-05-11 22:35:29,491 [ 1] INFO  Unity: Character_1_大大大大 OnDestroy :ID:1 POS:(4532, 5411, 806) DIR:(90, 44, 0) SPD:0 
+2019-05-11 22:35:29,494 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-11 22:35:29,496 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

@@ -24,7 +24,7 @@ public class TeleporterObject : MonoBehaviour {
         Gizmos.color = Color.green;
         if (this.mesh !=null)
         {
-            Gizmos.DrawWireMesh(this.mesh,this.transform.position+Vector3.up*this.transform.localScale.y *0.5f,this.transform.rotation,this.transform.localScale);
+            Gizmos.DrawWireMesh(this.mesh,this.transform.position ,this.transform.rotation,this.transform.localScale);
         }
         UnityEditor.Handles.color = Color.red;
         UnityEditor.Handles.ArrowHandleCap(0,this.transform.position,this.transform.rotation,1f,EventType.Repaint);
@@ -33,6 +33,7 @@ public class TeleporterObject : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("发生碰撞发生碰撞"+other.name);
         PlayerInputController playerController = other.GetComponent<PlayerInputController>();
         if (playerController!=null&&playerController.isActiveAndEnabled)
         {
