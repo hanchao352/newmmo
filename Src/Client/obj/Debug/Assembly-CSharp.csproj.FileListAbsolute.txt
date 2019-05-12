@@ -182,5 +182,4 @@ E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.dll
 E:\newmmo\Src\Client\obj\Debug\Assembly-CSharp.pdb
 E:\newmmo\Src\Client\Temp\bin\Debug\Common.pdb
-E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.UI.dll
-E:\newmmo\Src\Client\Temp\bin\Debug\UnityEditor.UI.xml
+E:\newmmo\Src\Client\Temp\bin\Debug\Protocol.pdb

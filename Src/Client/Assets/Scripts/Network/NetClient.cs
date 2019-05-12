@@ -60,13 +60,11 @@ namespace Network
 
         public PackageHandler packageHandler = new PackageHandler(null);
 
-        void Awake()
-        {
-            running = true;
-        }
+       
 
         protected override void OnStart()
         {
+            running = true;
             MessageDistributer.Instance.ThrowException = true;
         }
 

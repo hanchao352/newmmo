@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 05/04/2019 18:33:56
+-- Date Created: 05/12/2019 17:05:10
 -- Generated from EDMX file: E:\newmmo\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
@@ -18,24 +18,36 @@ GO
 -- --------------------------------------------------
 
 IF OBJECT_ID(N'[dbo].[FK_TUserTPlayer]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[TUser] DROP CONSTRAINT [FK_TUserTPlayer];
+    ALTER TABLE [dbo].[Users] DROP CONSTRAINT [FK_TUserTPlayer];
 GO
 IF OBJECT_ID(N'[dbo].[FK_TPlayerTCharacter]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[TCharacters] DROP CONSTRAINT [FK_TPlayerTCharacter];
+    ALTER TABLE [dbo].[Characters] DROP CONSTRAINT [FK_TPlayerTCharacter];
+GO
+IF OBJECT_ID(N'[dbo].[FK_CharacterItem]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[CharacterItems] DROP CONSTRAINT [FK_CharacterItem];
+GO
+IF OBJECT_ID(N'[dbo].[FK_TCharactersTCharacterBag]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Characters] DROP CONSTRAINT [FK_TCharactersTCharacterBag];
 GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[TUser]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[TUser];
+IF OBJECT_ID(N'[dbo].[Users]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Users];
 GO
-IF OBJECT_ID(N'[dbo].[TPlayer]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[TPlayer];
+IF OBJECT_ID(N'[dbo].[Players]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Players];
 GO
-IF OBJECT_ID(N'[dbo].[TCharacters]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[TCharacters];
+IF OBJECT_ID(N'[dbo].[Characters]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Characters];
+GO
+IF OBJECT_ID(N'[dbo].[CharacterItems]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharacterItems];
+GO
+IF OBJECT_ID(N'[dbo].[CharacterBags]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharacterBags];
 GO
 
 -- --------------------------------------------------
@@ -70,7 +82,25 @@ CREATE TABLE [dbo].[Characters] (
     [MapPosZ] int  NOT NULL,
     [Gold] int  NOT NULL,
     [Level] int  NOT NULL,
-    [TPlayerID] int  NOT NULL
+    [TPlayerID] int  NOT NULL,
+    [Bag_Id] int  NOT NULL
+);
+GO
+
+-- Creating table 'CharacterItems'
+CREATE TABLE [dbo].[CharacterItems] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [ItemID] int  NOT NULL,
+    [ItemCount] int  NOT NULL,
+    [CharactersID] int  NOT NULL
+);
+GO
+
+-- Creating table 'CharacterBags'
+CREATE TABLE [dbo].[CharacterBags] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Items] varbinary(max)  NOT NULL,
+    [Unlocked] int  NOT NULL
 );
 GO
 
@@ -94,6 +124,18 @@ GO
 ALTER TABLE [dbo].[Characters]
 ADD CONSTRAINT [PK_Characters]
     PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'CharacterItems'
+ALTER TABLE [dbo].[CharacterItems]
+ADD CONSTRAINT [PK_CharacterItems]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'CharacterBags'
+ALTER TABLE [dbo].[CharacterBags]
+ADD CONSTRAINT [PK_CharacterBags]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
 -- --------------------------------------------------
@@ -128,6 +170,36 @@ GO
 CREATE INDEX [IX_FK_TPlayerTCharacter]
 ON [dbo].[Characters]
     ([TPlayerID]);
+GO
+
+-- Creating foreign key on [CharactersID] in table 'CharacterItems'
+ALTER TABLE [dbo].[CharacterItems]
+ADD CONSTRAINT [FK_CharacterItem]
+    FOREIGN KEY ([CharactersID])
+    REFERENCES [dbo].[Characters]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_CharacterItem'
+CREATE INDEX [IX_FK_CharacterItem]
+ON [dbo].[CharacterItems]
+    ([CharactersID]);
+GO
+
+-- Creating foreign key on [Bag_Id] in table 'Characters'
+ALTER TABLE [dbo].[Characters]
+ADD CONSTRAINT [FK_TCharactersTCharacterBag]
+    FOREIGN KEY ([Bag_Id])
+    REFERENCES [dbo].[CharacterBags]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_TCharactersTCharacterBag'
+CREATE INDEX [IX_FK_TCharactersTCharacterBag]
+ON [dbo].[Characters]
+    ([Bag_Id]);
 GO
 
 -- --------------------------------------------------

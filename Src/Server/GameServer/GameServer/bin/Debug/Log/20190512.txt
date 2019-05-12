@@ -1,0 +1,471 @@
+
+2019-05-12 10:56:26,869 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 10:56:28,639 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 10:56:29,713 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 10:56:29,718 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 10:56:29,719 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 10:56:29,720 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 10:56:29,724 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 10:56:29,816 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,816 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,823 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,847 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,851 [14] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,852 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,856 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,871 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 10:56:29,971 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 10:56:59,541 [5] [WARN ] [GameServer] £ºClient[127.0.0.1:58340]] Connected
+2019-05-12 10:56:59,827 [5] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 10:57:00,213 [7] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 10:57:23,707 [5] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 10:57:23,720 [7] [INFO ] [GameServer] £ºUserRegisterRequest: User:user1  Pass:123456
+2019-05-12 10:57:32,704 [5] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 10:57:32,706 [7] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 10:58:12,592 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2019-05-12 10:58:12,596 [7] [INFO ] [GameServer] £ºUserCreateCharacterRequest: Name:¹þ¹þ¹þ¹þ  Class:Warrior
+2019-05-12 10:58:17,546 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 10:58:17,555 [7] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 10:58:17,570 [7] [INFO ] [GameServer] £ºHasItem:[1] False
+2019-05-12 10:58:17,573 [7] [INFO ] [GameServer] £º[1]AddItem[ID:1,Count:2] addCount: 2
+2019-05-12 10:58:17,782 [7] [INFO ] [GameServer] £º[1]GetItem[1 : ID:1,Count:2]
+2019-05-12 10:58:17,784 [7] [INFO ] [GameServer] £ºItem:[1] [ID:1,Count:2]
+2019-05-12 10:58:17,798 [7] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 10:58:26,051 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2019-05-12 10:58:26,059 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2019-05-12 10:58:26,157 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2019-05-12 10:58:26,158 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-37,0),spd:0
+2019-05-12 10:58:26,327 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2019-05-12 10:58:26,328 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(93,-37,0),spd:300
+2019-05-12 10:58:26,365 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 10:58:26,368 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5025,3983,820),dir:(72,-69,0),spd:300
+2019-05-12 10:58:26,405 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 10:58:26,406 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5025,3983,820),dir:(72,-69,0),spd:300
+2019-05-12 10:58:26,447 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 10:58:26,448 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5049,3965,820),dir:(56,-83,0),spd:300
+2019-05-12 10:58:26,536 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 10:58:26,537 [14] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5067,3941,820),dir:(38,-92,0),spd:300
+2019-05-12 10:58:26,613 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 10:58:26,614 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5077,3916,820),dir:(21,-98,0),spd:300
+2019-05-12 10:58:26,734 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 10:58:26,736 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5083,3886,820),dir:(1,-100,0),spd:300
+2019-05-12 10:58:26,843 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:54
+2019-05-12 10:58:26,844 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:None Entity:(1:pos:(5083,3851,820),dir:(-18,-98,0),spd:300
+2019-05-12 10:58:27,179 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2019-05-12 10:58:27,180 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1£ºname:¹þ¹þ¹þ¹þ Entity.Id1  Evt:Idle Entity:(1:pos:(5062,3746,820),dir:(-18,-98,0),spd:0
+2019-05-12 11:01:30,007 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 11:01:30,425 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 11:01:30,926 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 11:01:30,930 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 11:01:30,930 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 11:01:30,931 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 11:01:30,933 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 11:01:31,064 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,064 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,064 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,064 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,066 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,066 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,068 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,070 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:01:31,141 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 11:01:50,532 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:58494]] Connected
+2019-05-12 11:01:50,642 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 11:01:50,890 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 11:02:01,682 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:02:01,687 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:02:01,792 [6] [INFO ] [GameServer] £ºHasItem:[1] True
+2019-05-12 11:02:01,794 [6] [INFO ] [GameServer] £º[1]RemoveItem[ID:1,Count:1] removeCount: 1
+2019-05-12 11:02:02,445 [6] [INFO ] [GameServer] £º[1]GetItem[1 : ID:1,Count:1]
+2019-05-12 11:02:02,448 [6] [INFO ] [GameServer] £ºItem:[1] [ID:1,Count:1]
+2019-05-12 11:02:02,458 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 11:02:25,922 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:02:25,927 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:02:25,931 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 11:02:30,387 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:02:30,391 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:02:30,396 [5] [INFO ] [GameServer] £ºHasItem:[1] True
+2019-05-12 11:02:30,400 [5] [INFO ] [GameServer] £º[1]RemoveItem[ID:1,Count:0] removeCount: 1
+2019-05-12 11:02:30,415 [5] [INFO ] [GameServer] £º[1]GetItem[1 : ID:1,Count:0]
+2019-05-12 11:02:30,417 [5] [INFO ] [GameServer] £ºItem:[1] [ID:1,Count:0]
+2019-05-12 11:02:30,425 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:2
+2019-05-12 11:02:31,915 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:02:31,931 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(100,0,0),spd:0
+2019-05-12 11:02:42,616 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:02:42,618 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:2:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:02:42,620 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:2
+2019-05-12 11:02:44,312 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:02:44,313 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:02:44,314 [6] [INFO ] [GameServer] £ºHasItem:[1] False
+2019-05-12 11:02:44,316 [6] [INFO ] [GameServer] £º[1]AddItem[ID:1,Count:2] addCount: 2
+2019-05-12 11:02:44,319 [6] [INFO ] [GameServer] £º[1]GetItem[1 : ID:1,Count:2]
+2019-05-12 11:02:44,320 [6] [INFO ] [GameServer] £ºItem:[1] [ID:1,Count:2]
+2019-05-12 11:02:44,325 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:3
+2019-05-12 11:02:45,437 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:02:45,441 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:3£ºname:¹þ¹þ¹þ¹þ Entity.Id3  Evt:None Entity:(3:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-05-12 11:03:59,255 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:03:59,256 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:3:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:03:59,257 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:3
+2019-05-12 11:04:01,365 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:04:01,371 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:04:01,379 [5] [INFO ] [GameServer] £ºHasItem:[1] True
+2019-05-12 11:04:01,384 [5] [INFO ] [GameServer] £º[1]RemoveItem[ID:1,Count:1] removeCount: 1
+2019-05-12 11:04:01,400 [5] [INFO ] [GameServer] £º[1]GetItem[1 : ID:1,Count:1]
+2019-05-12 11:04:01,403 [5] [INFO ] [GameServer] £ºItem:[1] [ID:1,Count:1]
+2019-05-12 11:04:01,406 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:4
+2019-05-12 11:04:02,645 [19] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:04:02,646 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4£ºname:¹þ¹þ¹þ¹þ Entity.Id4  Evt:None Entity:(4:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-05-12 11:04:03,150 [19] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:04:03,155 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4£ºname:¹þ¹þ¹þ¹þ Entity.Id4  Evt:None Entity:(4:pos:(5000,4000,709),dir:(100,0,0),spd:0
+2019-05-12 11:04:03,254 [19] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:04:03,255 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4£ºname:¹þ¹þ¹þ¹þ Entity.Id4  Evt:None Entity:(4:pos:(5000,4000,802),dir:(100,0,0),spd:0
+2019-05-12 11:24:17,507 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 11:24:18,586 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 11:24:19,905 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 11:24:19,918 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 11:24:19,923 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 11:24:19,926 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 11:24:19,931 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 11:24:20,322 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,322 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,322 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,323 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,325 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,325 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,325 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,377 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 11:24:20,525 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 11:24:47,982 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:59385]] Connected
+2019-05-12 11:24:48,115 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 11:24:48,664 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 11:25:02,642 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:25:02,647 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:25:02,738 [6] [INFO ] [GameServer] £ºHasItem:[2] False
+2019-05-12 11:25:02,741 [6] [INFO ] [GameServer] £º[1]AddItem[ID:2,Count:5] addCount: 5
+2019-05-12 11:25:04,269 [6] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:5]
+2019-05-12 11:25:04,270 [6] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:5]
+2019-05-12 11:25:04,295 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 11:25:43,026 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:25:43,030 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:25:43,035 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 11:25:45,286 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 11:25:45,292 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ¹þ¹þ Map:1
+2019-05-12 11:25:45,294 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 11:25:45,298 [5] [INFO ] [GameServer] £º[1]RemoveItem[ID:2,Count:4] removeCount: 1
+2019-05-12 11:25:45,393 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:4]
+2019-05-12 11:25:45,399 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:4]
+2019-05-12 11:25:45,419 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:2
+2019-05-12 11:25:46,782 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:25:46,792 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-05-12 11:25:46,953 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:25:46,955 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,709),dir:(100,0,0),spd:0
+2019-05-12 11:25:47,463 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 11:25:47,465 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,800),dir:(100,0,0),spd:0
+2019-05-12 11:26:00,377 [15] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:2
+2019-05-12 11:26:00,378 [15] [WARN ] [GameServer] £ºClient[] Disconnected
+2019-05-12 20:20:00,180 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:20:01,375 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:20:48,433 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:20:49,159 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:23:10,906 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:23:11,890 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:23:12,657 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 20:23:12,664 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:23:12,665 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:23:12,666 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 20:23:12,669 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 20:23:12,774 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,775 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,776 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,776 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,777 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,780 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,782 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,787 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:23:12,994 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 20:24:03,206 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:65494]] Connected
+2019-05-12 20:24:03,488 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:24:03,761 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:24:20,512 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:24:20,519 [5] [INFO ] [GameServer] £ºUserRegisterRequest: User:user1  Pass:123456
+2019-05-12 20:24:23,418 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:24:23,419 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:24:40,886 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2019-05-12 20:24:40,891 [5] [INFO ] [GameServer] £ºUserCreateCharacterRequest: Name:¹þ¹þ  Class:Warrior
+2019-05-12 20:24:44,392 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:24:44,403 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:24:44,426 [5] [INFO ] [GameServer] £ºHasItem:[2] False
+2019-05-12 20:24:44,434 [5] [INFO ] [GameServer] £º[1]AddItem[ID:1,Count:200] addCount: 200
+2019-05-12 20:24:44,439 [5] [INFO ] [GameServer] £º[1]AddItem[ID:2,Count:100] addCount: 100
+2019-05-12 20:24:44,440 [5] [INFO ] [GameServer] £º[1]AddItem[ID:3,Count:30] addCount: 30
+2019-05-12 20:24:44,440 [5] [INFO ] [GameServer] £º[1]AddItem[ID:4,Count:120] addCount: 120
+2019-05-12 20:24:44,449 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:100]
+2019-05-12 20:24:44,461 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 20:24:44,790 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 20:25:31,277 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:25:31,285 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:25:31,309 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 20:25:34,487 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:25:34,493 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:25:34,504 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:25:34,511 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:100]
+2019-05-12 20:25:34,515 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 20:25:34,531 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:2
+2019-05-12 20:25:36,073 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:36,084 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,744),dir:(100,0,0),spd:0
+2019-05-12 20:25:36,234 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:36,238 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,667),dir:(100,0,0),spd:0
+2019-05-12 20:25:36,440 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:36,443 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,607),dir:(100,0,0),spd:0
+2019-05-12 20:25:36,847 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:36,848 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,414),dir:(100,0,0),spd:0
+2019-05-12 20:25:37,105 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:37,106 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,251),dir:(100,0,0),spd:0
+2019-05-12 20:25:37,268 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:37,270 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,251),dir:(100,0,0),spd:0
+2019-05-12 20:25:37,334 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:37,336 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,140),dir:(100,0,0),spd:0
+2019-05-12 20:25:37,424 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:25:37,429 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,140),dir:(100,0,0),spd:0
+2019-05-12 20:25:42,060 [15] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:2
+2019-05-12 20:25:42,061 [15] [WARN ] [GameServer] £ºClient[] Disconnected
+2019-05-12 20:26:04,298 [15] [WARN ] [GameServer] £ºClient[127.0.0.1:49183]] Connected
+2019-05-12 20:26:04,406 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:26:04,407 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:26:25,152 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:26:25,153 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:26:25,155 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:26:25,156 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:100]
+2019-05-12 20:26:25,158 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 20:26:25,167 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:3
+2019-05-12 20:26:38,052 [13] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:3
+2019-05-12 20:26:38,054 [13] [WARN ] [GameServer] £ºClient[] Disconnected
+2019-05-12 20:27:34,817 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:27:35,277 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:27:35,856 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 20:27:35,861 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:27:35,862 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:27:35,862 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 20:27:35,869 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 20:27:35,910 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,914 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,915 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,916 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,945 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,945 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,945 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:35,945 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:27:36,010 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 20:28:02,070 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:49299]] Connected
+2019-05-12 20:28:02,193 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:28:02,525 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:28:11,350 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:28:11,355 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:28:11,513 [6] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:28:11,514 [6] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:100]
+2019-05-12 20:28:11,515 [6] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 20:28:11,635 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 20:29:27,044 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:29:27,049 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:29:27,054 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 20:29:30,983 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:29:30,984 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:29:30,985 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:29:30,986 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:100]
+2019-05-12 20:29:30,987 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 20:29:30,990 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:2
+2019-05-12 20:30:58,144 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:30:58,157 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,757),dir:(100,0,0),spd:0
+2019-05-12 20:30:58,296 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:30:58,297 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,693),dir:(100,0,0),spd:0
+2019-05-12 20:30:58,728 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 20:30:58,729 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¹þ¹þ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,638),dir:(100,0,0),spd:0
+2019-05-12 20:32:23,949 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:32:24,348 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:32:24,920 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 20:32:24,927 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:32:24,927 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:32:24,928 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 20:32:24,932 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 20:32:24,981 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,981 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,981 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,986 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,987 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,987 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,990 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:24,994 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:32:25,082 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 20:32:47,272 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:49527]] Connected
+2019-05-12 20:32:47,376 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:32:47,659 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:32:56,066 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:32:56,071 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:32:56,178 [6] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:32:56,179 [6] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:100]
+2019-05-12 20:32:56,179 [6] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 20:35:06,451 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:35:06,874 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:35:07,467 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 20:35:07,472 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:35:07,472 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:35:07,473 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 20:35:07,475 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 20:35:07,544 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,544 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,545 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,544 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,545 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,545 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,548 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,549 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:35:07,591 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 20:35:27,568 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:49618]] Connected
+2019-05-12 20:35:27,675 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:35:27,922 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:36:08,701 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:36:08,707 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:36:08,833 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:36:08,836 [5] [INFO ] [GameServer] £º[1]AddItem[ID:1,Count:400] addCount: 200
+2019-05-12 20:36:08,837 [5] [INFO ] [GameServer] £º[1]AddItem[ID:2,Count:200] addCount: 100
+2019-05-12 20:36:08,837 [5] [INFO ] [GameServer] £º[1]AddItem[ID:3,Count:60] addCount: 30
+2019-05-12 20:36:08,838 [5] [INFO ] [GameServer] £º[1]AddItem[ID:4,Count:240] addCount: 120
+2019-05-12 20:36:08,839 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:200]
+2019-05-12 20:36:08,839 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:200]
+2019-05-12 20:37:00,814 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 20:37:25,612 [17] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 20:37:25,616 [17] [WARN ] [GameServer] £ºClient[] Disconnected
+2019-05-12 20:38:39,318 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:38:39,720 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:38:40,307 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 20:38:40,311 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:38:40,312 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:38:40,312 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 20:38:40,315 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 20:38:40,356 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,356 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,357 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,357 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,357 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,361 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,366 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,367 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:38:40,457 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 20:39:01,341 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:49856]] Connected
+2019-05-12 20:39:01,452 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:39:01,759 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:39:10,840 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:39:10,846 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:44:38,915 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 20:44:39,537 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 20:44:40,437 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 20:44:40,447 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:44:40,455 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 20:44:40,459 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 20:44:40,464 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 20:44:40,494 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,497 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,512 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,512 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,513 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,517 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,522 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,526 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 20:44:40,593 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 20:45:08,840 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:50197]] Connected
+2019-05-12 20:45:08,951 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:45:09,231 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:45:17,828 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:45:17,835 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:45:17,991 [6] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:45:17,993 [6] [INFO ] [GameServer] £º[1]AddItem[ID:1,Count:600] addCount: 200
+2019-05-12 20:45:17,994 [6] [INFO ] [GameServer] £º[1]AddItem[ID:2,Count:300] addCount: 100
+2019-05-12 20:45:17,995 [6] [INFO ] [GameServer] £º[1]AddItem[ID:3,Count:90] addCount: 30
+2019-05-12 20:45:17,998 [6] [INFO ] [GameServer] £º[1]AddItem[ID:4,Count:360] addCount: 120
+2019-05-12 20:45:17,999 [6] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:300]
+2019-05-12 20:45:18,000 [6] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:300]
+2019-05-12 20:45:18,669 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 20:46:01,366 [3] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 20:46:01,369 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2019-05-12 20:46:35,386 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:50236]] Connected
+2019-05-12 20:46:35,496 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 20:46:35,497 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 20:46:37,719 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 20:46:37,721 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 20:46:37,722 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 20:46:37,725 [5] [INFO ] [GameServer] £º[1]AddItem[ID:1,Count:800] addCount: 200
+2019-05-12 20:46:37,728 [5] [INFO ] [GameServer] £º[1]AddItem[ID:2,Count:400] addCount: 100
+2019-05-12 20:46:37,737 [5] [INFO ] [GameServer] £º[1]AddItem[ID:3,Count:120] addCount: 30
+2019-05-12 20:46:37,737 [5] [INFO ] [GameServer] £º[1]AddItem[ID:4,Count:480] addCount: 120
+2019-05-12 20:46:37,738 [5] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:400]
+2019-05-12 20:46:37,746 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:400]
+2019-05-12 20:46:37,763 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:2
+2019-05-12 20:46:52,323 [3] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:2
+2019-05-12 20:46:52,324 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2019-05-12 22:05:03,222 [1] [INFO ] [GameServer] £ºGame Server Init
+2019-05-12 22:05:03,847 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2019-05-12 22:05:04,893 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:²¼ÁÖÕò
+2019-05-12 22:05:04,898 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:ÂäÈÕÉ­ÁÖ
+2019-05-12 22:05:04,898 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:ÂäÈÕÉ­ÁÖ
+2019-05-12 22:05:04,899 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:ÂäÈÕ¿Õ¼ä
+2019-05-12 22:05:04,901 [1] [WARN ] [GameServer] £ºStarting Listener...
+2019-05-12 22:05:04,980 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,982 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,982 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,984 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,986 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,986 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,986 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:04,986 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2019-05-12 22:05:05,052 [1] [WARN ] [GameServer] £ºNetService Started
+2019-05-12 22:05:37,636 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:53201]] Connected
+2019-05-12 22:05:37,730 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:23
+2019-05-12 22:05:37,976 [5] [INFO ] [GameServer] £ºUserLoginRequest: User:user1  Pass:123456
+2019-05-12 22:05:48,507 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 22:05:48,512 [6] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 22:05:48,634 [6] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 22:05:48,639 [6] [INFO ] [GameServer] £º[1]GetItem[2 : ID:2,Count:400]
+2019-05-12 22:05:48,640 [6] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:400]
+2019-05-12 22:05:48,806 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2019-05-12 22:06:18,414 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 22:06:18,417 [5] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:1:¹þ¹þ Map:1
+2019-05-12 22:06:18,419 [5] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2019-05-12 22:08:13,217 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2019-05-12 22:08:13,227 [5] [INFO ] [GameServer] £ºUserCreateCharacterRequest: Name:¼ýÊÖ  Class:Archer
+2019-05-12 22:08:16,105 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:10
+2019-05-12 22:08:16,107 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:2:¼ýÊÖ Map:1
+2019-05-12 22:08:16,108 [5] [INFO ] [GameServer] £ºHasItem:[2] False
+2019-05-12 22:08:16,118 [5] [INFO ] [GameServer] £º[2]AddItem[ID:1,Count:200] addCount: 200
+2019-05-12 22:08:16,120 [5] [INFO ] [GameServer] £º[2]AddItem[ID:2,Count:100] addCount: 100
+2019-05-12 22:08:16,121 [5] [INFO ] [GameServer] £º[2]AddItem[ID:3,Count:30] addCount: 30
+2019-05-12 22:08:16,122 [5] [INFO ] [GameServer] £º[2]AddItem[ID:4,Count:120] addCount: 120
+2019-05-12 22:08:16,125 [5] [INFO ] [GameServer] £º[2]GetItem[2 : ID:2,Count:100]
+2019-05-12 22:08:16,127 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 22:08:16,259 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:2
+2019-05-12 22:08:17,432 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 22:08:17,446 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-05-12 22:08:17,823 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 22:08:17,824 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,701),dir:(100,0,0),spd:0
+2019-05-12 22:08:18,122 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 22:08:18,124 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,801),dir:(100,0,0),spd:0
+2019-05-12 22:08:21,191 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:36
+2019-05-12 22:08:21,192 [5] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5000,4000,801),dir:(100,0,0),spd:300
+2019-05-12 22:08:21,322 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 22:08:21,323 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:None Entity:(2:pos:(5040,4000,801),dir:(98,-19,0),spd:300
+2019-05-12 22:08:21,435 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:45
+2019-05-12 22:08:21,436 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:None Entity:(2:pos:(5075,3993,801),dir:(93,-36,0),spd:300
+2019-05-12 22:08:21,560 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2019-05-12 22:08:21,562 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:2£ºname:¼ýÊÖ Entity.Id2  Evt:Idle Entity:(2:pos:(5110,3979,801),dir:(93,-36,0),spd:0
+2019-05-12 22:08:28,167 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2019-05-12 22:08:28,168 [9] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:2:¼ýÊÖ Map:1
+2019-05-12 22:08:28,169 [9] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:2
+2019-05-12 22:08:30,264 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:10
+2019-05-12 22:08:30,266 [5] [INFO ] [GameServer] £ºUserGameEnterRequest: characterID:2:¼ýÊÖ Map:1
+2019-05-12 22:08:30,267 [5] [INFO ] [GameServer] £ºHasItem:[2] True
+2019-05-12 22:08:30,273 [5] [INFO ] [GameServer] £º[2]GetItem[2 : ID:2,Count:100]
+2019-05-12 22:08:30,277 [5] [INFO ] [GameServer] £ºItem:[2] [ID:2,Count:100]
+2019-05-12 22:08:30,281 [5] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:3
+2019-05-12 22:08:31,301 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2019-05-12 22:08:31,302 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:3£ºname:¼ýÊÖ Entity.Id3  Evt:None Entity:(3:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-05-12 22:08:37,241 [3] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:3
+2019-05-12 22:08:37,242 [3] [WARN ] [GameServer] £ºClient[] Disconnected

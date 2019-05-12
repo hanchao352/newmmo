@@ -9,6 +9,8 @@
     <EntitySet Name="Users" EntityType="ExtremeWorldModel.Store.Users" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Players" EntityType="ExtremeWorldModel.Store.Players" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Characters" EntityType="ExtremeWorldModel.Store.Characters" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterItems" EntityType="ExtremeWorldModel.Store.CharacterItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterBags" EntityType="ExtremeWorldModel.Store.CharacterBags" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="TUserTPlayer" Association="ExtremeWorldModel.Store.TUserTPlayer">
       <End Role="TUser" EntitySet="Users" />
       <End Role="TPlayer" EntitySet="Players" />
@@ -16,6 +18,14 @@
     <AssociationSet Name="TPlayerTCharacter" Association="ExtremeWorldModel.Store.TPlayerTCharacter">
       <End Role="TPlayer" EntitySet="Players" />
       <End Role="TCharacter" EntitySet="Characters" />
+    </AssociationSet>
+    <AssociationSet Name="CharacterItem" Association="ExtremeWorldModel.Store.CharacterItem">
+      <End Role="TCharacters" EntitySet="Characters" />
+      <End Role="TCharacterItem" EntitySet="CharacterItems" />
+    </AssociationSet>
+    <AssociationSet Name="TCharactersTCharacterBag" Association="ExtremeWorldModel.Store.TCharactersTCharacterBag">
+      <End Role="TCharacters" EntitySet="Characters" />
+      <End Role="TCharacterBag" EntitySet="CharacterBags" />
     </AssociationSet>
   </EntityContainer>
   <EntityType Name="Users">
@@ -49,6 +59,24 @@
     <Property Name="Gold" Type="int" Nullable="false" />
     <Property Name="Level" Type="int" Nullable="false" />
     <Property Name="TPlayerID" Type="int" Nullable="false" />
+    <Property Name="Bag_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ItemID" Type="int" Nullable="false" />
+    <Property Name="ItemCount" Type="int" Nullable="false" />
+    <Property Name="CharactersID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterBags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Items" Type="varbinary(max)" Nullable="false" />
+    <Property Name="Unlocked" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="TUserTPlayer">
     <End Role="TUser" Type="ExtremeWorldModel.Store.Users" Multiplicity="*" />
@@ -74,6 +102,30 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="CharacterItem">
+    <End Role="TCharacters" Type="ExtremeWorldModel.Store.Characters" Multiplicity="1" />
+    <End Role="TCharacterItem" Type="ExtremeWorldModel.Store.CharacterItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacters">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TCharacterItem">
+        <PropertyRef Name="CharactersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TCharactersTCharacterBag">
+    <End Role="TCharacters" Type="ExtremeWorldModel.Store.Characters" Multiplicity="*" />
+    <End Role="TCharacterBag" Type="ExtremeWorldModel.Store.CharacterBags" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacterBag">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TCharacters">
+        <PropertyRef Name="Bag_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
@@ -89,6 +141,16 @@
           <AssociationSet Name="TPlayerTCharacter" Association="ExtremeWorldModel.TPlayerTCharacter">
             <End Role="TPlayer" EntitySet="Players" />
             <End Role="TCharacter" EntitySet="Characters" />
+          </AssociationSet>
+          <EntitySet Name="CharacterItems" EntityType="ExtremeWorldModel.TCharacterItem" />
+          <AssociationSet Name="CharacterItem" Association="ExtremeWorldModel.CharacterItem">
+            <End Role="TCharacters" EntitySet="Characters" />
+            <End Role="TCharacterItem" EntitySet="CharacterItems" />
+          </AssociationSet>
+          <EntitySet Name="CharacterBags" EntityType="ExtremeWorldModel.TCharacterBag" />
+          <AssociationSet Name="TCharactersTCharacterBag" Association="ExtremeWorldModel.TCharactersTCharacterBag">
+            <End Role="TCharacters" EntitySet="Characters" />
+            <End Role="TCharacterBag" EntitySet="CharacterBags" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="TUser">
@@ -124,6 +186,8 @@
           <Property Name="Level" Type="Int32" Nullable="false" />
           <NavigationProperty Name="TPlayer" Relationship="ExtremeWorldModel.TPlayerTCharacter" FromRole="TCharacter" ToRole="TPlayer" />
           <Property Name="TPlayerID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Items" Relationship="ExtremeWorldModel.CharacterItem" FromRole="TCharacters" ToRole="TCharacterItem" />
+          <NavigationProperty Name="Bag" Relationship="ExtremeWorldModel.TCharactersTCharacterBag" FromRole="TCharacters" ToRole="TCharacterBag" />
         </EntityType>
         <Association Name="TUserTPlayer">
           <End Type="ExtremeWorldModel.TUser" Role="TUser" Multiplicity="0..1" />
@@ -140,6 +204,41 @@
               <PropertyRef Name="TPlayerID" />
             </Dependent>
           </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TCharacterItem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ItemID" Type="Int32" Nullable="false" />
+          <Property Name="ItemCount" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Owner" Relationship="ExtremeWorldModel.CharacterItem" FromRole="TCharacterItem" ToRole="TCharacters" />
+          <Property Name="CharactersID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="CharacterItem">
+          <End Type="ExtremeWorldModel.TCharacters" Role="TCharacters" Multiplicity="1" />
+          <End Type="ExtremeWorldModel.TCharacterItem" Role="TCharacterItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TCharacters">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TCharacterItem">
+              <PropertyRef Name="CharactersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TCharacterBag">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Items" Type="Binary" Nullable="false" />
+          <Property Name="Unlocked" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Owner" Relationship="ExtremeWorldModel.TCharactersTCharacterBag" FromRole="TCharacterBag" ToRole="TCharacters" />
+        </EntityType>
+        <Association Name="TCharactersTCharacterBag">
+          <End Type="ExtremeWorldModel.TCharacters" Role="TCharacters" Multiplicity="1" />
+          <End Type="ExtremeWorldModel.TCharacterBag" Role="TCharacterBag" Multiplicity="1" />
         </Association>
       </Schema>
     </edmx:ConceptualModels>
@@ -181,11 +280,38 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="CharacterItems">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharacterItem)">
+        <MappingFragment StoreEntitySet="CharacterItems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemCount" ColumnName="ItemCount" />
+          <ScalarProperty Name="CharactersID" ColumnName="CharactersID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CharacterBags">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharacterBag)">
+        <MappingFragment StoreEntitySet="CharacterBags">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Items" ColumnName="Items" />
+          <ScalarProperty Name="Unlocked" ColumnName="Unlocked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <AssociationSetMapping Name="TUserTPlayer" TypeName="ExtremeWorldModel.TUserTPlayer" StoreEntitySet="Users">
       <EndProperty Name="TPlayer">
         <ScalarProperty Name="ID" ColumnName="TPlayer_ID" />
       </EndProperty>
       <EndProperty Name="TUser">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TCharactersTCharacterBag" TypeName="ExtremeWorldModel.TCharactersTCharacterBag" StoreEntitySet="Characters">
+      <EndProperty Name="TCharacterBag">
+        <ScalarProperty Name="Id" ColumnName="Bag_Id" />
+      </EndProperty>
+      <EndProperty Name="TCharacters">
         <ScalarProperty Name="ID" ColumnName="ID" />
       </EndProperty>
     </AssociationSetMapping>

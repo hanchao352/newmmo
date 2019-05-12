@@ -18,8 +18,8 @@ namespace GameServer.Entities
     {
        
         public TCharacters Data;
-        
 
+        public ItemManager ItemManager;
         public Character(CharacterType type, TCharacters cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
@@ -33,7 +33,14 @@ namespace GameServer.Entities
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.mapId = cha.MapID;
             this.Info.Entity = this.EntityData;
+            this.Define = DataManager.Instance.Characters[this.Info.Tid];
 
+            this.ItemManager = new ItemManager(this);
+            this.ItemManager.GetItemInfos(this.Info.Items);
+            this.Info.Bag = new NBagInfo();
+            this.Info.Bag.Unlocked = this.Data.Bag.Unlocked;
+            this.Info.Bag.Items = this.Data.Bag.Items;
+            Console.WriteLine("111");
         }
     }
 }

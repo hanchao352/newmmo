@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 913, y: 342}
   m_MaxSize: {x: 22008, y: 10021}
   vertical: 0
-  controlID: 186
+  controlID: 47
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 87
+  controlID: 48
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -505,14 +505,14 @@ MonoBehaviour:
     height: 697
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 14508.90949559644
-  m_2DMode: 0
+  lastFramingTime: 147.0445724796622
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 32.835075, y: 8.883455, z: 55.07018}
+    m_Target: {x: 980.0038, y: 563.88025, z: 2.677399}
     speed: 2
-    m_Value: {x: 32.835075, y: 8.883455, z: 55.07018}
+    m_Value: {x: 980.0038, y: 563.88025, z: 2.677399}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -532,27 +532,27 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.077537134, y: 0.26010397, z: -0.020959686, w: 0.96223426}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.07753713, y: 0.26010394, z: -0.020959685, w: 0.96223414}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.429351
+    m_Target: 1290.631
     speed: 2
-    m_Value: 6.429351
+    m_Value: 1290.631
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.16388863, y: -0.17798476, z: 0.030077698, w: -0.9698233}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -610,23 +610,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 646a0100
-    m_LastClickedID: 92772
-    m_ExpandedIDs: 6807f7ffec2df7ff264af7ff105ff7fffe02f8ff6893f8ff203af9ffe64cf9ff5cc0f9ff301efaff7889faff8a89faff26b6faff5ccffaffba13fbffd0c7fbffd42efcffb057fcff7af5fcff5a88ffffd4fbfffff4ffffff00000000543f000052410000eeae0000c4b4000062d3000038d900000af60000e0fb00002c090100020f0100446001007c6d010052730100
+    m_SelectedIDs: 70340000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1856ffff50f1ffff78f1ffffa6f1ffffaaf1ffffdaf1fffff2f1fffff4f1ffffbefbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DeliveryNPC1
-      m_OriginalName: DeliveryNPC1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 62194
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -673,7 +673,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/NPC
+    - Assets/Levels
   m_ViewMode: 0
   m_StartGridSize: 16
   m_LastFolders: []
@@ -685,7 +685,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 882e0000
     m_LastClickedID: 11912
-    m_ExpandedIDs: 00000000ec2b0000582c0000ba2e0000062f0000a02f00007832000020330000fa3300004e3400005e350000
+    m_ExpandedIDs: 00000000242c00008a2c0000c62c0000e82c0000682e0000ac2f0000303000008a3000005434000090350000383700006c380000f2380000f4380000663900003e3a0000863a0000463b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,21 +713,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 2624fbffffffffff00000000ec2b00001e2c00003c2c0000582c00002a2e0000ac2e0000d62e00006831000078320000203300004c3400004e3400005e350000e6350000544e0000
+    m_ExpandedIDs: ffffffff00000000242c00008a2c0000c62c0000e82c0000682e0000ac2f0000b02f0000303000004e3000008a3000005434000090350000fc350000383700006c380000f4380000663900003e3a0000863a0000463b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Loading
+      m_OriginalName: Loading
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13424
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
