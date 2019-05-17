@@ -1,45 +1,55 @@
-2019-05-12 20:25:50,378 [ 1] INFO  Unity: LoadingManager start
-2019-05-12 20:25:54,188 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-12 20:26:04,284 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-05-12 20:26:04,286 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-05-12 20:26:04,288 [ 1] INFO  Unity: DoConnect
-2019-05-12 20:26:04,291 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-12 20:26:04,293 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-05-18 00:15:50,458 [ 1] INFO  Unity: LoadingManager start
+2019-05-18 00:15:53,911 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-18 00:16:02,585 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-18 00:16:02,588 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-18 00:16:02,590 [ 1] INFO  Unity: DoConnect
+2019-05-18 00:16:02,593 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-18 00:16:02,598 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-05-12 20:26:04,299 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-05-12 20:26:04,485 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-05-12 20:26:04,488 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-12 20:26:04,928 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 20:26:05,984 [ 1] INFO  Unity: Select Char:[1]¹þ¹þ[Warrior]
-2019-05-12 20:26:24,474 [ 1] INFO  Unity: Select Char:[1]¹þ¹þ[Warrior]
-2019-05-12 20:26:25,125 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-12 20:26:25,190 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-12 20:26:25,195 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:200]
-2019-05-12 20:26:25,197 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:100]
-2019-05-12 20:26:25,199 [ 1] INFO  Unity: ItemManager: Init[Id:3,Count:30]
-2019-05-12 20:26:25,201 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:120]
-2019-05-12 20:26:25,205 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at Managers.BagManager.Reset () [0x0003a] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:38 
-  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:29 
-  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in E:\newmmo\Src\Client\Assets\Scripts\Services\UserService.cs:247 
-  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00044] in E:\newmmo\Src\Lib\Common\Network\MessageDistributer.cs:105 
-2019-05-12 20:26:25,207 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:38)
-Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:29)
-Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:247)
-Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
-}</args></log4net.Error>
-2019-05-12 20:26:25,234 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-12 20:26:25,238 [ 1] INFO  Unity: AddCharacter:3:¹þ¹þ Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-12 20:26:25,247 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-12 20:26:26,231 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2019-05-18 00:16:02,604 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-18 00:16:08,282 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-18 00:16:08,286 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-18 00:16:08,668 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:16:09,700 [ 1] INFO  Unity: Select Char:[1002]¾«ÁéÉäÊÖ[Archer]
+2019-05-18 00:16:10,638 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
+2019-05-18 00:16:13,137 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-18 00:16:13,141 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:21]
+2019-05-18 00:16:13,144 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-05-18 00:16:13,146 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
+2019-05-18 00:16:13,148 [ 1] INFO  Unity: ItemManager: Init[Id:3002,Count:1]
+2019-05-18 00:16:13,149 [ 1] INFO  Unity: ItemManager: Init[Id:3003,Count:1]
+2019-05-18 00:16:13,150 [ 1] INFO  Unity: ItemManager: Init[Id:3004,Count:1]
+2019-05-18 00:16:13,152 [ 1] INFO  Unity: ItemManager: Init[Id:3005,Count:1]
+2019-05-18 00:16:13,153 [ 1] INFO  Unity: ItemManager: Init[Id:3006,Count:1]
+2019-05-18 00:16:13,154 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:10]
+2019-05-18 00:16:13,155 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
+2019-05-18 00:16:13,178 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-18 00:16:13,182 [ 1] INFO  Unity: AddCharacter:1:¾«ÁéÉäÊÖ Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-18 00:16:13,187 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-18 00:16:13,853 [ 1] WARN  Unity: MainPlayerCamera [-101434] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 20:26:26,248 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2019-05-18 00:16:13,854 [ 1] WARN  Unity: GameObjectManager [-101388] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 20:26:26,447 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 20:26:38,042 [ 1] INFO  Unity: Character_3_¹þ¹þ OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-12 20:26:38,046 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-12 20:26:38,048 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-05-18 00:16:13,866 [ 1] WARN  Unity: UIMain [79958] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-05-18 00:16:13,868 [ 1] WARN  Unity: UIWorldElementManager [80810] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-05-18 00:16:13,924 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:16:26,501 [ 1] INFO  Unity: SendEquipItem
+2019-05-18 00:16:27,836 [ 1] INFO  Unity: SendEquipItem
+2019-05-18 00:16:28,888 [ 1] INFO  Unity: SendEquipItem
+2019-05-18 00:16:31,035 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-18 00:16:31,036 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 
+2019-05-18 00:16:31,044 [ 1] INFO  Unity: Character_1_¾«ÁéÉäÊÖ OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

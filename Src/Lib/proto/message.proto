@@ -50,7 +50,22 @@ enum ITEM_TYPE
 	NORMAL=0;
 	MATERIAL=1;
 	TASK = 2;  //任务道具
+	EQUIP = 3;
+	
 }
+
+enum EQUIP_SLOT
+{
+	WEAPON 		= 0;
+	ACCESSORY 	= 1;
+	HELMET 		= 2; //头盔
+	CHEST 		= 3; //胸甲
+	SHOULDER 	= 4; //护肩
+	PANTS 		= 5; //裤子
+	BOOTS 		= 6; //靴子
+	SLOT_MAX	= 7;
+}
+
 message NUserInfo {
 	int32 id = 1;
 	NPlayerInfo player = 2;
@@ -70,9 +85,11 @@ message NCharacterInfo {
 	int32 level = 6;
 	int32 mapId = 7;
 	NEntity entity = 8;
+	int64 gold = 9;
 
 	repeated NItemInfo Items=10;
 	NBagInfo Bag=11;
+	bytes Equips = 12;
 }
 message  NItemInfo
 {
@@ -89,6 +106,41 @@ message NBagInfo
 {
 	int32 unlocked=1;
 	bytes  Items=2;
+}
+enum STATUS_ACTION
+{
+	UPDATE = 0;
+	ADD = 1;
+	DELETE = 2;
+}
+
+enum STATUS_TYPE
+{
+	MONEY = 0;
+	EXP = 1;
+	SKILL_POINT = 2;
+	ITEM = 3;
+}
+
+
+enum STATUS_SOURCE
+{
+	UPDATE = 0;
+	ADD = 1;
+	DELETE = 2;
+}
+
+message NStatus
+{
+	STATUS_TYPE type = 1;
+	STATUS_ACTION action = 2;
+	int32 id = 3;
+	int32 value = 4;
+}
+
+message StatusNotify
+{
+	repeated NStatus status = 1;
 }
 
 ////////////////////////////////////////////////////////////////
@@ -136,6 +188,8 @@ message NetMessageRequest{
 
 	MapEntitySyncRequest mapEntitySync = 8;
 	MapTeleportRequest mapTeleport = 9;
+	ItemBuyRequest itemBuy = 10;
+	ItemEquipRequest itemEquip = 11;
 }
 
 message NetMessageResponse{
@@ -150,6 +204,9 @@ message NetMessageResponse{
 
 	MapEntitySyncResponse mapEntitySync = 8;
 	
+	ItemBuyResponse itemBuy = 10;
+	ItemEquipResponse itemEquip = 11;
+	StatusNotify statusNotify = 100;	
 }
 
 
@@ -243,14 +300,36 @@ message MapTeleportRequest
 	int32 teleporterId = 1;
 }
 
-//±³°ü±£´æ
+
+message ItemBuyRequest
+{
+	int32 shopId = 1;
+	int32 shopItemId = 2;
+}
+
+message ItemBuyResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
 message BagSaveRequest
 {
 	NBagInfo BagInfo=1;
 }
 //±³°ü
 message BagSaveResponse
-{
-	RESULT result=1;
+{	RESULT result=1;
 	string errormsg=2;
+}
+message ItemEquipRequest
+{
+	int32 slot = 1;
+	int32 itemId = 2;
+	bool isEquip = 3;
+}
+
+message ItemEquipResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
 }

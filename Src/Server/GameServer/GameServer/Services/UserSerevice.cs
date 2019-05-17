@@ -117,7 +117,10 @@ namespace GameServer.Services
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
+                Gold = 100000,
+                Equips = new byte[28],
             };
+            
             var bag = new TCharacterBag();
             bag.Owner = character;
             bag.Items = new byte[0];
@@ -127,6 +130,21 @@ namespace GameServer.Services
            character= DBService.Instance.Entities.Characters.Add(character);
             sender.Session.User.TPlayer.TCharacter.Add(character);
             DBService.Instance.Entities.SaveChanges();
+
+
+            character.Items.Add(new TCharacterItem()
+            {
+                Owner = character,
+                ItemID=1,
+                ItemCount=20,
+            });
+            character.Items.Add(new TCharacterItem()
+            {
+                Owner = character,
+                ItemID = 2,
+                ItemCount = 20,
+            });
+
 
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
@@ -164,23 +182,23 @@ namespace GameServer.Services
             message.Response.gameEnter.Character = character.Info;
 
             //道具系统测试
-            int itemId = 2;
-            bool hasItem = character.ItemManager.HasItem(itemId);
-            Log.InfoFormat("HasItem:[{0}] {1}",itemId,hasItem);
-            if (hasItem)
-            {
-                // character.ItemManager.RemoveItem(itemId,1);
-            }
-            else
-            {
-                character.ItemManager.AddItem(1, 200);
-                character.ItemManager.AddItem(2, 100);
-                character.ItemManager.AddItem(3, 30);
-                character.ItemManager.AddItem(4, 120);
-            }
-            Models.Item item = character.ItemManager.GetItem(itemId);
-            Log.InfoFormat("Item:[{0}] [{1}]",itemId,item);
-            DBService.Instance.Save();
+            //int itemId = 2;
+            //bool hasItem = character.ItemManager.HasItem(itemId);
+            //Log.InfoFormat("HasItem:[{0}] {1}", itemId, hasItem);
+            //if (hasItem)
+            //{
+            //    // character.ItemManager.RemoveItem(itemId,1);
+            //}
+            //else
+            //{
+            //    character.ItemManager.AddItem(1, 200);
+            //    character.ItemManager.AddItem(2, 100);
+            //    character.ItemManager.AddItem(3, 30);
+            //    character.ItemManager.AddItem(4, 120);
+            //}
+            //Models.Item item = character.ItemManager.GetItem(itemId);
+            //Log.InfoFormat("Item:[{0}] [{1}]", itemId, item);
+            //DBService.Instance.Save();
 
 
             byte[] data = PackageHandler.PackMessage(message);

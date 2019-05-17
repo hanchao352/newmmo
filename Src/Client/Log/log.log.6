@@ -1,162 +1,52 @@
-2019-05-12 20:27:47,201 [ 1] INFO  Unity: LoadingManager start
-2019-05-12 20:27:50,802 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-12 20:28:02,040 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-05-12 20:28:02,043 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-05-12 20:28:02,047 [ 1] INFO  Unity: DoConnect
-2019-05-12 20:28:02,051 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-12 20:28:02,057 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-05-18 00:16:47,313 [ 1] INFO  Unity: LoadingManager start
+2019-05-18 00:16:50,742 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-18 00:16:59,146 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-18 00:16:59,148 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-18 00:16:59,151 [ 1] INFO  Unity: DoConnect
+2019-05-18 00:16:59,156 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-18 00:16:59,159 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-05-12 20:28:02,063 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-05-12 20:28:08,327 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-05-12 20:28:08,330 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-12 20:28:08,903 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 20:28:10,332 [ 1] INFO  Unity: Select Char:[1]哈哈[Warrior]
-2019-05-12 20:28:11,330 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-12 20:28:11,656 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-12 20:28:11,665 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:200]
-2019-05-12 20:28:11,667 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:100]
-2019-05-12 20:28:11,670 [ 1] INFO  Unity: ItemManager: Init[Id:3,Count:30]
-2019-05-12 20:28:11,673 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:120]
-2019-05-12 20:28:11,680 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at Managers.BagManager.Reset () [0x0003a] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:38 
-  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:29 
-  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in E:\newmmo\Src\Client\Assets\Scripts\Services\UserService.cs:247 
-  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00044] in E:\newmmo\Src\Lib\Common\Network\MessageDistributer.cs:105 
-2019-05-12 20:28:11,683 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:38)
-Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:29)
-Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:247)
-Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
-}</args></log4net.Error>
-2019-05-12 20:28:11,755 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-12 20:28:11,760 [ 1] INFO  Unity: AddCharacter:1:哈哈 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-12 20:28:11,768 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-12 20:28:12,964 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2019-05-18 00:16:59,165 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-18 00:17:04,541 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-18 00:17:04,545 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-18 00:17:04,986 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:17:06,116 [ 1] INFO  Unity: Select Char:[1002]精灵射手[Archer]
+2019-05-18 00:17:06,601 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
+2019-05-18 00:17:06,855 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-18 00:17:06,860 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:21]
+2019-05-18 00:17:06,863 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-05-18 00:17:06,865 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
+2019-05-18 00:17:06,868 [ 1] INFO  Unity: ItemManager: Init[Id:3002,Count:1]
+2019-05-18 00:17:06,870 [ 1] INFO  Unity: ItemManager: Init[Id:3003,Count:1]
+2019-05-18 00:17:06,872 [ 1] INFO  Unity: ItemManager: Init[Id:3004,Count:1]
+2019-05-18 00:17:06,874 [ 1] INFO  Unity: ItemManager: Init[Id:3005,Count:1]
+2019-05-18 00:17:06,875 [ 1] INFO  Unity: ItemManager: Init[Id:3006,Count:1]
+2019-05-18 00:17:06,876 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:10]
+2019-05-18 00:17:06,877 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
+2019-05-18 00:17:06,884 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-18 00:17:06,890 [ 1] INFO  Unity: AddCharacter:1:精灵射手 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-18 00:17:06,895 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-18 00:17:07,538 [ 1] WARN  Unity: MainPlayerCamera [-110410] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 20:28:12,965 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2019-05-18 00:17:07,540 [ 1] WARN  Unity: GameObjectManager [-110364] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 20:28:13,232 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 20:29:27,016 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-12 20:29:27,018 [ 1] INFO  Unity: UserGameLeaveRequest
-2019-05-12 20:29:27,090 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:1
-2019-05-12 20:29:27,099 [ 1] INFO  Unity: RemoveCharacter:1
-2019-05-12 20:29:27,126 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2019-05-12 20:29:27,133 [ 1] INFO  Unity: Character_1_哈哈 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-12 20:29:29,388 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 20:29:30,221 [ 1] INFO  Unity: Select Char:[1]哈哈[Warrior]
-2019-05-12 20:29:30,967 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-12 20:29:31,009 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-12 20:29:31,011 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:200]
-2019-05-12 20:29:31,014 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:100]
-2019-05-12 20:29:31,016 [ 1] INFO  Unity: ItemManager: Init[Id:3,Count:30]
-2019-05-12 20:29:31,019 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:120]
-2019-05-12 20:30:54,594 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at Managers.BagManager.Reset () [0x0003a] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:38 
-  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:29 
-  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in E:\newmmo\Src\Client\Assets\Scripts\Services\UserService.cs:247 
-  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00044] in E:\newmmo\Src\Lib\Common\Network\MessageDistributer.cs:105 
-2019-05-12 20:30:54,597 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:38)
-Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:29)
-Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:247)
-Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
-}</args></log4net.Error>
-2019-05-12 20:30:54,655 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-12 20:30:54,658 [ 1] INFO  Unity: AddCharacter:2:哈哈 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-12 20:30:54,664 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-12 20:30:57,997 [ 1] INFO  Unity: SetPosition:(5000, 4000, 757)
-2019-05-12 20:30:58,000 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,757) DIR:(100,0,0) SPD:0
-2019-05-12 20:30:58,145 [ 1] INFO  Unity: SetPosition:(5000, 4000, 693)
-2019-05-12 20:30:58,148 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,693) DIR:(100,0,0) SPD:0
-2019-05-12 20:30:58,232 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2019-05-18 00:17:07,550 [ 1] WARN  Unity: UIMain [84424] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 20:30:58,235 [ 1] INFO  Unity: SetPosition:(5000, 4000, 638)
-2019-05-12 20:30:58,237 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,638) DIR:(100,0,0) SPD:0
-2019-05-12 20:30:58,293 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2019-05-18 00:17:07,553 [ 1] WARN  Unity: UIWorldElementManager [85276] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 20:30:58,600 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 20:30:58,605 [ 1] INFO  Unity: SetPosition:(5000, 4000, 805)
-2019-05-12 20:30:58,606 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,805) DIR:(100,0,0) SPD:0
-2019-05-12 20:30:58,960 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
-
-  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
-  at Network.NetClient.ProcessRecv () [0x00084] in E:\newmmo\Src\Client\Assets\Scripts\Network\NetClient.cs:340 
-
-2019-05-12 20:30:58,966 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
+2019-05-18 00:17:07,616 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:17:18,845 [ 1] INFO  Unity: Character_1_精灵射手 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-18 00:17:18,852 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-18 00:17:18,854 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:354)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:434)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 
-2019-05-12 20:30:59,075 [ 1] INFO  Unity: DoConnect
-2019-05-12 20:30:59,076 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-12 20:30:59,082 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2019-05-12 20:31:00,089 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2019-05-12 20:31:00,191 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2019-05-12 20:31:00,342 [ 1] INFO  Unity: DoConnect
-2019-05-12 20:31:00,344 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-12 20:31:00,347 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
-
-2019-05-12 20:31:01,359 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2019-05-12 20:31:01,361 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2019-05-12 20:31:01,432 [ 1] INFO  Unity: DoConnect
-2019-05-12 20:31:01,433 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-12 20:31:01,435 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2019-05-12 20:31:02,440 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2019-05-12 20:31:02,441 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2019-05-12 20:31:02,442 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2019-05-12 20:31:05,851 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-12 20:31:05,852 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
-
-2019-05-12 20:31:05,856 [ 1] INFO  Unity: Character_2_哈哈 OnDestroy :ID:2 POS:(5000, 4000, 805) DIR:(100, 0, 0) SPD:0 

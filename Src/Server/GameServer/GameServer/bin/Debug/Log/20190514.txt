@@ -1,0 +1,1326 @@
+
+2019-05-14 20:29:48,811 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-14 20:29:49,969 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-14 20:29:51,266 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-14 20:29:51,278 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-14 20:29:51,303 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-14 20:29:51,304 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-14 20:29:51,312 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-14 20:29:51,926 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,928 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,928 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,929 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,929 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,930 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,930 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:51,931 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:29:52,046 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-14 20:32:08,311 [5] [WARN ] [GameServer] ：Client[127.0.0.1:53454]] Connected
+2019-05-14 20:32:08,510 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 20:32:08,750 [7] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 20:32:25,091 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 20:32:25,095 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:user1  Pass:123456
+2019-05-14 20:32:28,082 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 20:32:28,084 [7] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 20:32:48,770 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2019-05-14 20:32:48,777 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:我不会用剑  Class:Warrior
+2019-05-14 20:32:51,628 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 20:32:51,634 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 20:32:51,659 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-14 20:32:59,935 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:32:59,945 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2019-05-14 20:33:00,034 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:33:00,035 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-37,0),spd:0
+2019-05-14 20:33:00,120 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:33:00,121 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(85,-53,0),spd:0
+2019-05-14 20:33:00,234 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:33:00,235 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(72,-69,0),spd:0
+2019-05-14 20:33:00,328 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:33:00,330 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5004,3997,820),dir:(59,-81,0),spd:300
+2019-05-14 20:33:00,378 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:00,381 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5022,3973,820),dir:(41,-91,0),spd:300
+2019-05-14 20:33:00,423 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:00,424 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5022,3973,820),dir:(41,-91,0),spd:300
+2019-05-14 20:33:00,467 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:00,469 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5032,3948,820),dir:(24,-97,0),spd:300
+2019-05-14 20:33:00,593 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:00,594 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5038,3918,820),dir:(4,-100,0),spd:300
+2019-05-14 20:33:00,708 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:00,710 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5038,3883,820),dir:(-13,-99,0),spd:300
+2019-05-14 20:33:01,271 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:01,272 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5003,3708,820),dir:(-31,-95,0),spd:300
+2019-05-14 20:33:01,403 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:01,404 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4987,3668,820),dir:(-48,-88,0),spd:300
+2019-05-14 20:33:01,511 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:01,513 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4975,3644,820),dir:(-64,-76,0),spd:300
+2019-05-14 20:33:01,592 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:01,593 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4960,3624,820),dir:(-77,-64,0),spd:300
+2019-05-14 20:33:01,720 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:01,721 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4932,3603,820),dir:(-87,-48,0),spd:300
+2019-05-14 20:33:02,354 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:02,355 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4780,3527,820),dir:(-77,-63,0),spd:300
+2019-05-14 20:33:03,235 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:03,236 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4572,3371,820),dir:(-88,-47,0),spd:300
+2019-05-14 20:33:04,006 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:04,007 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4380,3275,820),dir:(-95,-30,0),spd:300
+2019-05-14 20:33:04,156 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:33:04,157 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4340,3259,820),dir:(-99,-10,0),spd:300
+2019-05-14 20:33:04,255 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:04,256 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4310,3253,820),dir:(-100,8,0),spd:300
+2019-05-14 20:33:04,370 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:04,371 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4275,3253,820),dir:(-96,27,0),spd:300
+2019-05-14 20:33:06,105 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:06,106 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3755,3357,820),dir:(-90,43,0),spd:300
+2019-05-14 20:33:06,295 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:06,297 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3715,3373,820),dir:(-81,58,0),spd:300
+2019-05-14 20:33:06,354 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:06,355 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3691,3391,820),dir:(-68,73,0),spd:300
+2019-05-14 20:33:06,465 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:06,466 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3670,3419,820),dir:(-54,84,0),spd:300
+2019-05-14 20:33:07,489 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:07,490 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3487,3663,820),dir:(-38,93,0),spd:300
+2019-05-14 20:33:07,635 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:33:07,637 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3469,3708,820),dir:(-20,98,0),spd:300
+2019-05-14 20:33:09,427 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 20:33:09,428 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(3366,4223,820),dir:(-20,98,0),spd:0
+2019-05-14 20:33:10,993 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:33:10,996 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(3366,4223,820),dir:(-20,98,0),spd:300
+2019-05-14 20:33:15,109 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 20:33:15,110 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(3122,5443,820),dir:(-20,98,0),spd:0
+2019-05-14 20:35:15,863 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-14 20:35:15,866 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-14 20:36:48,680 [4] [WARN ] [GameServer] ：Client[127.0.0.1:53563]] Connected
+2019-05-14 20:36:48,830 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 20:36:48,832 [7] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 20:36:51,494 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 20:36:51,495 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 20:36:51,497 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-14 20:37:01,180 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:37:01,184 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5020,4000,820),dir:(98,-19,0),spd:300
+2019-05-14 20:37:01,291 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:01,295 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5050,3994,820),dir:(92,-38,0),spd:300
+2019-05-14 20:37:01,376 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:01,378 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5080,3982,820),dir:(83,-57,0),spd:300
+2019-05-14 20:37:01,475 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:01,477 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5104,3964,820),dir:(69,-72,0),spd:300
+2019-05-14 20:37:01,560 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:01,563 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5119,3944,820),dir:(55,-83,0),spd:300
+2019-05-14 20:37:01,732 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:01,737 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5147,3895,820),dir:(20,-98,0),spd:300
+2019-05-14 20:37:01,854 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:01,856 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5153,3865,820),dir:(-1,-100,0),spd:300
+2019-05-14 20:37:01,987 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:01,989 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5153,3830,820),dir:(-19,-98,0),spd:300
+2019-05-14 20:37:02,075 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:02,080 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5142,3775,820),dir:(-38,-93,0),spd:300
+2019-05-14 20:37:02,169 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:02,177 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5142,3775,820),dir:(-38,-93,0),spd:300
+2019-05-14 20:37:02,262 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:02,266 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5130,3745,820),dir:(-54,-84,0),spd:300
+2019-05-14 20:37:02,352 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:02,356 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5106,3713,820),dir:(-69,-73,0),spd:300
+2019-05-14 20:37:02,428 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:02,430 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(5106,3713,820),dir:(-69,-73,0),spd:300
+2019-05-14 20:37:02,994 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:02,995 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4983,3549,820),dir:(-81,-58,0),spd:300
+2019-05-14 20:37:03,138 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:03,141 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4943,3519,820),dir:(-90,-43,0),spd:300
+2019-05-14 20:37:04,219 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:04,223 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4628,3393,820),dir:(-97,-26,0),spd:300
+2019-05-14 20:37:05,321 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:05,324 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3326,806),dir:(-97,-26,0),spd:300
+2019-05-14 20:37:05,515 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:05,518 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3326,806),dir:(-97,-26,0),spd:300
+2019-05-14 20:37:05,644 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:05,647 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3326,806),dir:(-97,-26,0),spd:300
+2019-05-14 20:37:05,834 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:05,836 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3326,806),dir:(-97,-26,0),spd:300
+2019-05-14 20:37:05,954 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:05,956 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4318,3319,806),dir:(-90,-43,0),spd:300
+2019-05-14 20:37:06,035 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,037 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3326,806),dir:(-90,-43,0),spd:300
+2019-05-14 20:37:06,148 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,155 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4318,3312,806),dir:(-81,-59,0),spd:300
+2019-05-14 20:37:06,226 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,227 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3326,806),dir:(-81,-59,0),spd:300
+2019-05-14 20:37:06,419 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,424 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4305,3290,806),dir:(-69,-72,0),spd:300
+2019-05-14 20:37:06,510 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,513 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4338,3306,806),dir:(-55,-84,0),spd:300
+2019-05-14 20:37:06,628 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,629 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4320,3282,806),dir:(-38,-93,0),spd:300
+2019-05-14 20:37:06,703 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,704 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4353,3323,806),dir:(-38,-93,0),spd:300
+2019-05-14 20:37:06,774 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,777 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4339,3288,806),dir:(-21,-98,0),spd:300
+2019-05-14 20:37:06,860 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,861 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4350,3296,805),dir:(-3,-100,0),spd:300
+2019-05-14 20:37:06,943 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:06,945 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4350,3296,805),dir:(-3,-100,0),spd:300
+2019-05-14 20:37:07,027 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:07,028 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4350,3251,805),dir:(15,-99,0),spd:300
+2019-05-14 20:37:07,090 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:07,092 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4350,3251,805),dir:(15,-99,0),spd:300
+2019-05-14 20:37:07,506 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:07,508 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4378,3111,805),dir:(-4,-100,0),spd:300
+2019-05-14 20:37:07,592 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:07,594 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4378,3081,805),dir:(-24,-97,0),spd:300
+2019-05-14 20:37:07,710 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:07,711 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4373,3056,805),dir:(-41,-91,0),spd:300
+2019-05-14 20:37:07,794 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:07,795 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4361,3026,805),dir:(-59,-81,0),spd:300
+2019-05-14 20:37:07,888 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:07,891 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4346,3006,805),dir:(-72,-69,0),spd:300
+2019-05-14 20:37:08,024 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:08,025 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4322,2988,805),dir:(-85,-53,0),spd:300
+2019-05-14 20:37:08,158 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:08,163 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4272,2961,805),dir:(-99,-17,0),spd:300
+2019-05-14 20:37:08,297 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:08,301 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4242,2955,805),dir:(-100,4,0),spd:300
+2019-05-14 20:37:08,410 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:08,411 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4212,2955,805),dir:(-97,24,0),spd:300
+2019-05-14 20:37:08,499 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:08,512 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4187,2960,805),dir:(-91,41,0),spd:300
+2019-05-14 20:37:08,591 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:08,592 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4157,2972,805),dir:(-82,57,0),spd:300
+2019-05-14 20:37:08,659 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:08,660 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4157,2972,805),dir:(-82,57,0),spd:300
+2019-05-14 20:37:08,725 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:08,728 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(4113,3005,805),dir:(-70,71,0),spd:300
+2019-05-14 20:37:09,389 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:09,395 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3949,3169,805),dir:(-57,82,0),spd:300
+2019-05-14 20:37:10,664 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:10,668 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3730,3461,805),dir:(-42,91,0),spd:300
+2019-05-14 20:37:10,936 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:10,937 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-42,91,0),spd:300
+2019-05-14 20:37:11,150 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:11,153 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-42,91,0),spd:300
+2019-05-14 20:37:11,306 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:37:11,307 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3750,3487,806),dir:(-42,91,0),spd:0
+2019-05-14 20:37:11,356 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 20:37:11,357 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:Idle Entity:(2:pos:(3750,3487,806),dir:(-42,91,0),spd:0
+2019-05-14 20:37:23,502 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:37:23,503 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(3750,3487,806),dir:(-42,91,0),spd:300
+2019-05-14 20:37:23,682 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:23,688 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-42,91,0),spd:300
+2019-05-14 20:37:23,832 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:23,834 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3732,3532,806),dir:(-58,81,0),spd:300
+2019-05-14 20:37:23,946 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:23,947 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-58,81,0),spd:300
+2019-05-14 20:37:24,047 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,048 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3731,3510,806),dir:(-72,70,0),spd:300
+2019-05-14 20:37:24,121 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,126 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-72,70,0),spd:300
+2019-05-14 20:37:24,241 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,242 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-72,70,0),spd:300
+2019-05-14 20:37:24,349 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,353 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3716,3518,806),dir:(-83,56,0),spd:300
+2019-05-14 20:37:24,406 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,409 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3752,3482,806),dir:(-83,56,0),spd:300
+2019-05-14 20:37:24,584 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,586 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3749,3482,806),dir:(-83,56,0),spd:300
+2019-05-14 20:37:24,768 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,770 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3748,3482,806),dir:(-83,56,0),spd:300
+2019-05-14 20:37:24,921 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,923 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3708,3512,806),dir:(-92,39,0),spd:300
+2019-05-14 20:37:24,975 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:24,976 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3746,3482,806),dir:(-92,39,0),spd:300
+2019-05-14 20:37:25,045 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:25,048 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3721,3492,806),dir:(-98,21,0),spd:300
+2019-05-14 20:37:25,116 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:25,118 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3691,3498,806),dir:(-100,3,0),spd:300
+2019-05-14 20:37:25,209 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:25,210 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3714,3482,806),dir:(-100,3,0),spd:300
+2019-05-14 20:37:25,294 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:37:25,296 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3684,3482,806),dir:(-99,-15,0),spd:300
+2019-05-14 20:37:25,693 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:25,694 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3564,3458,806),dir:(-100,4,0),spd:300
+2019-05-14 20:37:25,805 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:25,806 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3534,3458,806),dir:(-98,22,0),spd:300
+2019-05-14 20:37:25,895 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:25,895 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3509,3463,806),dir:(-92,39,0),spd:300
+2019-05-14 20:37:26,031 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:26,033 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3479,3475,806),dir:(-82,57,0),spd:300
+2019-05-14 20:37:26,113 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:26,114 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3455,3493,806),dir:(-69,73,0),spd:300
+2019-05-14 20:37:26,252 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:26,253 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3440,3513,806),dir:(-55,84,0),spd:300
+2019-05-14 20:37:26,340 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:26,341 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3422,3537,806),dir:(-36,93,0),spd:300
+2019-05-14 20:37:26,444 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:26,448 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3410,3567,806),dir:(-16,99,0),spd:300
+2019-05-14 20:37:26,567 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:26,568 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3404,3597,806),dir:(5,100,0),spd:300
+2019-05-14 20:37:26,643 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:26,644 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3409,3652,806),dir:(42,91,0),spd:300
+2019-05-14 20:37:26,710 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:26,712 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3409,3652,806),dir:(42,91,0),spd:300
+2019-05-14 20:37:26,782 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:26,785 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3421,3682,806),dir:(60,80,0),spd:300
+2019-05-14 20:37:26,877 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:26,877 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3439,3706,806),dir:(75,66,0),spd:300
+2019-05-14 20:37:26,958 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:26,960 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3459,3721,806),dir:(85,52,0),spd:300
+2019-05-14 20:37:27,066 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:27,069 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3479,3736,806),dir:(93,36,0),spd:300
+2019-05-14 20:37:27,167 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:27,168 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3509,3748,806),dir:(99,16,0),spd:300
+2019-05-14 20:37:27,267 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:27,273 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3539,3754,806),dir:(100,-5,0),spd:300
+2019-05-14 20:37:27,349 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:27,351 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3569,3754,806),dir:(97,-22,0),spd:300
+2019-05-14 20:37:27,768 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:27,769 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3638,3737,806),dir:(97,-22,0),spd:300
+2019-05-14 20:37:28,038 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:28,041 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3638,3737,806),dir:(97,-22,0),spd:300
+2019-05-14 20:37:28,150 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 20:37:28,174 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3688,3729,806),dir:(99,16,0),spd:0
+2019-05-14 20:37:28,278 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-05-14 20:37:28,279 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:Idle Entity:(2:pos:(3638,3737,806),dir:(99,16,0),spd:0
+2019-05-14 20:37:28,421 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 20:37:28,424 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3638,3737,806),dir:(84,54,0),spd:0
+2019-05-14 20:37:28,565 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 20:37:28,569 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3638,3737,806),dir:(60,80,0),spd:0
+2019-05-14 20:37:28,713 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 20:37:28,714 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3638,3737,806),dir:(42,91,0),spd:0
+2019-05-14 20:37:28,835 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 20:37:28,838 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3638,3737,806),dir:(22,97,0),spd:0
+2019-05-14 20:37:28,927 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:28,927 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3639,3772,806),dir:(-18,98,0),spd:300
+2019-05-14 20:37:28,997 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:28,999 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3639,3772,806),dir:(-18,98,0),spd:300
+2019-05-14 20:37:29,059 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:29,060 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3639,3772,806),dir:(-18,98,0),spd:300
+2019-05-14 20:37:29,111 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:29,111 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3629,3822,806),dir:(-35,94,0),spd:300
+2019-05-14 20:37:29,199 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:37:29,219 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(3629,3822,806),dir:(-35,94,0),spd:300
+2019-05-14 20:37:29,320 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:29,323 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3629,3822,806),dir:(-35,94,0),spd:300
+2019-05-14 20:37:29,412 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:29,413 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3629,3822,806),dir:(-35,94,0),spd:300
+2019-05-14 20:37:29,491 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:29,493 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3629,3822,806),dir:(-35,94,0),spd:300
+2019-05-14 20:37:30,078 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:37:30,079 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3509,4122,806),dir:(-17,98,0),spd:300
+2019-05-14 20:37:30,177 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:30,178 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3503,4152,806),dir:(1,100,0),spd:300
+2019-05-14 20:37:30,316 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:37:30,318 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:None Entity:(2:pos:(3503,4187,806),dir:(19,98,0),spd:300
+2019-05-14 20:37:31,246 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-05-14 20:37:31,249 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:我不会用剑 Entity.Id2  Evt:Idle Entity:(2:pos:(3559,4467,806),dir:(19,98,0),spd:0
+2019-05-14 20:37:39,444 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-05-14 20:37:39,445 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-14 20:41:18,349 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-14 20:41:18,753 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-14 20:41:19,288 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-14 20:41:19,295 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-14 20:41:19,295 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-14 20:41:19,296 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-14 20:41:19,299 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-14 20:41:19,316 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,320 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,346 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,346 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,346 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,348 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,348 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,370 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 20:41:19,411 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-14 20:41:49,912 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53747]] Connected
+2019-05-14 20:41:50,024 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 20:41:50,397 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 20:41:58,611 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 20:41:58,617 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 20:41:58,745 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-14 20:42:11,178 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:11,189 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2019-05-14 20:42:11,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:42:11,230 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(98,-18,0),spd:300
+2019-05-14 20:42:11,301 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,305 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5020,3996,820),dir:(93,-37,0),spd:300
+2019-05-14 20:42:11,390 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,391 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5050,3984,820),dir:(83,-55,0),spd:300
+2019-05-14 20:42:11,469 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,471 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5070,3969,820),dir:(72,-69,0),spd:300
+2019-05-14 20:42:11,606 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,607 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5094,3951,820),dir:(57,-82,0),spd:300
+2019-05-14 20:42:11,659 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,660 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5109,3931,820),dir:(41,-91,0),spd:300
+2019-05-14 20:42:11,772 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,774 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5121,3901,820),dir:(22,-98,0),spd:300
+2019-05-14 20:42:11,841 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:11,842 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5126,3876,820),dir:(4,-100,0),spd:300
+2019-05-14 20:42:11,970 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:11,971 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5126,3846,820),dir:(-17,-99,0),spd:300
+2019-05-14 20:42:12,046 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:12,047 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5120,3816,820),dir:(-37,-93,0),spd:300
+2019-05-14 20:42:12,156 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:12,160 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5108,3786,820),dir:(-55,-84,0),spd:300
+2019-05-14 20:42:12,289 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:12,291 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5084,3754,820),dir:(-69,-72,0),spd:300
+2019-05-14 20:42:13,141 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:13,142 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4934,3554,820),dir:(-82,-58,0),spd:300
+2019-05-14 20:42:13,234 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:13,236 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4906,3533,820),dir:(-91,-41,0),spd:300
+2019-05-14 20:42:13,323 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 20:42:13,324 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4876,3521,820),dir:(-98,-21,0),spd:300
+2019-05-14 20:42:13,388 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-05-14 20:42:13,389 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4861,3518,820),dir:(-98,-21,0),spd:0
+2019-05-14 20:42:13,435 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 20:42:13,436 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-100,-1,0),spd:0
+2019-05-14 20:42:13,581 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:13,583 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-99,17,0),spd:0
+2019-05-14 20:42:13,693 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:13,695 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-93,37,0),spd:0
+2019-05-14 20:42:13,748 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:13,750 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-83,55,0),spd:0
+2019-05-14 20:42:13,812 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:13,814 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-72,69,0),spd:0
+2019-05-14 20:42:13,943 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:13,944 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-56,83,0),spd:0
+2019-05-14 20:42:14,034 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 20:42:14,036 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4861,3518,820),dir:(-38,92,0),spd:0
+2019-05-14 20:42:14,177 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:42:14,178 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4855,3533,820),dir:(-21,98,0),spd:300
+2019-05-14 20:42:14,252 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:14,253 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4849,3563,820),dir:(-1,100,0),spd:300
+2019-05-14 20:42:14,328 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:42:14,330 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4849,3588,820),dir:(17,99,0),spd:300
+2019-05-14 20:42:14,380 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:42:14,383 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4856,3623,820),dir:(35,94,0),spd:300
+2019-05-14 20:42:14,426 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:42:14,427 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4856,3623,820),dir:(35,94,0),spd:300
+2019-05-14 20:42:15,201 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 20:42:15,202 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4954,3868,820),dir:(17,99,0),spd:300
+2019-05-14 20:42:15,334 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:15,337 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4960,3898,820),dir:(-4,100,0),spd:300
+2019-05-14 20:42:15,402 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:15,403 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4960,3928,820),dir:(-24,97,0),spd:300
+2019-05-14 20:42:15,508 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:15,509 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4954,3958,820),dir:(-42,91,0),spd:300
+2019-05-14 20:42:15,691 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:15,692 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4932,4013,820),dir:(-57,82,0),spd:300
+2019-05-14 20:42:16,017 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:16,019 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4872,4093,820),dir:(-41,91,0),spd:300
+2019-05-14 20:42:16,171 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:16,172 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4854,4138,820),dir:(-23,97,0),spd:300
+2019-05-14 20:42:16,565 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:16,568 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4830,4258,820),dir:(-41,91,0),spd:300
+2019-05-14 20:42:16,668 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:16,670 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4818,4288,820),dir:(-58,81,0),spd:300
+2019-05-14 20:42:16,814 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:16,816 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4794,4320,820),dir:(-72,69,0),spd:300
+2019-05-14 20:42:17,119 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 20:42:17,121 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4722,4374,820),dir:(-72,69,0),spd:0
+2019-05-14 20:42:19,309 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 20:42:19,310 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4722,4374,820),dir:(-72,69,0),spd:300
+2019-05-14 20:42:19,363 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:19,365 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4702,4389,820),dir:(-58,82,0),spd:300
+2019-05-14 20:42:19,466 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:19,468 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4678,4421,820),dir:(-42,91,0),spd:300
+2019-05-14 20:42:19,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:19,527 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4375,806),dir:(-42,91,0),spd:300
+2019-05-14 20:42:19,692 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:19,693 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4383,805),dir:(-42,91,0),spd:300
+2019-05-14 20:42:19,863 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:19,865 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4386,805),dir:(-42,91,0),spd:300
+2019-05-14 20:42:20,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:20,059 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4389,805),dir:(-42,91,0),spd:300
+2019-05-14 20:42:20,154 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:20,156 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4690,4429,805),dir:(-25,97,0),spd:300
+2019-05-14 20:42:20,249 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:20,252 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4395,805),dir:(-25,97,0),spd:300
+2019-05-14 20:42:20,358 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:20,359 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4697,4440,805),dir:(-8,100,0),spd:300
+2019-05-14 20:42:20,488 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:20,489 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4420,805),dir:(-8,100,0),spd:300
+2019-05-14 20:42:20,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:20,844 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4479,805),dir:(-8,100,0),spd:300
+2019-05-14 20:42:21,175 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 20:42:21,176 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4579,805),dir:(-26,97,0),spd:300
+2019-05-14 20:42:21,877 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 20:42:21,878 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4663,4794,805),dir:(-26,97,0),spd:0
+2019-05-14 20:42:27,755 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 20:43:08,803 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 20:48:30,634 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-14 20:48:30,639 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-14 23:35:16,841 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-14 23:35:17,588 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-14 23:35:18,462 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-14 23:35:18,466 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-14 23:35:18,466 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-14 23:35:18,466 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-14 23:35:18,468 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-14 23:35:18,516 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,519 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,523 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,523 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,524 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,523 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,549 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,549 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:35:18,615 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-14 23:35:40,036 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59938]] Connected
+2019-05-14 23:35:40,132 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 23:35:40,400 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 23:35:49,794 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 23:35:49,797 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 23:35:49,926 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-14 23:36:02,429 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,439 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-17,0),spd:0
+2019-05-14 23:36:02,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,527 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(94,-35,0),spd:0
+2019-05-14 23:36:02,596 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,597 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(86,-51,0),spd:0
+2019-05-14 23:36:02,709 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,710 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(74,-68,0),spd:0
+2019-05-14 23:36:02,808 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,809 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(58,-81,0),spd:0
+2019-05-14 23:36:02,883 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,886 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(43,-90,0),spd:0
+2019-05-14 23:36:02,973 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:02,974 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(27,-96,0),spd:0
+2019-05-14 23:36:03,064 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:03,068 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(10,-100,0),spd:0
+2019-05-14 23:36:03,146 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:36:03,148 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-8,-100,0),spd:0
+2019-05-14 23:36:03,228 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:36:03,229 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-26,-97,0),spd:0
+2019-05-14 23:36:03,458 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2019-05-14 23:36:03,459 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(-26,-97,0),spd:300
+2019-05-14 23:36:03,909 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:36:03,911 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4973,3865,820),dir:(-43,-90,0),spd:300
+2019-05-14 23:36:04,102 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:36:04,103 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4951,3810,820),dir:(-59,-81,0),spd:300
+2019-05-14 23:36:04,411 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:36:04,412 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4894,3734,820),dir:(-72,-69,0),spd:300
+2019-05-14 23:36:04,588 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:36:04,589 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4850,3701,820),dir:(-83,-55,0),spd:300
+2019-05-14 23:36:04,684 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:36:04,686 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4826,3683,820),dir:(-92,-39,0),spd:300
+2019-05-14 23:36:04,768 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-05-14 23:36:04,769 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4816,3679,820),dir:(-92,-39,0),spd:0
+2019-05-14 23:36:04,840 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:36:04,841 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,3679,820),dir:(-98,-19,0),spd:0
+2019-05-14 23:36:04,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:04,875 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,3679,820),dir:(-100,2,0),spd:0
+2019-05-14 23:36:04,994 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:04,995 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,3679,820),dir:(-97,22,0),spd:0
+2019-05-14 23:36:05,102 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:05,103 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,3679,820),dir:(-92,39,0),spd:0
+2019-05-14 23:36:05,214 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:05,217 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,3679,820),dir:(-82,57,0),spd:0
+2019-05-14 23:36:05,276 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:36:05,277 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4804,3688,820),dir:(-71,71,0),spd:300
+2019-05-14 23:36:05,313 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:05,316 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4804,3688,820),dir:(-71,71,0),spd:300
+2019-05-14 23:36:05,377 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:05,378 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4780,3712,820),dir:(-55,84,0),spd:300
+2019-05-14 23:36:05,437 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:05,438 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4765,3732,820),dir:(-39,92,0),spd:300
+2019-05-14 23:36:05,550 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:05,553 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4753,3762,820),dir:(-19,98,0),spd:300
+2019-05-14 23:36:05,629 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:36:05,632 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4747,3792,820),dir:(2,100,0),spd:300
+2019-05-14 23:36:05,744 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:36:05,745 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4747,3822,820),dir:(22,97,0),spd:300
+2019-05-14 23:36:05,858 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:36:05,860 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4753,3852,820),dir:(40,92,0),spd:300
+2019-05-14 23:36:06,356 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:36:06,357 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4815,4007,820),dir:(20,98,0),spd:300
+2019-05-14 23:36:06,457 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:36:06,458 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4821,4037,820),dir:(2,100,0),spd:300
+2019-05-14 23:36:06,645 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:06,646 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4821,4092,820),dir:(-16,99,0),spd:300
+2019-05-14 23:36:07,156 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:07,157 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4790,4247,820),dir:(-35,94,0),spd:300
+2019-05-14 23:36:07,590 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:07,591 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4738,4377,820),dir:(-51,86,0),spd:300
+2019-05-14 23:36:07,782 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:07,785 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4705,4421,820),dir:(-65,76,0),spd:300
+2019-05-14 23:36:07,893 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:07,895 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4687,4445,820),dir:(-78,62,0),spd:300
+2019-05-14 23:36:07,988 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:07,989 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4698,4428,806),dir:(-89,46,0),spd:300
+2019-05-14 23:36:08,027 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,028 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4698,4428,806),dir:(-89,46,0),spd:300
+2019-05-14 23:36:08,155 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,156 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4422,806),dir:(-89,46,0),spd:300
+2019-05-14 23:36:08,356 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,357 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4422,806),dir:(-89,46,0),spd:300
+2019-05-14 23:36:08,401 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,403 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4694,4428,806),dir:(-78,62,0),spd:300
+2019-05-14 23:36:08,530 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,532 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4662,4452,806),dir:(-66,75,0),spd:300
+2019-05-14 23:36:08,575 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,576 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4422,806),dir:(-66,75,0),spd:300
+2019-05-14 23:36:08,687 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,689 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4679,4458,806),dir:(-51,86,0),spd:300
+2019-05-14 23:36:08,729 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,731 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4423,806),dir:(-51,86,0),spd:300
+2019-05-14 23:36:08,773 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,773 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4694,4439,806),dir:(-33,95,0),spd:300
+2019-05-14 23:36:08,900 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,902 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4682,4469,806),dir:(-13,99,0),spd:300
+2019-05-14 23:36:08,942 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:08,943 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4706,4437,805),dir:(-13,99,0),spd:300
+2019-05-14 23:36:09,035 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:36:09,036 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4700,4467,805),dir:(5,100,0),spd:300
+2019-05-14 23:36:09,561 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:09,563 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4700,4622,805),dir:(-13,99,0),spd:300
+2019-05-14 23:36:09,645 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:09,656 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4694,4652,805),dir:(-32,95,0),spd:300
+2019-05-14 23:36:09,749 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:09,751 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4684,4677,805),dir:(-48,88,0),spd:300
+2019-05-14 23:36:09,806 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:09,806 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4674,4697,805),dir:(-63,78,0),spd:300
+2019-05-14 23:36:09,905 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:09,906 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4659,4717,805),dir:(-75,66,0),spd:300
+2019-05-14 23:36:09,982 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:09,983 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4639,4732,805),dir:(-86,52,0),spd:300
+2019-05-14 23:36:10,078 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:10,079 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4615,4750,805),dir:(-94,33,0),spd:300
+2019-05-14 23:36:10,849 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:36:10,850 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4390,4840,805),dir:(-94,33,0),spd:0
+2019-05-14 23:36:12,754 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:36:12,755 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4390,4840,805),dir:(-94,33,0),spd:300
+2019-05-14 23:36:12,810 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:12,811 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4375,4846,805),dir:(-86,51,0),spd:300
+2019-05-14 23:36:12,897 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:12,899 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4351,4864,805),dir:(-75,67,0),spd:300
+2019-05-14 23:36:13,024 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:13,026 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4331,4879,805),dir:(-62,79,0),spd:300
+2019-05-14 23:36:13,124 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:13,125 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4307,4911,805),dir:(-46,89,0),spd:300
+2019-05-14 23:36:13,925 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:13,926 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4211,5103,805),dir:(-61,79,0),spd:300
+2019-05-14 23:36:14,068 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:14,069 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4184,5139,805),dir:(-75,66,0),spd:300
+2019-05-14 23:36:14,167 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:14,168 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4160,5157,805),dir:(-86,50,0),spd:300
+2019-05-14 23:36:14,288 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:14,289 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4132,5178,805),dir:(-94,33,0),spd:300
+2019-05-14 23:36:15,307 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:36:15,308 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(3827,5300,805),dir:(-94,33,0),spd:0
+2019-05-14 23:36:15,344 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:36:15,346 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3861,5258,806),dir:(-94,33,0),spd:0
+2019-05-14 23:36:17,983 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:36:17,985 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(3861,5258,806),dir:(-94,33,0),spd:300
+2019-05-14 23:36:18,402 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:18,403 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3726,5312,806),dir:(-87,49,0),spd:300
+2019-05-14 23:36:18,593 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:18,599 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3682,5334,806),dir:(-77,64,0),spd:300
+2019-05-14 23:36:18,735 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:36:18,737 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(3650,5358,806),dir:(-65,76,0),spd:300
+2019-05-14 23:36:19,002 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:36:19,003 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(3599,5426,806),dir:(-65,76,0),spd:0
+2019-05-14 23:36:34,933 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:36:37,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:36:40,364 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:36:40,733 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:41:46,859 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-14 23:41:47,484 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-14 23:41:48,289 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-14 23:41:48,293 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-14 23:41:48,294 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-14 23:41:48,294 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-14 23:41:48,296 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-14 23:41:48,315 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,318 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,327 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,332 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,333 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,334 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,341 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,342 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:41:48,410 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-14 23:42:23,277 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60213]] Connected
+2019-05-14 23:42:23,373 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 23:42:23,686 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 23:42:32,326 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 23:42:32,333 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 23:42:32,445 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-14 23:42:37,442 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:42:37,451 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2019-05-14 23:42:37,549 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:42:37,550 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+2019-05-14 23:42:37,658 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:42:37,659 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(84,-55,0),spd:0
+2019-05-14 23:42:37,784 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:42:37,786 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(71,-71,0),spd:0
+2019-05-14 23:42:37,837 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:42:37,839 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5008,3992,820),dir:(57,-82,0),spd:300
+2019-05-14 23:42:37,877 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:37,878 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5008,3992,820),dir:(57,-82,0),spd:300
+2019-05-14 23:42:37,944 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:37,945 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5026,3968,820),dir:(40,-92,0),spd:300
+2019-05-14 23:42:38,077 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:38,078 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5044,3923,820),dir:(23,-97,0),spd:300
+2019-05-14 23:42:38,432 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:38,433 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5065,3818,820),dir:(5,-100,0),spd:300
+2019-05-14 23:42:38,556 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:38,557 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5065,3783,820),dir:(-15,-99,0),spd:300
+2019-05-14 23:42:38,670 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:38,671 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5059,3753,820),dir:(-35,-94,0),spd:300
+2019-05-14 23:42:38,750 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:38,751 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5049,3728,820),dir:(-51,-86,0),spd:300
+2019-05-14 23:42:38,852 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:38,853 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5028,3700,820),dir:(-67,-75,0),spd:300
+2019-05-14 23:42:39,625 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:39,626 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4890,3516,820),dir:(-79,-61,0),spd:300
+2019-05-14 23:42:39,775 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:39,776 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4854,3489,820),dir:(-89,-46,0),spd:300
+2019-05-14 23:42:41,051 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:41,052 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4550,3337,820),dir:(-96,-29,0),spd:300
+2019-05-14 23:42:41,205 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:41,206 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4500,3327,820),dir:(-99,-11,0),spd:300
+2019-05-14 23:42:41,902 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:41,903 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4352,3299,806),dir:(-99,-11,0),spd:300
+2019-05-14 23:42:42,071 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,072 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4352,3299,806),dir:(-99,-11,0),spd:300
+2019-05-14 23:42:42,226 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,228 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4352,3299,806),dir:(-99,-11,0),spd:300
+2019-05-14 23:42:42,320 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,322 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4317,3292,806),dir:(-95,-30,0),spd:300
+2019-05-14 23:42:42,405 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,406 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4352,3299,806),dir:(-95,-30,0),spd:300
+2019-05-14 23:42:42,446 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,449 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4342,3295,806),dir:(-87,-48,0),spd:300
+2019-05-14 23:42:42,509 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,510 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4322,3285,806),dir:(-78,-63,0),spd:300
+2019-05-14 23:42:42,589 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,590 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4347,3296,806),dir:(-66,-75,0),spd:300
+2019-05-14 23:42:42,640 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,641 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4347,3296,806),dir:(-66,-75,0),spd:300
+2019-05-14 23:42:42,688 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,690 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4332,3276,806),dir:(-52,-86,0),spd:300
+2019-05-14 23:42:42,757 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,759 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4317,3256,806),dir:(-36,-93,0),spd:300
+2019-05-14 23:42:42,873 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:42:42,875 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4305,3226,806),dir:(-18,-98,0),spd:300
+2019-05-14 23:42:42,977 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2019-05-14 23:42:42,980 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4299,3196,806),dir:(0,-100,0),spd:300
+2019-05-14 23:42:43,085 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,086 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4299,3156,806),dir:(20,-98,0),spd:300
+2019-05-14 23:42:43,182 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,183 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4305,3126,806),dir:(39,-92,0),spd:300
+2019-05-14 23:42:43,292 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,293 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4317,3096,806),dir:(57,-82,0),spd:300
+2019-05-14 23:42:43,403 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,404 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4332,3076,806),dir:(71,-71,0),spd:300
+2019-05-14 23:42:43,485 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,486 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4356,3052,806),dir:(84,-55,0),spd:300
+2019-05-14 23:42:43,573 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,574 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4376,3037,806),dir:(92,-39,0),spd:300
+2019-05-14 23:42:43,659 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:43,660 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4406,3025,806),dir:(98,-19,0),spd:300
+2019-05-14 23:42:43,776 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:43,777 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4436,3019,806),dir:(100,2,0),spd:300
+2019-05-14 23:42:43,869 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:43,870 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4466,3019,806),dir:(97,22,0),spd:300
+2019-05-14 23:42:43,948 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:43,949 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4491,3024,806),dir:(92,39,0),spd:300
+2019-05-14 23:42:44,058 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:44,059 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4521,3036,806),dir:(82,57,0),spd:300
+2019-05-14 23:42:44,125 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:44,126 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4541,3051,806),dir:(71,71,0),spd:300
+2019-05-14 23:42:44,245 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:44,247 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4569,3079,806),dir:(56,83,0),spd:300
+2019-05-14 23:42:45,910 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:45,913 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4869,3479,806),dir:(39,92,0),spd:300
+2019-05-14 23:42:46,051 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:46,053 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4885,3519,806),dir:(22,98,0),spd:300
+2019-05-14 23:42:46,144 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:46,148 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4891,3549,806),dir:(3,100,0),spd:300
+2019-05-14 23:42:46,328 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:46,331 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4891,3599,806),dir:(-15,99,0),spd:300
+2019-05-14 23:42:47,568 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:42:47,569 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,3974,806),dir:(3,100,0),spd:300
+2019-05-14 23:42:48,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:48,534 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4816,4264,806),dir:(-15,99,0),spd:300
+2019-05-14 23:42:48,649 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:48,651 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4810,4294,806),dir:(-34,94,0),spd:300
+2019-05-14 23:42:48,748 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:48,750 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4796,4329,806),dir:(-51,86,0),spd:300
+2019-05-14 23:42:48,901 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:48,903 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4804,4400,806),dir:(-51,86,0),spd:300
+2019-05-14 23:42:49,989 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:42:49,990 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4606,4664,806),dir:(-34,94,0),spd:300
+2019-05-14 23:42:50,384 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:42:50,384 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4560,4779,806),dir:(-34,94,0),spd:0
+2019-05-14 23:42:57,120 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:42:59,665 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:43:01,978 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:43:07,186 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:43:07,819 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:43:12,168 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:43:12,169 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4560,4779,806),dir:(-34,94,0),spd:300
+2019-05-14 23:43:12,368 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:12,370 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4536,4839,806),dir:(-52,85,0),spd:300
+2019-05-14 23:43:12,408 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:12,410 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4521,4859,806),dir:(-66,75,0),spd:300
+2019-05-14 23:43:12,531 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:12,532 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4503,4883,806),dir:(-79,62,0),spd:300
+2019-05-14 23:43:12,682 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:12,683 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4463,4913,806),dir:(-88,47,0),spd:300
+2019-05-14 23:43:12,837 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:12,838 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4431,4929,806),dir:(-95,31,0),spd:300
+2019-05-14 23:43:12,940 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:12,942 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4391,4945,806),dir:(-99,13,0),spd:300
+2019-05-14 23:43:13,381 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:13,382 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4261,4971,806),dir:(-95,30,0),spd:300
+2019-05-14 23:43:13,917 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:13,918 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4154,5018,806),dir:(-95,30,0),spd:300
+2019-05-14 23:43:14,094 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:43:14,096 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4099,5040,806),dir:(-88,47,0),spd:300
+2019-05-14 23:43:14,922 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:43:14,924 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(3903,5138,806),dir:(-88,47,0),spd:0
+2019-05-14 23:43:20,650 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:43:22,995 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:44:00,020 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-14 23:44:00,023 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-14 23:47:38,353 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-14 23:47:38,747 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-14 23:47:39,224 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-14 23:47:39,228 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-14 23:47:39,228 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-14 23:47:39,228 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-14 23:47:39,230 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-14 23:47:39,267 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,268 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,268 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,267 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,270 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,294 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,294 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,294 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:47:39,369 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-14 23:47:59,463 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60371]] Connected
+2019-05-14 23:47:59,563 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 23:47:59,798 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 23:48:07,136 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 23:48:07,142 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 23:48:07,315 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-14 23:48:15,734 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:48:15,745 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5005,4000,820),dir:(98,-18,0),spd:300
+2019-05-14 23:48:15,780 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:15,782 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5005,4000,820),dir:(98,-18,0),spd:300
+2019-05-14 23:48:15,836 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:15,839 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5035,3994,820),dir:(93,-36,0),spd:300
+2019-05-14 23:48:15,936 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:15,940 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5065,3982,820),dir:(84,-55,0),spd:300
+2019-05-14 23:48:16,047 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:16,048 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5089,3964,820),dir:(71,-71,0),spd:300
+2019-05-14 23:48:16,115 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:16,117 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5109,3944,820),dir:(57,-82,0),spd:300
+2019-05-14 23:48:16,210 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:16,211 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5127,3920,820),dir:(39,-92,0),spd:300
+2019-05-14 23:48:16,312 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:16,314 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5139,3890,820),dir:(20,-98,0),spd:300
+2019-05-14 23:48:16,456 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:16,457 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5148,3845,820),dir:(2,-100,0),spd:300
+2019-05-14 23:48:16,844 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:16,845 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5148,3730,820),dir:(-16,-99,0),spd:300
+2019-05-14 23:48:17,604 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:17,607 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5102,3500,820),dir:(-34,-94,0),spd:300
+2019-05-14 23:48:17,730 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:17,731 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5086,3460,820),dir:(-52,-86,0),spd:300
+2019-05-14 23:48:17,835 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:17,838 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5068,3436,820),dir:(-68,-73,0),spd:300
+2019-05-14 23:48:17,932 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:17,933 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5053,3416,820),dir:(-80,-60,0),spd:300
+2019-05-14 23:48:18,051 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:18,053 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(5029,3398,820),dir:(-91,-42,0),spd:300
+2019-05-14 23:48:18,118 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:18,119 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4999,3386,820),dir:(-97,-24,0),spd:300
+2019-05-14 23:48:18,272 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:48:18,274 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4954,3377,820),dir:(-100,-5,0),spd:300
+2019-05-14 23:48:18,749 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:18,750 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4814,3377,820),dir:(-99,13,0),spd:300
+2019-05-14 23:48:18,876 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:18,878 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4779,3384,820),dir:(-94,33,0),spd:300
+2019-05-14 23:48:18,950 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:18,951 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4749,3396,820),dir:(-85,52,0),spd:300
+2019-05-14 23:48:19,068 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:48:19,070 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4725,3414,820),dir:(-73,69,0),spd:0
+2019-05-14 23:48:19,104 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:48:19,106 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4725,3414,820),dir:(-73,69,0),spd:0
+2019-05-14 23:48:19,153 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:48:19,154 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4725,3414,820),dir:(-57,82,0),spd:0
+2019-05-14 23:48:19,249 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:48:19,250 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4725,3414,820),dir:(-42,91,0),spd:0
+2019-05-14 23:48:19,329 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:48:19,331 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4725,3414,820),dir:(-25,97,0),spd:0
+2019-05-14 23:48:19,438 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:48:19,441 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4725,3414,820),dir:(-5,100,0),spd:0
+2019-05-14 23:48:19,486 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:48:19,489 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4725,3414,820),dir:(-5,100,0),spd:300
+2019-05-14 23:48:19,542 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:48:19,543 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4725,3439,820),dir:(15,99,0),spd:300
+2019-05-14 23:48:19,667 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:48:19,668 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4733,3479,820),dir:(32,95,0),spd:300
+2019-05-14 23:48:21,253 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:48:21,255 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4923,3954,820),dir:(14,99,0),spd:300
+2019-05-14 23:48:22,274 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:22,276 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4984,4259,820),dir:(-4,100,0),spd:300
+2019-05-14 23:48:22,377 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:22,378 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4984,4289,820),dir:(-24,97,0),spd:300
+2019-05-14 23:48:22,467 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:22,468 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4979,4314,820),dir:(-41,91,0),spd:300
+2019-05-14 23:48:22,506 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:22,507 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4940,4286,806),dir:(-41,91,0),spd:300
+2019-05-14 23:48:22,546 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:22,547 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4928,4316,806),dir:(-59,81,0),spd:300
+2019-05-14 23:48:22,668 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:22,670 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4907,4344,806),dir:(-73,68,0),spd:300
+2019-05-14 23:48:23,677 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:23,678 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4663,4527,806),dir:(-59,81,0),spd:300
+2019-05-14 23:48:23,803 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:23,805 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4645,4551,806),dir:(-44,90,0),spd:300
+2019-05-14 23:48:23,926 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:23,928 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4633,4581,806),dir:(-26,97,0),spd:300
+2019-05-14 23:48:24,022 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:24,024 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4625,4621,806),dir:(-9,100,0),spd:300
+2019-05-14 23:48:24,451 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:48:24,452 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4625,4746,806),dir:(-9,100,0),spd:0
+2019-05-14 23:48:27,120 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:48:27,123 [9] [INFO ] [GameServer] ：OnItemBuy::character:1 :Shop:1 ShopItem:1
+2019-05-14 23:48:27,126 [9] [INFO ] [GameServer] ：BuyItem: :character:1 :Item:1 Count:1 Price:10
+2019-05-14 23:48:27,131 [9] [INFO ] [GameServer] ：[1]AddItem[ID:1,Count:1] addCount: 1
+2019-05-14 23:48:51,105 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:48:51,106 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4625,4746,806),dir:(-9,100,0),spd:300
+2019-05-14 23:48:51,185 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:51,186 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4625,4776,806),dir:(-28,96,0),spd:300
+2019-05-14 23:48:51,280 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:51,283 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4619,4806,806),dir:(-46,89,0),spd:300
+2019-05-14 23:48:51,395 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:51,397 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4609,4826,806),dir:(-61,79,0),spd:300
+2019-05-14 23:48:51,476 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:51,477 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4591,4850,806),dir:(-76,65,0),spd:300
+2019-05-14 23:48:51,630 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:51,634 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4567,4868,806),dir:(-87,49,0),spd:300
+2019-05-14 23:48:51,694 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:48:51,695 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:None Entity:(1:pos:(4539,4882,806),dir:(-94,33,0),spd:300
+2019-05-14 23:48:53,279 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:48:53,280 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:我不会用剑 Entity.Id1  Evt:Idle Entity:(1:pos:(4064,5072,806),dir:(-94,33,0),spd:0
+2019-05-14 23:49:02,387 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 23:49:02,390 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:我不会用剑 Map:1
+2019-05-14 23:49:02,395 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-14 23:49:15,834 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2019-05-14 23:49:15,837 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:近战法师  Class:Wizard
+2019-05-14 23:49:18,240 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-14 23:49:18,241 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:近战法师 Map:1
+2019-05-14 23:49:18,245 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-14 23:49:19,150 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-05-14 23:49:19,151 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(100,0,0),spd:0
+2019-05-14 23:49:20,249 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,250 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(98,-19,0),spd:0
+2019-05-14 23:49:20,340 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,341 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(93,-37,0),spd:0
+2019-05-14 23:49:20,435 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,436 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(85,-53,0),spd:0
+2019-05-14 23:49:20,535 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,536 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(72,-69,0),spd:0
+2019-05-14 23:49:20,642 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,646 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(56,-83,0),spd:0
+2019-05-14 23:49:20,741 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,744 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(38,-93,0),spd:0
+2019-05-14 23:49:20,833 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:20,833 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(18,-98,0),spd:0
+2019-05-14 23:49:20,927 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2019-05-14 23:49:20,929 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(0,-100,0),spd:0
+2019-05-14 23:49:21,011 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,013 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-20,-98,0),spd:0
+2019-05-14 23:49:21,129 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,131 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-37,-93,0),spd:0
+2019-05-14 23:49:21,173 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,175 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-53,-85,0),spd:0
+2019-05-14 23:49:21,279 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,280 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-69,-72,0),spd:0
+2019-05-14 23:49:21,378 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,380 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-82,-57,0),spd:0
+2019-05-14 23:49:21,547 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,548 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-91,-41,0),spd:0
+2019-05-14 23:49:21,649 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,650 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-98,-22,0),spd:0
+2019-05-14 23:49:21,743 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-14 23:49:21,745 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-100,-1,0),spd:0
+2019-05-14 23:49:21,840 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:21,842 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-98,20,0),spd:0
+2019-05-14 23:49:21,953 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:21,955 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-92,40,0),spd:0
+2019-05-14 23:49:22,076 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:22,078 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-82,58,0),spd:0
+2019-05-14 23:49:22,188 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:49:22,189 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,763),dir:(-69,72,0),spd:0
+2019-05-14 23:49:22,256 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:49:22,258 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5000,4000,763),dir:(-69,72,0),spd:300
+2019-05-14 23:49:22,935 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:22,936 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4844,4162,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:23,752 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:23,752 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:23,952 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:23,953 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:24,138 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:24,139 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:24,315 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:24,316 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:24,506 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:24,507 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:24,669 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:24,670 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:24,874 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:24,884 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:25,049 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,050 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-69,72,0),spd:300
+2019-05-14 23:49:25,086 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,087 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4697,4319,805),dir:(-81,59,0),spd:300
+2019-05-14 23:49:25,229 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,230 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-81,59,0),spd:300
+2019-05-14 23:49:25,414 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,415 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-81,59,0),spd:300
+2019-05-14 23:49:25,589 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,591 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-81,59,0),spd:300
+2019-05-14 23:49:25,735 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,736 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4666,4337,805),dir:(-68,73,0),spd:300
+2019-05-14 23:49:25,781 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,782 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4307,805),dir:(-68,73,0),spd:300
+2019-05-14 23:49:25,881 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,882 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4688,4331,805),dir:(-52,85,0),spd:300
+2019-05-14 23:49:25,962 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:25,963 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4310,805),dir:(-52,85,0),spd:300
+2019-05-14 23:49:26,055 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,056 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4685,4338,805),dir:(-36,93,0),spd:300
+2019-05-14 23:49:26,150 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,151 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4316,805),dir:(-36,93,0),spd:300
+2019-05-14 23:49:26,354 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,356 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4321,805),dir:(-36,93,0),spd:300
+2019-05-14 23:49:26,562 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,563 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4325,805),dir:(-36,93,0),spd:300
+2019-05-14 23:49:26,617 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,617 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4698,4345,805),dir:(-19,98,0),spd:300
+2019-05-14 23:49:26,756 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,758 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4337,805),dir:(-19,98,0),spd:300
+2019-05-14 23:49:26,955 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:26,956 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4355,805),dir:(-19,98,0),spd:300
+2019-05-14 23:49:27,250 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:27,252 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4374,805),dir:(-19,98,0),spd:300
+2019-05-14 23:49:27,462 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:27,463 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4704,4402,805),dir:(-38,92,0),spd:300
+2019-05-14 23:49:27,502 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:27,502 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4704,4402,805),dir:(-38,92,0),spd:300
+2019-05-14 23:49:27,603 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:27,604 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4688,4442,805),dir:(-55,83,0),spd:300
+2019-05-14 23:49:27,653 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:27,655 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4397,805),dir:(-55,83,0),spd:300
+2019-05-14 23:49:27,834 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:27,835 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4397,805),dir:(-55,83,0),spd:300
+2019-05-14 23:49:28,014 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:28,016 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4397,805),dir:(-55,83,0),spd:300
+2019-05-14 23:49:28,206 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:28,207 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4703,4402,805),dir:(-39,92,0),spd:300
+2019-05-14 23:49:28,255 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:28,256 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4703,4402,805),dir:(-39,92,0),spd:300
+2019-05-14 23:49:28,301 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:28,302 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4691,4432,805),dir:(-20,98,0),spd:300
+2019-05-14 23:49:28,381 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:28,382 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4686,4457,805),dir:(-3,100,0),spd:300
+2019-05-14 23:49:28,444 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:28,445 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4410,805),dir:(-3,100,0),spd:300
+2019-05-14 23:49:28,489 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:49:28,492 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4706,4435,805),dir:(15,99,0),spd:300
+2019-05-14 23:49:28,573 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:49:28,576 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4712,4465,805),dir:(34,94,0),spd:300
+2019-05-14 23:49:28,720 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:49:28,722 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4730,4510,805),dir:(50,86,0),spd:300
+2019-05-14 23:49:29,080 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:49:29,081 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4796,4598,805),dir:(33,94,0),spd:300
+2019-05-14 23:49:29,173 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:49:29,176 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4808,4628,805),dir:(14,99,0),spd:300
+2019-05-14 23:49:29,269 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:29,270 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4813,4653,805),dir:(-4,100,0),spd:300
+2019-05-14 23:49:29,373 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:29,375 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4813,4683,805),dir:(-24,97,0),spd:300
+2019-05-14 23:49:29,467 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:29,469 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4808,4708,805),dir:(-41,91,0),spd:300
+2019-05-14 23:49:29,543 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:29,544 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4796,4738,805),dir:(-59,81,0),spd:300
+2019-05-14 23:49:29,648 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:29,649 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4778,4762,805),dir:(-73,69,0),spd:300
+2019-05-14 23:49:29,871 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:29,872 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4726,4801,805),dir:(-84,55,0),spd:300
+2019-05-14 23:49:30,006 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:30,008 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4690,4828,805),dir:(-92,39,0),spd:300
+2019-05-14 23:49:30,136 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:30,136 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4660,4840,805),dir:(-97,22,0),spd:300
+2019-05-14 23:49:31,014 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:31,016 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4395,4893,805),dir:(-92,40,0),spd:300
+2019-05-14 23:49:31,732 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:49:31,733 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4175,4981,805),dir:(-83,55,0),spd:300
+2019-05-14 23:49:32,104 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:49:32,105 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:Idle Entity:(2:pos:(4087,5047,805),dir:(-83,55,0),spd:0
+2019-05-14 23:49:33,835 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:49:33,836 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(4087,5047,805),dir:(-83,55,0),spd:300
+2019-05-14 23:49:34,604 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:49:34,605 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:Idle Entity:(2:pos:(3899,5188,805),dir:(-83,55,0),spd:0
+2019-05-14 23:49:36,822 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:49:36,825 [7] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:2 ShopItem:5
+2019-05-14 23:49:36,826 [7] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:5 Count:1 Price:20
+2019-05-14 23:49:36,828 [7] [INFO ] [GameServer] ：[2]AddItem[ID:5,Count:1] addCount: 1
+2019-05-14 23:50:30,991 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:50:30,992 [5] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:2 ShopItem:6
+2019-05-14 23:50:30,993 [5] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:6 Count:1 Price:200
+2019-05-14 23:50:30,993 [5] [INFO ] [GameServer] ：[2]AddItem[ID:6,Count:1] addCount: 1
+2019-05-14 23:50:53,621 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:50:53,622 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(-71,70,0),spd:0
+2019-05-14 23:50:53,741 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:50:53,742 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(-57,82,0),spd:0
+2019-05-14 23:50:53,825 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:50:53,829 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(-42,91,0),spd:0
+2019-05-14 23:50:53,962 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:50:53,963 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(-25,97,0),spd:0
+2019-05-14 23:50:54,042 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:50:54,044 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(-5,100,0),spd:0
+2019-05-14 23:50:54,108 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:50:54,109 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(13,99,0),spd:0
+2019-05-14 23:50:54,200 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:50:54,201 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(33,94,0),spd:0
+2019-05-14 23:50:54,296 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:50:54,299 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3899,5188,805),dir:(52,85,0),spd:0
+2019-05-14 23:50:54,398 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2019-05-14 23:50:54,400 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(3899,5188,805),dir:(52,85,0),spd:300
+2019-05-14 23:50:54,462 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:50:54,463 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3908,5200,805),dir:(66,75,0),spd:300
+2019-05-14 23:50:54,564 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:50:54,565 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(3938,5240,805),dir:(78,62,0),spd:300
+2019-05-14 23:50:55,513 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-05-14 23:50:55,514 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:Idle Entity:(2:pos:(4158,5405,805),dir:(78,62,0),spd:0
+2019-05-14 23:50:55,674 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:50:55,677 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:近战法师 Entity.Id2  Evt:None Entity:(2:pos:(4158,5405,805),dir:(66,75,0),spd:0
+2019-05-14 23:50:59,488 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:50:59,489 [7] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:1 ShopItem:1
+2019-05-14 23:50:59,491 [7] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:1 Count:1 Price:10
+2019-05-14 23:50:59,492 [7] [INFO ] [GameServer] ：[2]AddItem[ID:1,Count:1] addCount: 1
+2019-05-14 23:51:08,456 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 23:51:08,460 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:近战法师 Map:1
+2019-05-14 23:51:08,465 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-05-14 23:51:17,256 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2019-05-14 23:51:17,257 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:怎么射箭  Class:Archer
+2019-05-14 23:51:18,986 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-14 23:51:18,987 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:怎么射箭 Map:1
+2019-05-14 23:51:18,991 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-05-14 23:51:20,698 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-05-14 23:51:20,699 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5000,4000,757),dir:(100,0,0),spd:0
+2019-05-14 23:51:22,863 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:22,863 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5000,4000,757),dir:(98,-19,0),spd:0
+2019-05-14 23:51:22,952 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:22,953 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5000,4000,757),dir:(93,-37,0),spd:0
+2019-05-14 23:51:23,031 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:51:23,032 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:MoveFwd Entity:(3:pos:(5000,4000,757),dir:(93,-37,0),spd:300
+2019-05-14 23:51:23,080 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:23,081 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5010,3996,757),dir:(85,-53,0),spd:300
+2019-05-14 23:51:23,148 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:23,149 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5034,3978,757),dir:(74,-67,0),spd:300
+2019-05-14 23:51:23,518 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:23,520 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5118,3915,757),dir:(61,-79,0),spd:300
+2019-05-14 23:51:23,669 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:23,670 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5148,3875,757),dir:(46,-89,0),spd:300
+2019-05-14 23:51:23,782 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:23,783 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5160,3851,757),dir:(29,-96,0),spd:300
+2019-05-14 23:51:23,832 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:23,833 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5165,3826,757),dir:(12,-99,0),spd:300
+2019-05-14 23:51:23,934 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:23,935 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5170,3801,757),dir:(-6,-100,0),spd:300
+2019-05-14 23:51:24,025 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,026 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5170,3771,757),dir:(-26,-96,0),spd:300
+2019-05-14 23:51:24,118 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,119 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5165,3746,757),dir:(-43,-90,0),spd:300
+2019-05-14 23:51:24,202 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,203 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5153,3716,757),dir:(-61,-79,0),spd:300
+2019-05-14 23:51:24,323 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,325 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5135,3692,757),dir:(-76,-65,0),spd:300
+2019-05-14 23:51:24,432 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,434 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5111,3674,757),dir:(-88,-48,0),spd:300
+2019-05-14 23:51:24,501 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,503 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5087,3662,757),dir:(-96,-29,0),spd:300
+2019-05-14 23:51:24,599 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,600 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5059,3647,806),dir:(-99,-12,0),spd:300
+2019-05-14 23:51:24,635 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:51:24,636 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5059,3647,806),dir:(-99,-12,0),spd:300
+2019-05-14 23:51:24,676 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:24,677 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5034,3642,806),dir:(-100,6,0),spd:300
+2019-05-14 23:51:24,737 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:51:24,740 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:Idle Entity:(3:pos:(5014,3642,806),dir:(-100,6,0),spd:0
+2019-05-14 23:51:24,782 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:24,783 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5014,3642,806),dir:(-96,26,0),spd:0
+2019-05-14 23:51:24,851 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:24,852 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5014,3642,806),dir:(-90,43,0),spd:0
+2019-05-14 23:51:24,983 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:51:24,984 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:MoveFwd Entity:(3:pos:(5014,3642,806),dir:(-79,61,0),spd:300
+2019-05-14 23:51:25,025 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:25,026 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5014,3642,806),dir:(-79,61,0),spd:300
+2019-05-14 23:51:25,067 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:25,068 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4990,3660,806),dir:(-65,76,0),spd:300
+2019-05-14 23:51:25,163 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:51:25,164 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:Idle Entity:(3:pos:(4972,3684,806),dir:(-48,88,0),spd:0
+2019-05-14 23:51:25,209 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:25,211 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(-48,88,0),spd:0
+2019-05-14 23:51:25,271 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:25,274 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(-30,95,0),spd:0
+2019-05-14 23:51:25,434 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:25,435 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(-12,99,0),spd:0
+2019-05-14 23:51:25,907 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:51:25,908 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(6,100,0),spd:0
+2019-05-14 23:51:26,023 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:51:26,025 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(25,97,0),spd:0
+2019-05-14 23:51:26,113 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:51:26,114 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(42,91,0),spd:0
+2019-05-14 23:51:26,211 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:51:26,212 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(60,80,0),spd:0
+2019-05-14 23:51:26,332 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-05-14 23:51:26,333 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4972,3684,806),dir:(73,68,0),spd:0
+2019-05-14 23:51:26,470 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2019-05-14 23:51:26,474 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:MoveFwd Entity:(3:pos:(4972,3684,806),dir:(73,68,0),spd:300
+2019-05-14 23:51:26,952 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:51:26,955 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5092,3774,806),dir:(58,81,0),spd:300
+2019-05-14 23:51:27,063 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:51:27,065 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5110,3798,806),dir:(40,92,0),spd:300
+2019-05-14 23:51:27,169 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-05-14 23:51:27,173 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5122,3828,806),dir:(20,98,0),spd:300
+2019-05-14 23:51:27,313 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:27,315 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5128,3858,806),dir:(-1,100,0),spd:300
+2019-05-14 23:51:27,367 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:27,368 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5128,3888,806),dir:(-18,98,0),spd:300
+2019-05-14 23:51:27,550 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:27,551 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5117,3943,806),dir:(-35,94,0),spd:300
+2019-05-14 23:51:28,250 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:51:28,251 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(5035,4148,806),dir:(-51,86,0),spd:300
+2019-05-14 23:51:28,615 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:51:28,616 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:Idle Entity:(3:pos:(4969,4236,806),dir:(-51,86,0),spd:0
+2019-05-14 23:51:28,826 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:51:28,827 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:怎么射箭 Entity.Id3  Evt:None Entity:(3:pos:(4969,4236,806),dir:(-35,94,0),spd:0
+2019-05-14 23:51:31,171 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:51:31,172 [5] [INFO ] [GameServer] ：OnItemBuy::character:3 :Shop:1 ShopItem:1
+2019-05-14 23:51:31,173 [5] [INFO ] [GameServer] ：BuyItem: :character:3 :Item:1 Count:1 Price:10
+2019-05-14 23:51:31,174 [5] [INFO ] [GameServer] ：[3]AddItem[ID:1,Count:1] addCount: 1
+2019-05-14 23:51:55,570 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:51:55,572 [5] [INFO ] [GameServer] ：OnItemBuy::character:3 :Shop:1 ShopItem:4
+2019-05-14 23:51:55,574 [5] [INFO ] [GameServer] ：BuyItem: :character:3 :Item:4 Count:1 Price:100
+2019-05-14 23:51:55,575 [5] [INFO ] [GameServer] ：[3]AddItem[ID:4,Count:1] addCount: 1
+2019-05-14 23:52:18,026 [23] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-05-14 23:52:18,027 [23] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-14 23:58:00,699 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-14 23:58:01,066 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-14 23:58:01,660 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-14 23:58:01,664 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-14 23:58:01,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-14 23:58:01,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-14 23:58:01,668 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-14 23:58:01,712 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,712 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,712 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,713 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,715 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,716 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,716 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,716 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-14 23:58:01,780 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-14 23:58:23,433 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60877]] Connected
+2019-05-14 23:58:23,529 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-14 23:58:23,761 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-14 23:58:37,894 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2019-05-14 23:58:37,902 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大法师  Class:Wizard
+2019-05-14 23:58:41,186 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-14 23:58:41,190 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:大法师 Map:1
+2019-05-14 23:58:41,206 [5] [INFO ] [GameServer] ：HasItem:[2] False
+2019-05-14 23:58:41,210 [5] [INFO ] [GameServer] ：[4]AddItem[ID:1,Count:200] addCount: 200
+2019-05-14 23:58:41,211 [5] [INFO ] [GameServer] ：[4]AddItem[ID:2,Count:100] addCount: 100
+2019-05-14 23:58:41,213 [5] [INFO ] [GameServer] ：[4]AddItem[ID:3,Count:30] addCount: 30
+2019-05-14 23:58:41,213 [5] [INFO ] [GameServer] ：[4]AddItem[ID:4,Count:120] addCount: 120
+2019-05-14 23:58:41,215 [5] [INFO ] [GameServer] ：[4]GetItem[2 : ID:2,Count:100]
+2019-05-14 23:58:41,217 [5] [INFO ] [GameServer] ：Item:[2] [ID:2,Count:100]
+2019-05-14 23:58:41,408 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-14 23:58:48,806 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-14 23:58:48,809 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:大法师 Map:1
+2019-05-14 23:58:48,813 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-14 23:58:50,336 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-14 23:58:50,337 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:大法师 Map:1
+2019-05-14 23:58:50,339 [6] [INFO ] [GameServer] ：HasItem:[2] True
+2019-05-14 23:58:50,344 [6] [INFO ] [GameServer] ：[4]GetItem[2 : ID:2,Count:100]
+2019-05-14 23:58:50,345 [6] [INFO ] [GameServer] ：Item:[2] [ID:2,Count:100]
+2019-05-14 23:58:50,356 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-14 23:58:55,241 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:58:55,251 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,820),dir:(98,-20,0),spd:0
+2019-05-14 23:58:55,322 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:58:55,323 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5010,3998,820),dir:(92,-38,0),spd:300
+2019-05-14 23:58:55,395 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,396 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5035,3988,820),dir:(84,-54,0),spd:300
+2019-05-14 23:58:55,469 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,471 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5035,3988,820),dir:(84,-54,0),spd:300
+2019-05-14 23:58:55,511 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,513 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5059,3970,820),dir:(71,-70,0),spd:300
+2019-05-14 23:58:55,569 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,570 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5079,3950,820),dir:(58,-82,0),spd:300
+2019-05-14 23:58:55,670 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,671 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5097,3926,820),dir:(40,-92,0),spd:300
+2019-05-14 23:58:55,779 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,781 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5109,3896,820),dir:(20,-98,0),spd:300
+2019-05-14 23:58:55,905 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:55,906 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5117,3856,820),dir:(2,-100,0),spd:300
+2019-05-14 23:58:56,086 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:56,087 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5117,3806,820),dir:(-16,-99,0),spd:300
+2019-05-14 23:58:56,173 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:56,174 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5111,3776,820),dir:(-34,-94,0),spd:300
+2019-05-14 23:58:56,284 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:56,285 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5099,3746,820),dir:(-53,-85,0),spd:300
+2019-05-14 23:58:56,387 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:56,388 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5081,3722,820),dir:(-68,-74,0),spd:300
+2019-05-14 23:58:56,558 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:56,560 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(5048,3678,820),dir:(-80,-60,0),spd:300
+2019-05-14 23:58:57,004 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:57,005 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4940,3597,820),dir:(-89,-45,0),spd:300
+2019-05-14 23:58:57,153 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:57,154 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4916,3585,820),dir:(-96,-28,0),spd:300
+2019-05-14 23:58:57,224 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-14 23:58:57,227 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4886,3579,820),dir:(-100,-8,0),spd:300
+2019-05-14 23:58:57,307 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:57,311 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4861,3579,820),dir:(-100,10,0),spd:300
+2019-05-14 23:58:57,390 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:57,393 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4831,3585,820),dir:(-95,30,0),spd:300
+2019-05-14 23:58:57,494 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:57,495 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4806,3595,820),dir:(-89,46,0),spd:300
+2019-05-14 23:58:57,555 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:58:57,556 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:Idle Entity:(2:pos:(4802,3597,820),dir:(-89,46,0),spd:0
+2019-05-14 23:58:57,596 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:58:57,597 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4802,3597,820),dir:(-79,61,0),spd:0
+2019-05-14 23:58:57,651 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:58:57,652 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4802,3597,820),dir:(-65,76,0),spd:0
+2019-05-14 23:58:57,779 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:58:57,785 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4802,3597,820),dir:(-51,86,0),spd:0
+2019-05-14 23:58:57,870 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-14 23:58:57,871 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4802,3597,820),dir:(-35,94,0),spd:0
+2019-05-14 23:58:57,920 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-14 23:58:57,921 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:MoveFwd Entity:(2:pos:(4798,3607,820),dir:(-18,98,0),spd:300
+2019-05-14 23:58:58,023 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-05-14 23:58:58,026 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4792,3637,820),dir:(0,100,0),spd:300
+2019-05-14 23:58:58,077 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-05-14 23:58:58,078 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4792,3637,820),dir:(0,100,0),spd:300
+2019-05-14 23:58:59,878 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-14 23:58:59,879 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:None Entity:(2:pos:(4792,4187,820),dir:(-18,98,0),spd:300
+2019-05-14 23:59:00,206 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-14 23:59:00,208 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:大法师 Entity.Id2  Evt:Idle Entity:(2:pos:(4771,4292,820),dir:(-18,98,0),spd:0
+2019-05-14 23:59:02,809 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:59:02,813 [5] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:1 ShopItem:1
+2019-05-14 23:59:02,816 [5] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:1 Count:1 Price:10
+2019-05-14 23:59:02,818 [5] [INFO ] [GameServer] ：[4]AddItem[ID:1,Count:201] addCount: 1
+2019-05-14 23:59:15,381 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:59:15,382 [5] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:1 ShopItem:2
+2019-05-14 23:59:15,383 [5] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:2 Count:1 Price:100
+2019-05-14 23:59:15,384 [5] [INFO ] [GameServer] ：[4]AddItem[ID:2,Count:101] addCount: 1
+2019-05-14 23:59:24,831 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-14 23:59:24,832 [5] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:2 ShopItem:8
+2019-05-14 23:59:24,833 [5] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:8 Count:1 Price:200
+2019-05-14 23:59:24,834 [5] [INFO ] [GameServer] ：[4]AddItem[ID:8,Count:1] addCount: 1
+2019-05-14 23:59:30,831 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-05-14 23:59:30,832 [3] [WARN ] [GameServer] ：Client[] Disconnected

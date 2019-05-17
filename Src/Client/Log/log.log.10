@@ -1,7 +1,52 @@
-2019-05-12 20:20:21,299 [ 1] INFO  Unity: LoadingManager start
-2019-05-12 20:20:24,661 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-12 20:20:24,665 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-05-18 00:03:53,909 [ 1] INFO  Unity: LoadingManager start
+2019-05-18 00:03:57,434 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-18 00:04:05,491 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-18 00:04:05,494 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-18 00:04:05,496 [ 1] INFO  Unity: DoConnect
+2019-05-18 00:04:05,499 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-18 00:04:05,504 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2019-05-18 00:04:05,510 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-18 00:04:11,270 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-18 00:04:11,273 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-18 00:04:11,631 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:04:12,580 [ 1] INFO  Unity: Select Char:[1002]精灵射手[Archer]
+2019-05-18 00:04:13,300 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
+2019-05-18 00:04:13,532 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-18 00:04:13,538 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:21]
+2019-05-18 00:04:13,540 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-05-18 00:04:13,541 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
+2019-05-18 00:04:13,543 [ 1] INFO  Unity: ItemManager: Init[Id:3002,Count:1]
+2019-05-18 00:04:13,544 [ 1] INFO  Unity: ItemManager: Init[Id:3003,Count:1]
+2019-05-18 00:04:13,545 [ 1] INFO  Unity: ItemManager: Init[Id:3004,Count:1]
+2019-05-18 00:04:13,546 [ 1] INFO  Unity: ItemManager: Init[Id:3005,Count:1]
+2019-05-18 00:04:13,547 [ 1] INFO  Unity: ItemManager: Init[Id:3006,Count:1]
+2019-05-18 00:04:13,549 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:10]
+2019-05-18 00:04:13,550 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
+2019-05-18 00:04:13,558 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-18 00:04:13,561 [ 1] INFO  Unity: AddCharacter:1:精灵射手 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-18 00:04:13,566 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-18 00:04:14,298 [ 1] WARN  Unity: MainPlayerCamera [-83700] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-05-18 00:04:14,299 [ 1] WARN  Unity: GameObjectManager [-83654] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-05-18 00:04:14,312 [ 1] WARN  Unity: UIMain [70106] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-05-18 00:04:14,314 [ 1] WARN  Unity: UIWorldElementManager [70958] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-05-18 00:04:14,366 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:04:18,092 [ 1] INFO  Unity: Character_1_精灵射手 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-18 00:04:18,094 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-18 00:04:18,095 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 

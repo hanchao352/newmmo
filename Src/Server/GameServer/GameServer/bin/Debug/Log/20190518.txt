@@ -1,0 +1,311 @@
+
+2019-05-18 00:00:00,756 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:00:00,761 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:5 Item:3006  Equip:True
+2019-05-18 00:00:03,243 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:03,255 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-20,0),spd:0
+2019-05-18 00:00:03,375 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:03,377 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(92,-39,0),spd:0
+2019-05-18 00:00:03,455 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:03,457 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(82,-57,0),spd:0
+2019-05-18 00:00:03,558 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:03,560 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(69,-73,0),spd:0
+2019-05-18 00:00:03,633 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:03,635 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(55,-84,0),spd:0
+2019-05-18 00:00:03,714 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-18 00:00:03,720 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(55,-84,0),spd:300
+2019-05-18 00:00:03,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-18 00:00:03,766 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5009,3988,820),dir:(36,-93,0),spd:300
+2019-05-18 00:00:03,827 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-05-18 00:00:03,829 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5021,3958,820),dir:(16,-99,0),spd:300
+2019-05-18 00:00:03,945 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-18 00:00:03,949 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5027,3928,820),dir:(-5,-100,0),spd:300
+2019-05-18 00:00:04,038 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-18 00:00:04,039 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5027,3898,820),dir:(-25,-97,0),spd:300
+2019-05-18 00:00:04,098 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-18 00:00:04,099 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5022,3873,820),dir:(-42,-91,0),spd:300
+2019-05-18 00:00:04,225 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-18 00:00:04,226 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(5010,3843,820),dir:(-60,-80,0),spd:300
+2019-05-18 00:00:04,302 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-18 00:00:04,304 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4992,3819,820),dir:(-75,-66,0),spd:300
+2019-05-18 00:00:04,388 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-05-18 00:00:04,389 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4972,3804,820),dir:(-85,-52,0),spd:300
+2019-05-18 00:00:04,537 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-05-18 00:00:04,538 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:Idle Entity:(1:pos:(4952,3789,820),dir:(-93,-36,0),spd:0
+2019-05-18 00:00:04,591 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-18 00:00:04,592 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-99,-16,0),spd:0
+2019-05-18 00:00:04,651 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-05-18 00:00:04,652 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-99,-16,0),spd:0
+2019-05-18 00:00:04,732 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:04,734 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-100,5,0),spd:0
+2019-05-18 00:00:04,786 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:04,788 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-97,25,0),spd:0
+2019-05-18 00:00:04,848 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:04,849 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-91,42,0),spd:0
+2019-05-18 00:00:04,944 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:04,946 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-80,60,0),spd:0
+2019-05-18 00:00:05,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:05,098 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-66,75,0),spd:0
+2019-05-18 00:00:05,156 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:05,157 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-52,85,0),spd:0
+2019-05-18 00:00:05,235 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:05,236 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-36,93,0),spd:0
+2019-05-18 00:00:05,413 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-05-18 00:00:05,414 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:None Entity:(1:pos:(4952,3789,820),dir:(-19,98,0),spd:0
+2019-05-18 00:00:05,726 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-05-18 00:00:05,735 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4952,3789,820),dir:(-19,98,0),spd:300
+2019-05-18 00:00:06,680 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-05-18 00:00:06,682 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:精灵射手 Entity.Id1  Evt:Idle Entity:(1:pos:(4894,4079,820),dir:(-19,98,0),spd:0
+2019-05-18 00:00:42,066 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-05-18 00:00:42,070 [5] [INFO ] [GameServer] ：OnItemBuy::character:1 :Shop:2 ShopItem:29
+2019-05-18 00:00:42,073 [5] [INFO ] [GameServer] ：BuyItem: :character:1 :Item:3007 Count:1 Price:800
+2019-05-18 00:00:42,083 [5] [INFO ] [GameServer] ：[1002]AddItem[ID:3007,Count:1] addCount: 1
+2019-05-18 00:00:47,360 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:00:47,361 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:6 Item:3007  Equip:True
+2019-05-18 00:00:52,913 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-18 00:00:52,916 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:精灵射手 Map:1
+2019-05-18 00:00:52,922 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-18 00:00:55,453 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:00:55,456 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:00:55,461 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-18 00:00:56,426 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-05-18 00:00:56,427 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:精灵射手 Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,757),dir:(100,0,0),spd:0
+2019-05-18 00:01:03,113 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-05-18 00:01:03,114 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:01:25,483 [15] [WARN ] [GameServer] ：Client[127.0.0.1:59704]] Connected
+2019-05-18 00:01:25,613 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:01:25,614 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:01:27,738 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:01:27,739 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:01:27,741 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-05-18 00:03:07,462 [16] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-05-18 00:03:07,464 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:03:46,409 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:03:46,836 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:03:47,544 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:03:47,548 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:03:47,549 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:03:47,549 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:03:47,552 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:03:47,592 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,595 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,595 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,595 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,595 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,597 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,599 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,599 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:03:47,681 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:04:05,516 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59772]] Connected
+2019-05-18 00:04:05,616 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:04:05,863 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:04:13,316 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:04:13,321 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:04:13,510 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-18 00:04:18,098 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-18 00:04:18,100 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:05:58,701 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:05:59,110 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:05:59,698 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:05:59,702 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:05:59,702 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:05:59,702 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:05:59,705 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:05:59,755 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,755 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,755 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,756 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,756 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,756 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,759 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,759 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:05:59,812 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:06:36,037 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59858]] Connected
+2019-05-18 00:06:36,163 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:06:36,435 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:06:45,885 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:06:45,890 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:07:07,624 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-18 00:08:57,228 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-05-18 00:08:57,236 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:0 Item:3001  Equip:True
+2019-05-18 00:10:10,418 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:10:10,420 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:2 Item:3003  Equip:True
+2019-05-18 00:12:24,237 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:12:24,630 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:12:25,238 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:12:25,242 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:12:25,243 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:12:25,244 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:12:25,246 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:12:25,274 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,275 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,275 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,276 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,279 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,281 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,281 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,282 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:12:25,355 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:12:46,074 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59970]] Connected
+2019-05-18 00:12:46,176 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:12:46,418 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:13:32,378 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:13:32,385 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:15:39,984 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:15:40,420 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:15:41,020 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:15:41,024 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:15:41,024 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:15:41,024 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:15:41,027 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:15:41,076 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,078 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,078 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,078 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,079 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,078 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,078 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,080 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:15:41,135 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:16:02,611 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60060]] Connected
+2019-05-18 00:16:02,717 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:16:02,985 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:16:10,653 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:16:10,658 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:16:13,124 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-18 00:16:26,533 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-05-18 00:16:26,541 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:0 Item:3001  Equip:True
+2019-05-18 00:16:27,871 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:16:27,872 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:2 Item:3003  Equip:True
+2019-05-18 00:16:28,915 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:16:28,916 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:1 Item:3002  Equip:True
+2019-05-18 00:16:31,042 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-18 00:16:31,045 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:16:42,635 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:16:43,065 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:16:43,893 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:16:43,899 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:16:43,900 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:16:43,902 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:16:43,911 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:16:43,988 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:43,996 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,000 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,026 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,028 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,033 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,045 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,046 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:16:44,128 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:16:59,172 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60093]] Connected
+2019-05-18 00:16:59,274 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:16:59,491 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:17:06,617 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:17:06,623 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:17:06,824 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-18 00:17:18,857 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-18 00:17:18,859 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:24:18,929 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:24:19,310 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:24:19,936 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:24:19,940 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:24:19,941 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:24:19,942 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:24:19,946 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:24:20,031 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,031 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,031 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,054 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,054 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,054 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,054 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,054 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:24:20,156 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:24:42,198 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60386]] Connected
+2019-05-18 00:24:42,317 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:24:42,551 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:24:51,020 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:24:51,026 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:24:51,190 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-18 00:24:56,332 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-05-18 00:24:56,340 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:0 Item:3001  Equip:True
+2019-05-18 00:26:05,198 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:26:05,199 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:2 Item:3003  Equip:True
+2019-05-18 00:26:13,042 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-18 00:26:13,044 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:26:34,712 [13] [WARN ] [GameServer] ：Client[127.0.0.1:60418]] Connected
+2019-05-18 00:26:34,863 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:26:34,865 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:26:37,741 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:26:37,742 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:27:18,613 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-18 00:28:01,607 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-05-18 00:28:01,608 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-18 00:28:12,109 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:28:12,601 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:28:13,167 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:28:13,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:28:13,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:28:13,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:28:13,173 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:28:13,199 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,199 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,199 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,201 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,201 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,203 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,205 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,207 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:28:13,282 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:28:37,744 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60472]] Connected
+2019-05-18 00:28:37,858 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:28:38,126 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:28:46,699 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:28:46,704 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:37:02,086 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:37:02,761 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:37:03,444 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:37:03,448 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:37:03,449 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:37:03,449 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:37:03,452 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:37:03,518 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,518 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,518 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,518 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,518 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,545 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,545 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,546 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:37:03,617 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:37:20,601 [3] [WARN ] [GameServer] ：Client[127.0.0.1:61394]] Connected
+2019-05-18 00:37:20,885 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:37:21,154 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:37:42,426 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:39:58,904 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-18 00:39:59,520 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-18 00:40:00,293 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-18 00:40:00,298 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-18 00:40:00,299 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-18 00:40:00,299 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-18 00:40:00,302 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-18 00:40:00,320 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,320 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,354 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,354 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,354 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,354 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,354 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,355 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-18 00:40:00,420 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-18 00:40:26,466 [3] [WARN ] [GameServer] ：Client[127.0.0.1:61490]] Connected
+2019-05-18 00:40:26,556 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-18 00:40:26,799 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-18 00:41:09,355 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-18 00:41:09,360 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:精灵射手 Map:1
+2019-05-18 00:41:09,388 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-18 00:41:22,891 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-05-18 00:41:22,900 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:0 Item:3001  Equip:True
+2019-05-18 00:41:25,070 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-05-18 00:41:25,071 [5] [INFO ] [GameServer] ：OnItemEquip::character:1 :Slot:2 Item:3003  Equip:True
+2019-05-18 00:41:46,448 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-18 00:41:46,451 [15] [WARN ] [GameServer] ：Client[] Disconnected

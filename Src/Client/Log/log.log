@@ -1,161 +1,57 @@
-2019-05-12 22:05:23,245 [ 1] INFO  Unity: LoadingManager start
-2019-05-12 22:05:26,845 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-12 22:05:37,602 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-05-12 22:05:37,604 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-05-12 22:05:37,609 [ 1] INFO  Unity: DoConnect
-2019-05-12 22:05:37,612 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-12 22:05:37,615 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-05-18 00:40:13,436 [ 1] INFO  Unity: LoadingManager start
+2019-05-18 00:40:17,448 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-18 00:40:26,440 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-18 00:40:26,442 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-18 00:40:26,445 [ 1] INFO  Unity: DoConnect
+2019-05-18 00:40:26,449 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-18 00:40:26,453 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-05-12 22:05:37,622 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-05-12 22:05:44,013 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-05-12 22:05:44,016 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-12 22:05:45,766 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 22:05:47,184 [ 1] INFO  Unity: Select Char:[1]哈哈[Warrior]
-2019-05-12 22:05:48,490 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2019-05-12 22:05:48,831 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-12 22:05:48,837 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:800]
-2019-05-12 22:05:48,839 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:400]
-2019-05-12 22:05:48,841 [ 1] INFO  Unity: ItemManager: Init[Id:3,Count:120]
-2019-05-12 22:05:48,843 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:480]
-2019-05-12 22:05:48,848 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x00102] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:53 
-  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in E:\newmmo\Src\Client\Assets\Scripts\Managers\BagManager.cs:29 
-  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in E:\newmmo\Src\Client\Assets\Scripts\Services\UserService.cs:247 
-  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00044] in E:\newmmo\Src\Lib\Common\Network\MessageDistributer.cs:105 
-2019-05-12 22:05:48,851 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:53)
-Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:29)
-Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:247)
-Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
-}</args></log4net.Error>
-2019-05-12 22:05:48,877 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-12 22:05:48,882 [ 1] INFO  Unity: AddCharacter:1:哈哈 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-12 22:05:48,890 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-12 22:05:52,449 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2019-05-12 22:05:52,469 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2019-05-12 22:05:52,665 [ 1] WARN  Unity: MainPlayerCamera [-304284] Awake
+2019-05-18 00:40:26,460 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-18 00:41:04,200 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-18 00:41:04,203 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-18 00:41:05,055 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:41:06,531 [ 1] INFO  Unity: Select Char:[1002]精灵射手[Archer]
+2019-05-18 00:41:07,006 [ 1] INFO  Unity: Select Char:[2]法师[Wizard]
+2019-05-18 00:41:07,493 [ 1] INFO  Unity: Select Char:[1]大战士[Warrior]
+2019-05-18 00:41:08,229 [ 1] INFO  Unity: Select Char:[1002]精灵射手[Archer]
+2019-05-18 00:41:09,329 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
+2019-05-18 00:41:09,400 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-18 00:41:09,405 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:21]
+2019-05-18 00:41:09,406 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-05-18 00:41:09,408 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
+2019-05-18 00:41:09,409 [ 1] INFO  Unity: ItemManager: Init[Id:3002,Count:1]
+2019-05-18 00:41:09,410 [ 1] INFO  Unity: ItemManager: Init[Id:3003,Count:1]
+2019-05-18 00:41:09,411 [ 1] INFO  Unity: ItemManager: Init[Id:3004,Count:1]
+2019-05-18 00:41:09,413 [ 1] INFO  Unity: ItemManager: Init[Id:3005,Count:1]
+2019-05-18 00:41:09,416 [ 1] INFO  Unity: ItemManager: Init[Id:3006,Count:1]
+2019-05-18 00:41:09,418 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:10]
+2019-05-18 00:41:09,420 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
+2019-05-18 00:41:09,446 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-18 00:41:09,451 [ 1] INFO  Unity: AddCharacter:1:精灵射手 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-18 00:41:09,457 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-18 00:41:14,654 [ 1] WARN  Unity: MainPlayerCamera [-138700] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 22:05:52,666 [ 1] WARN  Unity: GameObjectManager [-304236] Awake
+2019-05-18 00:41:14,656 [ 1] WARN  Unity: GameObjectManager [-138654] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 22:05:52,677 [ 1] WARN  Unity: UIMain [72886] Awake
+2019-05-18 00:41:14,674 [ 1] WARN  Unity: UIMain [100126] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 22:05:52,679 [ 1] WARN  Unity: UIWorldElementManager [73728] Awake
+2019-05-18 00:41:14,677 [ 1] WARN  Unity: UIWorldElementManager [100978] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-12 22:05:52,757 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 22:06:08,857 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:53)
-UIBag.OnReset () (at Assets/Scripts/UI/UIBag.cs:54)
-UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
-UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
-UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2019-05-12 22:06:18,264 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-12 22:06:18,268 [ 1] INFO  Unity: UserGameLeaveRequest
-2019-05-12 22:06:18,454 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:1
-2019-05-12 22:06:18,459 [ 1] INFO  Unity: RemoveCharacter:1
-2019-05-12 22:06:18,464 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2019-05-12 22:06:18,466 [ 1] INFO  Unity: Character_1_哈哈 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-12 22:06:18,749 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 22:08:13,191 [ 1] INFO  Unity: UserCreateCharacterRequest::name :箭手 class:Archer
-2019-05-12 22:08:13,904 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
-2019-05-12 22:08:15,076 [ 1] INFO  Unity: Select Char:[0]箭手[Archer]
-2019-05-12 22:08:16,088 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
-2019-05-12 22:08:16,264 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-12 22:08:16,266 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-12 22:08:16,268 [ 1] INFO  Unity: AddCharacter:2:箭手 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-12 22:08:16,273 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-12 22:08:17,351 [ 1] INFO  Unity: SetPosition:(5000, 4000, 768)
-2019-05-12 22:08:17,354 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,768) DIR:(100,0,0) SPD:0
-2019-05-12 22:08:17,518 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2019-05-12 22:08:17,519 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2019-05-12 22:08:17,523 [ 1] INFO  Unity: SetPosition:(5000, 4000, 701)
-2019-05-12 22:08:17,524 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,701) DIR:(100,0,0) SPD:0
-2019-05-12 22:08:17,740 [ 1] WARN  Unity: MainPlayerCamera [-320974] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:17,742 [ 1] WARN  Unity: GameObjectManager [-320926] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:17,743 [ 1] WARN  Unity: UIMain [76870] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:17,745 [ 1] WARN  Unity: UIWorldElementManager [77712] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:17,819 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 22:08:17,825 [ 1] INFO  Unity: SetPosition:(5000, 4000, 801)
-2019-05-12 22:08:17,826 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,801) DIR:(100,0,0) SPD:0
-2019-05-12 22:08:21,165 [ 1] INFO  Unity: MoveForward
-2019-05-12 22:08:21,168 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,801) DIR:(100,0,0) SPD:300
-2019-05-12 22:08:21,280 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2019-05-12 22:08:21,281 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5040,4000,801) DIR:(98,-19,0) SPD:300
-2019-05-12 22:08:21,392 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2019-05-12 22:08:21,395 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5075,3993,801) DIR:(93,-36,0) SPD:300
-2019-05-12 22:08:21,529 [ 1] INFO  Unity: Stop
-2019-05-12 22:08:21,531 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5110,3979,801) DIR:(93,-36,0) SPD:0
-2019-05-12 22:08:28,143 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-12 22:08:28,146 [ 1] INFO  Unity: UserGameLeaveRequest
-2019-05-12 22:08:28,188 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:2
-2019-05-12 22:08:28,189 [ 1] INFO  Unity: RemoveCharacter:2
-2019-05-12 22:08:28,191 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2019-05-12 22:08:28,194 [ 1] INFO  Unity: Character_2_箭手 OnDestroy :ID:2 POS:(5110, 3979, 801) DIR:(93, -36, 0) SPD:0 
-2019-05-12 22:08:28,692 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 22:08:29,376 [ 1] INFO  Unity: Select Char:[0]箭手[Archer]
-2019-05-12 22:08:30,247 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
-2019-05-12 22:08:30,286 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-12 22:08:30,287 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:200]
-2019-05-12 22:08:30,289 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:100]
-2019-05-12 22:08:30,290 [ 1] INFO  Unity: ItemManager: Init[Id:3,Count:30]
-2019-05-12 22:08:30,292 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:120]
-2019-05-12 22:08:30,294 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-12 22:08:30,295 [ 1] INFO  Unity: AddCharacter:3:箭手 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-12 22:08:30,299 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-12 22:08:31,219 [ 1] INFO  Unity: SetPosition:(5000, 4000, 768)
-2019-05-12 22:08:31,221 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:3 POS:(5000,4000,768) DIR:(100,0,0) SPD:0
-2019-05-12 22:08:31,298 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2019-05-12 22:08:31,299 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2019-05-12 22:08:31,447 [ 1] WARN  Unity: MainPlayerCamera [-329254] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:31,448 [ 1] WARN  Unity: GameObjectManager [-329206] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:31,450 [ 1] WARN  Unity: UIMain [80854] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:31,452 [ 1] WARN  Unity: UIWorldElementManager [81696] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
-
-2019-05-12 22:08:31,508 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-12 22:08:37,234 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-12 22:08:37,236 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-05-18 00:41:14,774 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-18 00:41:22,863 [ 1] INFO  Unity: SendEquipItem
+2019-05-18 00:41:25,046 [ 1] INFO  Unity: SendEquipItem
+2019-05-18 00:41:46,435 [ 1] INFO  Unity: Character_1_精灵射手 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-18 00:41:46,441 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-18 00:41:46,443 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 
-2019-05-12 22:08:37,240 [ 1] INFO  Unity: Character_3_箭手 OnDestroy :ID:3 POS:(5000, 4000, 768) DIR:(100, 0, 0) SPD:0 

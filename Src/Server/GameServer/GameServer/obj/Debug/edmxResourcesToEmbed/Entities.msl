@@ -32,6 +32,7 @@
           <ScalarProperty Name="Gold" ColumnName="Gold" />
           <ScalarProperty Name="Level" ColumnName="Level" />
           <ScalarProperty Name="TPlayerID" ColumnName="TPlayerID" />
+          <ScalarProperty Name="Equips" ColumnName="Equips" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

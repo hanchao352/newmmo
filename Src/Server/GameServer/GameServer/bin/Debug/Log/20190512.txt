@@ -469,3 +469,45 @@
 2019-05-12 22:08:31,302 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:箭手 Entity.Id3  Evt:None Entity:(3:pos:(5000,4000,768),dir:(100,0,0),spd:0
 2019-05-12 22:08:37,241 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
 2019-05-12 22:08:37,242 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-12 23:04:25,419 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-12 23:04:26,110 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-12 23:04:26,786 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-12 23:04:26,791 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-12 23:04:26,791 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-12 23:04:26,792 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-12 23:04:26,794 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-12 23:04:26,861 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,862 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,911 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,931 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,931 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,931 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,933 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:26,958 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-12 23:04:27,031 [1] [WARN ] [GameServer] ：NetService Started
+2019-05-12 23:04:42,245 [3] [WARN ] [GameServer] ：Client[127.0.0.1:62019]] Connected
+2019-05-12 23:04:42,371 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-05-12 23:04:42,633 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-05-12 23:05:11,593 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2019-05-12 23:05:11,599 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:我不会用剑  Class:Warrior
+2019-05-12 23:05:14,810 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-12 23:05:14,816 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:我不会用剑 Map:1
+2019-05-12 23:05:14,828 [5] [INFO ] [GameServer] ：HasItem:[2] False
+2019-05-12 23:05:14,830 [5] [INFO ] [GameServer] ：[3]AddItem[ID:1,Count:200] addCount: 200
+2019-05-12 23:05:14,832 [5] [INFO ] [GameServer] ：[3]AddItem[ID:2,Count:100] addCount: 100
+2019-05-12 23:05:14,833 [5] [INFO ] [GameServer] ：[3]AddItem[ID:3,Count:30] addCount: 30
+2019-05-12 23:05:14,833 [5] [INFO ] [GameServer] ：[3]AddItem[ID:4,Count:120] addCount: 120
+2019-05-12 23:05:14,835 [5] [INFO ] [GameServer] ：[3]GetItem[2 : ID:2,Count:100]
+2019-05-12 23:05:14,835 [5] [INFO ] [GameServer] ：Item:[2] [ID:2,Count:100]
+2019-05-12 23:05:15,063 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-05-12 23:05:29,794 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-05-12 23:05:29,799 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:我不会用剑 Map:1
+2019-05-12 23:05:29,814 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-05-12 23:05:31,787 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-05-12 23:05:31,788 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:我不会用剑 Map:1
+2019-05-12 23:05:31,790 [5] [INFO ] [GameServer] ：HasItem:[2] True
+2019-05-12 23:05:31,791 [5] [INFO ] [GameServer] ：[3]GetItem[2 : ID:2,Count:100]
+2019-05-12 23:05:31,792 [5] [INFO ] [GameServer] ：Item:[2] [ID:2,Count:100]
+2019-05-12 23:05:31,796 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-05-12 23:05:41,215 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-05-12 23:05:41,216 [3] [WARN ] [GameServer] ：Client[] Disconnected
