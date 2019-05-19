@@ -22,6 +22,11 @@
       <End Role="TCharacters" EntitySet="Characters" />
       <End Role="TCharacterBag" EntitySet="CharacterBags" />
     </AssociationSet>
+    <EntitySet Name="CharacterQuests" EntityType="ExtremeWorldModel.TCharacterQuest" />
+    <AssociationSet Name="TCharactersTCharacterQuest" Association="ExtremeWorldModel.TCharactersTCharacterQuest">
+      <End Role="TCharacters" EntitySet="Characters" />
+      <End Role="TCharacterQuest" EntitySet="CharacterQuests" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="TUser">
     <Key>
@@ -59,6 +64,7 @@
     <NavigationProperty Name="Items" Relationship="ExtremeWorldModel.CharacterItem" FromRole="TCharacters" ToRole="TCharacterItem" />
     <NavigationProperty Name="Bag" Relationship="ExtremeWorldModel.TCharactersTCharacterBag" FromRole="TCharacters" ToRole="TCharacterBag" />
     <Property Name="Equips" Type="Binary" Nullable="false" FixedLength="true" MaxLength="28" />
+    <NavigationProperty Name="Quests" Relationship="ExtremeWorldModel.TCharactersTCharacterQuest" FromRole="TCharacters" ToRole="TCharacterQuest" />
   </EntityType>
   <Association Name="TUserTPlayer">
     <End Type="ExtremeWorldModel.TUser" Role="TUser" Multiplicity="0..1" />
@@ -110,5 +116,30 @@
   <Association Name="TCharactersTCharacterBag">
     <End Type="ExtremeWorldModel.TCharacters" Role="TCharacters" Multiplicity="1" />
     <End Type="ExtremeWorldModel.TCharacterBag" Role="TCharacterBag" Multiplicity="1" />
+  </Association>
+  <EntityType Name="TCharacterQuest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Owner" Relationship="ExtremeWorldModel.TCharactersTCharacterQuest" FromRole="TCharacterQuest" ToRole="TCharacters" />
+    <Property Name="QuestID" Type="Int32" Nullable="false" />
+    <Property Name="Target1" Type="Int32" Nullable="false" />
+    <Property Name="Target2" Type="Int32" Nullable="false" />
+    <Property Name="Target3" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="TCharactersID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="TCharactersTCharacterQuest">
+    <End Type="ExtremeWorldModel.TCharacters" Role="TCharacters" Multiplicity="1" />
+    <End Type="ExtremeWorldModel.TCharacterQuest" Role="TCharacterQuest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacters">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TCharacterQuest">
+        <PropertyRef Name="TCharactersID" />
+      </Dependent>
+    </ReferentialConstraint>
   </Association>
 </Schema>

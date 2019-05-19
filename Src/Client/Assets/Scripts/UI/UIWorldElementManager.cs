@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Managers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,9 +7,9 @@ using UnityEngine;
 public class UIWorldElementManager : MonoSingleton<UIWorldElementManager>
 {
     public GameObject nameBarPrefab;
-
+    public GameObject npcStatusPrefab;
     private Dictionary<Transform, GameObject> elements = new Dictionary<Transform, GameObject>();
-
+    private Dictionary<Transform, GameObject> elementStatus = new Dictionary<Transform, GameObject>();
     // Use this for initialization
     protected override void OnStart()
     {
@@ -37,6 +38,32 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager>
         {
             Destroy(this.elements[owner]);
             this.elements.Remove(owner);
+        }
+    }
+
+    public void AddNpcQuestStatus(Transform owner,NpcQuestStatus status)
+    {
+        if (this.elementStatus.ContainsKey(owner))
+        {
+            elementStatus[owner].GetComponent<UIQuestStatus>().SetQuestStatus(status);
+        }
+        else
+        {
+            GameObject go = Instantiate(npcStatusPrefab,this.transform);
+            go.name = "NpcQuestStatus" + owner.name;
+            go.GetComponent<UIWorldElement>().owner = owner;
+            go.GetComponent<UIQuestStatus>().SetQuestStatus(status);
+            go.SetActive(true);
+            this.elementStatus[owner] = go;
+        }
+    }
+
+    public void RemoveNpcQuestStatus(Transform owner)
+    {
+        if (this.elementStatus.ContainsKey(owner))
+        {
+            Destroy(this.elementStatus[owner]);
+            this.elementStatus.Remove(owner);
         }
     }
 }

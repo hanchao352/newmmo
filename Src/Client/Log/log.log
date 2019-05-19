@@ -1,57 +1,47 @@
-2019-05-18 00:40:13,436 [ 1] INFO  Unity: LoadingManager start
-2019-05-18 00:40:17,448 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-18 00:40:26,440 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-05-18 00:40:26,442 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-05-18 00:40:26,445 [ 1] INFO  Unity: DoConnect
-2019-05-18 00:40:26,449 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-18 00:40:26,453 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-05-19 02:39:53,989 [ 1] INFO  Unity: LoadingManager start
+2019-05-19 02:39:57,539 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-19 02:39:57,966 [ 1] INFO  Unity: 
+2019-05-19 02:40:06,894 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-05-19 02:40:06,896 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-19 02:40:06,898 [ 1] INFO  Unity: DoConnect
+2019-05-19 02:40:06,903 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-19 02:40:06,907 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-05-18 00:40:26,460 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-05-18 00:41:04,200 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-05-18 00:41:04,203 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-18 00:41:05,055 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-18 00:41:06,531 [ 1] INFO  Unity: Select Char:[1002]精灵射手[Archer]
-2019-05-18 00:41:07,006 [ 1] INFO  Unity: Select Char:[2]法师[Wizard]
-2019-05-18 00:41:07,493 [ 1] INFO  Unity: Select Char:[1]大战士[Warrior]
-2019-05-18 00:41:08,229 [ 1] INFO  Unity: Select Char:[1002]精灵射手[Archer]
-2019-05-18 00:41:09,329 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
-2019-05-18 00:41:09,400 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-18 00:41:09,405 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:21]
-2019-05-18 00:41:09,406 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
-2019-05-18 00:41:09,408 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
-2019-05-18 00:41:09,409 [ 1] INFO  Unity: ItemManager: Init[Id:3002,Count:1]
-2019-05-18 00:41:09,410 [ 1] INFO  Unity: ItemManager: Init[Id:3003,Count:1]
-2019-05-18 00:41:09,411 [ 1] INFO  Unity: ItemManager: Init[Id:3004,Count:1]
-2019-05-18 00:41:09,413 [ 1] INFO  Unity: ItemManager: Init[Id:3005,Count:1]
-2019-05-18 00:41:09,416 [ 1] INFO  Unity: ItemManager: Init[Id:3006,Count:1]
-2019-05-18 00:41:09,418 [ 1] INFO  Unity: ItemManager: Init[Id:4,Count:10]
-2019-05-18 00:41:09,420 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
-2019-05-18 00:41:09,446 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-18 00:41:09,451 [ 1] INFO  Unity: AddCharacter:1:精灵射手 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-18 00:41:09,457 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-18 00:41:14,654 [ 1] WARN  Unity: MainPlayerCamera [-138700] Awake
+2019-05-19 02:40:06,912 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-19 02:40:07,104 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-19 02:40:07,108 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-19 02:40:07,402 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-19 02:40:22,082 [ 1] INFO  Unity: UserCreateCharacterRequest::name :小精灵 class:Archer
+2019-05-19 02:40:22,134 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2019-05-19 02:40:23,054 [ 1] INFO  Unity: Select Char:[0]小精灵[Archer]
+2019-05-19 02:40:23,740 [ 1] INFO  Unity: UserGameEnterRequest::characterId :3
+2019-05-19 02:40:23,789 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-19 02:40:23,793 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
+2019-05-19 02:40:23,794 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-05-19 02:40:23,811 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-05-19 02:40:23,815 [ 1] INFO  Unity: AddCharacter:2:小精灵 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-19 02:40:23,821 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-19 02:40:24,660 [ 1] WARN  Unity: MainPlayerCamera [-370462] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-18 00:41:14,656 [ 1] WARN  Unity: GameObjectManager [-138654] Awake
+2019-05-19 02:40:24,662 [ 1] WARN  Unity: GameObjectManager [-370416] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-18 00:41:14,674 [ 1] WARN  Unity: UIMain [100126] Awake
+2019-05-19 02:40:24,673 [ 1] WARN  Unity: UIMain [303104] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-18 00:41:14,677 [ 1] WARN  Unity: UIWorldElementManager [100978] Awake
+2019-05-19 02:40:24,676 [ 1] WARN  Unity: UIWorldElementManager [303974] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-18 00:41:14,774 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-18 00:41:22,863 [ 1] INFO  Unity: SendEquipItem
-2019-05-18 00:41:25,046 [ 1] INFO  Unity: SendEquipItem
-2019-05-18 00:41:46,435 [ 1] INFO  Unity: Character_1_精灵射手 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2019-05-18 00:41:46,441 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-18 00:41:46,443 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-05-19 02:40:24,745 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-19 02:41:07,184 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-19 02:41:07,186 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 
+2019-05-19 02:41:07,190 [ 1] INFO  Unity: Character_2_小精灵 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
