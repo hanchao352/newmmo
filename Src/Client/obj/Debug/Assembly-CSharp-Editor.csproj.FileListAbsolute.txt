@@ -214,3 +214,4 @@ E:\newmmo\Src\Client\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
 E:\newmmo\Src\Client\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
 E:\newmmo\Src\Client\Temp\bin\Debug\UnityEngine.VFXModule.xml
 E:\newmmo\Src\Client\Temp\bin\Debug\Protocol.pdb
+E:\newmmo\Src\Client\Temp\bin\Debug\Assembly-CSharp.pdb

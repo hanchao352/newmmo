@@ -18,6 +18,6 @@ namespace GameServer
         public byte[] Items { get; set; }
         public int Unlocked { get; set; }
     
-        public virtual TCharacters Owner { get; set; }
+        public virtual TCharacter Owner { get; set; }
     }
 }

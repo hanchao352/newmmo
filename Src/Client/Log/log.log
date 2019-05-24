@@ -1,47 +1,59 @@
-2019-05-19 02:39:53,989 [ 1] INFO  Unity: LoadingManager start
-2019-05-19 02:39:57,539 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-19 02:39:57,966 [ 1] INFO  Unity: 
-2019-05-19 02:40:06,894 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-05-19 02:40:06,896 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-05-19 02:40:06,898 [ 1] INFO  Unity: DoConnect
-2019-05-19 02:40:06,903 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-19 02:40:06,907 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-05-23 23:40:39,649 [ 1] INFO  Unity: LoadingManager start
+2019-05-23 23:40:42,726 [ 1] INFO  Unity: DataManager > DataManager()
+2019-05-23 23:40:43,069 [ 1] INFO  Unity: 
+2019-05-23 23:41:15,191 [ 1] INFO  Unity: UserLoginRequest::user :user2 psw:123456
+2019-05-23 23:41:15,191 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-05-23 23:41:15,196 [ 1] INFO  Unity: DoConnect
+2019-05-23 23:41:15,197 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-05-23 23:41:15,199 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-05-19 02:40:06,912 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-05-19 02:40:07,104 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-05-19 02:40:07,108 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-05-19 02:40:07,402 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-19 02:40:22,082 [ 1] INFO  Unity: UserCreateCharacterRequest::name :小精灵 class:Archer
-2019-05-19 02:40:22,134 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
-2019-05-19 02:40:23,054 [ 1] INFO  Unity: Select Char:[0]小精灵[Archer]
-2019-05-19 02:40:23,740 [ 1] INFO  Unity: UserGameEnterRequest::characterId :3
-2019-05-19 02:40:23,789 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-05-19 02:40:23,793 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
-2019-05-19 02:40:23,794 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
-2019-05-19 02:40:23,811 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-05-19 02:40:23,815 [ 1] INFO  Unity: AddCharacter:2:小精灵 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-05-19 02:40:23,821 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-05-19 02:40:24,660 [ 1] WARN  Unity: MainPlayerCamera [-370462] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+2019-05-23 23:41:15,215 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-05-23 23:41:15,408 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-05-23 23:41:15,409 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-05-23 23:41:15,760 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-23 23:41:24,388 [ 1] INFO  Unity: UserCreateCharacterRequest::name :852 class:Wizard
+2019-05-23 23:41:24,476 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2019-05-23 23:41:26,408 [ 1] INFO  Unity: Select Char:[1014]852[Wizard]
+2019-05-23 23:41:26,938 [ 1] INFO  Unity: UserGameEnterRequest::characterId :6
+2019-05-23 23:41:26,980 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-05-23 23:41:26,986 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
+2019-05-23 23:41:26,987 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-05-23 23:41:27,012 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2019-05-23 23:41:27,017 [ 1] INFO  Unity: AddCharacter:1013:654 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-23 23:41:27,020 [ 1] INFO  Unity: AddCharacter:1014:852 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-05-23 23:41:27,021 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-05-23 23:41:27,627 [ 1] WARN  Unity: UIMain [17256] Awake
 
-2019-05-19 02:40:24,662 [ 1] WARN  Unity: GameObjectManager [-370416] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+2019-05-23 23:41:27,628 [ 1] WARN  Unity: UIWorldElementManager [17294] Awake
 
-2019-05-19 02:40:24,673 [ 1] WARN  Unity: UIMain [303104] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+2019-05-23 23:41:27,628 [ 1] WARN  Unity: MainPlayerCamera [17304] Awake
 
-2019-05-19 02:40:24,676 [ 1] WARN  Unity: UIWorldElementManager [303974] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+2019-05-23 23:41:27,628 [ 1] WARN  Unity: GameObjectManager [17308] Awake
 
-2019-05-19 02:40:24,745 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-05-19 02:41:07,184 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-19 02:41:07,186 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
+2019-05-23 23:41:27,654 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-05-23 23:41:27,792 [ 1] INFO  Unity: SetPosition:(5000, 4000, 939)
+2019-05-23 23:41:27,793 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,939) DIR:(100,0,0) SPD:0
+2019-05-23 23:41:27,826 [ 1] INFO  Unity: SetPosition:(5000, 4000, 992)
+2019-05-23 23:41:27,827 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,992) DIR:(100,0,0) SPD:0
+2019-05-23 23:41:28,579 [ 1] INFO  Unity: MoveForward
+2019-05-23 23:41:28,580 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5000,4000,992) DIR:(100,0,0) SPD:300
+2019-05-23 23:41:28,878 [ 1] INFO  Unity: SetPosition:(5104, 4000, 923)
+2019-05-23 23:41:28,878 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5104,4000,923) DIR:(100,0,0) SPD:300
+2019-05-23 23:41:28,978 [ 1] INFO  Unity: SetPosition:(5135, 4000, 846)
+2019-05-23 23:41:28,978 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5135,4000,846) DIR:(100,0,0) SPD:300
+2019-05-23 23:41:29,612 [ 1] INFO  Unity: Stop
+2019-05-23 23:41:29,612 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:2 POS:(5325,4000,846) DIR:(100,0,0) SPD:0
+2019-05-23 23:41:37,824 [ 1] INFO  Unity: SendFriendAdd
+2019-05-23 23:41:50,305 [ 1] INFO  Unity: 852
+2019-05-23 23:42:22,565 [ 1] INFO  Unity: SendFriendAdd
+2019-05-23 23:42:25,996 [ 1] INFO  Unity: 852
+2019-05-23 23:42:25,999 [ 1] INFO  Unity: OnFriendList
+2019-05-23 23:42:38,442 [ 1] INFO  Unity: SendFriendRemoveRequest
+2019-05-23 23:42:38,579 [ 1] INFO  Unity: OnFriendList
+2019-05-23 23:42:43,128 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:1
+2019-05-23 23:42:43,129 [ 1] INFO  Unity: RemoveCharacter:1
+2019-05-23 23:42:43,132 [ 1] INFO  Unity: Character_1013_654 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-05-23 23:42:48,016 [ 1] INFO  Unity: Character_1014_852 OnDestroy :ID:2 POS:(5325, 4000, 846) DIR:(100, 0, 0) SPD:0 
+2019-05-23 23:42:48,018 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-05-23 23:42:48,018 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 
-2019-05-19 02:41:07,190 [ 1] INFO  Unity: Character_2_小精灵 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

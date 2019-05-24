@@ -14,11 +14,11 @@ namespace GameServer
     
     public partial class TUser
     {
-        public int ID { get; set; }
-        public string UserName { get; set; }
-        public string PassWord { get; set; }
-        public string RegisterDate { get; set; }
+        public long ID { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public Nullable<System.DateTime> RegisterDate { get; set; }
     
-        public virtual TPlayer TPlayer { get; set; }
+        public virtual TPlayer Player { get; set; }
     }
 }

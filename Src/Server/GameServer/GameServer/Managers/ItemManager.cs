@@ -66,7 +66,7 @@ namespace GameServer.Managers
             else
             {
                 TCharacterItem dbItem = new TCharacterItem();
-                dbItem.CharactersID = Owner.Data.ID;
+                dbItem.CharacterID = Owner.Data.ID;
                 dbItem.Owner = Owner.Data;
                 dbItem.ItemID = itemId;
                 dbItem.ItemCount = count;

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f714dec2-a547-4cae-836e-53d8b69fc724" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFriendItem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+              <folding>
+                <marker date="1558527057162" expanded="false" signature="6:99" ph="..." />
+                <marker date="1558527057162" expanded="true" signature="150:920" ph="{...}" />
+                <marker date="1558527057162" expanded="true" signature="418:504" ph="{...}" />
+                <marker date="1558527057162" expanded="true" signature="553:918" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFriends.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1558528343495" expanded="true" signature="6:156" ph="..." />
+                <marker date="1558528343495" expanded="true" signature="190:2348" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="352:507" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="569:631" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="667:754" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="820:1287" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="950:1002" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1108:1186" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1324:1369" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1407:1821" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1445:1527" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1679:1814" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1850:1916" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="1952:2263" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="2022:2257" ph="{...}" />
+                <marker date="1558528343495" expanded="true" signature="2299:2346" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/FriendManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <marker date="1558528553674" expanded="false" signature="6:112" ph="..." />
+                <marker date="1558528553674" expanded="true" signature="132:360" ph="{...}" />
+                <marker date="1558528553674" expanded="true" signature="190:358" ph="{...}" />
+                <marker date="1558528553674" expanded="true" signature="293:352" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Services/FriendService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <marker date="1558530936644" expanded="false" signature="6:202" ph="..." />
+                <marker date="1558530936644" expanded="true" signature="260:4320" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="326:339" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="366:736" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="763:1141" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="1211:1748" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="1825:2305" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="2310:2436" ph="/// 收到添加好友请求 ... " />
+                <marker date="1558530936644" expanded="true" signature="2512:2861" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="2683:2749" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="2788:2854" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="2867:2993" ph="/// 收到添加好友响应 ... " />
+                <marker date="1558530936644" expanded="true" signature="3072:3310" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="3122:3214" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="3227:3304" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="3383:3585" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="3524:3579" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="3647:4022" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="4099:4318" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="4149:4213" ph="{...}" />
+                <marker date="1558530936644" expanded="true" signature="4226:4312" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MessageBox.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <marker date="1556953928731" expanded="true" signature="36:592" ph="{...}" />
+                <marker date="1556953928731" expanded="true" signature="238:590" ph="{...}" />
+                <marker date="1556953928731" expanded="true" signature="274:363" ph="{...}" />
+                <marker date="1556953928731" expanded="true" signature="620:918" ph="{...}" />
+                <marker date="1556953928731" expanded="true" signature="627:701" ph="/// Information Dialog with OK button ... " />
+                <marker date="1556953928731" expanded="true" signature="728:810" ph="/// Confirm Dialog whit OK and Cancel buttons ... " />
+                <marker date="1556953928731" expanded="true" signature="833:902" ph="/// Error Dialog with OK buttons ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIMessageBox.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
+              <folding>
+                <marker date="1558615123750" expanded="false" signature="6:66" ph="..." />
+                <marker date="1558615123750" expanded="true" signature="110:1582" ph="{...}" />
+                <marker date="1558615123750" expanded="true" signature="458:465" ph="{...}" />
+                <marker date="1558615123750" expanded="true" signature="520:527" ph="{...}" />
+                <marker date="1558615123750" expanded="true" signature="671:1329" ph="{...}" />
+                <marker date="1558615123750" expanded="true" signature="1352:1456" ph="{...}" />
+                <marker date="1558615123750" expanded="true" signature="1478:1580" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <marker date="1558530961155" expanded="false" signature="6:193" ph="..." />
+                <marker date="1558530961155" expanded="true" signature="238:1676" ph="{...}" />
+                <marker date="1558530961155" expanded="true" signature="488:1605" ph="{...}" />
+                <marker date="1558530961155" expanded="true" signature="1354:1502" ph="{...}" />
+                <marker date="1558530961155" expanded="true" signature="1666:1674" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
+              <folding>
+                <marker date="1558613608081" expanded="false" signature="6:92" ph="..." />
+                <marker date="1558613608081" expanded="true" signature="140:2326" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="162:270" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="382:1170" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1187:1200" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1224:1889" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1309:1856" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1411:1486" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1503:1794" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1629:1704" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1923:2323" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="1985:2309" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="2076:2152" ph="{...}" />
+                <marker date="1558613608081" expanded="true" signature="2169:2286" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <marker date="1558613724631" expanded="false" signature="6:114" ph="..." />
+                <marker date="1558613724631" expanded="true" signature="160:1503" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="290:324" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="349:572" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="627:634" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="669:791" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="822:963" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="1041:1134" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="1163:1217" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="1252:1312" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="1344:1406" ph="{...}" />
+                <marker date="1558613724631" expanded="true" signature="1443:1501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFriendItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MessageBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Services/FriendService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFriends.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/FriendManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIMessageBox.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIMessageBox.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="320" />
+    <option name="y" value="175" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f714dec2-a547-4cae-836e-53d8b69fc724" name="Default Changelist" comment="" />
+      <created>1558612756102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558612756102</updated>
+      <workItem from="1558612777170" duration="2372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2372000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="320" y="175" width="1920" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497309" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
+          <folding>
+            <marker date="1558613608081" expanded="false" signature="6:92" ph="..." />
+            <marker date="1558613608081" expanded="true" signature="140:2326" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="162:270" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="382:1170" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1187:1200" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1224:1889" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1309:1856" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1411:1486" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1503:1794" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1629:1704" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1923:2323" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="1985:2309" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="2076:2152" ph="{...}" />
+            <marker date="1558613608081" expanded="true" signature="2169:2286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <marker date="1558613724631" expanded="false" signature="6:114" ph="..." />
+            <marker date="1558613724631" expanded="true" signature="160:1503" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="290:324" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="349:572" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="627:634" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="669:791" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="822:963" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="1041:1134" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="1163:1217" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="1252:1312" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="1344:1406" ph="{...}" />
+            <marker date="1558613724631" expanded="true" signature="1443:1501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <marker date="1558530961155" expanded="false" signature="6:193" ph="..." />
+            <marker date="1558530961155" expanded="true" signature="238:1676" ph="{...}" />
+            <marker date="1558530961155" expanded="true" signature="488:1605" ph="{...}" />
+            <marker date="1558530961155" expanded="true" signature="1354:1502" ph="{...}" />
+            <marker date="1558530961155" expanded="true" signature="1666:1674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFriendItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+          <folding>
+            <marker date="1558527057162" expanded="false" signature="6:99" ph="..." />
+            <marker date="1558527057162" expanded="true" signature="150:920" ph="{...}" />
+            <marker date="1558527057162" expanded="true" signature="418:504" ph="{...}" />
+            <marker date="1558527057162" expanded="true" signature="553:918" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFriends.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1558528343495" expanded="true" signature="6:156" ph="..." />
+            <marker date="1558528343495" expanded="true" signature="190:2348" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="352:507" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="569:631" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="667:754" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="820:1287" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="950:1002" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1108:1186" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1324:1369" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1407:1821" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1445:1527" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1679:1814" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1850:1916" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="1952:2263" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="2022:2257" ph="{...}" />
+            <marker date="1558528343495" expanded="true" signature="2299:2346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/FriendManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1558528553674" expanded="false" signature="6:112" ph="..." />
+            <marker date="1558528553674" expanded="true" signature="132:360" ph="{...}" />
+            <marker date="1558528553674" expanded="true" signature="190:358" ph="{...}" />
+            <marker date="1558528553674" expanded="true" signature="293:352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MessageBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1556953928731" expanded="true" signature="36:592" ph="{...}" />
+            <marker date="1556953928731" expanded="true" signature="238:590" ph="{...}" />
+            <marker date="1556953928731" expanded="true" signature="274:363" ph="{...}" />
+            <marker date="1556953928731" expanded="true" signature="620:918" ph="{...}" />
+            <marker date="1556953928731" expanded="true" signature="627:701" ph="/// Information Dialog with OK button ... " />
+            <marker date="1556953928731" expanded="true" signature="728:810" ph="/// Confirm Dialog whit OK and Cancel buttons ... " />
+            <marker date="1556953928731" expanded="true" signature="833:902" ph="/// Error Dialog with OK buttons ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIMessageBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
+          <folding>
+            <marker date="1558615123750" expanded="false" signature="6:66" ph="..." />
+            <marker date="1558615123750" expanded="true" signature="110:1582" ph="{...}" />
+            <marker date="1558615123750" expanded="true" signature="458:465" ph="{...}" />
+            <marker date="1558615123750" expanded="true" signature="520:527" ph="{...}" />
+            <marker date="1558615123750" expanded="true" signature="671:1329" ph="{...}" />
+            <marker date="1558615123750" expanded="true" signature="1352:1456" ph="{...}" />
+            <marker date="1558615123750" expanded="true" signature="1478:1580" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Services/FriendService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <marker date="1558530936644" expanded="false" signature="6:202" ph="..." />
+            <marker date="1558530936644" expanded="true" signature="260:4320" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="326:339" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="366:736" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="763:1141" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="1211:1748" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="1825:2305" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="2310:2436" ph="/// 收到添加好友请求 ... " />
+            <marker date="1558530936644" expanded="true" signature="2512:2861" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="2683:2749" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="2788:2854" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="2867:2993" ph="/// 收到添加好友响应 ... " />
+            <marker date="1558530936644" expanded="true" signature="3072:3310" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="3122:3214" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="3227:3304" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="3383:3585" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="3524:3579" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="3647:4022" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="4099:4318" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="4149:4213" ph="{...}" />
+            <marker date="1558530936644" expanded="true" signature="4226:4312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

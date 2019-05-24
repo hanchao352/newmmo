@@ -35,12 +35,13 @@ public class LoadingManager : MonoBehaviour {
         UITips.SetActive(false);
 
         yield return DataManager.Instance.LoadData();
-
+        
         //Init basic services
         MapService.Instance.Init();
         UserService.Instance.Init();
         //TestManager.Instance.Init();
-
+        StatusService.Instance.Init();
+        FriendService.Instance.Init();
         ShopManager.Instance.Init();
         // Fake Loading Simulate
         for (float i = 50; i < 100;)

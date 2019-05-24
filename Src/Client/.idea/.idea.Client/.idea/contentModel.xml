@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Client.1917937138.00" t="ExcludeRecursive" />
+    <e p="E:\newmmo\Src\Client" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="MapTools.cs" t="Include" />
+        </e>
+        <e p="FX" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="DelayActiveChild.cs" t="Include" />
+            <e p="uv_l.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="ParticlesAdditive.shader" t="Include" />
+            <e p="ParticlesAlphaBlended.shader" t="Include" />
+            <e p="ParticlesAlphaBlendedMask.shader" t="Include" />
+            <e p="ParticlesFresnel.shader" t="Include" />
+            <e p="ParticlesNiuQu01.shader" t="Include" />
+          </e>
+        </e>
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="NewBehaviourScript.cs" t="Include" />
+        <e p="References" t="Include">
+          <e p="log4net.xml" t="Include" />
+          <e p="protobuf-net.xml" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="log4net.xml" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Resloader.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="Entity.cs" t="Include" />
+          </e>
+          <e p="GameObject" t="Include">
+            <e p="EntityController.cs" t="Include" />
+            <e p="GameObjectManager.cs" t="Include" />
+            <e p="GameObjectTool.cs" t="Include" />
+            <e p="MainPlayerCamera.cs" t="Include" />
+            <e p="MapController.cs" t="Include" />
+            <e p="NPCController.cs" t="Include" />
+            <e p="PlayerInputController.cs" t="Include" />
+            <e p="SpawnPoint.cs" t="Include" />
+            <e p="TeleporterObject.cs" t="Include" />
+          </e>
+          <e p="LoadingManager.cs" t="Include" />
+          <e p="Log" t="Include">
+            <e p="UnityLogger.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="BagManager.cs" t="Include" />
+            <e p="CharacterManager.cs" t="Include" />
+            <e p="DataManager.cs" t="Include" />
+            <e p="EntityManager.cs" t="Include" />
+            <e p="EquipManager.cs" t="Include" />
+            <e p="FriendManager.cs" t="Include" />
+            <e p="ItemManager.cs" t="Include" />
+            <e p="MinimapManager.cs" t="Include" />
+            <e p="NPCManager.cs" t="Include" />
+            <e p="QuestManager.cs" t="Include" />
+            <e p="ShopManager.cs" t="Include" />
+            <e p="TestManager.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="BagItem.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+            <e p="Quest.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="Network" t="Include">
+            <e p="NetClient.cs" t="Include" />
+          </e>
+          <e p="Scene" t="Include">
+            <e p="SceneManager.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="FriendService.cs" t="Include" />
+            <e p="ItemService.cs" t="Include" />
+            <e p="MapService.cs" t="Include" />
+            <e p="QuestService.cs" t="Include" />
+            <e p="StatusService.cs" t="Include" />
+            <e p="UserService.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="CharEquip" t="Include">
+              <e p="UICharEquip.cs" t="Include" />
+              <e p="UIEquipItem.cs" t="Include" />
+            </e>
+            <e p="InputBox.cs" t="Include" />
+            <e p="ListView" t="Include">
+              <e p="ListView.cs" t="Include" />
+            </e>
+            <e p="MessageBox.cs" t="Include" />
+            <e p="Minimap" t="Include">
+              <e p="UIMinimap.cs" t="Include" />
+            </e>
+            <e p="QuestSystem" t="Include">
+              <e p="UIQuestDialog.cs" t="Include" />
+              <e p="UIQuestInfo.cs" t="Include" />
+              <e p="UIQuestItem.cs" t="Include" />
+              <e p="UIQuestStatus.cs" t="Include" />
+              <e p="UIQuestSystem.cs" t="Include" />
+            </e>
+            <e p="TabView" t="Include">
+              <e p="TabButton.cs" t="Include" />
+              <e p="TabView.cs" t="Include" />
+            </e>
+            <e p="UIBag.cs" t="Include" />
+            <e p="UICharacterSelect.cs" t="Include" />
+            <e p="UICharacterView.cs" t="Include" />
+            <e p="UICharInfo.cs" t="Include" />
+            <e p="UIFriendItem.cs" t="Include" />
+            <e p="UIFriends.cs" t="Include" />
+            <e p="UIIconItem.cs" t="Include" />
+            <e p="UIInputBox.cs" t="Include" />
+            <e p="UILogin.cs" t="Include" />
+            <e p="UIMain.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+            <e p="UIMessageBox.cs" t="Include" />
+            <e p="UINameBar.cs" t="Include" />
+            <e p="UIRegister.cs" t="Include" />
+            <e p="UIShop.cs" t="Include" />
+            <e p="UIShopItem.cs" t="Include" />
+            <e p="UITest.cs" t="Include" />
+            <e p="UIWindow.cs" t="Include" />
+            <e p="UIWorldElement.cs" t="Include" />
+            <e p="UIWorldElementManager.cs" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="EnumUtil.cs" t="Include" />
+            <e p="GameUtil.cs" t="Include" />
+            <e p="MonoSingleton.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shader" t="Include">
+          <e p="DepthBloom.shader" t="Include" />
+          <e p="Lightmap" t="Include">
+            <e p="Lightmap.shader" t="Include" />
+          </e>
+          <e p="MyMobile Particles AddNoMask Diff.shader" t="Include" />
+          <e p="MyMobile VertexLit Diffuse.shader" t="Include" />
+          <e p="Particle" t="Include">
+            <e p="ParticleAdditive.shader" t="Include" />
+          </e>
+          <e p="UITest.shader" t="Include" />
+        </e>
+      </e>
+      <e p="Client.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

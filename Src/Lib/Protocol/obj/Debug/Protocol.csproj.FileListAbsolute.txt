@@ -6,4 +6,3 @@ E:\newmmo\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
 E:\newmmo\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 E:\newmmo\Src\Lib\Protocol\obj\Debug\Protocol.dll
 E:\newmmo\Src\Lib\Protocol\obj\Debug\Protocol.pdb
-E:\newmmo\Src\Lib\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache

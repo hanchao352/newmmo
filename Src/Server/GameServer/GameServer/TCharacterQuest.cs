@@ -20,8 +20,8 @@ namespace GameServer
         public int Target2 { get; set; }
         public int Target3 { get; set; }
         public int Status { get; set; }
-        public int TCharactersID { get; set; }
+        public int TCharacterID { get; set; }
     
-        public virtual TCharacters Owner { get; set; }
+        public virtual TCharacter Owner { get; set; }
     }
 }
