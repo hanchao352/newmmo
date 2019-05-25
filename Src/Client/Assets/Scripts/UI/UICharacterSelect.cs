@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using Models;
 using Services;
 using SkillBridge.Message;
+using Managers;
 public class UICharacterSelect : MonoBehaviour {
 
     public GameObject panelCreate;

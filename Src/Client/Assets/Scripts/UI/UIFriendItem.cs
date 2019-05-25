@@ -20,7 +20,7 @@ using UnityEngine.UI;
     {
         this.background.overrideSprite = selected ? selecteBg : normalBg;
     }
-
+    
     public void SetFriendInfo(NFriendInfo item)
     {
         this.Info = item;

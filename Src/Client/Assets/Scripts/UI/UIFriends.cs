@@ -1,5 +1,6 @@
 ﻿using Managers;
 using Models;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,7 @@ using UnityEngine.UI;
     {
         InputBox.Show("输入要添加的好友名称或ID","添加好友").OnSubmit+=OnFriendAddSubmit;
     }
-
+ 
     private bool OnFriendAddSubmit(string input,out string tips)
     {
         tips = "";
@@ -54,6 +55,22 @@ using UnityEngine.UI;
     public void OnClickFriendChat()
     {
         MessageBox.Show("暂未开放");
+    }
+    public void OnClickFriendTeamInvite()
+    {
+        if (selectedItem==null)
+        {
+            MessageBox.Show("请选择要邀请的好友");
+            return;
+        }
+        if (selectedItem.Info.Status==0)
+        {
+            MessageBox.Show("请选择在线的好友");
+            return;
+        }
+        MessageBox.Show(string.Format("确定要邀请好友【{0}】加入队伍吗?",selectedItem.Info.friendInfo.Name),"邀请好友组队",MessageBoxType.Confirm,"邀请","取消").OnYes=()=> {
+            TeamService.Instance.SendTeamInviteRequest(this.selectedItem.Info.friendInfo.Id,this.selectedItem.Info.friendInfo.Name);
+        };
     }
     public void OnClickFriendRemove()
     {

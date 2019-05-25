@@ -8,7 +8,7 @@ using GameServer;
 using GameServer.Entities;
 using GameServer.Services;
 using SkillBridge.Message;
-using GameServer.Services;
+
 namespace Network
 {
     class NetSession : INetSession

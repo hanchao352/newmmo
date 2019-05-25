@@ -7,6 +7,15 @@ using UnityEngine;
  class InputBox
 {
     static Object cacheObject = null;
+/// <summary>
+/// 
+/// </summary>
+/// <param name="message"></param>
+/// <param name="title"></param>
+/// <param name="btnOk"></param>
+/// <param name="btnCancle"></param>
+/// <param name="emptyTips"></param>
+/// <returns></returns>
     public static UIInputBox Show(string message, string title = "", string btnOk = "",string btnCancle="",string emptyTips="")
     {
         if (cacheObject==null)

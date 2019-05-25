@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using SkillBridge.Message;
 using UnityEngine;
-
+using Managers;
 namespace Entities
 {
     public class Character : Entity
