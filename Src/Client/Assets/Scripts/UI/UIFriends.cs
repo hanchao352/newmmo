@@ -87,6 +87,7 @@ using UnityEngine.UI;
 
     public void RefreshUI()
     {
+       
         ClearFriendList();
         InitFriendItems();
     }
@@ -104,10 +105,11 @@ using UnityEngine.UI;
 
     private void OnDestroy()
     {
-        FriendService.Instance.OnFriendUpdate = RefreshUI;
+        FriendService.Instance.OnFriendUpdate -= RefreshUI;
     }
     private void ClearFriendList()
     {
+     
         this.listMain.RemoveAll();
     }
 }

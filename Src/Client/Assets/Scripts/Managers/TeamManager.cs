@@ -16,7 +16,7 @@ namespace Managers
         internal void UpdateTeamInfo(NTeamInfo team)
         {
             User.Instance.TeamInfo = team;
-            ShowTeamUI(team==null);
+            ShowTeamUI(team!=null);
         }
 
         private void ShowTeamUI(bool show)

@@ -31,6 +31,7 @@ e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 1f67d061567b637ffc47c9aaffe42e71 Assembly-CSharp.dll:.TeleporterObject
 172d7166e1248918d862c0130b854953 Assembly-CSharp.dll:.UIShopItem
 22eb2fab613933c9a026a01bdf641e72 Assembly-CSharp.dll:.UIQuestStatus
+1d0db436872d60734773f01c387776b5 Assembly-CSharp.dll:.UITeam
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -209,6 +210,7 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+4d5f87be09c7a42340ac79ad96391bdf Assembly-CSharp.dll:Managers.SpriteManager
 221fa051c3b9c7425b2914f63324e363 Assembly-CSharp.dll:.UIIconItem
 35cb1e8f8bb8abfd1c28c0ee0eba6625 Assembly-CSharp.dll:.UIEquipItem
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -219,7 +221,7 @@ a0e740a88c583a306c579fb3f5ba6aef Assembly-CSharp.dll:Network.NetClient
 333e33dc5597c5cdad5581fe8cda6366 Assembly-CSharp.dll:.UIQuestDialog
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 b2eb1da2f0449b7a660b6a749287e046 Assembly-CSharp.dll:.DelayActiveChild
-746501470386299432eac9f6ccc4d4a5 Assembly-CSharp.dll:.UIMain
+b06ac6096cc21ffd9fb42ae04920c2ba Assembly-CSharp.dll:.UIMain
 56db0660942095cd29bd58773c87eae0 Assembly-CSharp.dll:.UIRegister
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 001480d315b39dc7486279d0f4964974 Assembly-CSharp.dll:.UIQuestInfo
@@ -262,6 +264,7 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 df575f35d2d396362deb2d2620dcf566 Assembly-CSharp.dll:.UILogin
 a8029003487d4e39408c51c3487d71d2 Assembly-CSharp.dll:.PlayerInputController
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+80cd80a91802e428900387f0fb1ec355 Assembly-CSharp.dll:.UITeamItem
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.NewBehaviourScript
 06155f60d2eb3e14f6e691589bbe02d2 Assembly-CSharp.dll:.UIWorldElementManager

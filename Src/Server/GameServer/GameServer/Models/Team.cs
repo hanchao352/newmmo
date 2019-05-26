@@ -58,6 +58,7 @@ namespace GameServer.Models
                 message.teamInfo.Result = Result.Success;
                 message.teamInfo.Team = new NTeamInfo();
                 message.teamInfo.Team.Id = this.Id;
+                message.teamInfo.Team.Leader = this.Leader.Id;
                 foreach (var member in this.Members)
                 {
                     message.teamInfo.Team.Members.Add(member.GetBasicInfo()) ;

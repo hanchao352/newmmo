@@ -99,7 +99,7 @@ namespace GameServer.Managers
                 character.FriendManager.UpdateFriendInfo(this.Owner.Info,1);
                 friendInfo.Status = 1;
             }
-            Log.InfoFormat(" {0} :{1} GetFriendInfo:{2}:{3} Status:{4}",this.Owner.Id,this.Owner.Info.Name,friendInfo.friendInfo.Id,friendInfo.Status);
+            Log.InfoFormat(" {0} :{1} GetFriendInfo:{2} Status:{3}",this.Owner.Id,this.Owner.Info.Name,friendInfo.friendInfo.Id,friendInfo.Status);
             return friendInfo;
         }
 

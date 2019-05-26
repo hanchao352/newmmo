@@ -1,7 +1,0 @@
-2019-05-23 23:16:17,192 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-23 23:16:17,204 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
-
-2019-05-23 23:16:17,216 [ 1] INFO  Unity: Character_1007_123 OnDestroy :ID:1 POS:(5361, 4000, 805) DIR:(-18, -98, 0) SPD:0 

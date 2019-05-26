@@ -106,6 +106,7 @@ namespace Services
             Debug.Log("SendTeamLeaveRequest");
             NetMessage message = new NetMessage();
             message.Request = new NetMessageRequest();
+            message.Request.teamLeave = new TeamLeaveRequest();
             message.Request.teamLeave.TeamId = User.Instance.TeamInfo.Id;
             message.Request.teamLeave.characterId = User.Instance.CurrentCharacter.Id;
             NetClient.Instance.SendMessage(message);
