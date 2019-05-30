@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="15775f8ab08e441e9260041e697783d0" Name="Diagram1" DisplayType="true" ZoomLevel="91" >
+      <Diagram DiagramId="8156ceec7da04821a1c6c8bb7ea6545a" Name="Diagram1" ZoomLevel="96" >
         <EntityTypeShape EntityType="ExtremeWorldModel.TUser" Width="1.5" PointX="0.75" PointY="5.75" />
         <EntityTypeShape EntityType="ExtremeWorldModel.TPlayer" Width="1.5" PointX="3" PointY="5.875" />
         <EntityTypeShape EntityType="ExtremeWorldModel.TCharacter" Width="1.5" PointX="5.25" PointY="4.5" />
@@ -12,18 +12,18 @@
         <EntityTypeShape EntityType="ExtremeWorldModel.TCharacterBag" Width="1.5" PointX="7.5" PointY="4" />
         <EntityTypeShape EntityType="ExtremeWorldModel.TCharacterQuest" Width="1.5" PointX="7.5" PointY="6.5" />
         <EntityTypeShape EntityType="ExtremeWorldModel.TCharacterFriend" Width="1.5" PointX="7.5" PointY="9.75" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TGuild" Width="1.5" PointX="9.75" PointY="3" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TGuildMember" Width="1.5" PointX="12" PointY="1.125" />
+        <EntityTypeShape EntityType="ExtremeWorldModel.TGuildApply" Width="1.5" PointX="12" PointY="4.75" />
         <AssociationConnector Association="ExtremeWorldModel.UserPlayer" />
         <AssociationConnector Association="ExtremeWorldModel.PlayerCharacter" />
         <AssociationConnector Association="ExtremeWorldModel.CharacterBag" />
         <AssociationConnector Association="ExtremeWorldModel.CharacterItem" />
         <AssociationConnector Association="ExtremeWorldModel.TCharacterTCharacterQuest" />
         <AssociationConnector Association="ExtremeWorldModel.TCharacterTCharacterFriend" />
-        <EntityTypeShape EntityType="ExtremeWorldModel.TGuild" Width="1.5" PointX="15.5" PointY="12.375" />
-        <EntityTypeShape EntityType="ExtremeWorldModel.TGuildMember" Width="1.5" PointX="17.75" PointY="10.5" />
-        <EntityTypeShape EntityType="ExtremeWorldModel.TGuildApply" Width="1.5" PointX="17.75" PointY="14.125" />
         <AssociationConnector Association="ExtremeWorldModel.TGuildTGuildMember" />
         <AssociationConnector Association="ExtremeWorldModel.TGuildTGuildApply" />
-      </Diagram>
+        </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

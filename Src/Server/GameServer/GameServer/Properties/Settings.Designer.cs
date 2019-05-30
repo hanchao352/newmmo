@@ -51,9 +51,9 @@ namespace GameServer.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute(@"metadata=res://*/Entities.csdl|res://*/Entities.ssdl|res://*/Entities.msl;provider=System.Data.SqlClient;provider connection string=""data source=69XB7DFG13DGIZF\MMO;initial catalog=ExtremeWorld;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework""")]
-        public string ExtremeWorld {
+        public string connectstring {
             get {
-                return ((string)(this["ExtremeWorld"]));
+                return ((string)(this["connectstring"]));
             }
         }
     }

@@ -2876,3 +2876,19 @@
 2019-05-26 15:00:44,924 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1002
 2019-05-26 15:00:44,925 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To1002:笑笑笑战士:Map1 Character:1002:笑笑笑战士
 2019-05-26 15:00:44,926 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2019-05-26 20:57:42,408 [1] [INFO ] [GameServer] ：Game Server Init
+2019-05-26 20:57:42,924 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-05-26 20:57:43,846 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-05-26 20:57:43,850 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-05-26 20:57:43,851 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-05-26 20:57:43,851 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-05-26 20:57:43,856 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-05-26 20:57:43,990 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:43,990 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:43,990 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:43,990 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:43,991 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:43,991 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:43,992 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:44,004 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-05-26 20:57:44,088 [1] [WARN ] [GameServer] ：NetService Started
