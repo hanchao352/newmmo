@@ -19,7 +19,7 @@ namespace Managers
         private Dictionary<Type, UIElement> UIResources = new Dictionary<Type, UIElement>();
         public UIManager()
         {
-            this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true });
+            this.UIResources.Add(typeof(UISetting), new UIElement() { Resources = "UI/UISetting", Cache = true });
             this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = false });
             this.UIResources.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop", Cache = false });
             this.UIResources.Add(typeof(UICharEquip), new UIElement() { Resources = "UI/UICharEquip", Cache = false });
@@ -30,7 +30,9 @@ namespace Managers
             this.UIResources.Add(typeof(UIGuild), new UIElement() { Resources = "UI/Guild/UIGuild", Cache = false });
             this.UIResources.Add(typeof(UIGuildList), new UIElement() { Resources = "UI/Guild/UIGuildList", Cache = false });
             this.UIResources.Add(typeof(UIGuildPopNoGuild), new UIElement() { Resources = "UI/Guild/UIGuildPopNoGuild", Cache = false });
-            this.UIResources.Add(typeof(UIGuildPopCreat), new UIElement() { Resources = "UI/GuiId/UIGuildPopCreat", Cache = false });
+            this.UIResources.Add(typeof(UIGuildPopCreat), new UIElement() { Resources = "UI/Guild/UIGuildPopCreat", Cache = false });
+            this.UIResources.Add(typeof(UIGuildApplyList), new UIElement() { Resources = "UI/Guild/UIGuildApplyList", Cache = false });
+            this.UIResources.Add(typeof(UIPopCharMenu), new UIElement() { Resources = "UI/UIPopCharMenu", Cache = false });
 
         }
         ~UIManager()

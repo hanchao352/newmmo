@@ -115,7 +115,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3712512049253532608}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3161503296949411088}
+        m_MethodName: OnClickJoin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &3712512049319009843
@@ -465,6 +476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3712512049738994583}
+  - component: {fileID: 2856078399408322504}
   m_Layer: 5
   m_Name: GuidInfo
   m_TagString: Untagged
@@ -496,6 +508,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000006198883}
   m_SizeDelta: {x: 479.3, y: 618.9}
   m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &2856078399408322504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712512049738994580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bfd9e4e60522542b23abdafcbda108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guildName: {fileID: 3712512051114194087}
+  guildID: {fileID: 3712512050092435880}
+  leader: {fileID: 3712512049782448153}
+  notice: {fileID: 3712512050730648751}
+  memberNumber: {fileID: 3712512050477454021}
 --- !u!1 &3712512049782448159
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,8 +870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 214.14996}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.000030517578, y: 214.14996}
+  m_SizeDelta: {x: 360, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3712512050092435883
 CanvasRenderer:
@@ -885,7 +914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E8F\u53F712"
+  m_Text: "\u516C\u4F1AID:10000"
 --- !u!1 &3712512050106005427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1066,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3712512050110568317}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3161503296949411088}
+        m_MethodName: OnCloseClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &3712512050141804354
@@ -1983,7 +2023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000005117175}
+  m_AnchoredPosition: {x: 0, y: 0.0000328822}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3712512050744468907
@@ -2244,6 +2284,7 @@ GameObject:
   - component: {fileID: 3712512050983159613}
   - component: {fileID: 3712512050983159586}
   - component: {fileID: 3712512050983159587}
+  - component: {fileID: 3161503296949411088}
   m_Layer: 5
   m_Name: UIGuildList
   m_TagString: Untagged
@@ -2331,6 +2372,24 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3161503296949411088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712512050983159584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4536f45c50271c0408af10ce5bc2df81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 7298290603647655756, guid: a41629d3454f1424397f223a5bc0c41a,
+    type: 3}
+  listMain: {fileID: 3712512050744468907}
+  itemRoot: {fileID: 3712512050744468910}
+  uiInfo: {fileID: 2856078399408322504}
+  selectedItem: {fileID: 0}
 --- !u!1 &3712512051030649688
 GameObject:
   m_ObjectHideFlags: 0

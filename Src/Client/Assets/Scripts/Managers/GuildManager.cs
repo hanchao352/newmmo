@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Common;
+using Models;
 using SkillBridge.Message;
 
 namespace Managers
@@ -10,6 +11,8 @@ namespace Managers
     public class GuildManager : Singleton<GuildManager>
     {
         internal NGuildInfo guildInfo;
+
+        public NGuildMemberInfo myMemberInfo;
 
         public bool HasGuild
         {
@@ -20,6 +23,20 @@ namespace Managers
         internal void Init(NGuildInfo guild)
         {
             this.guildInfo = guild;
+
+            if (guild==null)
+            {
+                myMemberInfo = null;
+                return;
+            }
+            foreach (var mem in guild.Members)
+            {
+                if (mem.characterId==User.Instance.CurrentCharacter.Id)
+                {
+                    myMemberInfo = mem;
+                    break;
+                }
+            }
         }
 
         internal void ShowGuiId()

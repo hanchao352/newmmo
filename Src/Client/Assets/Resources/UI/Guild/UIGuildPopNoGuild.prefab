@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 353680596783011394}
   - component: {fileID: 6518541503911657662}
   m_Layer: 5
-  m_Name: UIGuiIdPopNoGuiId
+  m_Name: UIGuildPopNoGuild
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1084,7 +1084,6 @@ GameObject:
   - component: {fileID: 5067808163373220012}
   - component: {fileID: 386194782579297773}
   - component: {fileID: 2939476093109424827}
-  - component: {fileID: 7502294484398618372}
   m_Layer: 5
   m_Name: creatguid
   m_TagString: Untagged
@@ -1204,18 +1203,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7502294484398618372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8125600394886404624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a66c2ccce2f1b74591da1b439897147, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8744694363182713076
 GameObject:
   m_ObjectHideFlags: 0

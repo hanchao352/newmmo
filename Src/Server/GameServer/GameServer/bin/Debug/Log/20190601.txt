@@ -1,0 +1,1540 @@
+
+2019-06-01 15:10:42,065 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:10:44,894 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:10:48,237 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:10:48,307 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:10:48,323 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:10:48,325 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:10:55,077 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:10:55,104 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,111 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,165 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,165 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,165 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,165 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,165 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,169 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:10:55,213 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:15:43,210 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:15:44,583 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:15:47,168 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:15:47,183 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:15:47,187 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:15:47,188 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:15:56,761 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:15:57,192 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,192 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,193 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,252 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,253 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,256 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,320 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,328 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:15:57,394 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:16:28,156 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59450]] Connected
+2019-06-01 15:16:28,285 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:16:28,658 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:16:45,316 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2019-06-01 15:16:45,344 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:哈哈哈  Class:Wizard
+2019-06-01 15:16:50,534 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:16:50,541 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:哈哈哈 Map:1
+2019-06-01 15:16:50,593 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-06-01 15:16:53,434 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:16:53,444 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2019-06-01 15:16:54,804 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 15:16:54,806 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:Idle Entity:(1:pos:(5395,4000,820),dir:(100,0,0),spd:0
+2019-06-01 15:16:57,605 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,622 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-01 15:16:57,635 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,642 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 15:16:57,650 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,657 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 15:16:57,684 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,687 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 15:16:57,701 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,708 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-01 15:16:57,717 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,732 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 15:16:57,746 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,759 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 15:16:57,797 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:16:57,798 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-01 15:17:00,150 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59459]] Connected
+2019-06-01 15:17:00,510 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:17:00,515 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-06-01 15:17:05,565 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:17:05,566 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:小战士 Map:1
+2019-06-01 15:17:06,132 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-06-01 15:17:13,581 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:13,582 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(98,-18,0),spd:0
+2019-06-01 15:17:13,683 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:13,685 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(93,-35,0),spd:0
+2019-06-01 15:17:13,763 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:13,765 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(86,-51,0),spd:0
+2019-06-01 15:17:13,847 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:13,863 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(76,-65,0),spd:0
+2019-06-01 15:17:13,932 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:13,936 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(63,-77,0),spd:0
+2019-06-01 15:17:14,015 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:14,024 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(49,-87,0),spd:0
+2019-06-01 15:17:14,098 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:14,103 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(33,-94,0),spd:0
+2019-06-01 15:17:14,204 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:17:14,205 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(14,-99,0),spd:0
+2019-06-01 15:17:14,370 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 15:17:14,373 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5395,4000,820),dir:(-3,-100,0),spd:0
+2019-06-01 15:17:22,499 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:17:22,519 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:3:哈哈哈 Map:1
+2019-06-01 15:17:22,521 [6] [INFO ] [GameServer] ：CharacterLeave : characterID:3 : 哈哈哈
+2019-06-01 15:17:22,533 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-06-01 15:17:22,535 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To3:哈哈哈:Map1 Character:3:哈哈哈
+2019-06-01 15:17:22,538 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To2:小战士:Map1 Character:3:哈哈哈
+2019-06-01 15:17:24,795 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:17:24,797 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:17:24,926 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559373356.75281
+2019-06-01 15:17:25,271 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:17:25,277 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373356.75281<1559373356.75281
+2019-06-01 15:17:25,360 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,362 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,740),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,394 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,396 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,666),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,485 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,486 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:小战士 Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,964),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,491 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373356.75281<1559373356.75281
+2019-06-01 15:17:25,498 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,500 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,615),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,694 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,696 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,561),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,828 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,830 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,503),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,909 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,910 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:小战士 Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,907),dir:(100,0,0),spd:0
+2019-06-01 15:17:25,912 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373356.75281<1559373356.75281
+2019-06-01 15:17:25,930 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:25,932 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,448),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,011 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:26,019 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,395),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,063 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:26,066 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:小战士 Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,836),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,069 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373356.75281<1559373356.75281
+2019-06-01 15:17:26,096 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:26,097 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,335),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,160 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:26,162 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,282),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,257 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:26,261 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,224),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,302 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:17:26,304 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,162),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,360 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:17:26,362 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,96),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,413 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:17:26,415 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,44),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,461 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,462 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,511 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,513 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-69),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,566 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,568 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-129),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,711 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,713 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-234),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,766 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,768 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-346),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,864 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,866 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-441),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,945 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,947 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-515),dir:(100,0,0),spd:0
+2019-06-01 15:17:26,973 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:26,977 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-670),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,012 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,014 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-724),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,045 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,047 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-779),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,082 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,083 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-835),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,114 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,115 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-921),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,145 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,148 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-980),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,195 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,208 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1070),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,247 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,252 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1132),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,291 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,294 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1226),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,332 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,333 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1290),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,368 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,369 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1356),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,407 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,410 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1456),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,449 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,451 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1524),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,484 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,485 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1593),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,511 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,513 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1699),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,560 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,562 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1771),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,595 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,596 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1844),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,627 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,628 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1918),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,661 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,663 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-1994),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,703 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,706 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2070),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,734 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,735 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2147),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,784 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,787 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2226),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,802 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,803 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2386),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,846 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,850 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2386),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,905 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,906 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2509),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,920 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,926 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2677),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,952 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,954 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2677),dir:(100,0,0),spd:0
+2019-06-01 15:17:27,981 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:27,982 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2806),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,027 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,028 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2893),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,060 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,061 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-2982),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,094 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,095 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3071),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,127 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,128 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3162),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,160 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,164 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3253),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,196 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,227 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3346),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,229 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,250 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3440),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,263 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,264 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3535),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,295 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,297 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3631),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,327 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,329 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3728),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,364 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,366 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3826),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,394 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,395 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-3926),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,427 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,450 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4026),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,466 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,468 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4128),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,495 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,497 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4230),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,528 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,529 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4334),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,561 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,563 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4439),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,595 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,597 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4545),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,628 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,629 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4652),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,661 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2019-06-01 15:17:28,662 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4760),dir:(100,0,0),spd:0
+2019-06-01 15:17:28,695 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,697 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4869),dir:(98,-18,0),spd:0
+2019-06-01 15:17:28,729 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,732 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-4979),dir:(98,-18,0),spd:0
+2019-06-01 15:17:28,761 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,767 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-5090),dir:(98,-18,0),spd:0
+2019-06-01 15:17:28,795 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,797 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-5203),dir:(93,-36,0),spd:0
+2019-06-01 15:17:28,838 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,848 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-5316),dir:(93,-36,0),spd:0
+2019-06-01 15:17:28,879 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,895 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-5489),dir:(93,-36,0),spd:0
+2019-06-01 15:17:28,936 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:28,938 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-5605),dir:(84,-55,0),spd:0
+2019-06-01 15:17:29,004 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,006 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-5841),dir:(84,-55,0),spd:0
+2019-06-01 15:17:29,036 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,044 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6081),dir:(71,-70,0),spd:0
+2019-06-01 15:17:29,068 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,074 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6203),dir:(71,-70,0),spd:0
+2019-06-01 15:17:29,113 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,114 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6326),dir:(71,-70,0),spd:0
+2019-06-01 15:17:29,125 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,131 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6450),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,177 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,227 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6512),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,254 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:100
+2019-06-01 15:17:29,327 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6575),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,327 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6701),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,330 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:150
+2019-06-01 15:17:29,367 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-6828),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,367 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7086),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,367 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7086),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,381 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,417 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7216),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,430 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:100
+2019-06-01 15:17:29,457 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7480),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,457 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7348),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,480 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,633 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7682),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,634 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:150
+2019-06-01 15:17:29,671 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-7885),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,671 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-8230),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,671 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-8440),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,750 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,753 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-8511),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,798 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,799 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-9012),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,815 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,816 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-9231),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,865 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,886 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-9305),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,886 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,929 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-9527),dir:(57,-82,0),spd:0
+2019-06-01 15:17:29,969 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:29,970 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-9602),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,003 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,006 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-9980),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,031 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,033 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-10210),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,063 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,066 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-10287),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,111 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,113 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-10442),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,133 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,133 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-10677),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,183 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,193 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,193 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-10755),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,202 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-10993),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,268 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,269 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11073),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,281 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,282 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11396),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,311 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,312 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11477),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,345 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,346 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11640),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,379 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,380 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11805),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,411 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,412 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-11970),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,445 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,448 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-12137),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,480 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,481 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-12304),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,511 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,513 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-12473),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,545 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,546 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-12643),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,580 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,581 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-12814),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,611 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,612 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-12986),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,643 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,644 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-13159),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,677 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,678 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-13334),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,709 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,710 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-13509),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,742 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,743 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-13686),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,777 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,777 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-13863),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,810 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,812 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-14042),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,845 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-14221),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,877 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-14402),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,910 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,911 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-14584),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,944 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,945 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-14767),dir:(57,-82,0),spd:0
+2019-06-01 15:17:30,977 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:30,978 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-14951),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,011 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,012 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-15137),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,045 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,046 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-15323),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,078 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,080 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-15510),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,109 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,111 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-15699),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,143 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,144 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-15888),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,176 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,177 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-16079),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,211 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,212 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-16271),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,243 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,245 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-16464),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,278 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,281 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-16658),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,311 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,327 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-16853),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,344 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,348 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-17049),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,378 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,379 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-17246),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,411 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,413 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-17445),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,442 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,443 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-17644),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,477 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,479 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-17845),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,510 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,513 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-18046),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,545 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,546 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-18249),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,578 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,581 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-18453),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,609 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,610 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-18658),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,643 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,646 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-18864),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,677 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,682 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-19071),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,711 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,717 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-19279),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,744 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,750 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-19488),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,777 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,779 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-19699),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,811 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,813 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-19910),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,844 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-20123),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,879 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,881 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-20337),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,910 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,912 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-20551),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,943 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,945 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-20767),dir:(57,-82,0),spd:0
+2019-06-01 15:17:31,978 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:31,980 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-20984),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,010 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,011 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-21202),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,045 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,046 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-21421),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,076 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,077 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-21642),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,110 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-21863),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,143 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,144 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-22085),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,177 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,178 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-22309),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,211 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,212 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-22533),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,244 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,245 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-22759),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,278 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,279 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-22986),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,311 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,313 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-23214),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,345 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,347 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-23443),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,376 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,377 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-23673),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,409 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,410 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-23904),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,443 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,444 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-24136),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,475 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,477 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-24370),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,509 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,511 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-24604),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,543 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,546 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-24840),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,577 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,580 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-25076),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,611 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,612 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-25314),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,643 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,645 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-25553),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,680 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,681 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-25793),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,713 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,715 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-26034),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,746 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-26276),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,778 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,779 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-26519),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,810 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,811 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-26764),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,844 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-27009),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,877 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-27256),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,908 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,909 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-27503),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,943 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,945 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-27627),dir:(57,-82,0),spd:0
+2019-06-01 15:17:32,978 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:32,981 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-28002),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,010 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,012 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-28253),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,044 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,046 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-28505),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,077 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,078 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-28758),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,110 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,111 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-29012),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,144 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,146 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-29267),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,177 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,179 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-29523),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,210 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,211 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-29781),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,242 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,243 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-30039),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,277 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,278 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-30169),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,309 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,311 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-30560),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,345 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,346 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-30691),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,377 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,379 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-31085),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,410 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,411 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-31349),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,442 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,443 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-31614),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,475 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,478 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-31747),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,509 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,512 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-32013),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,547 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,548 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-32281),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,578 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,579 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-32685),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,610 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,613 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-32956),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,646 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,647 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-33227),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,677 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,678 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-33500),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,713 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,715 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-33637),dir:(57,-82,0),spd:0
+2019-06-01 15:17:33,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2019-06-01 15:17:33,745 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,-34049),dir:(57,-82,0),spd:0
+2019-06-01 15:17:36,270 [3] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:17:36,273 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:17:36,276 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:17:36,277 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To2:小战士:Map1 Character:1:大战士
+2019-06-01 15:17:36,279 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:17:39,876 [15] [INFO ] [GameServer] ：CharacterLeave : characterID:2 : 小战士
+2019-06-01 15:17:39,877 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-06-01 15:17:39,878 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To2:小战士:Map1 Character:2:小战士
+2019-06-01 15:17:39,879 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:17:59,407 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:18:00,176 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:18:01,163 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:18:01,170 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:18:01,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:18:01,172 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:18:04,747 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:18:04,770 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,831 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,833 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,834 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,835 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,877 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,877 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,877 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:18:04,978 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:18:20,574 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59492]] Connected
+2019-06-01 15:18:20,704 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:18:20,994 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:18:28,723 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:18:28,737 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:18:29,735 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559373484.74297
+2019-06-01 15:18:30,043 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:18:30,048 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373484.74297<1559373484.74297
+2019-06-01 15:18:41,564 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:18:41,583 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2019-06-01 15:18:42,801 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 15:18:42,802 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5395,4000,820),dir:(100,0,0),spd:0
+2019-06-01 15:18:44,635 [15] [WARN ] [GameServer] ：Client[127.0.0.1:59507]] Connected
+2019-06-01 15:18:44,865 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:18:44,868 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-06-01 15:19:04,996 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2019-06-01 15:19:05,009 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:lalala  Class:Wizard
+2019-06-01 15:19:05,166 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,183 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-01 15:19:05,186 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,199 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 15:19:05,214 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,219 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 15:19:05,227 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,231 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 15:19:05,233 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,245 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-01 15:19:05,249 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,252 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 15:19:05,261 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,265 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 15:19:05,267 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:19:05,270 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-01 15:19:09,728 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:19:09,734 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:lalala Map:1
+2019-06-01 15:19:09,737 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2019-06-01 15:19:09,741 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373484.74297<1559373484.74297
+2019-06-01 15:19:19,608 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2019-06-01 15:19:19,631 [7] [INFO ] [GameServer] ：OnGuildList:  character:【4】  lalala
+2019-06-01 15:19:30,779 [16] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:19:30,784 [16] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:19:30,786 [16] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:19:30,793 [16] [INFO ] [GameServer] ：SendCharacterLeaveMap To4:lalala:Map1 Character:1:大战士
+2019-06-01 15:19:30,795 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:19:38,154 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-01 15:19:38,160 [6] [INFO ] [GameServer] ：OnGuildJoinRequest:  GuildId:1 characterId:[0] 
+2019-06-01 15:20:10,039 [16] [WARN ] [GameServer] ：Client[127.0.0.1:59546]] Connected
+2019-06-01 15:20:10,273 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:20:10,277 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:20:14,856 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:20:14,858 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:20:14,859 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559373578.37825
+2019-06-01 15:20:14,871 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:20:14,873 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:20:14,946 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:20:14,954 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,885),dir:(100,0,0),spd:0
+2019-06-01 15:20:14,957 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:20:14,997 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:20:15,003 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,986),dir:(100,0,0),spd:0
+2019-06-01 15:20:15,004 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:20:17,478 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:20:17,484 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5049,4000,956),dir:(100,0,0),spd:0
+2019-06-01 15:20:17,487 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:20:17,520 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:20:17,535 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5085,4000,906),dir:(100,0,0),spd:0
+2019-06-01 15:20:17,537 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:20:17,565 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:20:17,573 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5098,4000,820),dir:(100,0,0),spd:0
+2019-06-01 15:20:17,596 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:20:45,166 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2019-06-01 15:20:45,181 [6] [INFO ] [GameServer] ：OnGuildList:  character:【1】  大战士
+2019-06-01 15:20:45,182 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:21:49,096 [19] [INFO ] [GameServer] ：CharacterLeave : characterID:4 : lalala
+2019-06-01 15:21:49,122 [19] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2019-06-01 15:21:49,129 [19] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:4:lalala
+2019-06-01 15:21:49,134 [19] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559373578.37825<1559373578.37825
+2019-06-01 15:21:49,142 [19] [INFO ] [GameServer] ：SendCharacterLeaveMap To4:lalala:Map1 Character:4:lalala
+2019-06-01 15:21:49,154 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:21:57,321 [19] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:21:57,323 [19] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:21:57,330 [19] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:21:57,333 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:24:44,456 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:24:44,891 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:27:36,193 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:27:37,702 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:27:39,092 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:27:39,097 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:27:39,098 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:27:39,098 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:27:46,872 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:27:47,096 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,102 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,107 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,152 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,154 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,231 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,231 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,233 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:27:47,351 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:27:53,708 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59761]] Connected
+2019-06-01 15:27:53,829 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:27:54,177 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:28:07,330 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:28:07,335 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:28:07,930 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559374066.86202
+2019-06-01 15:28:08,498 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:28:08,509 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:10,063 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59769]] Connected
+2019-06-01 15:28:10,167 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:28:10,168 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-06-01 15:28:15,815 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:28:15,819 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:lalala Map:1
+2019-06-01 15:28:16,051 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2019-06-01 15:28:16,056 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:18,283 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:28:18,295 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2019-06-01 15:28:18,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:28:18,357 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5068,4000,861),dir:(100,0,0),spd:300
+2019-06-01 15:28:18,363 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:28:18,366 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,939),dir:(100,0,0),spd:0
+2019-06-01 15:28:18,367 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:18,415 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:28:18,419 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4983,4000,988),dir:(100,0,0),spd:0
+2019-06-01 15:28:18,422 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:18,641 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:28:18,645 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5197,4000,804),dir:(100,0,0),spd:300
+2019-06-01 15:28:18,679 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:28:18,680 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4980,4000,935),dir:(100,0,0),spd:0
+2019-06-01 15:28:18,682 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:18,813 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:28:18,814 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4980,4000,883),dir:(100,0,0),spd:0
+2019-06-01 15:28:18,816 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:18,956 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:28:18,958 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4980,4000,832),dir:(100,0,0),spd:0
+2019-06-01 15:28:18,966 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:19,256 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 15:28:19,262 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5377,4000,804),dir:(100,0,0),spd:0
+2019-06-01 15:28:20,863 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:28:20,870 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4980,4000,832),dir:(98,-18,0),spd:0
+2019-06-01 15:28:20,887 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:20,964 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:28:20,972 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4980,4000,832),dir:(93,-36,0),spd:0
+2019-06-01 15:28:20,980 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,067 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:28:21,072 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:MoveFwd Entity:(2:pos:(4980,4000,832),dir:(84,-54,0),spd:300
+2019-06-01 15:28:21,074 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,096 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:28:21,098 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(4980,4000,832),dir:(84,-54,0),spd:300
+2019-06-01 15:28:21,100 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,149 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:28:21,152 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5000,3985,832),dir:(73,-68,0),spd:300
+2019-06-01 15:28:21,154 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,248 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:28:21,251 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5024,3967,832),dir:(58,-82,0),spd:300
+2019-06-01 15:28:21,252 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,330 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:28:21,333 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5039,3947,832),dir:(43,-90,0),spd:300
+2019-06-01 15:28:21,334 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,418 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:28:21,419 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5049,3922,832),dir:(26,-97,0),spd:300
+2019-06-01 15:28:21,420 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:28:21,516 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5055,3892,832),dir:(6,-100,0),spd:300
+2019-06-01 15:28:21,518 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,599 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:28:21,601 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5055,3867,832),dir:(-12,-99,0),spd:300
+2019-06-01 15:28:21,606 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,701 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:28:21,704 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5049,3837,832),dir:(-31,-95,0),spd:300
+2019-06-01 15:28:21,705 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:21,854 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:28:21,859 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:None Entity:(2:pos:(5031,3792,832),dir:(-48,-88,0),spd:300
+2019-06-01 15:28:21,868 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:22,281 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:28:22,282 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id2  Evt:Idle Entity:(2:pos:(4979,3688,832),dir:(-48,-88,0),spd:0
+2019-06-01 15:28:22,284 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:27,249 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2019-06-01 15:28:27,269 [12] [INFO ] [GameServer] ：OnGuildList:  character:【1】  大战士
+2019-06-01 15:28:27,278 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374066.86202<1559374066.86202
+2019-06-01 15:28:30,250 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:29
+2019-06-01 15:28:30,255 [6] [INFO ] [GameServer] ：OnGuildJoinResponse:  GuildId:1 characterId:[4] lalala
+2019-06-01 15:28:31,712 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  0<1559374111.71205
+2019-06-01 15:28:47,512 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,516 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 15:28:47,517 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,517 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 15:28:47,518 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,519 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 15:28:47,525 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,527 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:6
+2019-06-01 15:28:47,531 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,532 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 15:28:47,532 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,533 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 15:28:47,535 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,537 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-01 15:28:47,543 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:28:47,544 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:10
+2019-06-01 15:29:45,338 [16] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:29:45,342 [16] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:29:45,346 [16] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:29:45,349 [16] [INFO ] [GameServer] ：SendCharacterLeaveMap To4:lalala:Map1 Character:1:大战士
+2019-06-01 15:29:45,350 [16] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559374111.71205<1559374111.71205
+2019-06-01 15:29:45,354 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:30:01,082 [17] [INFO ] [GameServer] ：CharacterLeave : characterID:4 : lalala
+2019-06-01 15:30:01,083 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2019-06-01 15:30:01,084 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To4:lalala:Map1 Character:4:lalala
+2019-06-01 15:30:01,088 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:32:53,534 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:32:54,281 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:32:55,476 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:32:55,483 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:32:55,483 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:32:55,484 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:33:03,244 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:33:03,938 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,939 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,940 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,948 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,959 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,959 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,984 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:03,984 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:33:04,060 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:33:27,534 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59931]] Connected
+2019-06-01 15:33:27,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:33:28,648 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:33:37,058 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:33:37,067 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:哈哈哈 Map:1
+2019-06-01 15:33:37,860 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-06-01 15:33:45,349 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2019-06-01 15:33:45,356 [6] [INFO ] [GameServer] ：OnGuildList:  character:【3】  哈哈哈
+2019-06-01 15:33:48,124 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2019-06-01 15:33:48,132 [7] [INFO ] [GameServer] ：OnGuildJoinRequest:  GuildId:1 characterId:[0] 哈哈哈
+2019-06-01 15:34:04,340 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,346 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-01 15:34:04,347 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,349 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 15:34:04,353 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,354 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 15:34:04,355 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,356 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 15:34:04,357 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,358 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-01 15:34:04,359 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,360 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 15:34:04,362 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,368 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 15:34:04,369 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:34:04,375 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-01 15:34:11,504 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:34:11,517 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2019-06-01 15:34:12,094 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 15:34:12,096 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:Idle Entity:(1:pos:(5195,4000,820),dir:(100,0,0),spd:0
+2019-06-01 15:34:12,327 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:34:12,328 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5195,4000,820),dir:(98,-19,0),spd:0
+2019-06-01 15:34:12,436 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:34:12,441 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5195,4000,820),dir:(93,-36,0),spd:0
+2019-06-01 15:34:12,530 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:34:12,532 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5195,4000,820),dir:(85,-52,0),spd:0
+2019-06-01 15:34:12,614 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:34:12,616 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5195,4000,820),dir:(73,-69,0),spd:0
+2019-06-01 15:34:12,711 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:34:12,712 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5195,4000,820),dir:(58,-82,0),spd:0
+2019-06-01 15:34:12,865 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:34:12,867 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:None Entity:(1:pos:(5195,4000,820),dir:(42,-91,0),spd:0
+2019-06-01 15:34:12,995 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:34:12,997 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5195,4000,820),dir:(42,-91,0),spd:300
+2019-06-01 15:34:13,344 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:34:13,346 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id1  Evt:Idle Entity:(1:pos:(5237,3895,820),dir:(42,-91,0),spd:0
+2019-06-01 15:34:43,770 [14] [INFO ] [GameServer] ：CharacterLeave : characterID:3 : 哈哈哈
+2019-06-01 15:34:43,777 [14] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-06-01 15:34:43,779 [14] [INFO ] [GameServer] ：SendCharacterLeaveMap To3:哈哈哈:Map1 Character:3:哈哈哈
+2019-06-01 15:34:43,782 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:37:03,574 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:37:04,219 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:37:05,261 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:37:05,268 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:37:05,269 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:37:05,269 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:37:10,161 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:37:10,236 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,237 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,237 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,237 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,239 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,276 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,276 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,276 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:37:10,324 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:37:31,591 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60039]] Connected
+2019-06-01 15:37:31,770 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:37:32,335 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:37:41,073 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60044]] Connected
+2019-06-01 15:37:41,205 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:37:41,209 [7] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-06-01 15:37:43,709 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:37:43,717 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:37:44,672 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559374630.15433
+2019-06-01 15:37:45,256 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:37:45,263 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:01,661 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2019-06-01 15:38:01,684 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:iijdlaskjdlsad  Class:Archer
+2019-06-01 15:38:06,360 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:38:06,362 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:iijdlaskjdlsad Map:1
+2019-06-01 15:38:06,363 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2019-06-01 15:38:06,364 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:08,595 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:38:08,603 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,939),dir:(100,0,0),spd:0
+2019-06-01 15:38:08,613 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:08,627 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:38:08,629 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5000,4000,992),dir:(100,0,0),spd:0
+2019-06-01 15:38:08,631 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:09,394 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:38:09,400 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5000,4000,992),dir:(100,0,0),spd:300
+2019-06-01 15:38:09,403 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:09,716 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:38:09,754 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5096,4000,940),dir:(100,0,0),spd:300
+2019-06-01 15:38:09,767 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:09,780 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:38:09,781 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5117,4000,890),dir:(100,0,0),spd:300
+2019-06-01 15:38:09,784 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:09,844 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:38:09,846 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5138,4000,835),dir:(100,0,0),spd:300
+2019-06-01 15:38:09,853 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:10,483 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,494 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 15:38:10,496 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,518 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 15:38:10,520 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,527 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 15:38:10,529 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,530 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:6
+2019-06-01 15:38:10,532 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,532 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 15:38:10,548 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,549 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 15:38:10,550 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,552 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-01 15:38:10,555 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:38:10,567 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:10
+2019-06-01 15:38:10,570 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 15:38:10,594 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:Idle Entity:(2:pos:(5353,4000,835),dir:(100,0,0),spd:0
+2019-06-01 15:38:10,599 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374630.15433
+2019-06-01 15:38:12,372 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2019-06-01 15:38:12,376 [7] [INFO ] [GameServer] ：OnGuildList:  character:【5】  iijdlaskjdlsad
+2019-06-01 15:38:15,260 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:29
+2019-06-01 15:38:15,265 [8] [INFO ] [GameServer] ：OnGuildJoinRequest:  GuildId:1 characterId:[0] iijdlaskjdlsad
+2019-06-01 15:38:15,333 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374695.33274
+2019-06-01 15:38:17,960 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:37
+2019-06-01 15:38:17,979 [6] [INFO ] [GameServer] ：OnGuildJoinResponse:  GuildId:1 characterId:[5] iijdlaskjdlsad
+2019-06-01 15:38:18,115 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  0<1559374698.11424
+2019-06-01 15:38:23,862 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:23,863 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5353,4000,835),dir:(98,-18,0),spd:0
+2019-06-01 15:38:23,865 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:23,941 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:23,943 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5353,4000,835),dir:(94,-35,0),spd:0
+2019-06-01 15:38:23,953 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:24,075 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:24,077 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5353,4000,835),dir:(85,-52,0),spd:0
+2019-06-01 15:38:24,078 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:24,178 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:38:24,184 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5353,4000,835),dir:(85,-52,0),spd:300
+2019-06-01 15:38:24,193 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:24,619 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:38:24,640 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:Idle Entity:(2:pos:(5457,3922,835),dir:(85,-52,0),spd:0
+2019-06-01 15:38:24,649 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:27,493 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:27,496 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2019-06-01 15:38:27,497 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:27,642 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:27,644 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-38,0),spd:0
+2019-06-01 15:38:27,647 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:27,875 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:38:27,883 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(93,-38,0),spd:300
+2019-06-01 15:38:27,894 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:28,484 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:38:28,507 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5190,3924,820),dir:(93,-38,0),spd:0
+2019-06-01 15:38:28,510 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:53,990 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:54,038 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5457,3922,835),dir:(75,-66,0),spd:0
+2019-06-01 15:38:54,057 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:38:54,065 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:54,077 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5457,3922,835),dir:(75,-66,0),spd:300
+2019-06-01 15:38:54,108 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:54,110 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:54,114 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5481,3904,835),dir:(62,-79,0),spd:300
+2019-06-01 15:38:54,123 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:54,192 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:54,199 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5499,3880,835),dir:(44,-90,0),spd:300
+2019-06-01 15:38:54,209 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:54,293 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:54,318 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5513,3845,835),dir:(26,-96,0),spd:300
+2019-06-01 15:38:54,336 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:54,505 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:38:54,541 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:Idle Entity:(2:pos:(5525,3785,835),dir:(26,-96,0),spd:0
+2019-06-01 15:38:54,543 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:38:59,350 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:38:59,353 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5190,3924,820),dir:(84,-54,0),spd:0
+2019-06-01 15:38:59,372 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:59,475 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:38:59,477 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5190,3924,820),dir:(84,-54,0),spd:300
+2019-06-01 15:38:59,482 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:59,561 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:59,563 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5210,3909,820),dir:(72,-69,0),spd:300
+2019-06-01 15:38:59,566 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:59,630 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:59,632 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5234,3891,820),dir:(58,-82,0),spd:300
+2019-06-01 15:38:59,640 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:59,710 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:59,739 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5249,3871,820),dir:(43,-90,0),spd:300
+2019-06-01 15:38:59,744 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:38:59,826 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:38:59,828 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5261,3841,820),dir:(25,-97,0),spd:300
+2019-06-01 15:38:59,831 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:00,009 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:39:00,042 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5272,3786,820),dir:(7,-100,0),spd:300
+2019-06-01 15:39:00,051 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:01,023 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:39:01,025 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5272,3491,820),dir:(7,-100,0),spd:0
+2019-06-01 15:39:01,027 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:05,061 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:39:05,064 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5272,3491,820),dir:(7,-100,0),spd:300
+2019-06-01 15:39:05,067 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:05,561 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:39:05,566 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5272,3336,820),dir:(7,-100,0),spd:0
+2019-06-01 15:39:05,624 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:08,136 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:39:08,198 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5272,3336,820),dir:(7,-100,0),spd:300
+2019-06-01 15:39:08,208 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:08,788 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:39:08,886 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5272,3131,820),dir:(-11,-99,0),spd:300
+2019-06-01 15:39:08,902 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:39:08,919 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:08,930 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5266,3101,820),dir:(-29,-96,0),spd:300
+2019-06-01 15:39:08,940 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:09,037 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:39:09,040 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5260,3071,820),dir:(-47,-88,0),spd:300
+2019-06-01 15:39:09,041 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:09,236 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:39:09,238 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5244,3039,820),dir:(-62,-78,0),spd:300
+2019-06-01 15:39:09,239 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:09,365 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:39:09,438 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5214,2999,820),dir:(-62,-78,0),spd:0
+2019-06-01 15:39:09,472 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374698.11424
+2019-06-01 15:39:27,450 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2019-06-01 15:39:27,451 [6] [INFO ] [GameServer] ：OnGuildList:  character:【1】  大战士
+2019-06-01 15:39:27,452 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374698.11424
+2019-06-01 15:39:34,798 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2019-06-01 15:39:34,799 [6] [INFO ] [GameServer] ：OnGuildJoinResponse:  GuildId:1 characterId:[3] 哈哈哈
+2019-06-01 15:39:42,261 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:39:42,264 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:大战士 Map:1
+2019-06-01 15:39:42,265 [6] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:39:42,270 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:39:42,271 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:39:42,278 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374774.983
+2019-06-01 15:39:42,283 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To5:iijdlaskjdlsad:Map1 Character:1:大战士
+2019-06-01 15:39:42,284 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:42,289 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374630.15433<1559374774.983
+2019-06-01 15:39:47,608 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:39:47,613 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:39:47,615 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559374774.983
+2019-06-01 15:39:47,621 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:39:47,626 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:47,631 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374774.983
+2019-06-01 15:39:48,667 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:39:48,681 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-06-01 15:39:48,697 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:49,218 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:39:49,233 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,701),dir:(100,0,0),spd:0
+2019-06-01 15:39:49,240 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:49,553 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:39:49,602 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,628),dir:(100,0,0),spd:0
+2019-06-01 15:39:49,629 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:49,695 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:39:49,699 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,511),dir:(100,0,0),spd:0
+2019-06-01 15:39:49,701 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:49,842 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:39:49,849 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,399),dir:(100,0,0),spd:0
+2019-06-01 15:39:49,892 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:49,999 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:39:50,068 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,251),dir:(100,0,0),spd:0
+2019-06-01 15:39:50,076 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:50,161 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:39:50,201 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,120),dir:(100,0,0),spd:0
+2019-06-01 15:39:50,209 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:50,266 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:39:50,274 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,120),dir:(100,0,0),spd:0
+2019-06-01 15:39:50,299 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:50,333 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:39:50,334 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,120),dir:(100,0,0),spd:0
+2019-06-01 15:39:50,336 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:39:50,427 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:39:50,433 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,120),dir:(100,0,0),spd:0
+2019-06-01 15:39:50,485 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374774.983
+2019-06-01 15:40:01,536 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-01 15:40:01,543 [6] [INFO ] [GameServer] ：OnGuildAdmin : character:1
+2019-06-01 15:40:01,650 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:5:iijdlaskjdlsad  1559374698.11424<1559374801.64983
+2019-06-01 15:40:01,672 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:19,039 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:40:19,047 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5525,3785,835),dir:(26,-96,0),spd:300
+2019-06-01 15:40:19,059 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:19,475 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:40:19,479 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5551,3655,835),dir:(8,-100,0),spd:300
+2019-06-01 15:40:19,489 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:19,604 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:40:19,624 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5551,3615,835),dir:(-10,-99,0),spd:300
+2019-06-01 15:40:19,629 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:19,723 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:40:19,726 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:Idle Entity:(2:pos:(5544,3580,835),dir:(-29,-96,0),spd:0
+2019-06-01 15:40:19,730 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:19,770 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 15:40:19,799 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:None Entity:(2:pos:(5544,3580,835),dir:(-29,-96,0),spd:0
+2019-06-01 15:40:19,807 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:19,855 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2019-06-01 15:40:19,860 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:MoveFwd Entity:(2:pos:(5544,3580,835),dir:(-29,-96,0),spd:300
+2019-06-01 15:40:19,865 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:40:20,423 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:40:20,424 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:iijdlaskjdlsad Entity.Id2  Evt:Idle Entity:(2:pos:(5511,3415,835),dir:(-29,-96,0),spd:0
+2019-06-01 15:40:20,426 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:41:30,323 [19] [INFO ] [GameServer] ：CharacterLeave : characterID:5 : iijdlaskjdlsad
+2019-06-01 15:41:30,326 [19] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2019-06-01 15:41:30,329 [19] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:5:iijdlaskjdlsad
+2019-06-01 15:41:30,331 [19] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559374774.983<1559374801.64983
+2019-06-01 15:41:30,335 [19] [INFO ] [GameServer] ：SendCharacterLeaveMap To5:iijdlaskjdlsad:Map1 Character:5:iijdlaskjdlsad
+2019-06-01 15:41:30,387 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:41:31,346 [22] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:41:31,348 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:41:31,349 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:41:31,350 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:44:29,232 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 15:44:30,106 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 15:44:31,682 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 15:44:31,689 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 15:44:31,690 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 15:44:31,691 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 15:44:39,637 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 15:44:39,768 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,769 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,880 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,880 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,881 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,902 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,908 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,909 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 15:44:39,983 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 15:44:43,036 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60261]] Connected
+2019-06-01 15:44:43,197 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:44:43,857 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 15:44:49,531 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:44:49,537 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:44:50,205 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559375079.62926
+2019-06-01 15:44:50,699 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:44:50,703 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375079.62926
+2019-06-01 15:44:59,980 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-01 15:44:59,989 [6] [INFO ] [GameServer] ：OnGuildAdmin : character:1
+2019-06-01 15:45:01,092 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375101.09044
+2019-06-01 15:45:40,267 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:40,383 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-01 15:45:40,433 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:40,456 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 15:45:40,475 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:40,489 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 15:45:40,521 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:40,675 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 15:45:40,738 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:40,907 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-01 15:45:41,037 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:41,208 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 15:45:41,401 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:41,656 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 15:45:41,784 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 15:45:41,896 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-01 15:45:51,744 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60297]] Connected
+2019-06-01 15:45:51,923 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 15:45:51,936 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user2  Pass:123456
+2019-06-01 15:45:56,287 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:45:56,365 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:lalala Map:1
+2019-06-01 15:45:56,989 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  0<1559375101.09044
+2019-06-01 15:45:56,992 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2019-06-01 15:45:57,003 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375101.09044
+2019-06-01 15:45:57,005 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375101.09044
+2019-06-01 15:45:58,173 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:45:58,190 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,900),dir:(100,0,0),spd:0
+2019-06-01 15:45:58,198 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375101.09044
+2019-06-01 15:45:58,264 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:45:58,267 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,972),dir:(100,0,0),spd:0
+2019-06-01 15:45:58,278 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375101.09044
+2019-06-01 15:46:02,913 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:46:02,919 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5039,4000,902),dir:(100,0,0),spd:0
+2019-06-01 15:46:02,940 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375101.09044
+2019-06-01 15:46:02,944 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:46:02,949 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5078,4000,824),dir:(100,0,0),spd:0
+2019-06-01 15:46:02,951 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375101.09044
+2019-06-01 15:46:03,098 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:46:03,100 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4952,4000,853),dir:(100,0,0),spd:0
+2019-06-01 15:46:03,111 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375101.09044
+2019-06-01 15:46:06,082 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-01 15:46:06,084 [12] [INFO ] [GameServer] ：OnGuildAdmin : character:1
+2019-06-01 15:46:06,165 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:06,174 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:09,053 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:46:09,076 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4952,4000,853),dir:(100,0,0),spd:300
+2019-06-01 15:46:09,103 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:09,291 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:46:09,299 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4991,4000,904),dir:(100,0,0),spd:300
+2019-06-01 15:46:09,303 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:09,476 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2019-06-01 15:46:09,479 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4992,4000,965),dir:(100,0,0),spd:300
+2019-06-01 15:46:09,486 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:09,625 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:46:09,629 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5048,4000,1026),dir:(98,-18,0),spd:300
+2019-06-01 15:46:09,632 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:09,740 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:46:09,790 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5064,3997,1093),dir:(93,-36,0),spd:0
+2019-06-01 15:46:09,805 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:09,926 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:46:09,967 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5072,3991,1093),dir:(73,-68,0),spd:300
+2019-06-01 15:46:09,988 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:10,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:46:10,102 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(5113,3944,1018),dir:(39,-92,0),spd:300
+2019-06-01 15:46:10,110 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:10,235 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:10,252 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5136,3886,1076),dir:(-2,-100,0),spd:300
+2019-06-01 15:46:10,283 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:10,464 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:10,469 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5136,3856,1076),dir:(-22,-97,0),spd:300
+2019-06-01 15:46:10,487 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:10,610 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2019-06-01 15:46:10,620 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5130,3826,1076),dir:(-39,-92,0),spd:300
+2019-06-01 15:46:10,636 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:10,731 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:10,761 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5108,3771,1076),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:10,768 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:10,849 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:10,861 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5108,3771,1076),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:10,881 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:11,061 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:11,065 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5108,3771,1076),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:11,078 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:11,305 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:11,307 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5044,3677,986),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:11,311 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:11,489 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:11,507 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4996,3604,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:11,514 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:11,744 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:11,752 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4996,3604,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:11,754 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:11,913 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:11,915 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4996,3604,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:11,928 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:12,076 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:12,098 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4996,3604,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:12,108 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:12,252 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:12,286 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4996,3604,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:12,320 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:12,435 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:12,447 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4996,3604,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:12,531 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:12,818 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 15:46:12,824 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4819,3368,800),dir:(-55,-83,0),spd:0
+2019-06-01 15:46:12,837 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:13,315 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 15:46:13,317 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4819,3368,800),dir:(-55,-83,0),spd:0
+2019-06-01 15:46:13,327 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:13,642 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 15:46:13,644 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4819,3368,800),dir:(-55,-83,0),spd:0
+2019-06-01 15:46:13,646 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:13,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:46:13,885 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4819,3368,800),dir:(-55,-83,0),spd:0
+2019-06-01 15:46:13,891 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:17,951 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:46:17,997 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5078,4000,824),dir:(98,-19,0),spd:0
+2019-06-01 15:46:18,005 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:46:18,018 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,212 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 15:46:18,212 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5078,4000,824),dir:(93,-37,0),spd:0
+2019-06-01 15:46:18,244 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5078,4000,824),dir:(83,-55,0),spd:0
+2019-06-01 15:46:18,275 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,328 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:46:18,429 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,451 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:MoveFwd Entity:(10:pos:(5078,4000,824),dir:(72,-69,0),spd:300
+2019-06-01 15:46:18,456 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:46:18,479 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,616 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5120,3958,824),dir:(41,-91,0),spd:300
+2019-06-01 15:46:18,617 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:135
+2019-06-01 15:46:18,619 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,634 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5120,3958,824),dir:(41,-91,0),spd:300
+2019-06-01 15:46:18,643 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5120,3958,824),dir:(41,-91,0),spd:300
+2019-06-01 15:46:18,649 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5142,3903,824),dir:(24,-97,0),spd:300
+2019-06-01 15:46:18,651 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,684 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,691 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:46:18,834 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:Idle Entity:(10:pos:(5144,3893,824),dir:(24,-97,0),spd:0
+2019-06-01 15:46:18,850 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:18,904 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:19,044 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:46:19,047 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:MoveFwd Entity:(10:pos:(5144,3893,824),dir:(24,-97,0),spd:300
+2019-06-01 15:46:19,054 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:19,407 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:46:19,417 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5169,3768,824),dir:(6,-100,0),spd:300
+2019-06-01 15:46:19,466 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:19,789 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:46:19,830 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:Idle Entity:(10:pos:(5169,3663,824),dir:(6,-100,0),spd:0
+2019-06-01 15:46:19,995 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375166.16512
+2019-06-01 15:46:27,449 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2019-06-01 15:46:27,471 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4819,3368,800),dir:(-55,-83,0),spd:300
+2019-06-01 15:46:27,492 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:27,795 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:27,798 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4756,3284,800),dir:(-70,-71,0),spd:300
+2019-06-01 15:46:27,802 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:27,928 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:27,937 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4720,3248,800),dir:(-82,-58,0),spd:300
+2019-06-01 15:46:27,984 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:29,007 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:46:29,012 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4476,3065,800),dir:(-82,-58,0),spd:0
+2019-06-01 15:46:29,031 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375166.16512
+2019-06-01 15:46:38,077 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-01 15:46:38,078 [6] [INFO ] [GameServer] ：OnGuildAdmin : character:1
+2019-06-01 15:46:38,220 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375198.22001
+2019-06-01 15:46:46,927 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-01 15:46:46,929 [6] [INFO ] [GameServer] ：OnGuildAdmin : character:1
+2019-06-01 15:46:47,048 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375207.04795
+2019-06-01 15:46:51,925 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 15:46:51,926 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4476,3065,800),dir:(-91,-42,0),spd:0
+2019-06-01 15:46:51,940 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:46:52,170 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2019-06-01 15:46:52,175 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4456,3057,800),dir:(-97,-23,0),spd:300
+2019-06-01 15:46:52,195 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:46:52,366 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:52,369 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4411,3048,800),dir:(-100,-5,0),spd:300
+2019-06-01 15:46:52,403 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:46:52,568 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:46:52,572 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4411,3048,800),dir:(-100,-5,0),spd:300
+2019-06-01 15:46:52,577 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:46:53,308 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:46:53,311 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4091,3048,800),dir:(-100,-5,0),spd:0
+2019-06-01 15:46:53,352 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:07,823 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:47:07,875 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:大战士 Map:1
+2019-06-01 15:47:07,876 [6] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:47:07,881 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:47:07,884 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:47:07,887 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375207.04795
+2019-06-01 15:47:07,890 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To4:lalala:Map1 Character:1:大战士
+2019-06-01 15:47:07,891 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:07,893 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375079.62926<1559375207.04795
+2019-06-01 15:47:10,227 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-01 15:47:10,251 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:哈哈哈 Map:1
+2019-06-01 15:47:11,003 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  0<1559375207.04795
+2019-06-01 15:47:11,013 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-06-01 15:47:11,340 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:11,452 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:13,036 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:47:13,048 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,751),dir:(100,0,0),spd:0
+2019-06-01 15:47:13,060 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:13,123 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:47:13,141 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,684),dir:(100,0,0),spd:0
+2019-06-01 15:47:13,145 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:13,323 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:47:13,334 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,607),dir:(100,0,0),spd:0
+2019-06-01 15:47:13,406 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:14,021 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:47:14,025 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,498),dir:(100,0,0),spd:0
+2019-06-01 15:47:14,051 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:14,242 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:47:14,249 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,414),dir:(100,0,0),spd:0
+2019-06-01 15:47:14,257 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:14,433 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:47:14,439 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,303),dir:(100,0,0),spd:0
+2019-06-01 15:47:14,454 [12] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:14,556 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:47:14,564 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,119),dir:(100,0,0),spd:0
+2019-06-01 15:47:14,583 [13] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:14,677 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:30
+2019-06-01 15:47:14,687 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,119),dir:(100,0,0),spd:0
+2019-06-01 15:47:14,701 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:4:lalala  1559375101.09044<1559375207.04795
+2019-06-01 15:47:37,057 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 15:47:37,064 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:MoveFwd Entity:(10:pos:(5169,3663,824),dir:(6,-100,0),spd:300
+2019-06-01 15:47:37,128 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 15:47:37,202 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:37,255 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5216,3650,805),dir:(6,-100,0),spd:300
+2019-06-01 15:47:37,350 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:37,389 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-01 15:47:37,737 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5216,3545,805),dir:(-12,-99,0),spd:300
+2019-06-01 15:47:37,854 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:108
+2019-06-01 15:47:37,986 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:38,000 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5207,3500,805),dir:(-29,-96,0),spd:300
+2019-06-01 15:47:38,000 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5201,3470,805),dir:(-47,-88,0),spd:300
+2019-06-01 15:47:38,003 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:108
+2019-06-01 15:47:38,024 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:38,039 [8] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:38,046 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5189,3446,805),dir:(-64,-77,0),spd:300
+2019-06-01 15:47:38,047 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:None Entity:(10:pos:(5171,3422,805),dir:(-76,-65,0),spd:300
+2019-06-01 15:47:38,050 [10] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:38,392 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:47:38,420 [9] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:38,422 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:4：name:lalala Entity.Id10  Evt:Idle Entity:(10:pos:(5039,3323,805),dir:(-76,-65,0),spd:0
+2019-06-01 15:47:38,443 [11] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:43,173 [18] [INFO ] [GameServer] ：CharacterLeave : characterID:4 : lalala
+2019-06-01 15:47:43,200 [18] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2019-06-01 15:47:43,211 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To3:哈哈哈:Map1 Character:4:lalala
+2019-06-01 15:47:43,213 [18] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:43,225 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To4:lalala:Map1 Character:4:lalala
+2019-06-01 15:47:43,230 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 15:47:46,545 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-06-01 15:47:46,552 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:MoveFwd Entity:(11:pos:(5000,4000,119),dir:(100,0,0),spd:300
+2019-06-01 15:47:47,185 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2019-06-01 15:47:47,189 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:Idle Entity:(11:pos:(5190,4000,119),dir:(100,0,0),spd:0
+2019-06-01 15:47:49,381 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-06-01 15:47:49,383 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:MoveFwd Entity:(11:pos:(5190,4000,119),dir:(100,0,0),spd:300
+2019-06-01 15:47:50,984 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:50,987 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5680,4000,119),dir:(98,-20,0),spd:300
+2019-06-01 15:47:51,080 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,083 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5710,3994,119),dir:(93,-37,0),spd:300
+2019-06-01 15:47:51,180 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,181 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5740,3982,119),dir:(84,-54,0),spd:300
+2019-06-01 15:47:51,364 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,365 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5780,3952,119),dir:(73,-68,0),spd:300
+2019-06-01 15:47:51,532 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,534 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5816,3925,119),dir:(58,-82,0),spd:300
+2019-06-01 15:47:51,607 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,613 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5834,3901,119),dir:(40,-92,0),spd:300
+2019-06-01 15:47:51,711 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,716 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5846,3871,119),dir:(20,-98,0),spd:300
+2019-06-01 15:47:51,841 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 15:47:51,843 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5852,3841,119),dir:(1,-100,0),spd:300
+2019-06-01 15:47:52,002 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-01 15:47:52,005 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:None Entity:(11:pos:(5852,3791,119),dir:(-17,-99,0),spd:300
+2019-06-01 15:47:53,234 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2019-06-01 15:47:53,236 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3：name:哈哈哈 Entity.Id11  Evt:Idle Entity:(11:pos:(5791,3486,119),dir:(-17,-99,0),spd:0
+2019-06-01 15:47:59,741 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:47:59,770 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:3:哈哈哈 Map:1
+2019-06-01 15:47:59,775 [6] [INFO ] [GameServer] ：CharacterLeave : characterID:3 : 哈哈哈
+2019-06-01 15:47:59,786 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-06-01 15:47:59,791 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To3:哈哈哈:Map1 Character:3:哈哈哈
+2019-06-01 15:47:59,796 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:47:59,801 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:3:哈哈哈  1559375207.04795<1559375207.04795
+2019-06-01 15:48:03,782 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 15:48:03,783 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 15:48:03,791 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559375207.04795
+2019-06-01 15:48:03,798 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 15:48:03,799 [6] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559375207.04795<1559375207.04795
+2019-06-01 15:48:04,596 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-01 15:48:04,597 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id12  Evt:None Entity:(12:pos:(5000,4000,763),dir:(100,0,0),spd:0
+2019-06-01 15:48:05,846 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 15:48:05,853 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id12  Evt:MoveFwd Entity:(12:pos:(5000,4000,763),dir:(100,0,0),spd:300
+2019-06-01 15:48:06,297 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 15:48:06,302 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id12  Evt:Idle Entity:(12:pos:(5165,4000,763),dir:(100,0,0),spd:0
+2019-06-01 15:48:13,115 [18] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : 大战士
+2019-06-01 15:48:13,117 [18] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-01 15:48:13,118 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:大战士:Map1 Character:1:大战士
+2019-06-01 15:48:13,119 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-01 23:44:49,190 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-01 23:44:49,750 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-01 23:44:50,757 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-01 23:44:50,763 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-01 23:44:50,764 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2019-06-01 23:44:50,764 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-01 23:44:54,767 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-01 23:44:54,819 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,820 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,821 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,833 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,831 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,868 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,868 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,868 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-01 23:44:54,908 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-01 23:45:24,506 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60202]] Connected
+2019-06-01 23:45:24,766 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-01 23:45:25,027 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-01 23:45:31,083 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-01 23:45:31,088 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:大战士 Map:1
+2019-06-01 23:45:31,421 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  0<1559403894.76286
+2019-06-01 23:45:31,615 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-01 23:45:31,618 [7] [INFO ] [GameServer] ：PostProcess>Guild:characterID:1:大战士  1559403894.76286<1559403894.76286
+2019-06-01 23:45:37,192 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,206 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2019-06-01 23:45:37,288 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,289 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+2019-06-01 23:45:37,356 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,358 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(85,-52,0),spd:0
+2019-06-01 23:45:37,453 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,456 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(73,-69,0),spd:0
+2019-06-01 23:45:37,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,542 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(57,-82,0),spd:0
+2019-06-01 23:45:37,639 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,641 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(42,-91,0),spd:0
+2019-06-01 23:45:37,746 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:37,747 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(25,-97,0),spd:0
+2019-06-01 23:45:38,099 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:38,100 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(7,-100,0),spd:0
+2019-06-01 23:45:38,236 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,238 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-11,-99,0),spd:0
+2019-06-01 23:45:38,362 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,367 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-31,-95,0),spd:0
+2019-06-01 23:45:38,438 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,441 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-47,-88,0),spd:0
+2019-06-01 23:45:38,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,543 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-62,-79,0),spd:0
+2019-06-01 23:45:38,649 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,653 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-74,-67,0),spd:0
+2019-06-01 23:45:38,753 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,754 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-85,-53,0),spd:0
+2019-06-01 23:45:38,863 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,865 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-93,-37,0),spd:0
+2019-06-01 23:45:38,946 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-01 23:45:38,948 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-98,-18,0),spd:0
+2019-06-01 23:45:39,011 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2019-06-01 23:45:39,013 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-100,0,0),spd:0
+2019-06-01 23:45:39,577 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:39,579 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-98,18,0),spd:0
+2019-06-01 23:45:39,705 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:39,706 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-93,35,0),spd:0
+2019-06-01 23:45:39,804 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:39,805 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-84,54,0),spd:0
+2019-06-01 23:45:39,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:39,921 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-72,70,0),spd:0
+2019-06-01 23:45:40,037 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:40,038 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(5000,4000,820),dir:(-58,82,0),spd:0
+2019-06-01 23:45:46,893 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 23:45:46,895 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(-58,82,0),spd:300
+2019-06-01 23:45:47,691 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 23:45:47,694 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4853,4196,820),dir:(-58,82,0),spd:0
+2019-06-01 23:45:48,639 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-01 23:45:48,647 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4853,4196,820),dir:(-58,82,0),spd:300
+2019-06-01 23:45:49,654 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-01 23:45:49,656 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4706,4417,806),dir:(-58,82,0),spd:300
+2019-06-01 23:45:49,801 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-01 23:45:49,802 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4676,4457,806),dir:(-58,82,0),spd:0
+2019-06-01 23:45:50,539 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:50,542 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4676,4457,806),dir:(-43,90,0),spd:0
+2019-06-01 23:45:50,644 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:50,645 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4676,4457,806),dir:(-27,96,0),spd:0
+2019-06-01 23:45:50,755 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-01 23:45:50,757 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4676,4457,806),dir:(-7,100,0),spd:0
+2019-06-01 23:45:50,859 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:50,860 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4676,4457,806),dir:(14,99,0),spd:0
+2019-06-01 23:45:50,973 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:50,976 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4676,4457,806),dir:(32,95,0),spd:0
+2019-06-01 23:45:51,123 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:51,125 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4676,4457,806),dir:(48,88,0),spd:0
+2019-06-01 23:45:51,312 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2019-06-01 23:45:51,313 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4676,4457,806),dir:(48,88,0),spd:300
+2019-06-01 23:45:51,711 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-06-01 23:45:51,713 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4724,4553,806),dir:(48,88,0),spd:0
+2019-06-01 23:45:51,931 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:51,933 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4724,4553,806),dir:(64,77,0),spd:0
+2019-06-01 23:45:52,040 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:52,044 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4724,4553,806),dir:(77,64,0),spd:0
+2019-06-01 23:45:52,118 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:52,119 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4724,4553,806),dir:(88,47,0),spd:0
+2019-06-01 23:45:52,247 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:52,248 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4724,4553,806),dir:(95,30,0),spd:0
+2019-06-01 23:45:52,313 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2019-06-01 23:45:52,314 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:MoveFwd Entity:(1:pos:(4724,4553,806),dir:(95,30,0),spd:300
+2019-06-01 23:45:52,362 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-01 23:45:52,363 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4773,4526,806),dir:(95,30,0),spd:300
+2019-06-01 23:45:52,969 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-06-01 23:45:52,970 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:Idle Entity:(1:pos:(4968,4604,806),dir:(95,30,0),spd:0
+2019-06-01 23:45:53,318 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:53,320 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4968,4604,806),dir:(88,47,0),spd:0
+2019-06-01 23:45:53,402 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:53,403 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4968,4604,806),dir:(77,64,0),spd:0
+2019-06-01 23:45:53,499 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:53,501 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4968,4604,806),dir:(64,77,0),spd:0
+2019-06-01 23:45:53,602 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:53,603 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4968,4604,806),dir:(47,88,0),spd:0
+2019-06-01 23:45:53,696 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:53,697 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4968,4604,806),dir:(28,96,0),spd:0
+2019-06-01 23:45:53,828 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2019-06-01 23:45:53,829 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1：name:大战士 Entity.Id1  Evt:None Entity:(1:pos:(4968,4604,806),dir:(10,100,0),spd:0
+2019-06-01 23:45:55,047 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,051 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-01 23:45:55,051 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,053 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-01 23:45:55,055 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,056 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-01 23:45:55,057 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,060 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-01 23:45:55,061 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,062 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-01 23:45:55,063 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,065 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-01 23:45:55,067 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,071 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-01 23:45:55,072 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-01 23:45:55,074 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9

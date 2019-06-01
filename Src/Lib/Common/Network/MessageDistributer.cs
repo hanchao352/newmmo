@@ -221,5 +221,10 @@ namespace Network
                 Log.Warning("MessageDistribute thread end");
             }
         }
+
+        public void Subscribe<T1>(object onGuildList)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -8,6 +8,7 @@ using Common.Data;
 using SkillBridge.Message;
 using Managers;
 using System;
+using Common.Utils;
 
 public class UIGuildMemberItem : ListView.ListViewItem
 {
@@ -28,20 +29,21 @@ public class UIGuildMemberItem : ListView.ListViewItem
         this.background.overrideSprite = selected ? selecteBg :normalBg;
     }
     public NGuildMemberInfo Info;
-    public void SendGuildMemberInfo(NGuildMemberInfo item)
+    public void SetGuildMemberInfo(NGuildMemberInfo item)
     {
+        
         this.Info = item;
         if (this.nickName != null) this.nickName.text = this.Info.Info.Name;
         if (this.@class != null) this.@class.text = this.Info.Info.Class.ToString();
         if (this.level != null) this.level.text = this.Info.Info.Level.ToString();
         if (this.title != null) this.title.text = this.Info.Title.ToString();
-        //if (this.joinTime != null) this.joinTime.text = TimeUtil.GetTime(this.Info.joinTime).ToShortDateString();
-        //if (this.status != null) this.status.text = this.Info.Status==1?"在线":TimeUtil.GetTime(this.Info.joinTime).ToShortDateString();
+        if (this.joinTime != null) this.joinTime.text = TimeUtil.GetTime(this.Info.joinTime).ToShortDateString();
+        if (this.status != null) this.status.text = this.Info.Status == 1 ? "在线" : TimeUtil.GetTime(this.Info.joinTime).ToShortDateString();
 
     }
 
-    internal void SetGuildMemberInfo(NGuildMemberInfo item)
-    {
-        throw new NotImplementedException();
-    }
+    //internal void SetGuildMemberInfo(NGuildMemberInfo item)
+    //{
+        
+    //}
 }

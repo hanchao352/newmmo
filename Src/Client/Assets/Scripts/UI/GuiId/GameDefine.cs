@@ -1,4 +1,4 @@
 ﻿internal class GameDefine
 {
-    public static object GuildMaxMemberCount { get; internal set; }
+    public static int GuildMaxMemberCount = 500;
 }

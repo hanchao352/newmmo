@@ -1,87 +1,47 @@
-2019-05-26 14:43:48,777 [ 1] INFO  Unity: RemoveCharacter:2
-2019-05-26 14:43:48,808 [ 1] INFO  Unity: OnFriendList
-2019-05-26 14:43:59,369 [ 1] INFO  Unity: Character_1002_笑笑笑战士 OnDestroy :ID:2 POS:(5148, 3889, 820) DIR:(59, -81, 0) SPD:0 
-2019-05-26 14:44:03,835 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+2019-06-02 01:46:48,759 [ 1] INFO  Unity: LoadingManager start
+2019-06-02 01:46:54,134 [ 1] INFO  Unity: DataManager > DataManager()
+2019-06-02 01:46:55,586 [ 1] INFO  Unity: 
+2019-06-02 01:47:03,506 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-06-02 01:47:03,528 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-06-02 01:47:03,530 [ 1] INFO  Unity: DoConnect
+2019-06-02 01:47:03,533 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-06-02 01:47:03,536 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
-  at Network.NetClient.ProcessRecv () [0x00084] in E:\newmmo\Src\Client\Assets\Scripts\Network\NetClient.cs:338 
+2019-06-02 01:47:03,550 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-06-02 01:47:05,856 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-06-02 01:47:05,864 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-06-02 01:47:07,533 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-06-02 01:47:08,867 [ 1] INFO  Unity: Select Char:[1]大战士[Warrior]
+2019-06-02 01:47:09,969 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2019-06-02 01:47:10,646 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-06-02 01:47:10,757 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
+2019-06-02 01:47:10,758 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-06-02 01:47:10,842 [ 1] INFO  Unity: OnGuild: Success  1:哈哈哈公会
+2019-06-02 01:47:10,844 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-06-02 01:47:10,858 [ 1] INFO  Unity: AddCharacter:1:大战士 Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-06-02 01:47:10,881 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-06-02 01:47:15,009 [ 1] WARN  Unity: UIMain [-1006288] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-26 14:44:03,837 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
-Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:352)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+2019-06-02 01:47:15,011 [ 1] WARN  Unity: MainPlayerCamera [-1003178] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-26 14:44:03,906 [ 1] INFO  Unity: DoConnect
-2019-05-26 14:44:03,908 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-26 14:44:03,912 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-06-02 01:47:15,012 [ 1] WARN  Unity: GameObjectManager [-1003132] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-26 14:44:04,920 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
+2019-06-02 01:47:15,040 [ 1] WARN  Unity: UIWorldElementManager [458640] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-05-26 14:44:04,921 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
-
-2019-05-26 14:44:05,102 [ 1] INFO  Unity: DoConnect
-2019-05-26 14:44:05,104 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-26 14:44:05,108 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
-
-2019-05-26 14:44:06,117 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
-
-2019-05-26 14:44:06,118 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
-
-2019-05-26 14:44:06,185 [ 1] INFO  Unity: DoConnect
-2019-05-26 14:44:06,187 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-05-26 14:44:06,190 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2019-05-26 14:44:07,194 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
-
-2019-05-26 14:44:07,196 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
-
-2019-05-26 14:44:07,196 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2019-05-26 14:44:07,357 [ 1] INFO  Unity: Character_1_大战士 OnDestroy :ID:1 POS:(5485, 4000, 820) DIR:(-49, -87, 0) SPD:0 
-2019-05-26 14:44:07,358 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-26 14:44:07,358 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-06-02 01:47:15,153 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-06-02 01:47:21,339 [ 1] INFO  Unity: Set Channel:Local
+2019-06-02 01:59:43,926 [ 1] INFO  Unity: Set Channel:All
+2019-06-02 02:01:35,691 [ 1] INFO  Unity: Character_1_大战士 OnDestroy :ID:9 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2019-06-02 02:01:35,694 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-06-02 02:01:35,696 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)

@@ -1,8 +1,55 @@
-2019-05-26 21:08:22,518 [ 1] INFO  Unity: LoadingManager start
-2019-05-26 21:08:26,088 [ 1] INFO  Unity: DataManager > DataManager()
-2019-05-26 21:08:26,701 [ 1] INFO  Unity: 
-2019-05-26 21:08:35,243 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-05-26 21:08:35,245 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-06-02 02:31:27,198 [ 1] INFO  Unity: LoadingManager start
+2019-06-02 02:31:30,809 [ 1] INFO  Unity: DataManager > DataManager()
+2019-06-02 02:31:31,211 [ 1] INFO  Unity: 
+2019-06-02 02:31:46,960 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-06-02 02:31:46,962 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-06-02 02:31:46,965 [ 1] INFO  Unity: DoConnect
+2019-06-02 02:31:46,969 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-06-02 02:31:46,973 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2019-06-02 02:31:46,978 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-06-02 02:31:47,286 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-06-02 02:31:47,289 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-06-02 02:31:47,911 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-06-02 02:31:48,896 [ 1] INFO  Unity: Select Char:[1]大战士[Warrior]
+2019-06-02 02:31:49,669 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2019-06-02 02:31:49,726 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-06-02 02:31:49,730 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
+2019-06-02 02:31:49,731 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-06-02 02:31:49,747 [ 1] INFO  Unity: OnGuild: Success  1:哈哈哈公会
+2019-06-02 02:31:49,749 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-06-02 02:31:49,752 [ 1] INFO  Unity: AddCharacter:1:大战士 Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-06-02 02:31:49,758 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-06-02 02:31:50,701 [ 1] WARN  Unity: UIMain [-26602] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-06-02 02:31:50,703 [ 1] WARN  Unity: MainPlayerCamera [-23400] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-06-02 02:31:50,704 [ 1] WARN  Unity: GameObjectManager [-23354] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-06-02 02:31:50,715 [ 1] WARN  Unity: UIWorldElementManager [33386] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
+
+2019-06-02 02:31:50,781 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-06-02 02:31:50,887 [ 1] INFO  Unity: 0
+2019-06-02 02:31:50,892 [ 1] INFO  Unity: Set Channel:Local
+2019-06-02 02:31:52,189 [ 1] INFO  Unity: MoveForward
+2019-06-02 02:31:52,192 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(100,0,0) SPD:300
+2019-06-02 02:31:52,307 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
+2019-06-02 02:31:52,308 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5035,4000,820) DIR:(98,-20,0) SPD:300
+2019-06-02 02:31:52,491 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2019-06-02 02:31:52,493 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5095,3988,820) DIR:(93,-37,0) SPD:300
+2019-06-02 02:31:52,736 [ 1] INFO  Unity: Stop
+2019-06-02 02:31:52,737 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5165,3960,820) DIR:(93,-37,0) SPD:0
+2019-06-02 02:31:59,812 [ 1] INFO  Unity: Character_1_大战士 OnDestroy :ID:10 POS:(5165, 3960, 820) DIR:(93, -37, 0) SPD:0 
+2019-06-02 02:31:59,820 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-06-02 02:31:59,823 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)

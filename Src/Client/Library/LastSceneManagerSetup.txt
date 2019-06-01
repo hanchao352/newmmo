@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UIScene.unity
+- path: Assets/Levels/Loading.unity
   isLoaded: 1
   isActive: 1
