@@ -98,7 +98,7 @@ namespace Services
             message.Request.guildJoinReq = new GuildJoinRequest();
             message.Request.guildJoinReq.Apply = new NGuildApplyInfo();
             message.Request.guildJoinReq.Apply.GuildId = guildId;
-            message.Request.guildJoinReq.Apply.Name = User.Instance.CurrentCharacter.Name;
+          //  message.Request.guildJoinReq.Apply.Name = User.Instance.CurrentCharacter.Name;
             NetClient.Instance.SendMessage(message);
         }
         /// <summary>

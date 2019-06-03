@@ -44,7 +44,7 @@ namespace GameServer.Services
             //byte[] data = PackageHandler.PackMessage(message);
             //connection.SendData(data,0,data.Length);
             connection.Session.Response.mapEntitySync = new MapEntitySyncResponse();
-            connection.Session.Response.mapEntitySync.entitySyncs.Add(entitySync);
+            connection.Session.Response.mapEntitySync.entitySyncs.Add(entitySync);            
             connection.SendResponse();
         }
 

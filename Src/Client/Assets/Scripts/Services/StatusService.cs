@@ -76,6 +76,8 @@ namespace Services
             {
                 handler(status);
             }
+            
+           
         }
     }
 }

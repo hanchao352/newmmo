@@ -1,4 +1,5 @@
-﻿using SkillBridge.Message;
+﻿using Common;
+using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
 using System.Linq;

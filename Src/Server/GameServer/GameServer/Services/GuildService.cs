@@ -118,7 +118,9 @@ namespace GameServer.Services
             if (response.Result==Result.Success)
             {
                 //接受了公会请求
-                guild.JoinAppove(response.Apply);
+                guild.JoinAppove(response.Apply);              
+                sender.Session.Response.Guild = new GuildResponse();
+                sender.Session.Response.Guild.guildInfo = guild.GuildInfo(character);
             }
 
             var requester = SessionManager.Instance.GetSession(response.Apply.characterId);
@@ -131,7 +133,10 @@ namespace GameServer.Services
                 requester.Session.Response.guildJoinRes.Result = Result.Success;
                 requester.Session.Response.guildJoinRes.Errormsg = "加入公会成功";
                 requester.SendResponse();
-            }
+                
+            }  
+            
+          
         }
 
         private void OnGuildLeave(NetConnection<NetSession> sender, GuildLeaveRequest request)
@@ -157,7 +162,8 @@ namespace GameServer.Services
                 sender.SendResponse();
                 return;
             }
-            character.Guild.ExecuteAdmin(message.Command,message.Target,character.Id);
+            var guild = character.Guild;
+            guild.ExecuteAdmin(message.Command,message.Target,character.Id);
 
             var target = SessionManager.Instance.GetSession(message.Target);
             if (target!=null)
@@ -165,10 +171,14 @@ namespace GameServer.Services
                 target.Session.Response.guildAdmin = new GuildAdminResponse();
                 target.Session.Response.guildAdmin.Result = Result.Success;
                 target.Session.Response.guildAdmin.Command = message;
+                target.Session.Response.Guild = new GuildResponse();
+                target.Session.Response.Guild.guildInfo = guild.GuildInfo(character) ;
                 target.SendResponse();
             }
             sender.Session.Response.guildAdmin.Result = Result.Success;
             sender.Session.Response.guildAdmin.Command = message;
+            sender.Session.Response.Guild = new GuildResponse();
+            sender.Session.Response.Guild.guildInfo = guild.GuildInfo(character);
             sender.SendResponse();
         }
 

@@ -33,6 +33,8 @@ namespace GameServer.Entities
 
         public Guild Guild;
         public double GuildUpdateTS;
+
+        public Chat Chat;
         public Character(CharacterType type, TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
@@ -73,6 +75,7 @@ namespace GameServer.Entities
             this.FriendManager.GetFriendInfos(this.Info.Friends);
 
             this.Guild = GuildManager.Instance.GetGuild(this.Data.GuildId);
+            this.Chat = new Chat(this);
         }
 
        
@@ -105,26 +108,29 @@ namespace GameServer.Entities
             }
             if (this.Guild!=null)
             {
-                Log.InfoFormat("PostProcess>Guild:characterID:{0}:{1}  {2}<{3}",this.Id,this.Info.Name,GuildUpdateTS,this.Guild.timestamp);
-                if (this.Info.Guild==null)
+                Log.InfoFormat("PostProcess>Guild:characterID:{0}:{1}  {2}<{3}",this.Id,this.Info.Name,GuildUpdateTS,this.Guild.timestamp,ConsoleColor.Yellow);
+                if (this.Info.Guild == null)
                 {
                     this.Info.Guild = this.Guild.GuildInfo(this);
-                    if (message.mapCharacterEnter!=null)
+                    if (message.mapCharacterEnter != null)
                     {
                         GuildUpdateTS = Guild.timestamp;
                     }
-                    if (GuildUpdateTS<this.Guild.timestamp&&message.mapCharacterEnter==null)
+                    if (GuildUpdateTS < this.Guild.timestamp && message.mapCharacterEnter == null)
                     {
                         GuildUpdateTS = Guild.timestamp;
-                        this.Guild.PostProcess(this,message);
+
+                        this.Guild.PostProcess(this, message);
                     }
                 }
+               
             }
 
             if (this.StatusManager.HasStatus)
             {
                 this.StatusManager.PostProcess(message);
             }
+            this.Chat.PostProcess(message);
         }
         /// <summary>
         /// 角色离开时调用

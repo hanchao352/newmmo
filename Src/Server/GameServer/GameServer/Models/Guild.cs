@@ -120,8 +120,9 @@ namespace GameServer.Models
             if (message.Guild == null)
             {
                 message.Guild = new GuildResponse();
-                message.Guild.Result = Result.Success;
+                message.Guild.Result = Result.Success;               
                 message.Guild.guildInfo = this.GuildInfo(from);
+               
             }
         }
 
@@ -168,7 +169,7 @@ namespace GameServer.Models
                 if (character!=null)
                 {
                     memberInfo.Info = character.GetBasicInfo();
-                    memberInfo.Status = 1;
+                    memberInfo.Status =1;
                     member.Level = character.Data.Level;
                     member.Name = character.Data.Name;
                     member.LastTime = DateTime.Now;
