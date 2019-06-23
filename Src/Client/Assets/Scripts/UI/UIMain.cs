@@ -1,4 +1,5 @@
-﻿using Managers;
+﻿using Entities;
+using Managers;
 using Models;
 using System;
 using System.Collections;
@@ -11,16 +12,22 @@ public class UIMain : MonoSingleton<UIMain> {
     public Text avatarName;
     public Text avatarLevel;
     public UITeam TeamWindow;
+
+    public UICreatureInfo targetUI;
 	// Use this for initialization
 	protected override  void OnStart () {
         this.UpdateAvatar();
+        this.targetUI.gameObject.SetActive(false);
+        BattleManager.Instance.OnTargetChanged += OnTargetChanged;
 
 	}
 
+   
+
     void UpdateAvatar()
     {
-        this.avatarName.text = string.Format("{0}[{1}]", User.Instance.CurrentCharacter.Name, User.Instance.CurrentCharacter.Id);
-        this.avatarLevel.text = User.Instance.CurrentCharacter.Level.ToString();
+        this.avatarName.text = string.Format("{0}[{1}]", User.Instance.CurrentCharacterInfo.Name, User.Instance.CurrentCharacterInfo.Id);
+        this.avatarLevel.text = User.Instance.CurrentCharacterInfo.Level.ToString();
     }
 
    
@@ -68,7 +75,7 @@ public class UIMain : MonoSingleton<UIMain> {
 
     public void OnClickRide()
     {
-
+        UIManager.Instance.Show<UIRide>();
     }
     public void OnClickSetting()
     {
@@ -77,12 +84,25 @@ public class UIMain : MonoSingleton<UIMain> {
 
     public void OnClickSkill()
     {
-
+        UIManager.Instance.Show<UISkill>();
     }
 
 
     public void ShowTeamUI(bool show)
     {
         TeamWindow.ShowTeam(show);
+    }
+
+    private void OnTargetChanged(Creature target)
+    {
+        if (target!=null)
+        {
+            if (!targetUI.isActiveAndEnabled) targetUI.gameObject.SetActive(true);
+            targetUI.Target = target;
+        }
+        else
+        {
+            targetUI.gameObject.SetActive(false);
+        }
     }
 }

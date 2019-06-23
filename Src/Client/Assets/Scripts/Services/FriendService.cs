@@ -41,8 +41,8 @@ namespace Services
             NetMessage message = new NetMessage();
             message.Request = new NetMessageRequest();
             message.Request.friendAddReq = new FriendAddRequest();
-            message.Request.friendAddReq.FromId = User.Instance.CurrentCharacter.Id;
-            message.Request.friendAddReq.FromName = User.Instance.CurrentCharacter.Name;
+            message.Request.friendAddReq.FromId = User.Instance.CurrentCharacterInfo.Id;
+            message.Request.friendAddReq.FromName = User.Instance.CurrentCharacterInfo.Name;
             message.Request.friendAddReq.ToId = friendId;
             message.Request.friendAddReq.ToName = friendName;
             NetClient.Instance.SendMessage(message);
@@ -84,10 +84,10 @@ namespace Services
         /// <param name="message"></param>
         private void OnFriendAddResponse(object sender, FriendAddResponse message)
         {
-            Debug.Log(User.Instance.CurrentCharacter.Name);
+            Debug.Log(User.Instance.CurrentCharacterInfo.Name);
             if (message.Result == Result.Success)
             {
-                if (message.Request.ToId != User.Instance.CurrentCharacter.Id)
+                if (message.Request.ToId != User.Instance.CurrentCharacterInfo.Id)
                 {
                     MessageBox.Show(message.Request.ToName + "接受了你的请求", "添加好友成功");
                 }

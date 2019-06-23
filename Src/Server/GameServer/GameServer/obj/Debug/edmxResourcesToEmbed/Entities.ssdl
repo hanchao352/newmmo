@@ -70,6 +70,8 @@
     <Property Name="Class" Type="int" Nullable="false" />
     <Property Name="Level" Type="int" Nullable="false" />
     <Property Name="Exp" Type="bigint" Nullable="false" />
+    <Property Name="HP" Type="int" Nullable="false" />
+    <Property Name="MP" Type="int" Nullable="false" />
     <Property Name="MapID" Type="int" Nullable="false" DefaultValue="1" />
     <Property Name="MapPosX" Type="int" Nullable="false" />
     <Property Name="MapPosY" Type="int" Nullable="false" />

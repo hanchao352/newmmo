@@ -10,6 +10,7 @@ namespace Managers
 
         public delegate bool NpcActionHandler(NpcDefine npc);
         Dictionary<NpcFunction, NpcActionHandler> eventMap = new Dictionary<NpcFunction, NpcActionHandler>();
+        Dictionary<int, Vector3> npcPositions = new Dictionary<int, Vector3>();
         public void RegisterNpcEvent(NpcFunction function,NpcActionHandler action)
         {
             if (!eventMap.ContainsKey(function))
@@ -72,6 +73,15 @@ namespace Managers
             }
             return eventMap[npc.Function](npc);
         }
+        internal void UpdateNpcPosition(int npc, Vector3 pos)
+        {
+            this.npcPositions[npc] = pos;
+        }
+        internal Vector3 GetNpcPosition(int npc)
+        {
+            return this.npcPositions[npc];
+        }
     }
+    
 }
 

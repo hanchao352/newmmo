@@ -65,32 +65,59 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(7, Name = @"level")]
         public int Level { get; set; }
 
-        [global::ProtoBuf.ProtoMember(8)]
+        [global::ProtoBuf.ProtoMember(8, Name = @"exp")]
+        public long Exp { get; set; }
+
+        [global::ProtoBuf.ProtoMember(9)]
+        public NAttributeDynamic attrDynamic { get; set; }
+
+        [global::ProtoBuf.ProtoMember(10)]
         public int mapId { get; set; }
 
-        [global::ProtoBuf.ProtoMember(9, Name = @"entity")]
+        [global::ProtoBuf.ProtoMember(11, Name = @"entity")]
         public NEntity Entity { get; set; }
 
-        [global::ProtoBuf.ProtoMember(10, Name = @"gold")]
+        [global::ProtoBuf.ProtoMember(12, Name = @"gold")]
         public long Gold { get; set; }
 
-        [global::ProtoBuf.ProtoMember(11)]
+        [global::ProtoBuf.ProtoMember(13)]
         public global::System.Collections.Generic.List<NItemInfo> Items { get; } = new global::System.Collections.Generic.List<NItemInfo>();
 
-        [global::ProtoBuf.ProtoMember(12)]
+        [global::ProtoBuf.ProtoMember(14)]
         public NBagInfo Bag { get; set; }
 
-        [global::ProtoBuf.ProtoMember(13)]
+        [global::ProtoBuf.ProtoMember(15)]
         public byte[] Equips { get; set; }
 
-        [global::ProtoBuf.ProtoMember(14, Name = @"quests")]
+        [global::ProtoBuf.ProtoMember(16, Name = @"quests")]
         public global::System.Collections.Generic.List<NQuestInfo> Quests { get; } = new global::System.Collections.Generic.List<NQuestInfo>();
 
-        [global::ProtoBuf.ProtoMember(15, Name = @"friends")]
+        [global::ProtoBuf.ProtoMember(17, Name = @"friends")]
         public global::System.Collections.Generic.List<NFriendInfo> Friends { get; } = new global::System.Collections.Generic.List<NFriendInfo>();
 
-        [global::ProtoBuf.ProtoMember(16, Name = @"guild")]
+        [global::ProtoBuf.ProtoMember(18, Name = @"guild")]
         public NGuildInfo Guild { get; set; }
+
+        [global::ProtoBuf.ProtoMember(19, Name = @"ride")]
+        public int Ride { get; set; }
+
+        [global::ProtoBuf.ProtoMember(20)]
+        public global::System.Collections.Generic.List<NSkillInfo> Skills { get; } = new global::System.Collections.Generic.List<NSkillInfo>();
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class NAttributeDynamic : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"HP")]
+        public int Hp { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"MP")]
+        public int Mp { get; set; }
 
     }
 
@@ -106,6 +133,21 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(2, Name = @"count")]
         public int Count { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class NSkillInfo : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"id")]
+        public int Id { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"level")]
+        public int Level { get; set; }
 
     }
 
@@ -211,6 +253,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(3, Name = @"entity")]
         public NEntity Entity { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4, Name = @"param")]
+        public int Param { get; set; }
 
     }
 
@@ -323,6 +368,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(30, Name = @"chat")]
         public ChatRequest Chat { get; set; }
 
+        [global::ProtoBuf.ProtoMember(50)]
+        public SkillCastRequest skillCast { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -418,6 +466,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(30, Name = @"chat")]
         public ChatResponse Chat { get; set; }
+
+        [global::ProtoBuf.ProtoMember(50)]
+        public SkillCastResponse skillCast { get; set; }
 
         [global::ProtoBuf.ProtoMember(100)]
         public StatusNotify statusNotify { get; set; }
@@ -1502,6 +1553,79 @@ namespace SkillBridge.Message
 
     }
 
+    [global::ProtoBuf.ProtoContract()]
+    public partial class NSkillCastInfo : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int skillId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public int casterId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public int targetId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4, Name = @"position")]
+        public NVector3 Position { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class NDamageInfo : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int entityId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"damage")]
+        public int Damage { get; set; }
+
+        [global::ProtoBuf.ProtoMember(3, Name = @"will_dead")]
+        public bool WillDead { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class SkillCastRequest : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public NSkillCastInfo castInfo { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class SkillCastResponse : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"result")]
+        public Result Result { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"errormsg")]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string Errormsg { get; set; } = "";
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public NSkillCastInfo castInfo { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4, Name = @"damage")]
+        public NDamageInfo Damage { get; set; }
+
+    }
+
     [global::ProtoBuf.ProtoContract(Name = @"RESULT")]
     public enum Result
     {
@@ -1555,6 +1679,8 @@ namespace SkillBridge.Message
         MoveBack = 3,
         [global::ProtoBuf.ProtoEnum(Name = @"JUMP")]
         Jump = 4,
+        [global::ProtoBuf.ProtoEnum(Name = @"RIDE")]
+        Ride = 5,
     }
 
     [global::ProtoBuf.ProtoContract(Name = @"ITEM_TYPE")]
@@ -1568,6 +1694,8 @@ namespace SkillBridge.Message
         Task = 2,
         [global::ProtoBuf.ProtoEnum(Name = @"EQUIP")]
         Equip = 3,
+        [global::ProtoBuf.ProtoEnum(Name = @"RIDE")]
+        Ride = 4,
     }
 
     [global::ProtoBuf.ProtoContract(Name = @"EQUIP_SLOT")]
@@ -1609,10 +1737,11 @@ namespace SkillBridge.Message
         Money = 0,
         [global::ProtoBuf.ProtoEnum(Name = @"EXP")]
         Exp = 1,
+        Level = 2,
         [global::ProtoBuf.ProtoEnum(Name = @"SKILL_POINT")]
-        SkillPoint = 2,
+        SkillPoint = 3,
         [global::ProtoBuf.ProtoEnum(Name = @"ITEM")]
-        Item = 3,
+        Item = 4,
     }
 
     [global::ProtoBuf.ProtoContract(Name = @"STATUS_SOURCE")]
@@ -1702,6 +1831,20 @@ namespace SkillBridge.Message
         Team = 16,
         [global::ProtoBuf.ProtoEnum(Name = @"GUILD")]
         Guild = 32,
+    }
+
+    [global::ProtoBuf.ProtoContract(Name = @"SKILL_RESULT")]
+    public enum SkillResult
+    {
+        [global::ProtoBuf.ProtoEnum(Name = @"OK")]
+        Ok = 0,
+        [global::ProtoBuf.ProtoEnum(Name = @"OUT_OF_MP")]
+        OutOfMp = 1,
+        [global::ProtoBuf.ProtoEnum(Name = @"COOL_DOWN")]
+        CoolDown = 2,
+        [global::ProtoBuf.ProtoEnum(Name = @"INVALID_TARGET")]
+        InvalidTarget = 3,
+        OutOfRange = 4,
     }
 
 }

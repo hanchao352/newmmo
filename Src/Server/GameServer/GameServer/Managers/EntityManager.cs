@@ -11,14 +11,15 @@ namespace GameServer.Managers
     class EntityManager:Singleton<EntityManager>
     {
         private int idx = 0;
-        public List<Entity> AllEntities = new List<Entity>();
+        public Dictionary<int, Entity> AllEntities = new Dictionary<int, Entity>();
         public Dictionary<int, List<Entity>> MapEntities = new Dictionary<int, List<Entity>>();
 
         public void AddEntity(int mapId,Entity entity)
         {
-            AllEntities.Add(entity);
+         
             //加入管理器生成唯一ID
             entity.EntityData.Id = ++idx;
+            AllEntities.Add(entity.EntityData.Id,entity);
             List<Entity> entities = null;
             if (!MapEntities.TryGetValue(mapId,out entities))
             {
@@ -30,8 +31,22 @@ namespace GameServer.Managers
 
         public void RemoveEntity(int mapId,Entity entity)
         {
-            this.AllEntities.Remove(entity);
+            this.AllEntities.Remove(entity.entityId);
             this.MapEntities[mapId].Remove(entity);
         }
+
+        private Entity GetEntity(int entityId)
+        {
+            Entity result = null;
+            this.AllEntities.TryGetValue(entityId,out result);
+            return result;
+        }
+
+        public Creature GetCreature(int entityId)
+        {
+            return GetEntity(entityId) as Creature;
+        }
+
+       
     }
 }

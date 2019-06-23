@@ -1,0 +1,437 @@
+
+2019-06-16 20:38:04,905 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-16 20:38:05,673 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-16 20:38:06,911 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-16 20:38:06,916 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-16 20:38:06,917 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-16 20:38:06,917 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-16 20:38:11,911 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-16 20:38:12,209 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,210 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,210 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,211 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,210 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,212 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,213 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,215 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:12,297 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-16 20:38:29,071 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-16 20:38:29,518 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-16 20:38:30,005 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-16 20:38:30,011 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-16 20:38:30,012 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-16 20:38:30,012 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-16 20:38:33,249 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-16 20:38:33,334 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,334 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,335 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,338 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,346 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,347 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,380 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,380 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:38:33,481 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-16 20:42:53,663 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-16 20:42:54,186 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-16 20:42:54,699 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-16 20:42:54,703 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-16 20:42:54,704 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-16 20:42:54,704 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-16 20:42:57,944 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-16 20:42:58,017 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,019 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,019 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,019 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,019 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,029 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,032 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,040 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:42:58,119 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-16 20:43:23,655 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-16 20:43:24,803 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-16 20:43:25,797 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-16 20:43:25,812 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-16 20:43:25,816 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-16 20:43:25,816 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-16 20:43:30,608 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-16 20:43:30,737 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,737 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,738 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,738 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,739 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,739 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,740 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,740 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:43:30,801 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-16 20:44:30,985 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,012 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:1
+2019-06-16 20:44:31,016 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,017 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-16 20:44:31,019 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,019 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-16 20:44:31,020 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,020 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-16 20:44:31,020 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,021 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:5
+2019-06-16 20:44:31,021 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,021 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-16 20:44:31,022 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,022 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-16 20:44:31,023 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:44:31,025 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-16 20:44:33,436 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54273]] Connected
+2019-06-16 20:44:33,676 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 20:44:34,102 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 20:44:48,344 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 20:44:48,359 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:user1  Pass:123456
+2019-06-16 20:44:57,558 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 20:44:57,559 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 20:45:08,822 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2019-06-16 20:45:08,830 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:dasdsada  Class:Wizard
+2019-06-16 20:45:21,716 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-16 20:46:05,037 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54305]] Connected
+2019-06-16 20:46:05,145 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 20:46:05,146 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 20:46:14,241 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-16 20:49:59,192 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-16 20:50:00,122 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-16 20:50:01,275 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-16 20:50:01,293 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-16 20:50:01,294 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-16 20:50:01,294 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-16 20:50:07,949 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-16 20:50:08,102 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,102 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,103 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,104 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,146 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,147 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,147 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,167 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 20:50:08,205 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-16 20:51:08,494 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,510 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:1
+2019-06-16 20:51:08,511 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,511 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-16 20:51:08,512 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,512 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-16 20:51:08,512 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,513 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-16 20:51:08,513 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,514 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:5
+2019-06-16 20:51:08,514 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,515 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-16 20:51:08,515 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,516 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-16 20:51:08,517 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 20:51:08,519 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-16 20:51:11,392 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54464]] Connected
+2019-06-16 20:51:11,507 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 20:51:11,800 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 20:51:16,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-16 20:51:16,521 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-16 20:51:17,090 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-16 20:51:47,664 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-16 20:51:47,669 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:dasdsada Map:1
+2019-06-16 20:51:47,671 [6] [INFO ] [GameServer] ：CharacterLeave : characterID:1 : dasdsada
+2019-06-16 20:51:47,674 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2019-06-16 20:51:47,676 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To1:dasdsada:Map1 Character:1:dasdsada
+2019-06-16 20:51:56,898 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2019-06-16 20:51:56,905 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:jjjjj  Class:Archer
+2019-06-16 20:51:59,372 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-16 20:51:59,373 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:jjjjj Map:1
+2019-06-16 20:51:59,375 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-06-16 20:52:01,280 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2019-06-16 20:52:01,290 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(100,0,0),spd:0
+2019-06-16 20:54:17,372 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,374 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(98,-18,0),spd:0
+2019-06-16 20:54:17,503 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,505 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(93,-35,0),spd:0
+2019-06-16 20:54:17,582 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,583 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(86,-51,0),spd:0
+2019-06-16 20:54:17,638 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,639 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(76,-65,0),spd:0
+2019-06-16 20:54:17,738 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,739 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(63,-77,0),spd:0
+2019-06-16 20:54:17,804 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,806 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(49,-87,0),spd:0
+2019-06-16 20:54:17,896 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,897 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(33,-94,0),spd:0
+2019-06-16 20:54:17,971 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:17,973 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(16,-99,0),spd:0
+2019-06-16 20:54:18,092 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,093 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-5,-100,0),spd:0
+2019-06-16 20:54:18,168 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,169 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-25,-97,0),spd:0
+2019-06-16 20:54:18,269 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,270 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-42,-91,0),spd:0
+2019-06-16 20:54:18,359 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,361 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-60,-80,0),spd:0
+2019-06-16 20:54:18,455 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,456 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-75,-66,0),spd:0
+2019-06-16 20:54:18,551 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,552 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-86,-52,0),spd:0
+2019-06-16 20:54:18,645 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,646 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-94,-33,0),spd:0
+2019-06-16 20:54:18,749 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:18,750 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-99,-16,0),spd:0
+2019-06-16 20:54:18,844 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:18,847 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-100,5,0),spd:0
+2019-06-16 20:54:18,952 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:18,954 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-97,25,0),spd:0
+2019-06-16 20:54:19,007 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:19,008 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-91,42,0),spd:0
+2019-06-16 20:54:19,116 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:19,118 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-80,60,0),spd:0
+2019-06-16 20:54:19,215 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:19,216 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(5000,4000,768),dir:(-66,75,0),spd:0
+2019-06-16 20:54:19,317 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-16 20:54:19,319 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:MoveFwd Entity:(10:pos:(4997,4004,768),dir:(-51,86,0),spd:300
+2019-06-16 20:54:19,376 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:19,379 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4997,4004,768),dir:(-51,86,0),spd:300
+2019-06-16 20:54:19,482 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:19,483 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4967,4044,768),dir:(-35,94,0),spd:300
+2019-06-16 20:54:20,813 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-16 20:54:20,814 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:Idle Entity:(10:pos:(4807,4444,768),dir:(-35,94,0),spd:0
+2019-06-16 20:54:20,864 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:20,866 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4829,4423,809),dir:(-35,94,0),spd:0
+2019-06-16 20:54:21,387 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-16 20:54:21,389 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:MoveFwd Entity:(10:pos:(4829,4423,809),dir:(-35,94,0),spd:300
+2019-06-16 20:54:21,499 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:21,500 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4830,4445,809),dir:(-15,99,0),spd:300
+2019-06-16 20:54:21,547 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:21,549 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4830,4445,809),dir:(-15,99,0),spd:300
+2019-06-16 20:54:22,219 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:22,220 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4836,4655,808),dir:(-15,99,0),spd:300
+2019-06-16 20:54:22,329 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2019-06-16 20:54:22,330 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4829,4690,808),dir:(2,100,0),spd:300
+2019-06-16 20:54:23,979 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2019-06-16 20:54:23,980 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:Idle Entity:(10:pos:(4829,5185,808),dir:(2,100,0),spd:0
+2019-06-16 20:54:24,198 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:24,199 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4853,5229,805),dir:(-15,99,0),spd:0
+2019-06-16 20:54:24,252 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:24,253 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4853,5229,805),dir:(-15,99,0),spd:0
+2019-06-16 20:54:24,314 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:24,316 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4853,5229,805),dir:(-32,95,0),spd:0
+2019-06-16 20:54:24,422 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:24,424 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4853,5229,805),dir:(-50,86,0),spd:0
+2019-06-16 20:54:24,487 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:24,488 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4853,5229,805),dir:(-65,76,0),spd:0
+2019-06-16 20:54:24,613 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:24,614 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4853,5229,805),dir:(-79,61,0),spd:0
+2019-06-16 20:54:24,664 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-16 20:54:24,665 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:MoveFwd Entity:(10:pos:(4853,5229,805),dir:(-79,61,0),spd:300
+2019-06-16 20:54:24,712 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:24,713 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4837,5241,805),dir:(-90,44,0),spd:300
+2019-06-16 20:54:24,770 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:24,774 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4812,5251,805),dir:(-96,27,0),spd:300
+2019-06-16 20:54:24,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:24,880 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4782,5257,805),dir:(-100,10,0),spd:300
+2019-06-16 20:54:25,740 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:25,742 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4532,5307,805),dir:(-96,28,0),spd:300
+2019-06-16 20:54:26,015 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:26,016 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4442,5325,805),dir:(-99,10,0),spd:300
+2019-06-16 20:54:26,113 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:26,114 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4472,5321,805),dir:(-99,10,0),spd:300
+2019-06-16 20:54:26,181 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:26,182 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4452,5325,805),dir:(-100,-8,0),spd:300
+2019-06-16 20:54:26,397 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-16 20:54:26,398 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:Idle Entity:(10:pos:(4382,5325,805),dir:(-100,-8,0),spd:0
+2019-06-16 20:54:26,678 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:26,680 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4382,5325,805),dir:(-100,10,0),spd:0
+2019-06-16 20:54:27,859 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:27,860 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4382,5325,805),dir:(-96,27,0),spd:0
+2019-06-16 20:54:28,667 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-16 20:54:28,669 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:MoveFwd Entity:(10:pos:(4382,5325,805),dir:(-96,27,0),spd:300
+2019-06-16 20:54:28,990 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:28,992 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4277,5346,805),dir:(-100,8,0),spd:300
+2019-06-16 20:54:29,111 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:29,112 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4247,5346,805),dir:(-99,-13,0),spd:300
+2019-06-16 20:54:29,233 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:29,235 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4217,5340,805),dir:(-94,-33,0),spd:300
+2019-06-16 20:54:29,352 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:29,353 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4187,5328,805),dir:(-85,-52,0),spd:300
+2019-06-16 20:54:29,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:29,431 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4159,5307,805),dir:(-73,-68,0),spd:300
+2019-06-16 20:54:29,801 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:29,802 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4126,5252,805),dir:(-73,-68,0),spd:300
+2019-06-16 20:54:29,936 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:29,938 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4090,5225,805),dir:(-86,-52,0),spd:300
+2019-06-16 20:54:30,017 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:30,018 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4070,5210,805),dir:(-93,-36,0),spd:300
+2019-06-16 20:54:30,113 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-16 20:54:30,114 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4045,5200,805),dir:(-98,-19,0),spd:300
+2019-06-16 20:54:30,196 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:30,197 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(4015,5194,805),dir:(-100,2,0),spd:300
+2019-06-16 20:54:30,299 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:30,300 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3985,5194,805),dir:(-97,22,0),spd:300
+2019-06-16 20:54:30,374 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:30,376 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3960,5199,805),dir:(-92,39,0),spd:300
+2019-06-16 20:54:30,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-16 20:54:30,429 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:Idle Entity:(10:pos:(3945,5205,805),dir:(-92,39,0),spd:0
+2019-06-16 20:54:30,492 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:30,492 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3945,5205,805),dir:(-82,57,0),spd:0
+2019-06-16 20:54:30,629 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:30,630 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3945,5205,805),dir:(-70,71,0),spd:0
+2019-06-16 20:54:31,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-16 20:54:31,428 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:MoveFwd Entity:(10:pos:(3945,5205,805),dir:(-70,71,0),spd:300
+2019-06-16 20:54:31,524 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:31,526 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3971,5215,805),dir:(-70,71,0),spd:300
+2019-06-16 20:54:32,844 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:32,846 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3875,5342,805),dir:(-70,71,0),spd:300
+2019-06-16 20:54:33,717 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:33,718 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3718,5550,805),dir:(-70,71,0),spd:300
+2019-06-16 20:54:34,537 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:34,540 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3568,5749,805),dir:(-70,71,0),spd:300
+2019-06-16 20:54:35,030 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:35,032 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3489,5816,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:35,121 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:35,130 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3489,5816,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:35,555 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:35,559 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3421,5915,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:35,854 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:35,857 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3421,5928,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:36,021 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:36,023 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3425,5924,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:36,217 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:36,219 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3426,5924,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:36,419 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:36,423 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3427,5924,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:36,616 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:36,626 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3426,5926,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:36,795 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:36,796 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3426,5926,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:36,949 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:36,950 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3427,5925,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:37,104 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:37,106 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3428,5922,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:37,312 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:37,313 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3426,5927,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:37,376 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-06-16 20:54:37,380 [10] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:2 ShopItem:29
+2019-06-16 20:54:37,385 [10] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:3007 Count:1 Price:800
+2019-06-16 20:54:37,394 [10] [INFO ] [GameServer] ：[2]AddItem[ID:3007,Count:1] addCount: 1
+2019-06-16 20:54:37,589 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:37,594 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3427,5925,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:37,898 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:37,900 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3425,5928,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:38,100 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:38,108 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3419,5938,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:38,232 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:38,234 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3428,5924,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:38,456 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:38,458 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3425,5928,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:38,581 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:38,583 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3425,5929,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:38,747 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:38,748 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3427,5925,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:38,933 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:38,940 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3426,5926,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:39,199 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:39,200 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3423,5931,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:39,334 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:39,337 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3427,5925,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:39,489 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:39,491 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3427,5924,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:39,715 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:39,717 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3425,5928,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:39,877 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-16 20:54:39,884 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3426,5926,805),dir:(-57,83,0),spd:300
+2019-06-16 20:54:40,045 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-16 20:54:40,047 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:Idle Entity:(10:pos:(3399,5962,805),dir:(-57,83,0),spd:0
+2019-06-16 20:54:40,237 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:40,239 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-57,83,0),spd:0
+2019-06-16 20:54:40,299 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:40,303 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-72,70,0),spd:0
+2019-06-16 20:54:40,403 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:40,404 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-83,56,0),spd:0
+2019-06-16 20:54:40,539 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:40,540 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-91,40,0),spd:0
+2019-06-16 20:54:41,013 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:41,014 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-98,22,0),spd:0
+2019-06-16 20:54:41,114 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-16 20:54:41,116 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-100,5,0),spd:0
+2019-06-16 20:54:41,178 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:41,179 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-99,-13,0),spd:0
+2019-06-16 20:54:41,295 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-16 20:54:41,299 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2：name:jjjjj Entity.Id10  Evt:None Entity:(10:pos:(3430,5920,805),dir:(-95,-31,0),spd:0
+2019-06-16 20:54:52,896 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-06-16 20:54:52,905 [6] [INFO ] [GameServer] ：OnItemEquip::character:2 :Slot:6 Item:3007  Equip:True
+2019-06-16 20:54:57,837 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-16 20:54:57,840 [6] [INFO ] [GameServer] ：OnItemEquip::character:2 :Slot:6 Item:3007  Equip:False
+2019-06-16 20:55:01,338 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-06-16 20:55:01,340 [7] [INFO ] [GameServer] ：OnItemEquip::character:2 :Slot:6 Item:3007  Equip:True
+2019-06-16 20:55:16,831 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-16 20:55:16,832 [6] [INFO ] [GameServer] ：OnItemEquip::character:2 :Slot:6 Item:3007  Equip:False
+2019-06-16 20:55:21,118 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2019-06-16 20:55:21,119 [6] [INFO ] [GameServer] ：OnItemEquip::character:2 :Slot:6 Item:3007  Equip:True
+2019-06-16 20:55:38,811 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2019-06-16 20:55:38,812 [6] [INFO ] [GameServer] ：OnItemBuy::character:2 :Shop:2 ShopItem:13
+2019-06-16 20:55:38,813 [6] [INFO ] [GameServer] ：BuyItem: :character:2 :Item:3001 Count:1 Price:300
+2019-06-16 20:55:38,814 [6] [INFO ] [GameServer] ：[2]AddItem[ID:3001,Count:1] addCount: 1
+2019-06-16 20:55:44,371 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2019-06-16 20:55:44,375 [6] [INFO ] [GameServer] ：OnItemEquip::character:2 :Slot:0 Item:3001  Equip:True
+2019-06-16 20:56:43,308 [22] [INFO ] [GameServer] ：CharacterLeave : characterID:2 : jjjjj
+2019-06-16 20:56:43,311 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-06-16 20:56:43,313 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To2:jjjjj:Map1 Character:2:jjjjj
+2019-06-16 20:56:43,324 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-16 20:58:15,299 [22] [WARN ] [GameServer] ：Client[127.0.0.1:54626]] Connected
+2019-06-16 20:58:15,485 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 20:58:15,487 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 20:58:25,057 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2019-06-16 20:58:25,058 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:uuuu  Class:Archer
+2019-06-16 20:58:26,632 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-16 20:58:26,635 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:uuuu Map:1
+2019-06-16 20:58:26,638 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-06-16 21:14:08,677 [22] [INFO ] [GameServer] ：CharacterLeave : characterID:3 : uuuu
+2019-06-16 21:14:08,680 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-06-16 21:14:08,681 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To3:uuuu:Map1 Character:3:uuuu
+2019-06-16 21:14:08,703 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-16 21:14:49,865 [22] [WARN ] [GameServer] ：Client[127.0.0.1:54847]] Connected
+2019-06-16 21:14:50,013 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 21:14:50,014 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 21:14:55,552 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2019-06-16 21:14:55,554 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:ssssss  Class:Archer
+2019-06-16 21:14:58,611 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-16 21:14:58,612 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:ssssss Map:1
+2019-06-16 21:14:58,614 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2019-06-16 21:23:07,821 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-16 21:23:08,278 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-16 21:23:09,077 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-16 21:23:09,088 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-16 21:23:09,089 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-16 21:23:09,090 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-16 21:23:12,743 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-16 21:23:12,802 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,803 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,816 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,839 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,840 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,840 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,850 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,862 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-16 21:23:12,902 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-16 21:23:47,878 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55167]] Connected
+2019-06-16 21:23:47,983 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-16 21:23:48,274 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-16 21:23:56,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2019-06-16 21:23:56,876 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:sssss  Class:Archer
+2019-06-16 21:24:00,421 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-16 21:24:00,425 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:sssss Map:1
+2019-06-16 21:24:00,501 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2019-06-16 21:24:13,121 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,147 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-16 21:24:13,165 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,167 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-16 21:24:13,168 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,171 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-16 21:24:13,178 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,190 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-16 21:24:13,221 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,224 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-16 21:24:13,258 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,283 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-16 21:24:13,302 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,323 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-16 21:24:13,344 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-16 21:24:13,348 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9

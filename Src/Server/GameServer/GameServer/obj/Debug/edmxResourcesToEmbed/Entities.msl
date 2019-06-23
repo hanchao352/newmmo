@@ -27,6 +27,8 @@
           <ScalarProperty Name="Class" ColumnName="Class" />
           <ScalarProperty Name="Level" ColumnName="Level" />
           <ScalarProperty Name="Exp" ColumnName="Exp" />
+          <ScalarProperty Name="HP" ColumnName="HP" />
+          <ScalarProperty Name="MP" ColumnName="MP" />
           <ScalarProperty Name="MapID" ColumnName="MapID" />
           <ScalarProperty Name="MapPosX" ColumnName="MapPosX" />
           <ScalarProperty Name="MapPosY" ColumnName="MapPosY" />

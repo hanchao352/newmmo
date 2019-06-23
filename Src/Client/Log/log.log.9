@@ -1,0 +1,25 @@
+2019-06-23 19:56:02,148 [ 1] INFO  Unity: LoadingManager start
+2019-06-23 19:56:07,090 [ 1] INFO  Unity: DataManager > DataManager()
+2019-06-23 19:56:21,503 [ 1] WARN  Unity: PlaySound:ui/sfx_click not existed
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
+UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
+UnityEngine.EventSystems.EventSystem:Update()
+
+2019-06-23 19:56:21,514 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-06-23 19:56:21,519 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-06-23 19:56:21,522 [ 1] INFO  Unity: DoConnect
+2019-06-23 19:56:21,527 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-06-23 19:56:21,547 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2019-06-23 19:56:21,555 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-06-23 19:56:25,193 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-06-23 19:56:25,197 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-06-23 19:56:27,703 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-06-23 19:56:31,548 [ 1] INFO  Unity: Select Char:[1]dasdsada[Wizard]
+2019-06-23 19:57:36,750 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-06-23 19:57:36,753 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
+

@@ -49,6 +49,16 @@ namespace GameServer.Managers
             }
         }
 
+        internal void AddExpChange(int expDelta)
+        {
+            this.AddStatus(StatusType.Exp,0,expDelta,StatusAction.Add);
+        }
+
+        internal void AddLevelUp(int levelDelta)
+        {
+            this.AddStatus(StatusType.Level,0,levelDelta,StatusAction.Add);
+        }
+
         public void AddItemChange(int id,int count,StatusAction action)
         {
             
@@ -56,6 +66,8 @@ namespace GameServer.Managers
                 this.AddStatus(StatusType.Item, id, count, action);
             
         }
+
+
         public void PostProcess(NetMessageResponse message)
         {
             if (message.statusNotify==null)
@@ -69,5 +81,7 @@ namespace GameServer.Managers
             this.Status.Clear();
             
         }
+
+      
     }
 }

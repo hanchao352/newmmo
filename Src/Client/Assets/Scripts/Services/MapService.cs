@@ -6,6 +6,7 @@ using Common.Data;
 using SkillBridge.Message;
 using Models;
 using Managers;
+using Entities;
 
 namespace Services
 {
@@ -39,11 +40,21 @@ namespace Services
             Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
             foreach (var cha in response.Characters)
             {
-                if (User.Instance.CurrentCharacter==null||(cha.Type==CharacterType.Player && User.Instance.CurrentCharacter.Id == cha.Id))
+                if (User.Instance.CurrentCharacterInfo==null||(cha.Type==CharacterType.Player && User.Instance.CurrentCharacterInfo.Id == cha.Id))
                 {//当前角色切换地图
-                    User.Instance.CurrentCharacter = cha;
+                    User.Instance.CurrentCharacterInfo = cha;
+                    if (User.Instance.CurrentCharacter==null)
+                    {
+                        User.Instance.CurrentCharacter = new Character(cha);
+                    }
+                    else
+                    {
+                        User.Instance.CurrentCharacter.UpdateInfo(cha);
+                    }
+                    CharacterManager.Instance.AddCharacter(User.Instance.CurrentCharacter);
+                    continue;
                 }
-                CharacterManager.Instance.AddCharacter(cha);
+                CharacterManager.Instance.AddCharacter(new Character(cha));
             }
             if (CurrentMapId != response.mapId)
             {
@@ -57,7 +68,7 @@ namespace Services
         private void OnMapCharacterLeave(object sender, MapCharacterLeaveResponse response)
         {
             Debug.LogFormat("OnMaoCharacterLeave: CharID:{0}",response.entityId);
-            if (response.entityId != User.Instance.CurrentCharacter.EntityId)
+            if (response.entityId != User.Instance.CurrentCharacterInfo.EntityId)
                 CharacterManager.Instance.RemoveCharacter(response.entityId);
             else
                 CharacterManager.Instance.Clear();
@@ -71,11 +82,12 @@ namespace Services
                 MapDefine map = DataManager.Instance.Maps[mapId];
                 User.Instance.CurrentMapData = map;
                 SceneManager.Instance.LoadScene(map.Resource);
+                SoundManager.Instance.PlayMusic(map.Music);
             }
             else
                 Debug.LogErrorFormat("EnterMap: Map {0} not existed", mapId);
         }
-        public void SendMapEntitySync(EntityEvent entityEvent,NEntity entity)
+        public void SendMapEntitySync(EntityEvent entityEvent,NEntity entity,int param)
         {
             Debug.LogFormat("MapEntityUpdateRequest:ID:{0} POS:{1} DIR:{2} SPD:{3}",entity.Id,entity.Position.String(),entity.Direction.String(),entity.Speed);
             NetMessage message = new NetMessage();
@@ -85,7 +97,8 @@ namespace Services
             {
                 Id = entity.Id,
                 Event = entityEvent,
-                Entity = entity
+                Entity = entity,
+                Param = param,
             };
             NetClient.Instance.SendMessage(message);
 

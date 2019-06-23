@@ -33,7 +33,10 @@ namespace Managers
             this.UIResources.Add(typeof(UIGuildPopCreat), new UIElement() { Resources = "UI/Guild/UIGuildPopCreat", Cache = false });
             this.UIResources.Add(typeof(UIGuildApplyList), new UIElement() { Resources = "UI/Guild/UIGuildApplyList", Cache = false });
             this.UIResources.Add(typeof(UIPopCharMenu), new UIElement() { Resources = "UI/UIPopCharMenu", Cache = false });
+            this.UIResources.Add(typeof(UIRide), new UIElement() { Resources = "UI/UIRide", Cache = false });
+            this.UIResources.Add(typeof(UISystemConfig), new UIElement() { Resources = "UI/UISystemConfig", Cache = false });
 
+            this.UIResources.Add(typeof(UISkill), new UIElement() { Resources = "UI/UISkill", Cache = false });
         }
         ~UIManager()
         {
@@ -42,6 +45,7 @@ namespace Managers
 
         public T Show<T>()
         {
+            SoundManager.Instance.PlaySound(SoundDefine.SFX_UI_Win_Open);
             Type type = typeof(T);
             if (this.UIResources.ContainsKey(type))
             {
@@ -66,7 +70,7 @@ namespace Managers
 
         public void Close(Type type)
         {
-
+            SoundManager.Instance.PlaySound(SoundDefine.SFX_UI_Win_Close);
             if (this.UIResources.ContainsKey(type))
             {
                 UIElement info = this.UIResources[type];
@@ -82,6 +86,11 @@ namespace Managers
 
             }
 
+        }
+
+        public void Close<T>()
+        {
+            this.Close(typeof(T));
         }
 
     }

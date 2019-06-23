@@ -29,6 +29,8 @@ namespace GameServer
         public int Class { get; set; }
         public int Level { get; set; }
         public long Exp { get; set; }
+        public int HP { get; set; }
+        public int MP { get; set; }
         public int MapID { get; set; }
         public int MapPosX { get; set; }
         public int MapPosY { get; set; }

@@ -114,12 +114,14 @@ namespace GameServer.Services
                 Name = request.Name,
                 Class = (int)request.Class,
                 TID = (int)request.Class,
-                Level=1,
+                Level = 1,
                 MapID = 1,
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
                 Gold = 100000,
+                HP = 1000,
+                MP=1000,
                 Equips = new byte[28],
             };
             

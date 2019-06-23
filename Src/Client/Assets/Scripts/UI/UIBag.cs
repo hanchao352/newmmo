@@ -55,7 +55,7 @@ public class UIBag : UIWindow {
     }
     public void SetTitle()
     {
-        this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+        this.money.text = User.Instance.CurrentCharacterInfo.Gold.ToString();
     }
 
     public void OnReset()

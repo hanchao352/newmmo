@@ -87,7 +87,7 @@ namespace Managers
 
         public void SendChat(string content,int toId=0,string toName="")
         {
-            ChatService.Instance.SendChat(this.sendChannel,content,toId,toName);
+            ChatService.Instance.SendChat(this.SendChannel, content,toId,toName);
         }
 
         public bool SetSendChannel(LocalChannel channel)
@@ -102,7 +102,7 @@ namespace Managers
             }
             if (channel == LocalChannel.Guild)
             {
-                if (User.Instance.CurrentCharacter.Guild == null)
+                if (User.Instance.CurrentCharacterInfo.Guild == null)
                 {
                     this.AddSystemMessage("你没有加入任何公会");
                     return false;
@@ -128,7 +128,7 @@ namespace Managers
             }
         }
 
-        private void AddSystemMessage(string message,string from="")
+        public void AddSystemMessage(string message,string from="")
         {
             this.Messages[(int)LocalChannel.All].Add(new ChatMessage()
             {
@@ -176,7 +176,7 @@ namespace Managers
 
         private object FormatFromPlayer(ChatMessage message)
         {
-            if (message.FromId == User.Instance.CurrentCharacter.Id)
+            if (message.FromId == User.Instance.CurrentCharacterInfo.Id)
             {
                 return "<a name=\"\" class=\"player\">[我]</a>";
             }

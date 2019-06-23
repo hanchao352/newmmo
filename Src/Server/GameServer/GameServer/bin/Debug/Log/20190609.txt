@@ -1,0 +1,17 @@
+
+2019-06-09 21:44:21,829 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-09 21:44:22,657 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-09 21:44:23,488 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-09 21:44:23,493 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-09 21:44:23,494 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-09 21:44:23,494 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-09 21:44:27,553 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-09 21:44:27,734 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,734 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,735 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,753 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,753 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,753 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,757 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,775 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-09 21:44:27,854 [1] [WARN ] [GameServer] ：NetService Started

@@ -5,6 +5,8 @@ using System.Text;
 using Common.Data;
 using SkillBridge.Message;
 using UnityEngine;
+using Services;
+using Entities;
 
 namespace Models
 {
@@ -27,15 +29,34 @@ namespace Models
 
         public MapDefine CurrentMapData { get; set; }
 
-        public SkillBridge.Message.NCharacterInfo CurrentCharacter { get; set; }
+        public Character CurrentCharacter { get; set; }
 
-        public GameObject CurrentCharacterObject { get; set; }
+        public SkillBridge.Message.NCharacterInfo CurrentCharacterInfo { get; set; }
+
+
+
+        public PlayerInputController CurrentCharacterObject { get; set; }
 
         public NTeamInfo TeamInfo { get; set; }
 
         internal void AddGold(int gold)
         {
-            this.CurrentCharacter.Gold += gold;
+            this.CurrentCharacterInfo.Gold += gold;
+        }
+
+        public int CurrentRide = 0;
+        internal void Ride(int id)
+        {
+            if (CurrentRide!=id)
+            {
+                CurrentRide = id;
+                CurrentCharacterObject.SendEntityEvent(EntityEvent.Ride,CurrentRide);
+            }
+            else
+            {
+                CurrentRide = 0;
+                CurrentCharacterObject.SendEntityEvent(EntityEvent.Ride, 0);
+            }
         }
     }
 }

@@ -1,0 +1,348 @@
+
+2019-06-22 09:29:55,264 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 09:29:55,774 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 09:29:56,708 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 09:29:56,715 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 09:29:56,716 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 09:29:56,716 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 09:30:00,347 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 09:30:00,380 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,381 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,389 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,397 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,406 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,416 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,426 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,429 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:30:00,472 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 09:57:49,693 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 09:57:50,681 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 09:57:51,705 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 09:57:51,721 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 09:57:51,722 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 09:57:51,735 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 09:57:56,307 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 09:57:56,329 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,338 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,346 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,346 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,384 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,384 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,384 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,384 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 09:57:56,447 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 09:58:56,665 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:00:39,950 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:00:41,906 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:00:43,667 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:00:43,685 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:00:43,687 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:00:43,736 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:00:50,832 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:00:51,533 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,533 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,533 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,535 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,535 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,544 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,562 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,563 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:00:51,659 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:01:51,854 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:10:20,480 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:10:20,860 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:10:21,696 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:10:21,701 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:10:21,702 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:10:21,712 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:10:25,296 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:10:25,369 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,370 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,370 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,385 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,431 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,431 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,431 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,431 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:10:25,520 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:10:53,186 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54502]] Connected
+2019-06-22 10:10:53,319 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 10:10:53,577 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 10:11:04,617 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-22 10:11:04,622 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-22 10:11:25,669 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-22 10:11:25,686 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:12:08,574 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:12:09,430 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:12:10,338 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:12:10,343 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:12:10,343 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:12:10,355 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:12:13,847 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:12:13,910 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,911 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,911 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,911 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,913 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,913 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,941 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:13,941 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:12:14,009 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:12:49,328 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54543]] Connected
+2019-06-22 10:12:49,516 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 10:12:50,008 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 10:12:56,250 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-22 10:12:56,254 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-22 10:14:15,423 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:25:59,138 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:25:59,794 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:26:00,881 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:26:00,886 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:26:00,894 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:26:00,895 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:26:05,660 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:26:05,718 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,718 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,728 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,729 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,729 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,729 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,743 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,752 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:26:05,788 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:26:51,805 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54899]] Connected
+2019-06-22 10:26:51,930 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 10:26:52,211 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 10:27:02,519 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-22 10:27:02,527 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-22 10:27:03,082 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-22 10:27:06,030 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:31:08,902 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:31:10,133 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:43:40,752 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:43:41,292 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:43:42,007 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:43:42,015 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:43:42,028 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:43:42,029 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:43:46,548 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:43:46,748 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,748 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,748 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,749 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,749 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,750 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,750 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,751 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:43:46,848 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:44:12,706 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55317]] Connected
+2019-06-22 10:44:12,818 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 10:44:13,093 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 10:44:17,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-22 10:44:17,359 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-22 10:44:17,749 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-22 10:44:47,020 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:49:47,007 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:49:47,450 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:49:48,020 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:49:48,026 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:49:48,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:49:48,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:49:51,897 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:49:52,043 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,045 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,051 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,070 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,071 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,072 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,092 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,092 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:49:52,172 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:50:16,503 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55416]] Connected
+2019-06-22 10:50:16,608 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 10:50:16,908 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 10:50:21,693 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-22 10:50:21,697 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-22 10:50:21,986 [7] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Battle.Skill..ctor(NSkillInfo info, Creature owner) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Battle\Skill.cs:行号 24
+   在 GameServer.Battle.SkillManager.InitSkills() 位置 E:\newmmo\Src\Server\GameServer\GameServer\Battle\SkillManager.cs:行号 50
+   在 GameServer.Battle.SkillManager..ctor(Creature owner) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Battle\SkillManager.cs:行号 22
+   在 GameServer.Entities.Creature.InitSkills() 位置 E:\newmmo\Src\Server\GameServer\GameServer\Entities\Creature.cs:行号 41
+   在 GameServer.Entities.Creature..ctor(CharacterType type, Int32 configId, Int32 level, Vector3Int pos, Vector3Int dir) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Entities\Creature.cs:行号 36
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 39
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\newmmo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 179
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\newmmo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2019-06-22 10:50:51,051 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:50:51,564 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:50:52,700 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:50:52,711 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:50:52,723 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:50:52,724 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:53:12,890 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 10:53:13,398 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 10:53:14,244 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 10:53:14,251 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 10:53:14,266 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 10:53:14,269 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 10:53:17,565 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 10:53:17,645 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,656 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,656 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,667 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,668 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,680 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,695 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,712 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 10:53:17,756 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 10:53:46,357 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55507]] Connected
+2019-06-22 10:53:46,459 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 10:53:46,717 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 10:53:51,645 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2019-06-22 10:53:51,649 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:dasdsada Map:1
+2019-06-22 10:53:52,081 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2019-06-22 10:54:17,919 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,923 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-22 10:54:17,924 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,926 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-22 10:54:17,927 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,928 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-22 10:54:17,929 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,933 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-22 10:54:17,936 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,938 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-22 10:54:17,939 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,940 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-22 10:54:17,941 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,944 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-22 10:54:17,945 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 10:54:17,951 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-22 11:03:44,254 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 11:03:44,863 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 11:03:45,650 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 11:03:45,656 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 11:03:45,664 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 11:03:45,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 11:03:49,657 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 11:03:49,678 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,700 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,713 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,725 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,729 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,738 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,762 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,777 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 11:03:49,877 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 11:04:04,179 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55823]] Connected
+2019-06-22 11:04:04,285 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 11:04:04,575 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 11:04:13,475 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-22 11:04:13,483 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:sssss Map:1
+2019-06-22 11:04:13,998 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2019-06-22 11:04:35,296 [15] [INFO ] [GameServer] ：CharacterLeave : characterID:5 : sssss
+2019-06-22 11:04:35,300 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2019-06-22 11:04:35,302 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To5:sssss:Map1 Character:5:sssss
+2019-06-22 11:04:35,304 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-22 23:43:10,036 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 23:43:10,716 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 23:48:00,142 [1] [INFO ] [GameServer] ：Game Server Init
+2019-06-22 23:48:00,734 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2019-06-22 23:48:01,758 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2019-06-22 23:48:01,765 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2019-06-22 23:48:01,766 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2019-06-22 23:48:01,768 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2019-06-22 23:48:06,260 [1] [WARN ] [GameServer] ：Starting Listener...
+2019-06-22 23:48:06,382 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,382 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,383 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,383 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,384 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,384 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,384 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,384 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2019-06-22 23:48:06,481 [1] [WARN ] [GameServer] ：NetService Started
+2019-06-22 23:48:56,225 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57316]] Connected
+2019-06-22 23:48:56,377 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 23:48:56,740 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 23:49:04,855 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-22 23:49:04,860 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:jjjjj Map:1
+2019-06-22 23:49:05,210 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2019-06-22 23:49:06,730 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,735 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:2
+2019-06-22 23:49:06,736 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,738 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:3
+2019-06-22 23:49:06,754 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,765 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:4
+2019-06-22 23:49:06,770 [5] [INFO ] [GameServer] ：Map:[2] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,784 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 mossterId:5
+2019-06-22 23:49:06,793 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[1 : Mon:1001,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,808 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:6
+2019-06-22 23:49:06,811 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[2 : Mon:1002,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,823 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:7
+2019-06-22 23:49:06,832 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[3 : Mon:1003,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,844 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:8
+2019-06-22 23:49:06,853 [5] [INFO ] [GameServer] ：Map:[3] Spawn:[4 : Mon:1005,Lv:1] At Point:SkillBridge.Message.NVector3
+2019-06-22 23:49:06,860 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 mossterId:9
+2019-06-22 23:49:55,056 [3] [INFO ] [GameServer] ：CharacterLeave : characterID:2 : jjjjj
+2019-06-22 23:49:55,067 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2019-06-22 23:49:55,090 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To2:jjjjj:Map1 Character:2:jjjjj
+2019-06-22 23:49:55,133 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-22 23:51:22,194 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57381]] Connected
+2019-06-22 23:51:22,334 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 23:51:22,335 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 23:51:27,407 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-22 23:51:27,408 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:uuuu Map:1
+2019-06-22 23:51:27,501 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2019-06-22 23:51:32,849 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2019-06-22 23:51:32,859 [7] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:10 target:0 pos:SkillBridge.Message.NVector3
+2019-06-22 23:51:39,399 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2019-06-22 23:51:39,400 [6] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:10 target:10 pos:SkillBridge.Message.NVector3
+2019-06-22 23:53:01,129 [3] [INFO ] [GameServer] ：CharacterLeave : characterID:3 : uuuu
+2019-06-22 23:53:01,130 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2019-06-22 23:53:01,133 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To3:uuuu:Map1 Character:3:uuuu
+2019-06-22 23:53:01,135 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2019-06-22 23:53:45,221 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57505]] Connected
+2019-06-22 23:53:45,340 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2019-06-22 23:53:45,342 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user1  Pass:123456
+2019-06-22 23:53:49,513 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2019-06-22 23:53:49,515 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:sssss Map:1
+2019-06-22 23:53:49,616 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2019-06-22 23:53:52,956 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2019-06-22 23:53:52,958 [7] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:11 target:0 pos:SkillBridge.Message.NVector3
+2019-06-22 23:54:05,717 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2019-06-22 23:54:05,720 [6] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:11 target:11 pos:SkillBridge.Message.NVector3
+2019-06-22 23:54:24,351 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2019-06-22 23:54:24,353 [6] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:11 target:11 pos:SkillBridge.Message.NVector3
+2019-06-22 23:54:37,074 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:37,088 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2019-06-22 23:54:37,179 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:37,180 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+2019-06-22 23:54:37,281 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:37,282 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,820),dir:(84,-55,0),spd:0
+2019-06-22 23:54:37,407 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:37,411 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,820),dir:(71,-71,0),spd:0
+2019-06-22 23:54:37,536 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2019-06-22 23:54:37,541 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5000,4000,820),dir:(57,-82,0),spd:300
+2019-06-22 23:54:37,637 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2019-06-22 23:54:37,641 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(57,-82,0),spd:300
+2019-06-22 23:54:38,419 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2019-06-22 23:54:38,421 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:Idle Entity:(11:pos:(5156,3792,820),dir:(42,-91,0),spd:0
+2019-06-22 23:54:38,523 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:38,525 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5156,3792,820),dir:(42,-91,0),spd:0
+2019-06-22 23:54:38,640 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:38,643 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5156,3792,820),dir:(24,-97,0),spd:0
+2019-06-22 23:54:38,768 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2019-06-22 23:54:38,770 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5156,3792,820),dir:(5,-100,0),spd:0
+2019-06-22 23:54:38,870 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2019-06-22 23:54:38,876 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5156,3792,820),dir:(-13,-99,0),spd:0
+2019-06-22 23:54:39,245 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2019-06-22 23:54:39,247 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:MoveFwd Entity:(11:pos:(5156,3792,820),dir:(-13,-99,0),spd:300
+2019-06-22 23:54:39,713 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2019-06-22 23:54:39,719 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:None Entity:(11:pos:(5126,3642,820),dir:(-31,-95,0),spd:300
+2019-06-22 23:54:39,815 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2019-06-22 23:54:39,816 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:5：name:sssss Entity.Id11  Evt:Idle Entity:(11:pos:(5120,3627,820),dir:(-31,-95,0),spd:0
+2019-06-22 23:54:44,162 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2019-06-22 23:54:44,165 [6] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:11 target:11 pos:SkillBridge.Message.NVector3
+2019-06-22 23:54:56,236 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2019-06-22 23:54:56,238 [6] [INFO ] [GameServer] ：OnSkillCast: skill:303 caster:11 target:11 pos:SkillBridge.Message.NVector3

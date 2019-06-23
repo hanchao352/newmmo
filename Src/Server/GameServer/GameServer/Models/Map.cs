@@ -7,7 +7,6 @@ using SkillBridge.Message;
 
 using Common;
 using Common.Data;
-
 using Network;
 using GameServer.Managers;
 using GameServer.Entities;
@@ -47,17 +46,24 @@ namespace GameServer.Models
         /// 刷怪管理器
         /// </summary>
         SpawnManager SpawnManager = new SpawnManager();
+
+
+        public Battle.Battle Battle;
+
         public MonsterManager MonsterManager = new MonsterManager();
+      
         internal Map(MapDefine define)
         {
             this.Define = define;
             this.SpawnManager.Init(this);
             this.MonsterManager.Init(this);
+            this.Battle = new Battle.Battle(this);
         }
 
         internal void Update()
         {
             SpawnManager.Update();
+            this.Battle.Update();
         }
 
         /// <summary>
@@ -158,6 +164,10 @@ namespace GameServer.Models
                     kv.Value.character.Position = entitySync.Entity.Position;
                     kv.Value.character.Direction = entitySync.Entity.Direction;
                     kv.Value.character.Speed = entitySync.Entity.Speed;
+                    if (entitySync.Event==EntityEvent.Ride)
+                    {
+                        kv.Value.character.Ride = entitySync.Param;
+                    }
                   
                 }
                 else
@@ -177,6 +187,14 @@ namespace GameServer.Models
             }
         }
 
-       
+        internal void BroadcastBattleResponse(NetMessageResponse response)
+        {
+            foreach (var kv in this.MapCharacters)
+            {
+                kv.Value.connection.Session.Response.skillCast = response.skillCast;
+                kv.Value.connection.SendResponse();
+            }
+        }
+
     }
 }
