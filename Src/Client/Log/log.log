@@ -1,530 +1,205 @@
-2019-06-23 21:11:04,404 [ 1] INFO  Unity: LoadingManager start
-2019-06-23 21:11:07,971 [ 1] INFO  Unity: DataManager > DataManager()
-2019-06-23 21:11:21,333 [ 1] WARN  Unity: PlaySound:ui/sfx_click not existed
+2019-07-19 23:40:12,827 [ 1] INFO  Unity: LoadingManager start
+2019-07-19 23:40:16,377 [ 1] INFO  Unity: DataManager > DataManager()
+2019-07-19 23:41:14,035 [ 1] WARN  Unity: PlaySound:ui/sfx_click not existed
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
 UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2019-06-23 21:11:21,336 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-06-23 21:11:21,339 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-06-23 21:11:21,341 [ 1] INFO  Unity: DoConnect
-2019-06-23 21:11:21,345 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-06-23 21:11:21,349 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-07-19 23:41:14,038 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-07-19 23:41:14,041 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-07-19 23:41:14,042 [ 1] INFO  Unity: DoConnect
+2019-07-19 23:41:14,045 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-07-19 23:41:14,049 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-06-23 21:11:21,355 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-06-23 21:11:21,639 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-06-23 21:11:21,641 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-06-23 21:11:22,183 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-06-23 21:11:24,238 [ 1] INFO  Unity: Select Char:[1006]战士撒大声地[Warrior]
-2019-06-23 21:11:25,226 [ 1] INFO  Unity: UserGameEnterRequest::characterId :5
-2019-06-23 21:11:25,279 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-06-23 21:11:25,282 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
-2019-06-23 21:11:25,283 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
-2019-06-23 21:11:25,301 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-06-23 21:11:25,311 [ 1] INFO  Unity: AddCharacter:1006:战士撒大声地 Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-06-23 21:11:25,316 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-06-23 21:11:27,134 [ 1] WARN  Unity: UIMain [-61150] Awake
+2019-07-19 23:41:14,054 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-07-19 23:41:16,111 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-07-19 23:41:16,113 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-07-19 23:41:16,629 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-07-19 23:41:18,724 [ 1] INFO  Unity: Select Char:[2]jjjjj[Archer]
+2019-07-19 23:41:19,890 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
+2019-07-19 23:41:20,358 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-07-19 23:41:20,361 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
+2019-07-19 23:41:20,362 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-07-19 23:41:20,364 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
+2019-07-19 23:41:20,366 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
+2019-07-19 23:41:20,368 [ 1] INFO  Unity: ItemManager: Init[Id:8001,Count:1]
+2019-07-19 23:41:20,386 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-07-19 23:41:20,398 [ 1] INFO  Unity: AddCharacter:2:jjjjj Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-07-19 23:41:20,403 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-07-19 23:41:21,982 [ 1] WARN  Unity: UIMain [-64704] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-06-23 21:11:27,138 [ 1] WARN  Unity: MainPlayerCamera [-55952] Awake
+2019-07-19 23:41:21,988 [ 1] WARN  Unity: MainPlayerCamera [-59500] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-06-23 21:11:27,139 [ 1] WARN  Unity: GameObjectManager [-55906] Awake
+2019-07-19 23:41:21,989 [ 1] WARN  Unity: GameObjectManager [-59454] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-06-23 21:11:27,154 [ 1] WARN  Unity: UIWorldElementManager [45716] Awake
+2019-07-19 23:41:21,998 [ 1] WARN  Unity: UIWorldElementManager [45996] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-06-23 21:11:27,295 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-06-23 21:11:27,404 [ 1] INFO  Unity: 0
-2019-06-23 21:11:27,409 [ 1] INFO  Unity: Set Channel:Local
-2019-06-23 21:11:28,619 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2019-06-23 21:11:28,621 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(98,-19,0) SPD:0
-2019-06-23 21:11:28,721 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
-2019-06-23 21:11:28,722 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(93,-37,0) SPD:0
-2019-06-23 21:11:28,802 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2019-06-23 21:11:28,804 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(85,-53,0) SPD:0
-2019-06-23 21:11:28,942 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
-2019-06-23 21:11:28,944 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(72,-69,0) SPD:0
-2019-06-23 21:11:29,048 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:11:29,049 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(72,-69,0) SPD:300
-2019-06-23 21:11:29,051 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
-2019-06-23 21:11:29,052 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5000,4000,820) DIR:(56,-83,0) SPD:300
-2019-06-23 21:11:29,103 [ 1] INFO  Unity: SetDirection:(38, -93, 0)
-2019-06-23 21:11:29,105 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5018,3976,820) DIR:(38,-93,0) SPD:300
-2019-06-23 21:11:29,216 [ 1] INFO  Unity: SetDirection:(20, -98, 0)
-2019-06-23 21:11:29,217 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5030,3946,820) DIR:(20,-98,0) SPD:300
-2019-06-23 21:11:29,348 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
-2019-06-23 21:11:29,350 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5039,3901,820) DIR:(1,-100,0) SPD:300
-2019-06-23 21:11:29,982 [ 1] INFO  Unity: SetDirection:(-18, -98, 0)
-2019-06-23 21:11:29,983 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5039,3716,820) DIR:(-18,-98,0) SPD:300
-2019-06-23 21:11:30,604 [ 1] INFO  Unity: SetDirection:(-36, -93, 0)
-2019-06-23 21:11:30,607 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5001,3526,820) DIR:(-36,-93,0) SPD:300
-2019-06-23 21:11:30,748 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
-2019-06-23 21:11:30,749 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4985,3486,820) DIR:(-53,-85,0) SPD:300
-2019-06-23 21:11:30,981 [ 1] INFO  Unity: SetDirection:(-67, -74, 0)
-2019-06-23 21:11:30,983 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4940,3426,820) DIR:(-67,-74,0) SPD:300
-2019-06-23 21:11:31,201 [ 1] INFO  Unity: SetDirection:(-79, -61, 0)
-2019-06-23 21:11:31,202 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4904,3378,820) DIR:(-79,-61,0) SPD:300
-2019-06-23 21:11:32,535 [ 1] INFO  Unity: SetDirection:(-89, -46, 0)
-2019-06-23 21:11:32,536 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4580,3135,820) DIR:(-89,-46,0) SPD:300
-2019-06-23 21:11:33,437 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
-2019-06-23 21:11:33,438 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4368,3029,820) DIR:(-96,-29,0) SPD:300
-2019-06-23 21:11:34,611 [ 1] INFO  Unity: SetPosition:(4016, 2909, 807)
-2019-06-23 21:11:34,613 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4016,2909,807) DIR:(-96,-29,0) SPD:300
-2019-06-23 21:11:36,306 [ 1] INFO  Unity: SetPosition:(3531, 2762, 806)
-2019-06-23 21:11:36,308 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3531,2762,806) DIR:(-96,-29,0) SPD:300
-2019-06-23 21:11:37,551 [ 1] INFO  Unity: SetDirection:(-99, -11, 0)
-2019-06-23 21:11:37,552 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3156,2687,806) DIR:(-99,-11,0) SPD:300
-2019-06-23 21:11:39,100 [ 1] INFO  Unity: SetPosition:(2740, 2607, 805)
-2019-06-23 21:11:39,101 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(2740,2607,805) DIR:(-99,-11,0) SPD:300
-2019-06-23 21:11:40,349 [ 1] INFO  Unity: SetPosition:(2405, 2569, 805)
-2019-06-23 21:11:40,350 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(2405,2569,805) DIR:(-99,-11,0) SPD:300
-2019-06-23 21:11:41,605 [ 1] INFO  Unity: SetPosition:(2059, 2531, 805)
-2019-06-23 21:11:41,606 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(2059,2531,805) DIR:(-99,-11,0) SPD:300
-2019-06-23 21:11:42,107 [ 1] INFO  Unity: TeleporterObject:Character [战士撒大声地] Enter Teleporter [3:主城传入点1]
-2019-06-23 21:11:42,387 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
-2019-06-23 21:11:42,388 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(1829,2485,805) DIR:(-100,7,0) SPD:300
-2019-06-23 21:11:42,851 [ 1] INFO  Unity: SetPosition:(1728, 2517, 805)
-2019-06-23 21:11:42,853 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(1728,2517,805) DIR:(-100,7,0) SPD:300
-2019-06-23 21:11:44,283 [ 1] INFO  Unity: SetPosition:(1341, 2544, 805)
-2019-06-23 21:11:44,284 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(1341,2544,805) DIR:(-100,7,0) SPD:300
-2019-06-23 21:11:45,017 [ 1] INFO  Unity: TeleporterObject:Character [战士撒大声地] Enter Teleporter [1:主城->野外]
-2019-06-23 21:11:45,018 [ 1] INFO  Unity: MapTeleportRequest:teleportID1
-2019-06-23 21:11:45,082 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:10
-2019-06-23 21:11:45,085 [ 1] INFO  Unity: RemoveCharacter:10
-2019-06-23 21:11:45,091 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:5
-2019-06-23 21:11:45,095 [ 1] INFO  Unity: AddCharacter:1006:战士撒大声地 Map:2 Entity:(10:pos:(3049,3982,56),dir:(100,0,0),spd:300
-2019-06-23 21:11:45,099 [ 1] INFO  Unity: AddCharacter:0:恶鬼 Map:2 Entity:(2:pos:(5887,1573,-70),dir:(9,100,0),spd:0
-2019-06-23 21:11:45,107 [ 1] INFO  Unity: AddCharacter:0:山丘巨人 Map:2 Entity:(3:pos:(5540,1682,-70),dir:(20,98,0),spd:0
-2019-06-23 21:11:45,131 [ 1] INFO  Unity: AddCharacter:0:小恶魔 Map:2 Entity:(4:pos:(4775,2865,-70),dir:(-30,95,0),spd:0
-2019-06-23 21:11:45,150 [ 1] INFO  Unity: AddCharacter:0:死神 Map:2 Entity:(5:pos:(5683,4173,-70),dir:(28,-96,0),spd:0
-2019-06-23 21:11:45,180 [ 1] INFO  Unity: LoadLevel: Map01
-2019-06-23 21:11:46,554 [ 1] WARN  Unity: Failed to create agent because it is not close enough to the NavMesh
+2019-07-19 23:41:22,096 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-07-19 23:41:22,211 [ 1] INFO  Unity: 0
+2019-07-19 23:41:22,214 [ 1] INFO  Unity: Set Channel:Local
+2019-07-19 23:41:57,342 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2019-07-19 23:41:57,343 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(98,-19,0) SPD:0
+2019-07-19 23:41:57,447 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2019-07-19 23:41:57,448 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(93,-37,0) SPD:0
+2019-07-19 23:41:57,476 [ 1] INFO  Unity: MoveForward
+2019-07-19 23:41:57,478 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(93,-37,0) SPD:300
+2019-07-19 23:41:57,552 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
+2019-07-19 23:41:57,553 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5020,3992,820) DIR:(83,-55,0) SPD:300
+2019-07-19 23:41:57,630 [ 1] INFO  Unity: SetDirection:(70, -71, 0)
+2019-07-19 23:41:57,631 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5044,3974,820) DIR:(70,-71,0) SPD:300
+2019-07-19 23:41:57,709 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
+2019-07-19 23:41:57,710 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5064,3954,820) DIR:(57,-82,0) SPD:300
+2019-07-19 23:41:57,820 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
+2019-07-19 23:41:57,821 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5079,3934,820) DIR:(41,-91,0) SPD:300
+2019-07-19 23:41:57,918 [ 1] INFO  Unity: SetDirection:(22, -98, 0)
+2019-07-19 23:41:57,919 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5091,3904,820) DIR:(22,-98,0) SPD:300
+2019-07-19 23:41:57,985 [ 1] INFO  Unity: SetDirection:(4, -100, 0)
+2019-07-19 23:41:57,986 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5096,3879,820) DIR:(4,-100,0) SPD:300
+2019-07-19 23:41:58,099 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
+2019-07-19 23:41:58,100 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5096,3849,820) DIR:(-16,-99,0) SPD:300
+2019-07-19 23:41:58,218 [ 1] INFO  Unity: SetDirection:(-34, -94, 0)
+2019-07-19 23:41:58,220 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5088,3809,820) DIR:(-34,-94,0) SPD:300
+2019-07-19 23:41:58,554 [ 1] INFO  Unity: SetDirection:(-50, -87, 0)
+2019-07-19 23:41:58,555 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5050,3714,820) DIR:(-50,-87,0) SPD:300
+2019-07-19 23:41:59,252 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
+2019-07-19 23:41:59,253 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4921,3542,820) DIR:(-65,-76,0) SPD:300
+2019-07-19 23:41:59,419 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
+2019-07-19 23:41:59,420 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4891,3502,820) DIR:(-78,-63,0) SPD:300
+2019-07-19 23:42:01,162 [ 1] INFO  Unity: SetDirection:(-88, -48, 0)
+2019-07-19 23:42:01,163 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4475,3190,820) DIR:(-88,-48,0) SPD:300
+2019-07-19 23:42:02,310 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
+2019-07-19 23:42:02,312 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4199,3052,820) DIR:(-95,-31,0) SPD:300
+2019-07-19 23:42:04,389 [ 1] INFO  Unity: SetPosition:(3620, 2829, 806)
+2019-07-19 23:42:04,391 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3620,2829,806) DIR:(-95,-31,0) SPD:300
+2019-07-19 23:42:05,533 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
+2019-07-19 23:42:05,535 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3280,2693,806) DIR:(-99,-14,0) SPD:300
+2019-07-19 23:42:05,912 [ 1] INFO  Unity: SetPosition:(3190, 2710, 806)
+2019-07-19 23:42:05,913 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3190,2710,806) DIR:(-99,-14,0) SPD:300
+2019-07-19 23:42:07,424 [ 1] INFO  Unity: SetPosition:(2779, 2652, 805)
+2019-07-19 23:42:07,425 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2779,2652,805) DIR:(-99,-14,0) SPD:300
+2019-07-19 23:42:08,590 [ 1] INFO  Unity: SetPosition:(2472, 2608, 805)
+2019-07-19 23:42:08,591 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2472,2608,805) DIR:(-99,-14,0) SPD:300
+2019-07-19 23:42:09,266 [ 1] INFO  Unity: SetDirection:(-100, 4, 0)
+2019-07-19 23:42:09,267 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2272,2568,805) DIR:(-100,4,0) SPD:300
+2019-07-19 23:42:09,690 [ 1] INFO  Unity: SetPosition:(2188, 2588, 805)
+2019-07-19 23:42:09,691 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2188,2588,805) DIR:(-100,4,0) SPD:300
+2019-07-19 23:42:10,707 [ 1] INFO  Unity: TeleporterObject:Character [jjjjj] Enter Teleporter [3:主城传入点1]
+2019-07-19 23:42:10,913 [ 1] INFO  Unity: SetPosition:(1872, 2601, 805)
+2019-07-19 23:42:10,914 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1872,2601,805) DIR:(-100,4,0) SPD:300
+2019-07-19 23:42:12,080 [ 1] INFO  Unity: SetPosition:(1571, 2613, 805)
+2019-07-19 23:42:12,081 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1571,2613,805) DIR:(-100,4,0) SPD:300
+2019-07-19 23:42:12,872 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
+2019-07-19 23:42:12,873 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1331,2613,805) DIR:(-99,-14,0) SPD:300
+2019-07-19 23:42:13,141 [ 1] INFO  Unity: SetPosition:(1305, 2612, 805)
+2019-07-19 23:42:13,142 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1305,2612,805) DIR:(-99,-14,0) SPD:300
+2019-07-19 23:42:13,786 [ 1] INFO  Unity: TeleporterObject:Character [jjjjj] Enter Teleporter [1:主城->野外]
+2019-07-19 23:42:13,787 [ 1] INFO  Unity: MapTeleportRequest:teleportID1
+2019-07-19 23:42:13,859 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:9
+2019-07-19 23:42:13,862 [ 1] INFO  Unity: RemoveCharacter:9
+2019-07-19 23:42:13,866 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:5
+2019-07-19 23:42:13,869 [ 1] INFO  Unity: AddCharacter:2:jjjjj Map:2 Entity:(9:pos:(3049,3982,56),dir:(100,0,0),spd:300
+2019-07-19 23:42:13,876 [ 1] INFO  Unity: AddCharacter:0:恶鬼 Map:2 Entity:(1:pos:(5887,1573,-70),dir:(9,100,0),spd:0
+2019-07-19 23:42:13,885 [ 1] INFO  Unity: AddCharacter:0:山丘巨人 Map:2 Entity:(2:pos:(5540,1682,-70),dir:(20,98,0),spd:0
+2019-07-19 23:42:13,911 [ 1] INFO  Unity: AddCharacter:0:小恶魔 Map:2 Entity:(3:pos:(4775,2865,-70),dir:(-30,95,0),spd:0
+2019-07-19 23:42:13,926 [ 1] INFO  Unity: AddCharacter:0:死神 Map:2 Entity:(4:pos:(5683,4173,-70),dir:(28,-96,0),spd:0
+2019-07-19 23:42:13,955 [ 1] INFO  Unity: LoadLevel: Map01
+2019-07-19 23:42:14,305 [ 1] WARN  Unity: Failed to create agent because it is not close enough to the NavMesh
 UnityEngine.GameObject:AddComponent()
 PlayerInputController:Start() (at Assets/Scripts/GameObject/PlayerInputController.cs:53)
 
-2019-06-23 21:11:46,556 [ 1] INFO  Unity: Character_1006_战士撒大声地 OnDestroy :ID:10 POS:(3049, 3982, 56) DIR:(100, 0, 0) SPD:300 
-2019-06-23 21:11:46,610 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:11:46,611 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3054,3982,56) DIR:(100,0,0) SPD:300
-2019-06-23 21:11:46,618 [ 1] INFO  Unity: SetPosition:(3068, 3982, 120)
-2019-06-23 21:11:46,619 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3068,3982,120) DIR:(100,0,0) SPD:300
-2019-06-23 21:11:46,983 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-06-23 21:11:46,988 [ 1] INFO  Unity: Stop
-2019-06-23 21:11:46,990 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3073,3982,120) DIR:(100,0,0) SPD:0
-2019-06-23 21:11:47,296 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:11:47,297 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3073,3982,120) DIR:(100,0,0) SPD:300
-2019-06-23 21:11:47,391 [ 1] INFO  Unity: TeleporterObject:Character [战士撒大声地] Enter Teleporter [6:野外传入点]
-2019-06-23 21:11:47,561 [ 1] INFO  Unity: SetPosition:(3156, 3982, 62)
-2019-06-23 21:11:47,562 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3156,3982,62) DIR:(100,0,0) SPD:300
-2019-06-23 21:11:47,695 [ 1] INFO  Unity: SetPosition:(3197, 3982, 9)
-2019-06-23 21:11:47,696 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3197,3982,9) DIR:(100,0,0) SPD:300
-2019-06-23 21:11:47,809 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2019-06-23 21:11:47,810 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3222,3982,9) DIR:(98,-18,0) SPD:300
-2019-06-23 21:11:47,901 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2019-06-23 21:11:47,902 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3252,3976,9) DIR:(94,-35,0) SPD:300
-2019-06-23 21:11:47,978 [ 1] INFO  Unity: SetDirection:(86, -52, 0)
-2019-06-23 21:11:47,980 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3282,3964,9) DIR:(86,-52,0) SPD:300
-2019-06-23 21:11:48,154 [ 1] INFO  Unity: SetDirection:(75, -66, 0)
-2019-06-23 21:11:48,156 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3326,3931,9) DIR:(75,-66,0) SPD:300
-2019-06-23 21:11:49,925 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
-2019-06-23 21:11:49,926 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(3746,3616,9) DIR:(86,-51,0) SPD:300
-2019-06-23 21:11:51,551 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2019-06-23 21:11:51,553 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4138,3322,9) DIR:(94,-35,0) SPD:300
-2019-06-23 21:11:52,756 [ 1] INFO  Unity: Stop
-2019-06-23 21:11:52,757 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4498,3178,9) DIR:(94,-35,0) SPD:0
-2019-06-23 21:11:54,747 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2019-06-23 21:11:54,748 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4498,3178,9) DIR:(85,-53,0) SPD:0
-2019-06-23 21:11:54,890 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
-2019-06-23 21:11:54,891 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4498,3178,9) DIR:(74,-67,0) SPD:0
-2019-06-23 21:11:55,123 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:11:55,124 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4498,3178,9) DIR:(74,-67,0) SPD:300
-2019-06-23 21:11:55,644 [ 1] INFO  Unity: Stop
-2019-06-23 21:11:55,645 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4626,3082,9) DIR:(74,-67,0) SPD:0
-2019-06-23 21:11:56,026 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:11:56,027 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4626,3082,9) DIR:(74,-67,0) SPD:300
-2019-06-23 21:11:56,246 [ 1] INFO  Unity: Stop
-2019-06-23 21:11:56,247 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4678,3043,9) DIR:(74,-67,0) SPD:0
-2019-06-23 21:11:57,064 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:11:57,065 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4678,3043,9) DIR:(74,-67,0) SPD:300
-2019-06-23 21:11:57,308 [ 1] INFO  Unity: Stop
-2019-06-23 21:11:57,309 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4738,2998,9) DIR:(74,-67,0) SPD:0
-2019-06-23 21:11:57,607 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
-2019-06-23 21:11:57,608 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4738,2998,9) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:01,022 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:01,382 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:01,383 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4738,2998,9) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:01,516 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:01,517 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4762,2966,9) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:05,271 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:05,865 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:05,866 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4762,2966,9) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:05,872 [ 1] INFO  Unity: SetPosition:(4720, 2984, 20)
-2019-06-23 21:12:05,873 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4720,2984,20) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:05,929 [ 1] INFO  Unity: SetPosition:(4728, 2977, 74)
-2019-06-23 21:12:05,930 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4728,2977,74) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:05,959 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:05,961 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4731,2973,74) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,131 [ 1] INFO  Unity: SetPosition:(4702, 3031, 153)
-2019-06-23 21:12:06,133 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4702,3031,153) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,197 [ 1] INFO  Unity: SetPosition:(4684, 3068, 206)
-2019-06-23 21:12:06,198 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4684,3068,206) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,258 [ 1] INFO  Unity: SetPosition:(4666, 3105, 255)
-2019-06-23 21:12:06,259 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4666,3105,255) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,332 [ 1] INFO  Unity: SetPosition:(4648, 3142, 299)
-2019-06-23 21:12:06,333 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4648,3142,299) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,405 [ 1] INFO  Unity: SetPosition:(4629, 3180, 339)
-2019-06-23 21:12:06,408 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4629,3180,339) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,457 [ 1] INFO  Unity: SetPosition:(4611, 3217, 374)
-2019-06-23 21:12:06,458 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4611,3217,374) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,547 [ 1] INFO  Unity: SetPosition:(4589, 3263, 412)
-2019-06-23 21:12:06,548 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4589,3263,412) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,632 [ 1] INFO  Unity: SetPosition:(4566, 3309, 444)
-2019-06-23 21:12:06,633 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4566,3309,444) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,720 [ 1] INFO  Unity: SetPosition:(4544, 3356, 468)
-2019-06-23 21:12:06,722 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4544,3356,468) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,796 [ 1] INFO  Unity: SetPosition:(4521, 3402, 486)
-2019-06-23 21:12:06,797 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4521,3402,486) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,891 [ 1] INFO  Unity: SetPosition:(4494, 3458, 498)
-2019-06-23 21:12:06,892 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4494,3458,498) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:06,989 [ 1] INFO  Unity: SetPosition:(4471, 3504, 501)
-2019-06-23 21:12:06,992 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4471,3504,501) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:07,067 [ 1] INFO  Unity: SetPosition:(4449, 3551, 496)
-2019-06-23 21:12:07,069 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4449,3551,496) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:07,142 [ 1] INFO  Unity: SetPosition:(4426, 3597, 485)
-2019-06-23 21:12:07,143 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4426,3597,485) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:07,230 [ 1] INFO  Unity: SetPosition:(4404, 3643, 467)
-2019-06-23 21:12:07,231 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4404,3643,467) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:07,312 [ 1] INFO  Unity: SetPosition:(4381, 3690, 443)
-2019-06-23 21:12:07,313 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4381,3690,443) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:07,394 [ 1] INFO  Unity: SetPosition:(4359, 3736, 411)
-2019-06-23 21:12:07,395 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4359,3736,411) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:07,497 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:07,498 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4359,3736,411) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,504 [ 1] INFO  Unity: SetPosition:(4354, 3752, 364)
-2019-06-23 21:12:07,504 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4354,3752,364) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,600 [ 1] INFO  Unity: SetPosition:(4373, 3727, 307)
-2019-06-23 21:12:07,602 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4373,3727,307) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,692 [ 1] INFO  Unity: SetPosition:(4392, 3703, 241)
-2019-06-23 21:12:07,693 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4392,3703,241) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,784 [ 1] INFO  Unity: SetPosition:(4408, 3682, 178)
-2019-06-23 21:12:07,785 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4408,3682,178) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,855 [ 1] INFO  Unity: SetPosition:(4421, 3666, 122)
-2019-06-23 21:12:07,856 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4421,3666,122) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,910 [ 1] INFO  Unity: SetPosition:(4433, 3650, 63)
-2019-06-23 21:12:07,911 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4433,3650,63) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:07,980 [ 1] INFO  Unity: SetPosition:(4446, 3633, -2)
-2019-06-23 21:12:07,981 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4446,3633,-2) DIR:(61,-79,0) SPD:300
-2019-06-23 21:12:08,557 [ 1] INFO  Unity: SetDirection:(46, -89, 0)
-2019-06-23 21:12:08,558 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4545,3501,-2) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:08,749 [ 1] INFO  Unity: SetDirection:(29, -96, 0)
-2019-06-23 21:12:08,750 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4569,3453,-2) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:09,963 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:09,964 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4642,3088,-2) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:11,428 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:11,429 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4642,3088,-2) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:11,613 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:11,614 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4653,3033,-2) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:12,931 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:13,564 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:13,566 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4653,3033,-2) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:13,690 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:13,691 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4660,2998,-2) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:15,112 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:15,268 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:15,269 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4660,2998,-2) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:15,275 [ 1] INFO  Unity: SetPosition:(4704, 3011, 13)
-2019-06-23 21:12:15,277 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4704,3011,13) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:15,410 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:15,411 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4712,2971,13) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:18,918 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:20,395 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:20,396 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4712,2971,13) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:20,471 [ 1] INFO  Unity: SetPosition:(4710, 2968, 82)
-2019-06-23 21:12:20,472 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4710,2968,82) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:20,526 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:20,527 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4713,2953,82) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:20,846 [ 1] INFO  Unity: SetPosition:(4698, 2987, 136)
-2019-06-23 21:12:20,846 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4698,2987,136) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:20,910 [ 1] INFO  Unity: SetPosition:(4678, 3028, 210)
-2019-06-23 21:12:20,910 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4678,3028,210) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:20,957 [ 1] INFO  Unity: SetPosition:(4663, 3058, 262)
-2019-06-23 21:12:20,959 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4663,3058,262) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,022 [ 1] INFO  Unity: SetPosition:(4642, 3099, 328)
-2019-06-23 21:12:21,024 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4642,3099,328) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,091 [ 1] INFO  Unity: SetPosition:(4622, 3140, 389)
-2019-06-23 21:12:21,092 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4622,3140,389) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,157 [ 1] INFO  Unity: SetPosition:(4601, 3180, 446)
-2019-06-23 21:12:21,159 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4601,3180,446) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,221 [ 1] INFO  Unity: SetPosition:(4586, 3211, 486)
-2019-06-23 21:12:21,222 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4586,3211,486) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,291 [ 1] INFO  Unity: SetPosition:(4561, 3262, 548)
-2019-06-23 21:12:21,292 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4561,3262,548) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,377 [ 1] INFO  Unity: SetPosition:(4535, 3313, 602)
-2019-06-23 21:12:21,378 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4535,3313,602) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,456 [ 1] INFO  Unity: SetPosition:(4510, 3364, 649)
-2019-06-23 21:12:21,458 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4510,3364,649) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,522 [ 1] INFO  Unity: SetPosition:(4489, 3405, 682)
-2019-06-23 21:12:21,524 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4489,3405,682) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,625 [ 1] INFO  Unity: SetPosition:(4459, 3466, 724)
-2019-06-23 21:12:21,626 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4459,3466,724) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,709 [ 1] INFO  Unity: SetPosition:(4433, 3517, 751)
-2019-06-23 21:12:21,711 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4433,3517,751) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,808 [ 1] INFO  Unity: SetPosition:(4402, 3578, 774)
-2019-06-23 21:12:21,809 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4402,3578,774) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,893 [ 1] INFO  Unity: SetPosition:(4377, 3629, 786)
-2019-06-23 21:12:21,894 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4377,3629,786) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:21,991 [ 1] INFO  Unity: SetPosition:(4346, 3690, 791)
-2019-06-23 21:12:21,992 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4346,3690,791) DIR:(29,-96,0) SPD:0
-2019-06-23 21:12:22,038 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:22,039 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4346,3690,791) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:22,335 [ 1] INFO  Unity: SetPosition:(4370, 3606, 737)
-2019-06-23 21:12:22,336 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4370,3606,737) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:22,458 [ 1] INFO  Unity: SetPosition:(4382, 3566, 685)
-2019-06-23 21:12:22,459 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4382,3566,685) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:22,563 [ 1] INFO  Unity: SetPosition:(4391, 3536, 635)
-2019-06-23 21:12:22,565 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4391,3536,635) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:22,641 [ 1] INFO  Unity: SetPosition:(4398, 3511, 585)
-2019-06-23 21:12:22,643 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4398,3511,585) DIR:(29,-96,0) SPD:300
-2019-06-23 21:12:22,686 [ 1] INFO  Unity: SetDirection:(46, -89, 0)
-2019-06-23 21:12:22,688 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4400,3501,585) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:22,734 [ 1] INFO  Unity: SetPosition:(4408, 3488, 528)
-2019-06-23 21:12:22,735 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4408,3488,528) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:22,797 [ 1] INFO  Unity: SetPosition:(4418, 3469, 478)
-2019-06-23 21:12:22,800 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4418,3469,478) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:22,856 [ 1] INFO  Unity: SetPosition:(4427, 3451, 424)
-2019-06-23 21:12:22,858 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4427,3451,424) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:22,936 [ 1] INFO  Unity: SetPosition:(4437, 3432, 365)
-2019-06-23 21:12:22,937 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4437,3432,365) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:22,993 [ 1] INFO  Unity: SetPosition:(4446, 3414, 302)
-2019-06-23 21:12:22,994 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4446,3414,302) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:23,051 [ 1] INFO  Unity: SetPosition:(4453, 3400, 251)
-2019-06-23 21:12:23,052 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4453,3400,251) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:23,111 [ 1] INFO  Unity: SetPosition:(4463, 3382, 180)
-2019-06-23 21:12:23,112 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4463,3382,180) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:23,179 [ 1] INFO  Unity: SetPosition:(4472, 3363, 105)
-2019-06-23 21:12:23,180 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4472,3363,105) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:23,233 [ 1] INFO  Unity: SetPosition:(4480, 3349, 46)
-2019-06-23 21:12:23,235 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4480,3349,46) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:23,267 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:23,269 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4482,3345,46) DIR:(46,-89,0) SPD:0
-2019-06-23 21:12:23,405 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:12:23,406 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4482,3345,46) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:24,366 [ 1] INFO  Unity: SetPosition:(4617, 3084, 6)
-2019-06-23 21:12:24,368 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4617,3084,6) DIR:(46,-89,0) SPD:300
-2019-06-23 21:12:24,704 [ 1] INFO  Unity: Stop
-2019-06-23 21:12:24,705 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(46,-89,0) SPD:0
-2019-06-23 21:12:28,063 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:30,327 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
-2019-06-23 21:12:30,328 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(61,-79,0) SPD:0
-2019-06-23 21:12:30,502 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
-2019-06-23 21:12:30,503 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(74,-67,0) SPD:0
-2019-06-23 21:12:30,609 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
-2019-06-23 21:12:30,610 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(85,-52,0) SPD:0
-2019-06-23 21:12:30,706 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2019-06-23 21:12:30,707 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(93,-36,0) SPD:0
-2019-06-23 21:12:30,891 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2019-06-23 21:12:30,892 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(98,-19,0) SPD:0
-2019-06-23 21:12:30,920 [ 1] INFO  Unity: BattleManager.SetTarget:[4:小恶魔]
-2019-06-23 21:12:31,452 [ 1] INFO  Unity: SetDirection:(93, -38, 0)
-2019-06-23 21:12:31,453 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(93,-38,0) SPD:0
-2019-06-23 21:12:31,543 [ 1] INFO  Unity: SetDirection:(84, -55, 0)
-2019-06-23 21:12:31,544 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(84,-55,0) SPD:0
-2019-06-23 21:12:31,640 [ 1] INFO  Unity: SetDirection:(71, -71, 0)
-2019-06-23 21:12:31,641 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(71,-71,0) SPD:0
-2019-06-23 21:12:31,756 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
-2019-06-23 21:12:31,757 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(56,-83,0) SPD:0
-2019-06-23 21:12:36,121 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:36,215 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:36,708 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:40,735 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:40,843 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:41,349 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:44,294 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:12:44,890 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:45,021 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:45,537 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:46,783 [ 1] INFO  Unity: SendSkillCast: skill :103 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:46,929 [ 1] INFO  Unity: OnSkillCast: skill :103 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:47,265 [ 1] INFO  Unity: SendSkillCast: skill :102 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:47,420 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:47,423 [ 1] INFO  Unity: OnSkillCast: skill :102 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:47,769 [ 1] INFO  Unity: SendSkillCast: skill :104 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:47,830 [ 1] INFO  Unity: OnSkillCast: skill :104 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:47,935 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:48,321 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:50,018 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:50,132 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:50,649 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:55,077 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:55,178 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:55,672 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:57,996 [ 1] INFO  Unity: SendSkillCast: skill :102 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:58,107 [ 1] INFO  Unity: OnSkillCast: skill :102 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:58,604 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:12:59,319 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3
-2019-06-23 21:12:59,410 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:4 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:12:59,903 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:01,262 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:13:02,047 [ 1] INFO  Unity: MoveBack
-2019-06-23 21:13:02,088 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4657,3004,6) DIR:(56,-83,0) SPD:-300
-2019-06-23 21:13:02,551 [ 1] INFO  Unity: SetDirection:(71, -71, 0)
-2019-06-23 21:13:02,552 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4564,3128,6) DIR:(71,-71,0) SPD:-300
-2019-06-23 21:13:02,678 [ 1] INFO  Unity: SetDirection:(84, -55, 0)
-2019-06-23 21:13:02,679 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4536,3156,6) DIR:(84,-55,0) SPD:-300
-2019-06-23 21:13:02,771 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2019-06-23 21:13:02,773 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4512,3174,6) DIR:(93,-36,0) SPD:-300
-2019-06-23 21:13:02,793 [ 1] INFO  Unity: Stop
-2019-06-23 21:13:02,794 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4507,3176,6) DIR:(93,-36,0) SPD:0
-2019-06-23 21:13:02,887 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2019-06-23 21:13:02,888 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4507,3176,6) DIR:(98,-19,0) SPD:0
-2019-06-23 21:13:03,061 [ 1] INFO  Unity: SetDirection:(100, -2, 0)
-2019-06-23 21:13:03,062 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4507,3176,6) DIR:(100,-2,0) SPD:0
-2019-06-23 21:13:03,422 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:13:03,423 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4507,3176,6) DIR:(100,-2,0) SPD:300
-2019-06-23 21:13:03,550 [ 1] INFO  Unity: SetDirection:(99, 17, 0)
-2019-06-23 21:13:03,551 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4547,3176,6) DIR:(99,17,0) SPD:300
-2019-06-23 21:13:03,681 [ 1] INFO  Unity: SetDirection:(94, 34, 0)
-2019-06-23 21:13:03,682 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4587,3184,6) DIR:(94,34,0) SPD:300
-2019-06-23 21:13:04,910 [ 1] INFO  Unity: SetDirection:(99, 15, 0)
-2019-06-23 21:13:04,911 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4957,3332,6) DIR:(99,15,0) SPD:300
-2019-06-23 21:13:05,022 [ 1] INFO  Unity: SetDirection:(100, -3, 0)
-2019-06-23 21:13:05,023 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(4992,3339,6) DIR:(100,-3,0) SPD:300
-2019-06-23 21:13:05,314 [ 1] INFO  Unity: SetDirection:(98, -21, 0)
-2019-06-23 21:13:05,315 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5077,3339,6) DIR:(98,-21,0) SPD:300
-2019-06-23 21:13:05,460 [ 1] INFO  Unity: SetDirection:(92, -39, 0)
-2019-06-23 21:13:05,462 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5117,3331,6) DIR:(92,-39,0) SPD:300
-2019-06-23 21:13:05,544 [ 1] INFO  Unity: SetDirection:(83, -56, 0)
-2019-06-23 21:13:05,544 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5147,3319,6) DIR:(83,-56,0) SPD:300
-2019-06-23 21:13:05,696 [ 1] INFO  Unity: SetDirection:(72, -70, 0)
-2019-06-23 21:13:05,698 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5179,3295,6) DIR:(72,-70,0) SPD:300
-2019-06-23 21:13:06,585 [ 1] INFO  Unity: BattleManager.SetTarget:[2:恶鬼]
-2019-06-23 21:13:07,199 [ 1] INFO  Unity: SetDirection:(58, -82, 0)
-2019-06-23 21:13:07,200 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5543,2931,6) DIR:(58,-82,0) SPD:300
-2019-06-23 21:13:07,338 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
-2019-06-23 21:13:07,340 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5564,2903,6) DIR:(42,-91,0) SPD:300
-2019-06-23 21:13:07,517 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
-2019-06-23 21:13:07,518 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5586,2848,6) DIR:(25,-97,0) SPD:300
-2019-06-23 21:13:08,361 [ 1] INFO  Unity: Stop
-2019-06-23 21:13:08,362 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5637,2593,6) DIR:(25,-97,0) SPD:0
-2019-06-23 21:13:08,748 [ 1] INFO  Unity: SendSkillCast: skill :102 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:08,881 [ 1] INFO  Unity: OnSkillCast: skill :102 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:09,384 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:09,709 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:13:09,711 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5637,2593,6) DIR:(25,-97,0) SPD:300
-2019-06-23 21:13:10,238 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
-2019-06-23 21:13:10,240 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5670,2428,6) DIR:(42,-91,0) SPD:300
-2019-06-23 21:13:11,318 [ 1] INFO  Unity: SetPosition:(5796, 2153, 6)
-2019-06-23 21:13:11,320 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5796,2153,6) DIR:(42,-91,0) SPD:300
-2019-06-23 21:13:11,744 [ 1] INFO  Unity: Stop
-2019-06-23 21:13:11,744 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5846,2028,6) DIR:(42,-91,0) SPD:0
-2019-06-23 21:13:12,547 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:13:13,650 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:13:13,996 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:13:13,998 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5846,2028,6) DIR:(42,-91,0) SPD:300
-2019-06-23 21:13:14,203 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
-2019-06-23 21:13:14,204 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5872,1963,6) DIR:(25,-97,0) SPD:300
-2019-06-23 21:13:14,409 [ 1] INFO  Unity: Stop
-2019-06-23 21:13:14,410 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5885,1898,6) DIR:(25,-97,0) SPD:0
-2019-06-23 21:13:14,752 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:13:14,753 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5885,1898,6) DIR:(25,-97,0) SPD:300
-2019-06-23 21:13:14,917 [ 1] INFO  Unity: Stop
-2019-06-23 21:13:14,918 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5895,1848,6) DIR:(25,-97,0) SPD:0
-2019-06-23 21:13:15,403 [ 1] INFO  Unity: SetDirection:(8, -100, 0)
-2019-06-23 21:13:15,404 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5895,1848,6) DIR:(8,-100,0) SPD:0
-2019-06-23 21:13:15,754 [ 1] INFO  Unity: MoveForward
-2019-06-23 21:13:15,757 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5895,1848,6) DIR:(8,-100,0) SPD:300
-2019-06-23 21:13:16,052 [ 1] INFO  Unity: Stop
-2019-06-23 21:13:16,054 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:10 POS:(5895,1758,6) DIR:(8,-100,0) SPD:0
-2019-06-23 21:13:16,487 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:16,533 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:17,043 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:19,061 [ 1] WARN  Unity: PlaySound:ui/sfx_acceptl not existed
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
-UIMessageBox:OnClickYes() (at Assets/Scripts/UI/UIMessageBox.cs:58)
-UnityEngine.EventSystems.EventSystem:Update()
-
-2019-06-23 21:13:19,553 [ 1] INFO  Unity: SendSkillCast: skill :102 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:19,649 [ 1] INFO  Unity: OnSkillCast: skill :102 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:20,146 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:22,595 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:22,679 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:23,176 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:24,582 [ 1] INFO  Unity: SendSkillCast: skill :104 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:24,688 [ 1] INFO  Unity: OnSkillCast: skill :104 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:25,182 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:26,192 [ 1] INFO  Unity: SendSkillCast: skill :103 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:26,320 [ 1] INFO  Unity: OnSkillCast: skill :103 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:26,816 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:26,969 [ 1] INFO  Unity: SendSkillCast: skill :101 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:27,099 [ 1] INFO  Unity: OnSkillCast: skill :101 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:27,588 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:27,712 [ 1] INFO  Unity: SendSkillCast: skill :102 caster:10 target:2 pos:SkillBridge.Message.NVector3
-2019-06-23 21:13:27,805 [ 1] INFO  Unity: OnSkillCast: skill :102 caster:10 target:2 pos:SkillBridge.Message.NVector3  result:Success
-2019-06-23 21:13:28,304 [ 1] INFO  Unity: DoDamage:100
-2019-06-23 21:13:30,332 [ 1] INFO  Unity: Character_1006_战士撒大声地 OnDestroy :ID:10 POS:(5895, 1758, 6) DIR:(8, -100, 0) SPD:0 
-2019-06-23 21:13:30,334 [ 1] INFO  Unity: Character_0_恶鬼 OnDestroy :ID:2 POS:(5887, 1573, -70) DIR:(9, 100, 0) SPD:0 
-2019-06-23 21:13:30,335 [ 1] INFO  Unity: Character_0_山丘巨人 OnDestroy :ID:3 POS:(5540, 1682, -70) DIR:(20, 98, 0) SPD:0 
-2019-06-23 21:13:30,337 [ 1] INFO  Unity: Character_0_小恶魔 OnDestroy :ID:4 POS:(4775, 2865, -70) DIR:(-30, 95, 0) SPD:0 
-2019-06-23 21:13:30,338 [ 1] INFO  Unity: Character_0_死神 OnDestroy :ID:5 POS:(5683, 4173, -70) DIR:(28, -96, 0) SPD:0 
-2019-06-23 21:13:30,358 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-06-23 21:13:30,361 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-07-19 23:42:14,307 [ 1] INFO  Unity: Character_2_jjjjj OnDestroy :ID:9 POS:(3049, 3982, 56) DIR:(100, 0, 0) SPD:300 
+2019-07-19 23:42:15,272 [ 1] INFO  Unity: MoveForward
+2019-07-19 23:42:15,273 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3054,3982,56) DIR:(100,0,0) SPD:300
+2019-07-19 23:42:15,279 [ 1] INFO  Unity: SetPosition:(3068, 3982, 120)
+2019-07-19 23:42:15,280 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,120) DIR:(100,0,0) SPD:300
+2019-07-19 23:42:15,601 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-07-19 23:42:15,605 [ 1] INFO  Unity: Stop
+2019-07-19 23:42:15,607 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3073,3982,120) DIR:(100,0,0) SPD:0
+2019-07-19 23:42:15,863 [ 1] INFO  Unity: TeleporterObject:Character [jjjjj] Enter Teleporter [6:野外传入点]
+2019-07-19 23:42:16,005 [ 1] INFO  Unity: SetPosition:(3068, 3982, 68)
+2019-07-19 23:42:16,006 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,68) DIR:(100,0,0) SPD:0
+2019-07-19 23:42:16,150 [ 1] INFO  Unity: SetPosition:(3068, 3982, 17)
+2019-07-19 23:42:16,152 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,17) DIR:(100,0,0) SPD:0
+2019-07-19 23:42:16,193 [ 1] INFO  Unity: MoveForward
+2019-07-19 23:42:16,194 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,17) DIR:(100,0,0) SPD:300
+2019-07-19 23:42:16,267 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2019-07-19 23:42:16,269 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3098,3982,17) DIR:(98,-18,0) SPD:300
+2019-07-19 23:42:17,635 [ 1] INFO  Unity: BattleManager.SetTarget:[3:小恶魔]
+2019-07-19 23:42:17,698 [ 1] INFO  Unity: Stop
+2019-07-19 23:42:17,699 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3523,3897,17) DIR:(98,-18,0) SPD:0
+2019-07-19 23:42:17,872 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2019-07-19 23:42:17,873 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3523,3897,17) DIR:(93,-36,0) SPD:0
+2019-07-19 23:42:17,900 [ 1] INFO  Unity: MoveForward
+2019-07-19 23:42:17,901 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3523,3897,17) DIR:(93,-36,0) SPD:300
+2019-07-19 23:42:17,994 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2019-07-19 23:42:17,995 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3553,3885,17) DIR:(85,-53,0) SPD:300
+2019-07-19 23:42:18,118 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2019-07-19 23:42:18,119 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3581,3864,17) DIR:(74,-67,0) SPD:300
+2019-07-19 23:42:19,911 [ 1] INFO  Unity: SetPosition:(3968, 3516, 6)
+2019-07-19 23:42:19,912 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3968,3516,6) DIR:(74,-67,0) SPD:300
+2019-07-19 23:42:20,638 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2019-07-19 23:42:20,639 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4144,3384,6) DIR:(85,-53,0) SPD:300
+2019-07-19 23:42:21,380 [ 1] INFO  Unity: Stop
+2019-07-19 23:42:21,381 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4324,3249,6) DIR:(85,-53,0) SPD:0
+2019-07-19 23:42:21,644 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:3 pos:(0,0,0)
+2019-07-19 23:42:21,789 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:3 pos:(0,0,0)  result:Success
+2019-07-19 23:42:22,534 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:42:22,602 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:小恶魔
+2019-07-19 23:42:23,243 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:42:23,247 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:1  CRIT:False
+2019-07-19 23:42:23,321 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2019-07-19 23:43:13,660 [ 1] INFO  Unity: SendSkillCast: skill :304 caster:9 target:3 pos:(0,0,0)
+2019-07-19 23:43:13,785 [ 1] INFO  Unity: OnSkillCast: skill :304 caster:9 target:3 pos:(0,0,0)  result:Success
+2019-07-19 23:43:14,289 [ 1] INFO  Unity: Skill[连射].UpdateCasting Finish
+2019-07-19 23:43:14,902 [ 1] INFO  Unity: Skill[连射].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:小恶魔
+2019-07-19 23:43:14,905 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:15,553 [ 1] INFO  Unity: Skill[连射].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:小恶魔
+2019-07-19 23:43:15,613 [ 1] INFO  Unity: OnSkillHit:count:2
+2019-07-19 23:43:15,615 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:1  CRIT:False
+2019-07-19 23:43:16,296 [ 1] INFO  Unity: Skill[连射].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:小恶魔
+2019-07-19 23:43:16,345 [ 1] INFO  Unity: OnSkillHit:count:2
+2019-07-19 23:43:16,347 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:1  CRIT:False
+2019-07-19 23:43:17,026 [ 1] INFO  Unity: Skill[连射].UpdateSkill Finish
+2019-07-19 23:43:17,045 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:17,047 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:2  CRIT:False
+2019-07-19 23:43:20,746 [ 1] INFO  Unity: BattleManager.SetPosition:[SkillBridge.Message.NVector3]
+2019-07-19 23:43:20,748 [ 1] INFO  Unity: SendSkillCast: skill :303 caster:9 target:3 pos:(4654,2940,3)
+2019-07-19 23:43:20,894 [ 1] INFO  Unity: OnSkillCast: skill :303 caster:9 target:3 pos:(4654,2940,3)  result:Success
+2019-07-19 23:43:22,110 [ 1] INFO  Unity: Skill[毒箭雨].UpdateCasting Finish
+2019-07-19 23:43:22,906 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:22,908 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:2  CRIT:False
+2019-07-19 23:43:22,924 [ 1] INFO  Unity: Skill[毒箭雨].UpdateSkill Finish
+2019-07-19 23:43:25,993 [ 1] INFO  Unity: SendSkillCast: skill :302 caster:9 target:3 pos:(4654,2940,3)
+2019-07-19 23:43:26,123 [ 1] INFO  Unity: OnSkillCast: skill :302 caster:9 target:3 pos:(4654,2940,3)  result:Success
+2019-07-19 23:43:26,630 [ 1] INFO  Unity: Skill[流血箭].UpdateCasting Finish
+2019-07-19 23:43:26,940 [ 1] INFO  Unity: Skill[流血箭].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:小恶魔
+2019-07-19 23:43:26,943 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:27,651 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:27,654 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:1  CRIT:False
+2019-07-19 23:43:27,673 [ 1] INFO  Unity: Skill[流血箭].UpdateSkill Finish
+2019-07-19 23:43:29,490 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:3 pos:(4654,2940,3)
+2019-07-19 23:43:29,571 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:3 pos:(4654,2940,3)  result:Success
+2019-07-19 23:43:30,274 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:30,387 [ 1] INFO  Unity: Skill[普通攻击].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:小恶魔
+2019-07-19 23:43:30,990 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-19 23:43:30,993 [ 1] INFO  Unity: DoDamage:小恶魔 DMG:1  CRIT:True
+2019-07-19 23:43:31,143 [ 1] INFO  Unity: Skill[普通攻击].UpdateSkill Finish
+2019-07-19 23:43:33,813 [ 1] INFO  Unity: Character_2_jjjjj OnDestroy :ID:9 POS:(4324, 3249, 6) DIR:(85, -53, 0) SPD:0 
+2019-07-19 23:43:33,815 [ 1] INFO  Unity: Character_0_恶鬼 OnDestroy :ID:1 POS:(5887, 1573, -70) DIR:(9, 100, 0) SPD:0 
+2019-07-19 23:43:33,816 [ 1] INFO  Unity: Character_0_山丘巨人 OnDestroy :ID:2 POS:(5540, 1682, -70) DIR:(20, 98, 0) SPD:0 
+2019-07-19 23:43:33,817 [ 1] INFO  Unity: Character_0_小恶魔 OnDestroy :ID:3 POS:(4775, 2865, -70) DIR:(-30, 95, 0) SPD:0 
+2019-07-19 23:43:33,819 [ 1] INFO  Unity: Character_0_死神 OnDestroy :ID:4 POS:(5683, 4173, -70) DIR:(28, -96, 0) SPD:0 
+2019-07-19 23:43:33,827 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-07-19 23:43:33,829 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)

@@ -7,7 +7,7 @@
       "Type": "Normal",
       "UnlockLevel": 1,
       "CastTarget": "Target",
-      "CastRange": 200,
+      "CastRange": 400,
       "CastTime": 0.0,
       "CD": 3.0,
       "MPCost": 0,

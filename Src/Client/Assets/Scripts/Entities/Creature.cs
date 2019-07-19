@@ -68,6 +68,12 @@ namespace Entities
                 return this.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id;
             }
         }
+
+        internal int Distance(Creature target)
+        {
+            return (int)Vector3Int.Distance(this.position,target.position);
+        }
+
         public Creature(NCharacterInfo info) : base(info.Entity)
         {
             this.Info = info;
@@ -127,7 +133,7 @@ namespace Entities
         {
             this.SetStandby(true);
             var skill = this.SkillMgr.GetSkill(skillId);
-            skill.BeginCast(damage);
+            skill.BeginCast(target);
         }
 
         public void PlayAnim(string name)
@@ -151,10 +157,15 @@ namespace Entities
 
         public void DoDamage(NDamageInfo damage)
         {
-            Debug.LogFormat("DoDamage:{0}",damage.Damage);
+            Debug.LogFormat("DoDamage:{0} DMG:{1}  CRIT:{2}",this.Name,damage.Damage,damage.Crit);
             this.Attributes.HP -= damage.Damage;
             this.PlayAnim("Hurt");
         }
-        
+
+        public void DoSkillHit(NSkillHitInfo hit)
+        {
+            var skill = this.SkillMgr.GetSkill(hit.skillId);
+            skill.DoHit(hit);
+        }
     }
 }

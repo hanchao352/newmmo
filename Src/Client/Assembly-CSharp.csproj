@@ -65,6 +65,7 @@
     <Compile Include="Assets\FX\Scripts\uv_l.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
+    <Compile Include="Assets\Scripts\Battle\Bullet.cs" />
     <Compile Include="Assets\Scripts\Battle\Skill.cs" />
     <Compile Include="Assets\Scripts\Battle\SkillManager.cs" />
     <Compile Include="Assets\Scripts\Config\Config.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Scripts\GameObject\PlayerInputController.cs" />
     <Compile Include="Assets\Scripts\GameObject\RideController.cs" />
     <Compile Include="Assets\Scripts\GameObject\SpawnPoint.cs" />
+    <Compile Include="Assets\Scripts\GameObject\TargetSelector.cs" />
     <Compile Include="Assets\Scripts\GameObject\TeleporterObject.cs" />
     <Compile Include="Assets\Scripts\LoadingManager.cs" />
     <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
@@ -228,6 +230,7 @@
     <None Include="Assets\ThirdParty\Candlelight\Asset Store Products\HyperText\Documentation\Changelog.txt" />
     <None Include="Assets\JsonDotNet\link.xml" />
     <None Include="Assets\FX\Shader\ParticlesAdditive.shader" />
+    <None Include="Assets\Shader\Projector.shader" />
     <None Include="Assets\Shader\MyMobile VertexLit Diffuse.shader" />
     <None Include="Assets\FX\Shader\ParticlesAlphaBlendedMask.shader" />
     <None Include="Assets\References\protobuf-net.xml" />

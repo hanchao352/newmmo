@@ -10,6 +10,7 @@ using Battle;
 using Common.Battle;
 using SkillBridge.Message;
 using Managers;
+using Models;
 
 public class UISkillSlot:MonoBehaviour,IPointerClickHandler
 {
@@ -26,6 +27,8 @@ public class UISkillSlot:MonoBehaviour,IPointerClickHandler
 
     private void Update()
     {
+        if (this.skill == null) return;
+
         if (this.skill.CD>0)
         {
 
@@ -44,7 +47,21 @@ public class UISkillSlot:MonoBehaviour,IPointerClickHandler
         }
     }
 
+    public void OnPositionSelected(Vector3 pos)
+    {
+        BattleManager.Instance.CurrentPosition = GameObjectTool.WorldToLogicN(pos);
+        this.CastSkill();
+    }
     public void OnPointerClick(PointerEventData eventData)
+    {
+        if (this.skill.Define.CastTarget==Common.Battle.TargetType.Position)
+        {
+            TargetSelector.ShowSelector(User.Instance.CurrentCharacter.position,this.skill.Define.CastRange,this.skill.Define.AOERange, OnPositionSelected);
+            return;
+        }
+        CastSkill();
+    }
+    public void CastSkill()
     {
 
         SkillResult result= this.skill.CanCast(BattleManager.Instance.CurrentTarget);
@@ -77,7 +94,12 @@ public class UISkillSlot:MonoBehaviour,IPointerClickHandler
     internal void SetSkill(Skill value)
     {
         this.skill = value;
-        if (this.icon != null) this.icon.overrideSprite = Resloader.Load<Sprite>(this.skill.Define.Icon);      
+        if (this.icon != null)
+        {
+            this.icon.overrideSprite = Resloader.Load<Sprite>(this.skill.Define.Icon);
+            this.icon.SetAllDirty();
+        }
+                
     }
 }
 

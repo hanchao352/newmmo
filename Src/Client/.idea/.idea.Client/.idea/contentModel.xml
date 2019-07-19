@@ -7,9 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Editor" t="Include">
-          <e p="MapTools.cs" t="Include" />
-        </e>
         <e p="FX" t="Include">
           <e p="Scripts" t="Include">
             <e p="DelayActiveChild.cs" t="Include" />
@@ -38,9 +35,19 @@
           <e p="Assets" t="Include">
             <e p="Resloader.cs" t="Include" />
           </e>
+          <e p="Battle" t="Include">
+            <e p="Skill.cs" t="Include" />
+            <e p="SkillManager.cs" t="Include" />
+          </e>
+          <e p="Config" t="Include">
+            <e p="Config.cs" t="Include" />
+          </e>
           <e p="Entities" t="Include">
             <e p="Character.cs" t="Include" />
+            <e p="Creature.cs" t="Include" />
             <e p="Entity.cs" t="Include" />
+            <e p="IEntityController.cs" t="Include" />
+            <e p="Monster.cs" t="Include" />
           </e>
           <e p="GameObject" t="Include">
             <e p="EntityController.cs" t="Include" />
@@ -48,8 +55,10 @@
             <e p="GameObjectTool.cs" t="Include" />
             <e p="MainPlayerCamera.cs" t="Include" />
             <e p="MapController.cs" t="Include" />
+            <e p="NavPathRenderer.cs" t="Include" />
             <e p="NPCController.cs" t="Include" />
             <e p="PlayerInputController.cs" t="Include" />
+            <e p="RideController.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
             <e p="TeleporterObject.cs" t="Include" />
           </e>
@@ -59,16 +68,22 @@
           </e>
           <e p="Managers" t="Include">
             <e p="BagManager.cs" t="Include" />
+            <e p="BattleManager.cs" t="Include" />
             <e p="CharacterManager.cs" t="Include" />
+            <e p="ChatManager.cs" t="Include" />
             <e p="DataManager.cs" t="Include" />
             <e p="EntityManager.cs" t="Include" />
             <e p="EquipManager.cs" t="Include" />
             <e p="FriendManager.cs" t="Include" />
+            <e p="GuildManager.cs" t="Include" />
+            <e p="InputManager.cs" t="Include" />
             <e p="ItemManager.cs" t="Include" />
             <e p="MinimapManager.cs" t="Include" />
             <e p="NPCManager.cs" t="Include" />
             <e p="QuestManager.cs" t="Include" />
             <e p="ShopManager.cs" t="Include" />
+            <e p="SpriteManager.cs" t="Include" />
+            <e p="TeamManager.cs" t="Include" />
             <e p="TestManager.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
@@ -84,17 +99,36 @@
             <e p="SceneManager.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
+            <e p="BattleService.cs" t="Include" />
+            <e p="ChatService.cs" t="Include" />
             <e p="FriendService.cs" t="Include" />
+            <e p="GuildService.cs" t="Include" />
             <e p="ItemService.cs" t="Include" />
             <e p="MapService.cs" t="Include" />
             <e p="QuestService.cs" t="Include" />
             <e p="StatusService.cs" t="Include" />
+            <e p="TeamService.cs" t="Include" />
             <e p="UserService.cs" t="Include" />
+          </e>
+          <e p="Sound" t="Include">
+            <e p="SoundDefine.cs" t="Include" />
+            <e p="SoundManager.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="CharEquip" t="Include">
               <e p="UICharEquip.cs" t="Include" />
               <e p="UIEquipItem.cs" t="Include" />
+            </e>
+            <e p="GuiId" t="Include">
+              <e p="UIGuild.cs" t="Include" />
+              <e p="UIGuildApplyItem.cs" t="Include" />
+              <e p="UIGuildApplyList.cs" t="Include" />
+              <e p="UIGuildInfo.cs" t="Include" />
+              <e p="UIGuildItem.cs" t="Include" />
+              <e p="UIGuildList.cs" t="Include" />
+              <e p="UIGuildMemberItem.cs" t="Include" />
+              <e p="UIGuildPopCreat.cs" t="Include" />
+              <e p="UIGuildPopNoGuild.cs" t="Include" />
             </e>
             <e p="InputBox.cs" t="Include" />
             <e p="ListView" t="Include">
@@ -111,6 +145,10 @@
               <e p="UIQuestStatus.cs" t="Include" />
               <e p="UIQuestSystem.cs" t="Include" />
             </e>
+            <e p="Ride" t="Include">
+              <e p="UIRide.cs" t="Include" />
+              <e p="UIRideItem.cs" t="Include" />
+            </e>
             <e p="TabView" t="Include">
               <e p="TabButton.cs" t="Include" />
               <e p="TabView.cs" t="Include" />
@@ -119,6 +157,8 @@
             <e p="UICharacterSelect.cs" t="Include" />
             <e p="UICharacterView.cs" t="Include" />
             <e p="UICharInfo.cs" t="Include" />
+            <e p="UIChat.cs" t="Include" />
+            <e p="UICreatureInfo.cs" t="Include" />
             <e p="UIFriendItem.cs" t="Include" />
             <e p="UIFriends.cs" t="Include" />
             <e p="UIIconItem.cs" t="Include" />
@@ -128,9 +168,18 @@
             <e p="UIManager.cs" t="Include" />
             <e p="UIMessageBox.cs" t="Include" />
             <e p="UINameBar.cs" t="Include" />
+            <e p="UIPopCharMenu.cs" t="Include" />
             <e p="UIRegister.cs" t="Include" />
+            <e p="UISetting.cs" t="Include" />
             <e p="UIShop.cs" t="Include" />
             <e p="UIShopItem.cs" t="Include" />
+            <e p="UISkill.cs" t="Include" />
+            <e p="UISkillItem.cs" t="Include" />
+            <e p="UISkillSlot.cs" t="Include" />
+            <e p="UISkillSlots.cs" t="Include" />
+            <e p="UISystemConfig.cs" t="Include" />
+            <e p="UITeam.cs" t="Include" />
+            <e p="UITeamItem.cs" t="Include" />
             <e p="UITest.cs" t="Include" />
             <e p="UIWindow.cs" t="Include" />
             <e p="UIWorldElement.cs" t="Include" />
@@ -154,6 +203,63 @@
             <e p="ParticleAdditive.shader" t="Include" />
           </e>
           <e p="UITest.shader" t="Include" />
+        </e>
+        <e p="ThirdParty" t="Include">
+          <e p="Candlelight" t="Include">
+            <e p="Asset Store Products" t="Include">
+              <e p="HyperText" t="Include">
+                <e p="Documentation" t="Include">
+                  <e p="Changelog.txt" t="Include" />
+                  <e p="Readme.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Library" t="Include">
+              <e p="GUI" t="Include">
+                <e p="FontUpdateTracker.cs" t="Include" />
+                <e p="GUIHelpers.cs" t="Include" />
+                <e p="HyperText.cs" t="Include" />
+                <e p="HyperTextProcessor.cs" t="Include" />
+                <e p="HyperTextQuad.cs" t="Include" />
+                <e p="HyperTextStyles.cs" t="Include" />
+                <e p="KeywordCollection.cs" t="Include" />
+                <e p="KeywordsGlossary.cs" t="Include" />
+                <e p="KeywordsTextDocument.cs" t="Include" />
+                <e p="LocalizableText.cs" t="Include" />
+                <e p="RectOffsetX.cs" t="Include" />
+                <e p="RichTextStyle.cs" t="Include" />
+                <e p="TextAnchorX.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="IIdentifiable.cs" t="Include" />
+                <e p="IPropertyBackingFieldCompatible.cs" t="Include" />
+                <e p="ITextSource.cs" t="Include" />
+                <e p="IValidatable.cs" t="Include" />
+              </e>
+              <e p="Property Attributes" t="Include">
+                <e p="FlushChildrenAttribute.cs" t="Include" />
+                <e p="PopupAttribute.cs" t="Include" />
+                <e p="PropertyBackingFieldAttribute.cs" t="Include" />
+                <e p="StatusPropertyAttribute.cs" t="Include" />
+                <e p="TextureThumbnailAttribute.cs" t="Include" />
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="ArrayX.cs" t="Include" />
+                <e p="BackingFieldCompatibleObject.cs" t="Include" />
+                <e p="IdentifiableBackingFieldCompatibleObjectWrapper.cs" t="Include" />
+                <e p="IndexRange.cs" t="Include" />
+                <e p="ObjectX.cs" t="Include" />
+                <e p="Singleton.cs" t="Include" />
+                <e p="StringX.cs" t="Include" />
+              </e>
+              <e p="Visuals" t="Include">
+                <e p="ColorGradient.cs" t="Include" />
+                <e p="ColorHSV.cs" t="Include" />
+                <e p="ColorTween.cs" t="Include" />
+                <e p="TextureX.cs" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="Client.sln" t="IncludeFlat" />
