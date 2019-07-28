@@ -49,7 +49,7 @@ namespace GameServer.Battle
             this.Info = info;
             this.Owner = owner;
            
-            this.Define = DataManager.Instance.Skills[(int)this.Owner.Define.Class][Info.Id];
+            this.Define = DataManager.Instance.Skills[(int)this.Owner.Define.TID][Info.Id];
           
         }
         public SkillResult CanCast(BattleContext context)
@@ -103,6 +103,8 @@ namespace GameServer.Battle
                 this.Context = context;
                 this.Hit = 0;
                 this.Bullets.Clear();
+
+                this.AddBuff(TriggerType.SkillCast,this.Context.Target);
                 if (this.Instant)
                 {
                     this.DoHit();
@@ -117,16 +119,32 @@ namespace GameServer.Battle
                     {
                         this.Status = SkillStatus.Running;
                     }
-                }
-                //if (context.Target != null)
-                //{
-                //    this.DoSkillDamage(context);
-                //}
-                //this.cd = this.Define.CD;
+                }             
             }
             Log.InfoFormat("Skill[{0}].Cast  Result:[{1}]  Status:{2}",this.Define.Name,result,this.Status);
             return result;
 
+        }
+
+        private void AddBuff(TriggerType trigger,Creature target)
+        {
+            if (this.Define.Buff == null || this.Define.Buff.Count == 0) return;
+
+            foreach (var buffId in this.Define.Buff)
+            {
+                var buffDefine = DataManager.Instance.Buffs[buffId];
+                if (buffDefine.Trigger != trigger) continue;//触发类型不一致
+                if (buffDefine.Target==TargetType.Self)
+                {
+                    this.Owner.AddBuff(this.Context,buffDefine);
+                }
+                else if (buffDefine.Target==TargetType.Target)
+                {
+                    target.AddBuff(this.Context,buffDefine);
+                }
+               
+            }
+            
         }
 
         NSkillHitInfo InitHitInfo(bool isBullet)
@@ -195,7 +213,7 @@ namespace GameServer.Battle
             {
                 pos = this.Owner.Position;
             }
-            List<Creature> units = this.Context.Battle.FindUnitsInRange(pos,this.Define.AOERange);
+            List<Creature> units = this.Context.Battle.FindUnitsInMapRange(pos,this.Define.AOERange);
             foreach (var target in units)
             {
                 this.HitTarget(target,  hit);
@@ -216,13 +234,23 @@ namespace GameServer.Battle
 
             NDamageInfo damage = this.CalcSkillDamage(Context.Caster,target);
             Log.InfoFormat("Skill[{0}].HitTarget[{1}] Damage:{2} Crit:{3}",this.Define.Name,target.Name,damage.Damage,damage.Crit);
-            target.DoDamage(damage);
+            target.DoDamage(damage,Context.Caster);
             hit.Damages.Add(damage);
+
+            this.AddBuff(TriggerType.SkillHit,target);
         }
 
        
 
-            
+
+
+        /////
+        /// 战斗计算公式:
+        /// 物理伤害=物理攻击或技能原始伤害*（1-物理防御/(物理防御+100)）
+        /// 法术伤害=法术攻击或者技能原始伤害*（1-魔法防御/(魔法防御+100)）
+        /// 暴击伤害=固定2倍伤害
+        /// 伤害最小值为1，当伤害小于1时，取1
+        /// 最终伤害在取值是随机浮动5%：最终伤害*（1-5%）<最终伤害<最终伤害*(1+5%)
         private NDamageInfo CalcSkillDamage(Creature caster, Creature target)
         {
             float ad = this.Define.AD + caster.Attributes.AD * this.Define.ADFactor;

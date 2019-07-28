@@ -1,206 +1,1170 @@
-2019-07-19 23:40:12,827 [ 1] INFO  Unity: LoadingManager start
-2019-07-19 23:40:16,377 [ 1] INFO  Unity: DataManager > DataManager()
-2019-07-19 23:41:14,035 [ 1] WARN  Unity: PlaySound:ui/sfx_click not existed
+2019-07-28 21:21:36,561 [ 1] INFO  Unity: LoadingManager start
+2019-07-28 21:21:41,102 [ 1] INFO  Unity: DataManager > DataManager()
+2019-07-28 21:22:02,838 [ 1] WARN  Unity: PlaySound:ui/sfx_click not existed
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 SoundManager:PlaySound(String) (at Assets/Scripts/Sound/SoundManager.cs:125)
 UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:40)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2019-07-19 23:41:14,038 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
-2019-07-19 23:41:14,041 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-07-19 23:41:14,042 [ 1] INFO  Unity: DoConnect
-2019-07-19 23:41:14,045 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-07-19 23:41:14,049 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2019-07-28 21:22:02,842 [ 1] INFO  Unity: UserLoginRequest::user :user1 psw:123456
+2019-07-28 21:22:02,844 [ 1] INFO  Unity: ConnectToServer() Start 
+2019-07-28 21:22:02,846 [ 1] INFO  Unity: DoConnect
+2019-07-28 21:22:02,852 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2019-07-28 21:22:02,860 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2019-07-19 23:41:14,054 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-07-19 23:41:16,111 [ 1] INFO  Unity: OnLogin:Success [None]
-2019-07-19 23:41:16,113 [ 1] INFO  Unity: LoadLevel: CharSelect
-2019-07-19 23:41:16,629 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-07-19 23:41:18,724 [ 1] INFO  Unity: Select Char:[2]jjjjj[Archer]
-2019-07-19 23:41:19,890 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
-2019-07-19 23:41:20,358 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-07-19 23:41:20,361 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
-2019-07-19 23:41:20,362 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
-2019-07-19 23:41:20,364 [ 1] INFO  Unity: ItemManager: Init[Id:3007,Count:1]
-2019-07-19 23:41:20,366 [ 1] INFO  Unity: ItemManager: Init[Id:3001,Count:1]
-2019-07-19 23:41:20,368 [ 1] INFO  Unity: ItemManager: Init[Id:8001,Count:1]
-2019-07-19 23:41:20,386 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2019-07-19 23:41:20,398 [ 1] INFO  Unity: AddCharacter:2:jjjjj Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2019-07-19 23:41:20,403 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-07-19 23:41:21,982 [ 1] WARN  Unity: UIMain [-64704] Awake
+2019-07-28 21:22:02,867 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2019-07-28 21:22:06,242 [ 1] INFO  Unity: OnLogin:Success [None]
+2019-07-28 21:22:06,255 [ 1] INFO  Unity: LoadLevel: CharSelect
+2019-07-28 21:22:11,715 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+
+2019-07-28 21:22:11,715 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+
+2019-07-28 21:22:11,717 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+
+2019-07-28 21:22:11,718 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+
+2019-07-28 21:22:11,983 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-07-28 21:22:14,396 [ 1] INFO  Unity: Select Char:[3]uuuu[Archer]
+2019-07-28 21:22:15,631 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
+2019-07-28 21:22:16,594 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2019-07-28 21:22:16,604 [ 1] INFO  Unity: ItemManager: Init[Id:1,Count:20]
+2019-07-28 21:22:16,607 [ 1] INFO  Unity: ItemManager: Init[Id:2,Count:20]
+2019-07-28 21:22:16,654 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2019-07-28 21:22:16,687 [ 1] INFO  Unity: AddCharacter:3:uuuu Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2019-07-28 21:22:16,694 [ 1] INFO  Unity: LoadLevel: MainCity
+2019-07-28 21:22:23,249 [ 1] WARN  Unity: UIWorldElementManager [-53936] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-07-19 23:41:21,988 [ 1] WARN  Unity: MainPlayerCamera [-59500] Awake
+2019-07-28 21:22:23,262 [ 1] WARN  Unity: UIMain [-52790] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-07-19 23:41:21,989 [ 1] WARN  Unity: GameObjectManager [-59454] Awake
+2019-07-28 21:22:23,330 [ 1] WARN  Unity: MainPlayerCamera [-47466] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-07-19 23:41:21,998 [ 1] WARN  Unity: UIWorldElementManager [45996] Awake
+2019-07-28 21:22:23,331 [ 1] WARN  Unity: GameObjectManager [-47420] Awake
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:26)
 
-2019-07-19 23:41:22,096 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-07-19 23:41:22,211 [ 1] INFO  Unity: 0
-2019-07-19 23:41:22,214 [ 1] INFO  Unity: Set Channel:Local
-2019-07-19 23:41:57,342 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2019-07-19 23:41:57,343 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(98,-19,0) SPD:0
-2019-07-19 23:41:57,447 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
-2019-07-19 23:41:57,448 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(93,-37,0) SPD:0
-2019-07-19 23:41:57,476 [ 1] INFO  Unity: MoveForward
-2019-07-19 23:41:57,478 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(93,-37,0) SPD:300
-2019-07-19 23:41:57,552 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
-2019-07-19 23:41:57,553 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5020,3992,820) DIR:(83,-55,0) SPD:300
-2019-07-19 23:41:57,630 [ 1] INFO  Unity: SetDirection:(70, -71, 0)
-2019-07-19 23:41:57,631 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5044,3974,820) DIR:(70,-71,0) SPD:300
-2019-07-19 23:41:57,709 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
-2019-07-19 23:41:57,710 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5064,3954,820) DIR:(57,-82,0) SPD:300
-2019-07-19 23:41:57,820 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
-2019-07-19 23:41:57,821 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5079,3934,820) DIR:(41,-91,0) SPD:300
-2019-07-19 23:41:57,918 [ 1] INFO  Unity: SetDirection:(22, -98, 0)
-2019-07-19 23:41:57,919 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5091,3904,820) DIR:(22,-98,0) SPD:300
-2019-07-19 23:41:57,985 [ 1] INFO  Unity: SetDirection:(4, -100, 0)
-2019-07-19 23:41:57,986 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5096,3879,820) DIR:(4,-100,0) SPD:300
-2019-07-19 23:41:58,099 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
-2019-07-19 23:41:58,100 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5096,3849,820) DIR:(-16,-99,0) SPD:300
-2019-07-19 23:41:58,218 [ 1] INFO  Unity: SetDirection:(-34, -94, 0)
-2019-07-19 23:41:58,220 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5088,3809,820) DIR:(-34,-94,0) SPD:300
-2019-07-19 23:41:58,554 [ 1] INFO  Unity: SetDirection:(-50, -87, 0)
-2019-07-19 23:41:58,555 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5050,3714,820) DIR:(-50,-87,0) SPD:300
-2019-07-19 23:41:59,252 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
-2019-07-19 23:41:59,253 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4921,3542,820) DIR:(-65,-76,0) SPD:300
-2019-07-19 23:41:59,419 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
-2019-07-19 23:41:59,420 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4891,3502,820) DIR:(-78,-63,0) SPD:300
-2019-07-19 23:42:01,162 [ 1] INFO  Unity: SetDirection:(-88, -48, 0)
-2019-07-19 23:42:01,163 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4475,3190,820) DIR:(-88,-48,0) SPD:300
-2019-07-19 23:42:02,310 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
-2019-07-19 23:42:02,312 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4199,3052,820) DIR:(-95,-31,0) SPD:300
-2019-07-19 23:42:04,389 [ 1] INFO  Unity: SetPosition:(3620, 2829, 806)
-2019-07-19 23:42:04,391 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3620,2829,806) DIR:(-95,-31,0) SPD:300
-2019-07-19 23:42:05,533 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
-2019-07-19 23:42:05,535 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3280,2693,806) DIR:(-99,-14,0) SPD:300
-2019-07-19 23:42:05,912 [ 1] INFO  Unity: SetPosition:(3190, 2710, 806)
-2019-07-19 23:42:05,913 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3190,2710,806) DIR:(-99,-14,0) SPD:300
-2019-07-19 23:42:07,424 [ 1] INFO  Unity: SetPosition:(2779, 2652, 805)
-2019-07-19 23:42:07,425 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2779,2652,805) DIR:(-99,-14,0) SPD:300
-2019-07-19 23:42:08,590 [ 1] INFO  Unity: SetPosition:(2472, 2608, 805)
-2019-07-19 23:42:08,591 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2472,2608,805) DIR:(-99,-14,0) SPD:300
-2019-07-19 23:42:09,266 [ 1] INFO  Unity: SetDirection:(-100, 4, 0)
-2019-07-19 23:42:09,267 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2272,2568,805) DIR:(-100,4,0) SPD:300
-2019-07-19 23:42:09,690 [ 1] INFO  Unity: SetPosition:(2188, 2588, 805)
-2019-07-19 23:42:09,691 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2188,2588,805) DIR:(-100,4,0) SPD:300
-2019-07-19 23:42:10,707 [ 1] INFO  Unity: TeleporterObject:Character [jjjjj] Enter Teleporter [3:Ö÷³Ç´«Èëµã1]
-2019-07-19 23:42:10,913 [ 1] INFO  Unity: SetPosition:(1872, 2601, 805)
-2019-07-19 23:42:10,914 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1872,2601,805) DIR:(-100,4,0) SPD:300
-2019-07-19 23:42:12,080 [ 1] INFO  Unity: SetPosition:(1571, 2613, 805)
-2019-07-19 23:42:12,081 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1571,2613,805) DIR:(-100,4,0) SPD:300
-2019-07-19 23:42:12,872 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
-2019-07-19 23:42:12,873 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1331,2613,805) DIR:(-99,-14,0) SPD:300
-2019-07-19 23:42:13,141 [ 1] INFO  Unity: SetPosition:(1305, 2612, 805)
-2019-07-19 23:42:13,142 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1305,2612,805) DIR:(-99,-14,0) SPD:300
-2019-07-19 23:42:13,786 [ 1] INFO  Unity: TeleporterObject:Character [jjjjj] Enter Teleporter [1:Ö÷³Ç->Ò°Íâ]
-2019-07-19 23:42:13,787 [ 1] INFO  Unity: MapTeleportRequest:teleportID1
-2019-07-19 23:42:13,859 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:9
-2019-07-19 23:42:13,862 [ 1] INFO  Unity: RemoveCharacter:9
-2019-07-19 23:42:13,866 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:5
-2019-07-19 23:42:13,869 [ 1] INFO  Unity: AddCharacter:2:jjjjj Map:2 Entity:(9:pos:(3049,3982,56),dir:(100,0,0),spd:300
-2019-07-19 23:42:13,876 [ 1] INFO  Unity: AddCharacter:0:¶ñ¹í Map:2 Entity:(1:pos:(5887,1573,-70),dir:(9,100,0),spd:0
-2019-07-19 23:42:13,885 [ 1] INFO  Unity: AddCharacter:0:É½Çð¾ÞÈË Map:2 Entity:(2:pos:(5540,1682,-70),dir:(20,98,0),spd:0
-2019-07-19 23:42:13,911 [ 1] INFO  Unity: AddCharacter:0:Ð¡¶ñÄ§ Map:2 Entity:(3:pos:(4775,2865,-70),dir:(-30,95,0),spd:0
-2019-07-19 23:42:13,926 [ 1] INFO  Unity: AddCharacter:0:ËÀÉñ Map:2 Entity:(4:pos:(5683,4173,-70),dir:(28,-96,0),spd:0
-2019-07-19 23:42:13,955 [ 1] INFO  Unity: LoadLevel: Map01
-2019-07-19 23:42:14,305 [ 1] WARN  Unity: Failed to create agent because it is not close enough to the NavMesh
+2019-07-28 21:22:23,336 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,337 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,339 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,340 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,359 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,361 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,366 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,367 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,368 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,369 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+<InitGameObjects>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/GameObjectManager.cs:56)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:19)
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:37)
+
+2019-07-28 21:22:23,625 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-07-28 21:22:23,889 [ 1] INFO  Unity: 0
+2019-07-28 21:22:23,892 [ 1] INFO  Unity: Set Channel:Local
+2019-07-28 21:23:05,989 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:23:05,991 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5000,4000,820) DIR:(100,0,0) SPD:300
+2019-07-28 21:23:06,079 [ 1] INFO  Unity: SetDirection:(98, -17, 0)
+2019-07-28 21:23:06,081 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5025,4000,820) DIR:(98,-17,0) SPD:300
+2019-07-28 21:23:06,166 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2019-07-28 21:23:06,167 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5055,3994,820) DIR:(94,-35,0) SPD:300
+2019-07-28 21:23:06,266 [ 1] INFO  Unity: SetDirection:(84, -54, 0)
+2019-07-28 21:23:06,267 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5085,3982,820) DIR:(84,-54,0) SPD:300
+2019-07-28 21:23:06,364 [ 1] INFO  Unity: SetDirection:(71, -70, 0)
+2019-07-28 21:23:06,365 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5109,3964,820) DIR:(71,-70,0) SPD:300
+2019-07-28 21:23:06,474 [ 1] INFO  Unity: SetDirection:(55, -83, 0)
+2019-07-28 21:23:06,475 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5133,3940,820) DIR:(55,-83,0) SPD:300
+2019-07-28 21:23:06,575 [ 1] INFO  Unity: SetDirection:(37, -93, 0)
+2019-07-28 21:23:06,576 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5151,3916,820) DIR:(37,-93,0) SPD:300
+2019-07-28 21:23:06,670 [ 1] INFO  Unity: SetDirection:(20, -98, 0)
+2019-07-28 21:23:06,671 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5161,3891,820) DIR:(20,-98,0) SPD:300
+2019-07-28 21:23:06,763 [ 1] INFO  Unity: SetDirection:(0, -100, 0)
+2019-07-28 21:23:06,764 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5167,3861,820) DIR:(0,-100,0) SPD:300
+2019-07-28 21:23:06,878 [ 1] INFO  Unity: SetDirection:(-18, -98, 0)
+2019-07-28 21:23:06,879 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5167,3826,820) DIR:(-18,-98,0) SPD:300
+2019-07-28 21:23:07,443 [ 1] INFO  Unity: SetPosition:(5127, 3704, 805)
+2019-07-28 21:23:07,444 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5127,3704,805) DIR:(-18,-98,0) SPD:300
+2019-07-28 21:23:07,588 [ 1] INFO  Unity: SetDirection:(-36, -93, 0)
+2019-07-28 21:23:07,589 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5118,3659,805) DIR:(-36,-93,0) SPD:300
+2019-07-28 21:23:07,720 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
+2019-07-28 21:23:07,721 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5102,3619,805) DIR:(-53,-85,0) SPD:300
+2019-07-28 21:23:07,828 [ 1] INFO  Unity: SetDirection:(-67, -74, 0)
+2019-07-28 21:23:07,829 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5084,3595,805) DIR:(-67,-74,0) SPD:300
+2019-07-28 21:23:09,326 [ 1] INFO  Unity: SetDirection:(-79, -61, 0)
+2019-07-28 21:23:09,327 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4817,3239,805) DIR:(-79,-61,0) SPD:300
+2019-07-28 21:23:10,127 [ 1] INFO  Unity: SetDirection:(-89, -45, 0)
+2019-07-28 21:23:10,129 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4629,3098,805) DIR:(-89,-45,0) SPD:300
+2019-07-28 21:23:10,271 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
+2019-07-28 21:23:10,272 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4589,3078,805) DIR:(-96,-29,0) SPD:300
+2019-07-28 21:23:13,398 [ 1] INFO  Unity: SetPosition:(3662, 2841, 806)
+2019-07-28 21:23:13,399 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3662,2841,806) DIR:(-96,-29,0) SPD:300
+2019-07-28 21:23:15,016 [ 1] INFO  Unity: SetPosition:(3208, 2704, 806)
+2019-07-28 21:23:15,018 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3208,2704,806) DIR:(-96,-29,0) SPD:300
+2019-07-28 21:23:16,246 [ 1] INFO  Unity: SetPosition:(2887, 2607, 805)
+2019-07-28 21:23:16,247 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2887,2607,805) DIR:(-96,-29,0) SPD:300
+2019-07-28 21:23:16,379 [ 1] INFO  Unity: SetDirection:(-99, -11, 0)
+2019-07-28 21:23:16,380 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2847,2599,805) DIR:(-99,-11,0) SPD:300
+2019-07-28 21:23:17,360 [ 1] INFO  Unity: Stop
+2019-07-28 21:23:17,361 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2557,2541,805) DIR:(-99,-11,0) SPD:0
+2019-07-28 21:23:17,365 [ 1] INFO  Unity: SetPosition:(2601, 2569, 805)
+2019-07-28 21:23:17,365 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2601,2569,805) DIR:(-99,-11,0) SPD:0
+2019-07-28 21:24:11,122 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:24:11,123 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2601,2569,805) DIR:(-99,-11,0) SPD:300
+2019-07-28 21:24:12,172 [ 1] INFO  Unity: SetPosition:(2320, 2537, 805)
+2019-07-28 21:24:12,173 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2320,2537,805) DIR:(-99,-11,0) SPD:300
+2019-07-28 21:24:13,207 [ 1] INFO  Unity: SetPosition:(2050, 2508, 805)
+2019-07-28 21:24:13,207 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(2050,2508,805) DIR:(-99,-11,0) SPD:300
+2019-07-28 21:24:13,703 [ 1] INFO  Unity: TeleporterObject:Character [uuuu] Enter Teleporter [3:Ö÷³Ç´«Èëµã1]
+2019-07-28 21:24:14,237 [ 1] INFO  Unity: SetPosition:(1785, 2478, 805)
+2019-07-28 21:24:14,238 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1785,2478,805) DIR:(-99,-11,0) SPD:300
+2019-07-28 21:24:14,960 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
+2019-07-28 21:24:14,962 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1565,2434,805) DIR:(-100,7,0) SPD:300
+2019-07-28 21:24:15,144 [ 1] INFO  Unity: SetPosition:(1553, 2461, 805)
+2019-07-28 21:24:15,145 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1553,2461,805) DIR:(-100,7,0) SPD:300
+2019-07-28 21:24:16,204 [ 1] INFO  Unity: SetPosition:(1285, 2479, 805)
+2019-07-28 21:24:16,205 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(1285,2479,805) DIR:(-100,7,0) SPD:300
+2019-07-28 21:24:16,768 [ 1] INFO  Unity: TeleporterObject:Character [uuuu] Enter Teleporter [1:Ö÷³Ç->Ò°Íâ]
+2019-07-28 21:24:16,769 [ 1] INFO  Unity: MapTeleportRequest:teleportID1
+2019-07-28 21:24:16,815 [ 1] INFO  Unity: OnMaoCharacterLeave: CharID:9
+2019-07-28 21:24:16,817 [ 1] INFO  Unity: RemoveCharacter:9
+2019-07-28 21:24:16,821 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:5
+2019-07-28 21:24:16,823 [ 1] INFO  Unity: AddCharacter:3:uuuu Map:2 Entity:(9:pos:(3049,3982,56),dir:(100,0,0),spd:300
+2019-07-28 21:24:16,825 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,827 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,830 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,832 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+UnityEngine.Resources:Load(String)
+Resloader:Load(String) (at Assets/Scripts/Assets/Resloader.cs:11)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:65)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,850 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,851 [ 1] WARN  Unity: The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,854 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,856 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkB_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,857 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,858 [ 1] WARN  Unity: The referenced script on this Behaviour (Game Object 'EFX_Archer_AtkA_Bip001Prop2_prefab') is missing!
+UnityEngine.Object:Instantiate(Object, Transform)
+GameObjectManager:CreateCharacterObject(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:71)
+GameObjectManager:OnCharacterEnter(Character) (at Assets/Scripts/GameObject/GameObjectManager.cs:40)
+Managers.CharacterManager:AddCharacter(Character) (at Assets/Scripts/Managers/CharacterManager.cs:55)
+Services.MapService:OnMapCharacterEnter(Object, MapCharacterEnterResponse) (at Assets/Scripts/Services/MapService.cs:56)
+Network.MessageDistributer`1:RaiseEvent(Object, MapCharacterEnterResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:15)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:16,870 [ 1] INFO  Unity: AddCharacter:0:¶ñ¹í Map:2 Entity:(1:pos:(5887,1573,-70),dir:(9,100,0),spd:0
+2019-07-28 21:24:17,024 [ 1] INFO  Unity: AddCharacter:0:É½Çð¾ÞÈË Map:2 Entity:(2:pos:(5540,1682,-70),dir:(20,98,0),spd:0
+2019-07-28 21:24:17,375 [ 1] INFO  Unity: AddCharacter:0:Ð¡¶ñÄ§ Map:2 Entity:(3:pos:(4775,2865,-70),dir:(-30,95,0),spd:0
+2019-07-28 21:24:17,432 [ 1] INFO  Unity: AddCharacter:0:ËÀÉñ Map:2 Entity:(4:pos:(5683,4173,-70),dir:(28,-96,0),spd:0
+2019-07-28 21:24:17,716 [ 1] INFO  Unity: LoadLevel: Map01
+2019-07-28 21:24:18,221 [ 1] WARN  Unity: Failed to create agent because it is not close enough to the NavMesh
 UnityEngine.GameObject:AddComponent()
 PlayerInputController:Start() (at Assets/Scripts/GameObject/PlayerInputController.cs:53)
 
-2019-07-19 23:42:14,307 [ 1] INFO  Unity: Character_2_jjjjj OnDestroy :ID:9 POS:(3049, 3982, 56) DIR:(100, 0, 0) SPD:300 
-2019-07-19 23:42:15,272 [ 1] INFO  Unity: MoveForward
-2019-07-19 23:42:15,273 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3054,3982,56) DIR:(100,0,0) SPD:300
-2019-07-19 23:42:15,279 [ 1] INFO  Unity: SetPosition:(3068, 3982, 120)
-2019-07-19 23:42:15,280 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,120) DIR:(100,0,0) SPD:300
-2019-07-19 23:42:15,601 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-07-19 23:42:15,605 [ 1] INFO  Unity: Stop
-2019-07-19 23:42:15,607 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3073,3982,120) DIR:(100,0,0) SPD:0
-2019-07-19 23:42:15,863 [ 1] INFO  Unity: TeleporterObject:Character [jjjjj] Enter Teleporter [6:Ò°Íâ´«Èëµã]
-2019-07-19 23:42:16,005 [ 1] INFO  Unity: SetPosition:(3068, 3982, 68)
-2019-07-19 23:42:16,006 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,68) DIR:(100,0,0) SPD:0
-2019-07-19 23:42:16,150 [ 1] INFO  Unity: SetPosition:(3068, 3982, 17)
-2019-07-19 23:42:16,152 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,17) DIR:(100,0,0) SPD:0
-2019-07-19 23:42:16,193 [ 1] INFO  Unity: MoveForward
-2019-07-19 23:42:16,194 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,17) DIR:(100,0,0) SPD:300
-2019-07-19 23:42:16,267 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2019-07-19 23:42:16,269 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3098,3982,17) DIR:(98,-18,0) SPD:300
-2019-07-19 23:42:17,635 [ 1] INFO  Unity: BattleManager.SetTarget:[3:Ð¡¶ñÄ§]
-2019-07-19 23:42:17,698 [ 1] INFO  Unity: Stop
-2019-07-19 23:42:17,699 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3523,3897,17) DIR:(98,-18,0) SPD:0
-2019-07-19 23:42:17,872 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2019-07-19 23:42:17,873 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3523,3897,17) DIR:(93,-36,0) SPD:0
-2019-07-19 23:42:17,900 [ 1] INFO  Unity: MoveForward
-2019-07-19 23:42:17,901 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3523,3897,17) DIR:(93,-36,0) SPD:300
-2019-07-19 23:42:17,994 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2019-07-19 23:42:17,995 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3553,3885,17) DIR:(85,-53,0) SPD:300
-2019-07-19 23:42:18,118 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
-2019-07-19 23:42:18,119 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3581,3864,17) DIR:(74,-67,0) SPD:300
-2019-07-19 23:42:19,911 [ 1] INFO  Unity: SetPosition:(3968, 3516, 6)
-2019-07-19 23:42:19,912 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3968,3516,6) DIR:(74,-67,0) SPD:300
-2019-07-19 23:42:20,638 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2019-07-19 23:42:20,639 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4144,3384,6) DIR:(85,-53,0) SPD:300
-2019-07-19 23:42:21,380 [ 1] INFO  Unity: Stop
-2019-07-19 23:42:21,381 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4324,3249,6) DIR:(85,-53,0) SPD:0
-2019-07-19 23:42:21,644 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:3 pos:(0,0,0)
-2019-07-19 23:42:21,789 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:3 pos:(0,0,0)  result:Success
-2019-07-19 23:42:22,534 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:42:22,602 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
-2019-07-19 23:42:23,243 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:42:23,247 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
-2019-07-19 23:42:23,321 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
-2019-07-19 23:43:13,660 [ 1] INFO  Unity: SendSkillCast: skill :304 caster:9 target:3 pos:(0,0,0)
-2019-07-19 23:43:13,785 [ 1] INFO  Unity: OnSkillCast: skill :304 caster:9 target:3 pos:(0,0,0)  result:Success
-2019-07-19 23:43:14,289 [ 1] INFO  Unity: Skill[Á¬Éä].UpdateCasting Finish
-2019-07-19 23:43:14,902 [ 1] INFO  Unity: Skill[Á¬Éä].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
-2019-07-19 23:43:14,905 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:15,553 [ 1] INFO  Unity: Skill[Á¬Éä].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
-2019-07-19 23:43:15,613 [ 1] INFO  Unity: OnSkillHit:count:2
-2019-07-19 23:43:15,615 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
-2019-07-19 23:43:16,296 [ 1] INFO  Unity: Skill[Á¬Éä].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
-2019-07-19 23:43:16,345 [ 1] INFO  Unity: OnSkillHit:count:2
-2019-07-19 23:43:16,347 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
-2019-07-19 23:43:17,026 [ 1] INFO  Unity: Skill[Á¬Éä].UpdateSkill Finish
-2019-07-19 23:43:17,045 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:17,047 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:2  CRIT:False
-2019-07-19 23:43:20,746 [ 1] INFO  Unity: BattleManager.SetPosition:[SkillBridge.Message.NVector3]
-2019-07-19 23:43:20,748 [ 1] INFO  Unity: SendSkillCast: skill :303 caster:9 target:3 pos:(4654,2940,3)
-2019-07-19 23:43:20,894 [ 1] INFO  Unity: OnSkillCast: skill :303 caster:9 target:3 pos:(4654,2940,3)  result:Success
-2019-07-19 23:43:22,110 [ 1] INFO  Unity: Skill[¶¾¼ýÓê].UpdateCasting Finish
-2019-07-19 23:43:22,906 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:22,908 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:2  CRIT:False
-2019-07-19 23:43:22,924 [ 1] INFO  Unity: Skill[¶¾¼ýÓê].UpdateSkill Finish
-2019-07-19 23:43:25,993 [ 1] INFO  Unity: SendSkillCast: skill :302 caster:9 target:3 pos:(4654,2940,3)
-2019-07-19 23:43:26,123 [ 1] INFO  Unity: OnSkillCast: skill :302 caster:9 target:3 pos:(4654,2940,3)  result:Success
-2019-07-19 23:43:26,630 [ 1] INFO  Unity: Skill[Á÷Ñª¼ý].UpdateCasting Finish
-2019-07-19 23:43:26,940 [ 1] INFO  Unity: Skill[Á÷Ñª¼ý].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
-2019-07-19 23:43:26,943 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:27,651 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:27,654 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
-2019-07-19 23:43:27,673 [ 1] INFO  Unity: Skill[Á÷Ñª¼ý].UpdateSkill Finish
-2019-07-19 23:43:29,490 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:3 pos:(4654,2940,3)
-2019-07-19 23:43:29,571 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:3 pos:(4654,2940,3)  result:Success
-2019-07-19 23:43:30,274 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:30,387 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
-2019-07-19 23:43:30,990 [ 1] INFO  Unity: OnSkillHit:count:1
-2019-07-19 23:43:30,993 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:True
-2019-07-19 23:43:31,143 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
-2019-07-19 23:43:33,813 [ 1] INFO  Unity: Character_2_jjjjj OnDestroy :ID:9 POS:(4324, 3249, 6) DIR:(85, -53, 0) SPD:0 
-2019-07-19 23:43:33,815 [ 1] INFO  Unity: Character_0_¶ñ¹í OnDestroy :ID:1 POS:(5887, 1573, -70) DIR:(9, 100, 0) SPD:0 
-2019-07-19 23:43:33,816 [ 1] INFO  Unity: Character_0_É½Çð¾ÞÈË OnDestroy :ID:2 POS:(5540, 1682, -70) DIR:(20, 98, 0) SPD:0 
-2019-07-19 23:43:33,817 [ 1] INFO  Unity: Character_0_Ð¡¶ñÄ§ OnDestroy :ID:3 POS:(4775, 2865, -70) DIR:(-30, 95, 0) SPD:0 
-2019-07-19 23:43:33,819 [ 1] INFO  Unity: Character_0_ËÀÉñ OnDestroy :ID:4 POS:(5683, 4173, -70) DIR:(28, -96, 0) SPD:0 
-2019-07-19 23:43:33,827 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-07-19 23:43:33,829 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-07-28 21:24:18,223 [ 1] INFO  Unity: Character_3_uuuu OnDestroy :ID:9 POS:(3049, 3982, 56) DIR:(100, 0, 0) SPD:300 
+2019-07-28 21:24:20,331 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:24:20,332 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3054,3982,56) DIR:(100,0,0) SPD:300
+2019-07-28 21:24:20,341 [ 1] INFO  Unity: SetPosition:(3068, 3982, 120)
+2019-07-28 21:24:20,342 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3068,3982,120) DIR:(100,0,0) SPD:300
+2019-07-28 21:24:20,739 [ 1] INFO  Unity: LevelLoadCompleted:1
+2019-07-28 21:24:20,822 [ 1] INFO  Unity: Stop
+2019-07-28 21:24:20,824 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3073,3982,120) DIR:(100,0,0) SPD:0
+2019-07-28 21:24:21,719 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:24:21,720 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3073,3982,120) DIR:(100,0,0) SPD:300
+2019-07-28 21:24:21,766 [ 1] INFO  Unity: TeleporterObject:Character [uuuu] Enter Teleporter [6:Ò°Íâ´«Èëµã]
+2019-07-28 21:24:21,805 [ 1] INFO  Unity: Stop
+2019-07-28 21:24:21,806 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3093,3982,120) DIR:(100,0,0) SPD:0
+2019-07-28 21:24:22,064 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:24:22,065 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3093,3982,120) DIR:(100,0,0) SPD:300
+2019-07-28 21:24:22,069 [ 1] INFO  Unity: SetPosition:(3099, 3982, 61)
+2019-07-28 21:24:22,070 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3099,3982,61) DIR:(100,0,0) SPD:300
+2019-07-28 21:24:22,217 [ 1] INFO  Unity: SetPosition:(3145, 3982, 5)
+2019-07-28 21:24:22,218 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3145,3982,5) DIR:(100,0,0) SPD:300
+2019-07-28 21:24:23,383 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2019-07-28 21:24:23,384 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(3495,3982,5) DIR:(98,-18,0) SPD:300
+2019-07-28 21:24:26,297 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2019-07-28 21:24:26,298 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4365,3808,5) DIR:(94,-35,0) SPD:300
+2019-07-28 21:24:27,311 [ 1] INFO  Unity: SetDirection:(86, -52, 0)
+2019-07-28 21:24:27,312 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4670,3686,5) DIR:(86,-52,0) SPD:300
+2019-07-28 21:24:27,374 [ 1] INFO  Unity: SetPosition:(4649, 3708, 6)
+2019-07-28 21:24:27,375 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(4649,3708,6) DIR:(86,-52,0) SPD:300
+2019-07-28 21:24:29,073 [ 1] INFO  Unity: SetPosition:(5089, 3442, 6)
+2019-07-28 21:24:29,074 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5089,3442,6) DIR:(86,-52,0) SPD:300
+2019-07-28 21:24:29,201 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2019-07-28 21:24:29,201 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5117,3421,6) DIR:(74,-67,0) SPD:300
+2019-07-28 21:24:29,307 [ 1] INFO  Unity: SetDirection:(60, -80, 0)
+2019-07-28 21:24:29,308 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5145,3400,6) DIR:(60,-80,0) SPD:300
+2019-07-28 21:24:29,403 [ 1] INFO  Unity: SetDirection:(45, -89, 0)
+2019-07-28 21:24:29,404 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5160,3380,6) DIR:(45,-89,0) SPD:300
+2019-07-28 21:24:29,489 [ 1] INFO  Unity: SetDirection:(29, -96, 0)
+2019-07-28 21:24:29,490 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5170,3360,6) DIR:(29,-96,0) SPD:300
+2019-07-28 21:24:29,583 [ 1] INFO  Unity: SetDirection:(9, -100, 0)
+2019-07-28 21:24:29,585 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5176,3330,6) DIR:(9,-100,0) SPD:300
+2019-07-28 21:24:29,999 [ 1] INFO  Unity: SetDirection:(26, -97, 0)
+2019-07-28 21:24:30,000 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5176,3205,6) DIR:(26,-97,0) SPD:300
+2019-07-28 21:24:30,080 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
+2019-07-28 21:24:30,081 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5181,3180,6) DIR:(42,-91,0) SPD:300
+2019-07-28 21:24:30,175 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
+2019-07-28 21:24:30,176 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5191,3155,6) DIR:(57,-82,0) SPD:300
+2019-07-28 21:24:30,254 [ 1] INFO  Unity: SetDirection:(71, -71, 0)
+2019-07-28 21:24:30,255 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5206,3135,6) DIR:(71,-71,0) SPD:300
+2019-07-28 21:24:30,566 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
+2019-07-28 21:24:30,567 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5278,3063,6) DIR:(56,-83,0) SPD:300
+2019-07-28 21:24:30,664 [ 1] INFO  Unity: SetDirection:(38, -92, 0)
+2019-07-28 21:24:30,665 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5296,3039,6) DIR:(38,-92,0) SPD:300
+2019-07-28 21:24:30,770 [ 1] INFO  Unity: SetDirection:(21, -98, 0)
+2019-07-28 21:24:30,771 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5308,3009,6) DIR:(21,-98,0) SPD:300
+2019-07-28 21:24:30,973 [ 1] INFO  Unity: Stop
+2019-07-28 21:24:30,974 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5321,2944,6) DIR:(21,-98,0) SPD:0
+2019-07-28 21:24:31,676 [ 1] INFO  Unity: BattleManager.SetTarget:[2:É½Çð¾ÞÈË]
+2019-07-28 21:24:32,201 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:24:32,202 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5321,2944,6) DIR:(21,-98,0) SPD:300
+2019-07-28 21:24:32,312 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
+2019-07-28 21:24:32,314 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5328,2909,6) DIR:(41,-91,0) SPD:300
+2019-07-28 21:24:32,420 [ 1] INFO  Unity: SetDirection:(59, -81, 0)
+2019-07-28 21:24:32,421 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5340,2879,6) DIR:(59,-81,0) SPD:300
+2019-07-28 21:24:32,514 [ 1] INFO  Unity: SetDirection:(73, -68, 0)
+2019-07-28 21:24:32,515 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5358,2855,6) DIR:(73,-68,0) SPD:300
+2019-07-28 21:24:32,701 [ 1] INFO  Unity: SetDirection:(84, -54, 0)
+2019-07-28 21:24:32,703 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5402,2822,6) DIR:(84,-54,0) SPD:300
+2019-07-28 21:24:33,398 [ 1] INFO  Unity: SetDirection:(73, -69, 0)
+2019-07-28 21:24:33,400 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5570,2696,6) DIR:(73,-69,0) SPD:300
+2019-07-28 21:24:33,495 [ 1] INFO  Unity: SetDirection:(58, -81, 0)
+2019-07-28 21:24:33,496 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5594,2678,6) DIR:(58,-81,0) SPD:300
+2019-07-28 21:24:33,601 [ 1] INFO  Unity: SetDirection:(40, -92, 0)
+2019-07-28 21:24:33,602 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5612,2654,6) DIR:(40,-92,0) SPD:300
+2019-07-28 21:24:33,696 [ 1] INFO  Unity: SetDirection:(20, -98, 0)
+2019-07-28 21:24:33,697 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5624,2624,6) DIR:(20,-98,0) SPD:300
+2019-07-28 21:24:33,815 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
+2019-07-28 21:24:33,816 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5631,2589,6) DIR:(1,-100,0) SPD:300
+2019-07-28 21:24:34,032 [ 1] INFO  Unity: Stop
+2019-07-28 21:24:34,033 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5631,2524,6) DIR:(1,-100,0) SPD:0
+2019-07-28 21:24:34,502 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:2 pos:(0,0,0)
+2019-07-28 21:24:34,618 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:2 pos:(0,0,0)  result:Success
+2019-07-28 21:24:34,621 [ 1] INFO  Unity: SetDirection:(-11, -99, -9)
+2019-07-28 21:24:35,370 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:35,431 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:É½Çð¾ÞÈË
+2019-07-28 21:24:36,418 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:36,435 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:36,437 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:36,441 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:24:36,518 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2019-07-28 21:24:36,530 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(5540, 1682, -70) DIR:(10, 99, 8) SPD:300
+2019-07-28 21:24:36,533 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:MoveFwd  entity:(2:pos:(5540,1682,-70),dir:(10,99,8),spd:300
+
+2019-07-28 21:24:36,620 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:36,623 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:36,625 [ 1] INFO  Unity: SetDirection:(10, 99, 9)
+2019-07-28 21:24:36,724 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(5634, 2557, 8) DIR:(10, 99, 8) SPD:0
+2019-07-28 21:24:36,726 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:Idle  entity:(2:pos:(5634,2557,8),dir:(10,99,8),spd:0
+
+2019-07-28 21:24:36,747 [ 1] INFO  Unity: SetPosition:(5686, 2519, 10)
+2019-07-28 21:24:36,748 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5686,2519,10) DIR:(-11,-99,-9) SPD:0
+2019-07-28 21:24:36,768 [ 1] INFO  Unity: SetPosition:(5731, 2492, 16)
+2019-07-28 21:24:36,769 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5731,2492,16) DIR:(-11,-99,-9) SPD:0
+2019-07-28 21:24:36,944 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:36,968 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:24:37,049 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:37,051 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:37,053 [ 1] INFO  Unity: SetDirection:(83, -56, 7)
+2019-07-28 21:24:37,254 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:37,256 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:37,334 [ 1] INFO  Unity: MoveBack
+2019-07-28 21:24:37,336 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5731,2492,16) DIR:(-11,-99,-9) SPD:-300
+2019-07-28 21:24:37,642 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:37,647 [ 1] INFO  Unity: OnSkillHit:count:2
+2019-07-28 21:24:37,648 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:37,651 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:37,673 [ 1] INFO  Unity: Skill[ÖØ»÷].UpdateSkill Finish
+2019-07-28 21:24:37,678 [ 1] INFO  Unity: SetPosition:(5790, 2593, 54)
+2019-07-28 21:24:37,679 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5790,2593,54) DIR:(-11,-99,-9) SPD:-300
+2019-07-28 21:24:37,851 [ 1] INFO  Unity: SetDirection:(8, -99, -9)
+2019-07-28 21:24:37,852 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5800,2643,54) DIR:(8,-99,-9) SPD:-300
+2019-07-28 21:24:37,856 [ 1] INFO  Unity: SetPosition:(5795, 2646, 104)
+2019-07-28 21:24:37,857 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5795,2646,104) DIR:(8,-99,-9) SPD:-300
+2019-07-28 21:24:37,940 [ 1] INFO  Unity: SetDirection:(27, -96, -9)
+2019-07-28 21:24:37,942 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5795,2671,104) DIR:(27,-96,-9) SPD:-300
+2019-07-28 21:24:37,985 [ 1] INFO  Unity: Stop
+2019-07-28 21:24:37,986 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5793,2681,104) DIR:(27,-96,-9) SPD:0
+2019-07-28 21:24:38,047 [ 1] INFO  Unity: SetDirection:(46, -88, -8)
+2019-07-28 21:24:38,048 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5793,2681,104) DIR:(46,-88,-8) SPD:0
+2019-07-28 21:24:38,150 [ 1] INFO  Unity: SetDirection:(64, -77, -8)
+2019-07-28 21:24:38,152 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5793,2681,104) DIR:(64,-77,-8) SPD:0
+2019-07-28 21:24:38,251 [ 1] INFO  Unity: SetDirection:(78, -62, -8)
+2019-07-28 21:24:38,253 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5793,2681,104) DIR:(78,-62,-8) SPD:0
+2019-07-28 21:24:38,350 [ 1] INFO  Unity: SetDirection:(88, -47, -8)
+2019-07-28 21:24:38,352 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5793,2681,104) DIR:(88,-47,-8) SPD:0
+2019-07-28 21:24:38,385 [ 1] INFO  Unity: SetPosition:(5791, 2675, 50)
+2019-07-28 21:24:38,386 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(88,-47,-8) SPD:0
+2019-07-28 21:24:38,436 [ 1] INFO  Unity: SetDirection:(96, -28, -8)
+2019-07-28 21:24:38,437 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(96,-28,-8) SPD:0
+2019-07-28 21:24:38,547 [ 1] INFO  Unity: SetDirection:(99, -7, -8)
+2019-07-28 21:24:38,548 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(99,-7,-8) SPD:0
+2019-07-28 21:24:38,631 [ 1] INFO  Unity: SetDirection:(99, 14, -7)
+2019-07-28 21:24:38,632 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(99,14,-7) SPD:0
+2019-07-28 21:24:38,735 [ 1] INFO  Unity: SetDirection:(94, 34, -7)
+2019-07-28 21:24:38,736 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(94,34,-7) SPD:0
+2019-07-28 21:24:38,841 [ 1] INFO  Unity: SetDirection:(85, 53, -7)
+2019-07-28 21:24:38,842 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(85,53,-7) SPD:0
+2019-07-28 21:24:38,935 [ 1] INFO  Unity: SetDirection:(72, 69, -7)
+2019-07-28 21:24:38,936 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(72,69,-7) SPD:0
+2019-07-28 21:24:38,989 [ 1] INFO  Unity: MoveForward
+2019-07-28 21:24:38,990 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5791,2675,50) DIR:(72,69,-7) SPD:300
+2019-07-28 21:24:39,016 [ 1] INFO  Unity: SetDirection:(59, 81, -7)
+2019-07-28 21:24:39,017 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5799,2681,50) DIR:(59,81,-7) SPD:300
+2019-07-28 21:24:39,120 [ 1] INFO  Unity: SetDirection:(41, 91, -7)
+2019-07-28 21:24:39,122 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5817,2705,50) DIR:(41,91,-7) SPD:300
+2019-07-28 21:24:39,205 [ 1] INFO  Unity: SetDirection:(24, 97, -7)
+2019-07-28 21:24:39,207 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5829,2735,50) DIR:(24,97,-7) SPD:300
+2019-07-28 21:24:39,681 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:39,682 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:39,684 [ 1] INFO  Unity: SetDirection:(57, 81, 11)
+2019-07-28 21:24:40,211 [ 1] INFO  Unity: SetPosition:(5900, 3013, 6)
+2019-07-28 21:24:40,212 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(5900,3013,6) DIR:(24,97,-7) SPD:300
+2019-07-28 21:24:40,272 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:40,275 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:40,401 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:40,403 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:40,678 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:40,680 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:40,699 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:40,784 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(5634, 2557, 8) DIR:(50, 86, 0) SPD:300
+2019-07-28 21:24:40,785 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:MoveFwd  entity:(2:pos:(5634,2557,8),dir:(50,86,0),spd:300
+
+2019-07-28 21:24:40,950 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:24:40,991 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(5915, 3039, 6) DIR:(50, 86, 0) SPD:0
+2019-07-28 21:24:40,994 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:Idle  entity:(2:pos:(5915,3039,6),dir:(50,86,0),spd:0
+
+2019-07-28 21:24:40,996 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:42,385 [ 1] INFO  Unity: SetPosition:(6049, 3616, 7)
+2019-07-28 21:24:42,386 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6049,3616,7) DIR:(24,97,-7) SPD:300
+2019-07-28 21:24:42,510 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(5915, 3039, 6) DIR:(22, 97, 0) SPD:300
+2019-07-28 21:24:42,513 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:MoveFwd  entity:(2:pos:(5915,3039,6),dir:(22,97,0),spd:300
+
+2019-07-28 21:24:42,713 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(6055, 3645, 7) DIR:(22, 97, 0) SPD:0
+2019-07-28 21:24:42,716 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:Idle  entity:(2:pos:(6055,3645,7),dir:(22,97,0),spd:0
+
+2019-07-28 21:24:42,718 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:42,719 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:42,721 [ 1] INFO  Unity: SetDirection:(19, 98, 0)
+2019-07-28 21:24:42,746 [ 1] INFO  Unity: SetPosition:(6093, 3771, 22)
+2019-07-28 21:24:42,748 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6093,3771,22) DIR:(24,97,-7) SPD:300
+2019-07-28 21:24:43,332 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:43,334 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:43,717 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:43,720 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:43,722 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:44,137 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:44,138 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:44,140 [ 1] INFO  Unity: SetDirection:(22, 98, 3)
+2019-07-28 21:24:44,209 [ 1] INFO  Unity: SetDirection:(41, 91, -7)
+2019-07-28 21:24:44,210 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6181,4211,22) DIR:(41,91,-7) SPD:300
+2019-07-28 21:24:44,343 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(6055, 3645, 7) DIR:(21, 97, 2) SPD:300
+2019-07-28 21:24:44,345 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:MoveFwd  entity:(2:pos:(6055,3645,7),dir:(21,97,2),spd:300
+
+2019-07-28 21:24:44,539 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(6187, 4240, 22) DIR:(21, 97, 2) SPD:0
+2019-07-28 21:24:44,541 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:Idle  entity:(2:pos:(6187,4240,22),dir:(21,97,2),spd:0
+
+2019-07-28 21:24:44,569 [ 1] INFO  Unity: SetPosition:(6276, 4332, 6)
+2019-07-28 21:24:44,570 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6276,4332,6) DIR:(41,91,-7) SPD:300
+2019-07-28 21:24:44,744 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:44,746 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:44,769 [ 1] INFO  Unity: Skill[ÖØ»÷].UpdateSkill Finish
+2019-07-28 21:24:44,847 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:44,848 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:45,395 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:24:45,458 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:45,460 [ 1] INFO  Unity: DoDamage:ËÀÉñ DMG:1  CRIT:False
+2019-07-28 21:24:45,764 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:45,765 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:45,767 [ 1] INFO  Unity: SetDirection:(46, 89, -3)
+2019-07-28 21:24:46,152 [ 1] INFO  Unity: SetPosition:(6469, 4752, 6)
+2019-07-28 21:24:46,153 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6469,4752,6) DIR:(41,91,-7) SPD:300
+2019-07-28 21:24:46,171 [ 1] INFO  Unity: SetDirection:(57, 82, -6)
+2019-07-28 21:24:46,172 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6473,4762,6) DIR:(57,82,-6) SPD:300
+2019-07-28 21:24:46,308 [ 1] INFO  Unity: SetDirection:(71, 70, -6)
+2019-07-28 21:24:46,309 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6497,4794,6) DIR:(71,70,-6) SPD:300
+2019-07-28 21:24:46,366 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:46,367 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:46,822 [ 1] INFO  Unity: Stop
+2019-07-28 21:24:46,823 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(71,70,-6) SPD:0
+2019-07-28 21:24:46,826 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:46,832 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:46,834 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:46,896 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(6187, 4240, 22) DIR:(48, 87, -2) SPD:300
+2019-07-28 21:24:46,897 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:MoveFwd  entity:(2:pos:(6187,4240,22),dir:(48,87,-2),spd:300
+
+2019-07-28 21:24:47,099 [ 1] INFO  Unity: OnEntityChanged: ID:2 POS:(6511, 4820, 5) DIR:(48, 87, -2) SPD:0
+2019-07-28 21:24:47,101 [ 1] INFO  Unity: MapEntityUpdateResponse:Entitys1
+   [2]evt:Idle  entity:(2:pos:(6511,4820,5),dir:(48,87,-2),spd:0
+
+2019-07-28 21:24:47,472 [ 1] INFO  Unity: SetDirection:(83, 56, -6)
+2019-07-28 21:24:47,474 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(83,56,-6) SPD:0
+2019-07-28 21:24:47,583 [ 1] INFO  Unity: SetDirection:(92, 40, -6)
+2019-07-28 21:24:47,584 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(92,40,-6) SPD:0
+2019-07-28 21:24:47,677 [ 1] INFO  Unity: SetDirection:(97, 23, -6)
+2019-07-28 21:24:47,678 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(97,23,-6) SPD:0
+2019-07-28 21:24:47,773 [ 1] INFO  Unity: SetDirection:(100, 2, -6)
+2019-07-28 21:24:47,775 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(100,2,-6) SPD:0
+2019-07-28 21:24:47,904 [ 1] INFO  Unity: SetDirection:(98, -18, -6)
+2019-07-28 21:24:47,906 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(98,-18,-6) SPD:0
+2019-07-28 21:24:47,948 [ 1] INFO  Unity: SetDirection:(93, -35, -6)
+2019-07-28 21:24:47,949 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(93,-35,-6) SPD:0
+2019-07-28 21:24:48,065 [ 1] INFO  Unity: SetDirection:(84, -54, -6)
+2019-07-28 21:24:48,066 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(84,-54,-6) SPD:0
+2019-07-28 21:24:48,160 [ 1] INFO  Unity: SetDirection:(71, -70, -5)
+2019-07-28 21:24:48,161 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(71,-70,-5) SPD:0
+2019-07-28 21:24:48,235 [ 1] INFO  Unity: SetDirection:(58, -81, -5)
+2019-07-28 21:24:48,236 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6601,4898,6) DIR:(58,-81,-5) SPD:0
+2019-07-28 21:24:48,266 [ 1] INFO  Unity: SetPosition:(6638, 4932, 6)
+2019-07-28 21:24:48,267 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6638,4932,6) DIR:(58,-81,-5) SPD:0
+2019-07-28 21:24:48,309 [ 1] INFO  Unity: SetDirection:(43, -90, -5)
+2019-07-28 21:24:48,310 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6638,4932,6) DIR:(43,-90,-5) SPD:0
+2019-07-28 21:24:48,437 [ 1] INFO  Unity: SetDirection:(25, -97, -5)
+2019-07-28 21:24:48,438 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6638,4932,6) DIR:(25,-97,-5) SPD:0
+2019-07-28 21:24:48,798 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:48,800 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:48,801 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:24:48,896 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:48,897 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:49,412 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:49,413 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:49,451 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:24:49,506 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:49,817 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:49,819 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:49,821 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:50,673 [ 1] INFO  Unity: SetDirection:(7, -100, -5)
+2019-07-28 21:24:50,675 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6638,4932,6) DIR:(7,-100,-5) SPD:0
+2019-07-28 21:24:50,818 [ 1] INFO  Unity: SetDirection:(-12, -99, -5)
+2019-07-28 21:24:50,819 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:9 POS:(6638,4932,6) DIR:(-12,-99,-5) SPD:0
+2019-07-28 21:24:51,130 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:51,131 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:51,132 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:24:51,743 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:51,745 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:51,766 [ 1] INFO  Unity: Skill[ÖØ»÷].UpdateSkill Finish
+2019-07-28 21:24:51,850 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:51,852 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:51,854 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:24:52,456 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:52,459 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:52,566 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:2 pos:(0,0,0)
+2019-07-28 21:24:52,669 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:2 pos:(0,0,0)  result:Success
+2019-07-28 21:24:52,671 [ 1] INFO  Unity: SetDirection:(-75, -66, -1)
+2019-07-28 21:24:52,872 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:52,877 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:52,879 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:52,969 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:52,972 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:53,375 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:53,488 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:É½Çð¾ÞÈË
+2019-07-28 21:24:53,518 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:24:53,579 [ 1] INFO  Unity: OnSkillHit:count:2
+2019-07-28 21:24:53,581 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:24:53,685 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2019-07-28 21:24:54,886 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:54,888 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:54,890 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:24:55,497 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:55,498 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:55,894 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:55,897 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:55,899 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:57,013 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:57,014 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:57,565 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:24:57,629 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:57,927 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:57,929 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:57,931 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:24:58,223 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:24:58,226 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:24:58,228 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:24:58,552 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:58,589 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:58,834 [ 1] INFO  Unity: Skill[ÖØ»÷].UpdateSkill Finish
+2019-07-28 21:24:58,837 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:58,840 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:24:58,946 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:24:58,949 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:24:58,951 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:00,750 [ 1] INFO  Unity: SendSkillCast: skill :301 caster:9 target:2 pos:(0,0,0)
+2019-07-28 21:25:00,864 [ 1] INFO  Unity: OnSkillCast: skill :301 caster:9 target:2 pos:(0,0,0)  result:Success
+2019-07-28 21:25:00,867 [ 1] INFO  Unity: SetDirection:(-75, -66, -1)
+2019-07-28 21:25:00,975 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:00,976 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:00,978 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:01,082 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:01,084 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:01,583 [ 1] INFO  Unity: OnSkillHit:count:2
+2019-07-28 21:25:01,584 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:01,631 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:25:01,657 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:É½Çð¾ÞÈË
+2019-07-28 21:25:01,708 [ 1] INFO  Unity: OnSkillHit:count:2
+2019-07-28 21:25:01,710 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:25:01,852 [ 1] INFO  Unity: Skill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2019-07-28 21:25:01,994 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:02,023 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:02,024 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:04,033 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:04,035 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:04,037 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:04,648 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:04,650 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:05,062 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:05,065 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:05,067 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:05,258 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:05,260 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:05,767 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:05,898 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:25:05,904 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:05,906 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:05,908 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:06,492 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:06,493 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:06,534 [ 1] INFO  Unity: Skill[ÖØ»÷].UpdateSkill Finish
+2019-07-28 21:25:07,081 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:07,083 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:07,085 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:07,697 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:07,698 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:08,112 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:08,115 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:08,117 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:09,215 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:09,218 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:09,762 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:25:09,831 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:10,134 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:10,137 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:10,140 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:10,735 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:10,737 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:11,141 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:11,143 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:11,161 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:12,955 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:12,957 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:12,958 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:13,176 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:13,178 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:13,180 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:13,483 [ 1] INFO  Unity: BattleManager.SetPosition:[SkillBridge.Message.NVector3]
+2019-07-28 21:25:13,485 [ 1] INFO  Unity: SendSkillCast: skill :303 caster:9 target:2 pos:(6430,4902,0)
+2019-07-28 21:25:13,564 [ 1] INFO  Unity: Skill[ÖØ»÷].UpdateSkill Finish
+2019-07-28 21:25:13,566 [ 1] INFO  Unity: OnSkillCast: skill :303 caster:9 target:2 pos:(6430,4902,0)  result:Success
+2019-07-28 21:25:13,568 [ 1] INFO  Unity: SetDirection:(-99, -14, -3)
+2019-07-28 21:25:13,570 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:13,573 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:13,600 [ 1] INFO  Unity: AnimationEventController:PlayEffect:Archer :  EFX_Archer_SkillB_prefab
+2019-07-28 21:25:13,601 [ 1] INFO  Unity: PlayEffect:Character_3_uuuu : EFX_Archer_SkillB_prefab
+2019-07-28 21:25:13,679 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:13,680 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:13,783 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:13,785 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:14,190 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:14,193 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:14,195 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:True
+2019-07-28 21:25:14,215 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:25:14,281 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:14,796 [ 1] INFO  Unity: Skill[¶¾¼ýÓê].UpdateCasting Finish
+2019-07-28 21:25:15,638 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:15,640 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:2  CRIT:False
+2019-07-28 21:25:15,645 [ 1] INFO  Unity: OnBuff:count:1
+2019-07-28 21:25:15,648 [ 1] INFO  Unity: Buff:1 : 6 [Add]
+2019-07-28 21:25:15,652 [ 1] INFO  Unity: BUFF [1:ÖÐ¶¾] OnAdd
+2019-07-28 21:25:15,971 [ 1] INFO  Unity: Skill[¶¾¼ýÓê].UpdateSkill Finish
+2019-07-28 21:25:16,242 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:16,243 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:16,245 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:16,526 [ 1] INFO  Unity: OnBuff:count:1
+2019-07-28 21:25:16,527 [ 1] INFO  Unity: Buff:1 : 6 [Hit]
+2019-07-28 21:25:16,528 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:25:16,843 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:16,845 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:17,233 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:17,235 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:17,255 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:17,548 [ 1] INFO  Unity: OnBuff:count:1
+2019-07-28 21:25:17,549 [ 1] INFO  Unity: Buff:1 : 6 [Hit]
+2019-07-28 21:25:17,551 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:25:17,753 [ 1] INFO  Unity: OnSkillCast: skill :10022 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:17,754 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:18,300 [ 1] INFO  Unity: Skill[´óµØÕð»÷].UpdateSkill Finish
+2019-07-28 21:25:18,364 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:18,567 [ 1] INFO  Unity: OnBuff:count:1
+2019-07-28 21:25:18,570 [ 1] INFO  Unity: Buff:1 : 6 [Hit]
+2019-07-28 21:25:18,571 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:25:19,282 [ 1] INFO  Unity: OnSkillCast: skill :10021 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:19,284 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:19,286 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:19,580 [ 1] INFO  Unity: OnBuff:count:1
+2019-07-28 21:25:19,582 [ 1] INFO  Unity: Buff:1 : 6 [Hit]
+2019-07-28 21:25:19,584 [ 1] INFO  Unity: DoDamage:É½Çð¾ÞÈË DMG:1  CRIT:False
+2019-07-28 21:25:19,875 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:19,877 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:20,000 [ 1] INFO  Unity: OnSkillCast: skill :10023 caster:2 target:9 pos:(0,0,0)  result:Success
+2019-07-28 21:25:20,002 [ 1] WARN  Unity: Parameter 'Standby' does not exist.
+UnityEngine.Animator:SetBool(String, Boolean)
+EntityController:SetStandby(Boolean) (at Assets/Scripts/GameObject/EntityController.cs:183)
+Entities.Creature:SetStandby(Boolean) (at Assets/Scripts/Entities/Creature.cs:173)
+Entities.Creature:CastSkill(Int32, Creature, NVector3) (at Assets/Scripts/Entities/Creature.cs:158)
+Services.BattleService:OnSkillCast(Object, SkillCastResponse) (at Assets/Scripts/Services/BattleService.cs:70)
+Network.MessageDistributer`1:RaiseEvent(Object, SkillCastResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:105)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse) (at E:/newmmo/Src/Lib/Common/Network/MessageDispatch.cs:39)
+Network.MessageDistributer`1:Distribute() (at E:/newmmo/Src/Lib/Common/Network/MessageDistributer.cs:148)
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:419)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
+
+2019-07-28 21:25:20,004 [ 1] INFO  Unity: SetDirection:(75, 66, 1)
+2019-07-28 21:25:20,300 [ 1] INFO  Unity: Skill[È­»÷»Ó´ò].UpdateSkill Finish
+2019-07-28 21:25:20,304 [ 1] INFO  Unity: OnSkillHit:count:1
+2019-07-28 21:25:20,307 [ 1] INFO  Unity: DoDamage:Ð¡¶ñÄ§ DMG:1  CRIT:False
+2019-07-28 21:25:21,373 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-07-28 21:25:21,380 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 
+2019-07-28 21:25:21,428 [ 1] INFO  Unity: Character_3_uuuu OnDestroy :ID:9 POS:(6638, 4932, 6) DIR:(-99, -14, -3) SPD:0 
+2019-07-28 21:25:21,434 [ 1] INFO  Unity: Character_0_¶ñ¹í OnDestroy :ID:1 POS:(5887, 1573, -70) DIR:(9, 100, 0) SPD:0 
+2019-07-28 21:25:21,438 [ 1] INFO  Unity: Character_0_É½Çð¾ÞÈË OnDestroy :ID:2 POS:(6511, 4820, 5) DIR:(75, 66, 1) SPD:0 
+2019-07-28 21:25:21,446 [ 1] INFO  Unity: Character_0_Ð¡¶ñÄ§ OnDestroy :ID:3 POS:(4775, 2865, -70) DIR:(-30, 95, 0) SPD:0 
+2019-07-28 21:25:21,448 [ 1] INFO  Unity: Character_0_ËÀÉñ OnDestroy :ID:4 POS:(5683, 4173, -70) DIR:(28, -96, 0) SPD:0 

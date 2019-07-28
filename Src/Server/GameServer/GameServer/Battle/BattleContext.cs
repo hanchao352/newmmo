@@ -17,7 +17,6 @@ namespace GameServer.Battle
         public Vector3Int Position;
         public NSkillCastInfo CastSkill;
 
-        public NDamageInfo Damage;
 
         public SkillResult Result;
 

@@ -87,13 +87,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AI\AIAgent.cs" />
+    <Compile Include="AI\AIBase.cs" />
+    <Compile Include="AI\AIBoss.cs" />
+    <Compile Include="AI\AIMonsterPassive.cs" />
     <Compile Include="Battle\Battle.cs" />
     <Compile Include="Battle\BattleContext.cs" />
+    <Compile Include="Battle\Buff.cs" />
+    <Compile Include="Battle\BuffManager.cs" />
     <Compile Include="Battle\Bullet.cs" />
+    <Compile Include="Battle\EffectManager.cs" />
     <Compile Include="Battle\Skill.cs" />
     <Compile Include="Battle\SkillManager.cs" />
     <Compile Include="CommandHelper.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="Core\Vector3.cs" />
     <Compile Include="Entities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

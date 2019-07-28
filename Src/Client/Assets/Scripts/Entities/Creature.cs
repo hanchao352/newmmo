@@ -21,6 +21,14 @@ namespace Entities
 
         public SkillManager SkillMgr;
 
+        public BuffManager BuffMgr;
+
+        public EffectManager EffectMgr;
+
+        public Action<Buff> OnBuffAdd;
+
+        public Action<Buff> OnBuffARemove;
+
         bool battleState = false;
         public bool BattleStats
         {
@@ -33,6 +41,8 @@ namespace Entities
                 }
             }
         }
+
+      
 
         public int Id
         {
@@ -51,6 +61,8 @@ namespace Entities
                     return this.Define.Name;
             }
         }
+
+      
 
         public bool IsPlayer
         {
@@ -85,6 +97,8 @@ namespace Entities
             
           
             this.SkillMgr = new SkillManager(this);
+            this.BuffMgr = new BuffManager(this);
+            this.EffectMgr = new EffectManager(this);
         }
 
         public void UpdateInfo(NCharacterInfo info)
@@ -93,6 +107,16 @@ namespace Entities
             this.Info = info;
             this.Attributes.Init(this.Define,this.Info.Level,this.GetEquips(),this.Info.attrDynamic);
             this.SkillMgr.UpdateSkills();
+        }
+
+        internal void FaceTo(Vector3Int position)
+        {
+            this.SetDirection(GameObjectTool.WorldToLogic(GameObjectTool.LogicToWorld(position-this.position).normalized));
+            this.UpdateEntityData();
+            if (this.Controller!=null)
+            {
+                this.Controller.UpdateDirection();
+            }
         }
 
         public virtual List<EquipDefine> GetEquips()
@@ -129,11 +153,11 @@ namespace Entities
             this.position = position;
         }
 
-        public void CastSkill(int skillId,Creature target,NVector3 pos,NDamageInfo damage)
+        public void CastSkill(int skillId,Creature target,NVector3 pos)
         {
             this.SetStandby(true);
             var skill = this.SkillMgr.GetSkill(skillId);
-            skill.BeginCast(target);
+            skill.BeginCast(target,pos);
         }
 
         public void PlayAnim(string name)
@@ -149,23 +173,106 @@ namespace Entities
                 this.Controller.SetStandby(standby);
         }
 
+      
+
         public override void OnUpdate(float delta)
         {
             base.OnUpdate(delta);
             this.SkillMgr.OnUpdate(delta);
+            this.BuffMgr.OnUpdate(delta);
         }
 
-        public void DoDamage(NDamageInfo damage)
+        public void DoDamage(NDamageInfo damage,bool playHurt)
         {
             Debug.LogFormat("DoDamage:{0} DMG:{1}  CRIT:{2}",this.Name,damage.Damage,damage.Crit);
             this.Attributes.HP -= damage.Damage;
-            this.PlayAnim("Hurt");
+            if(playHurt) this.PlayAnim("Hurt");
+            if (this.Controller!=null)
+            {
+                UIWorldElementManager.Instance.ShowPopupText(PopupType.Damage,this.Controller.GetTransform().position+this.GetPopupOffset(),-damage.Damage,damage.Crit);
+            }
         }
 
         public void DoSkillHit(NSkillHitInfo hit)
         {
             var skill = this.SkillMgr.GetSkill(hit.skillId);
             skill.DoHit(hit);
+        }
+
+        internal void DoBuffAction(NBuffInfo buff)
+        {
+            switch (buff.Action)
+            {
+                case BuffAction.Add:
+                    this.AddBuff(buff.buffId,buff.buffType,buff.casterId);
+                    break;
+                case BuffAction.Remove:
+                    this.RemoveBuff(buff.buffId);
+                    break;
+                case BuffAction.Hit:
+                    this.DoDamage(buff.Damage,false);
+                    break;
+
+            }
+        }
+
+      
+
+        private void AddBuff(int buffId, int buffType, int casterId)
+        {
+            var buff= this.BuffMgr.AddBuff(buffId,buffType,casterId);
+            if (buff!=null&&this.OnBuffAdd!=null)
+            {
+                this.OnBuffAdd(buff);
+            }
+        }
+
+        public void RemoveBuff(int buffId)
+        {
+            var buff = this.BuffMgr.RemoveBuff(buffId);
+            if (buff != null && this.OnBuffARemove != null)
+            {
+                this.OnBuffARemove(buff);
+            }
+        }
+
+        internal void AddBuffEffect(BuffEffect effect)
+        {
+            this.EffectMgr.AddEffect(effect);
+        }
+
+        internal void RemoveBuffEffect(BuffEffect effect)
+        {
+            this.EffectMgr.RemoveEffect(effect);
+        }
+
+        internal void PlayEffect(EffectType type, string name, Creature target, float duration=0)
+        {
+            if (string.IsNullOrEmpty(name)) return;
+            if (this.Controller != null)
+                this.Controller.PlayEffect(type,name,target,duration);
+        }
+
+        public void PlayEffect(EffectType type,string name,NVector3 position)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                return;
+            }
+            if (this.Controller!=null)
+            {
+                this.Controller.PlayEffect(type,name,position,0);
+            }
+        }
+
+        internal Vector3 GetPopupOffset()
+        {
+            return new Vector3(0, this.Define.Height, 0);
+        }
+
+        internal Vector3 GetHitOffset()
+        {
+            return new Vector3(0,this.Define.Height*0.8f,0);
         }
     }
 }

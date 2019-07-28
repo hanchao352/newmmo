@@ -22,7 +22,7 @@ public class PlayerInputController : MonoBehaviour {
     public int speed;
 
     public EntityController entityController;
-
+    
     public bool onAir = false;
 
 

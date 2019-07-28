@@ -22,15 +22,16 @@ namespace Services
         {
             MessageDistributer.Instance.Subscribe<SkillCastResponse>(this.OnSkillCast);
             MessageDistributer.Instance.Subscribe<SkillHitResponse>(this.OnSkillHit);
+            MessageDistributer.Instance.Subscribe<BuffResponse>(this.OnBuff);
         }
 
-       
-
+      
 
         public void Dispose()
         {
             MessageDistributer.Instance.Unsubscribe<SkillCastResponse>(this.OnSkillCast);
             MessageDistributer.Instance.Unsubscribe<SkillHitResponse>(this.OnSkillHit);
+            MessageDistributer.Instance.Unsubscribe<BuffResponse>(this.OnBuff);
         }
 
        
@@ -55,15 +56,21 @@ namespace Services
 
         private void OnSkillCast(object sender, SkillCastResponse message)
         {
-            Debug.LogFormat("OnSkillCast: skill :{0} caster:{1} target:{2} pos:{3}  result:{4}", message.castInfo.skillId, message.castInfo.casterId, message.castInfo.targetId, message.castInfo.Position.String(),message.Result);
+           
             if (message.Result==Result.Success)
             {
-                Creature caster = EntityManager.Instance.GetEntity(message.castInfo.casterId) as Creature;
-                if (caster!=null)
+                foreach (var cast in message.castInfoes)
                 {
-                    Creature target=EntityManager.Instance.GetEntity(message.castInfo.targetId) as Creature;
-                    caster.CastSkill(message.castInfo.skillId,target,message.castInfo.Position,message.Damage);
+                    Debug.LogFormat("OnSkillCast: skill :{0} caster:{1} target:{2} pos:{3}  result:{4}", cast.skillId, cast.casterId, cast.targetId, cast.Position.String(), message.Result);
+
+                    Creature caster = EntityManager.Instance.GetEntity(cast.casterId) as Creature;
+                    if (caster != null)
+                    {
+                        Creature target = EntityManager.Instance.GetEntity(cast.targetId) as Creature;
+                        caster.CastSkill(cast.skillId, target, cast.Position);
+                    }
                 }
+                
             }
             else
             {
@@ -86,6 +93,20 @@ namespace Services
                    ;
                }
            }
+        }
+
+        private void OnBuff(object sender, BuffResponse message)
+        {
+            Debug.LogFormat("OnBuff:count:{0}",message.Buffs.Count);
+            foreach (var buff in message.Buffs)
+            {
+                Debug.LogFormat("Buff:{0} : {1} [{2}]",buff.buffId,buff.buffType,buff.Action);
+                Creature owner = EntityManager.Instance.GetEntity(buff.ownerId) as Creature;
+                if (owner!=null)
+                {
+                    owner.DoBuffAction(buff);
+                }
+            }
         }
     }
 }

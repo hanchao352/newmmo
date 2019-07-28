@@ -11,7 +11,7 @@ namespace Battle
         Skill skill;
         int hit = 0;
         float flyTime = 0;
-        float duration = 0;
+      public  float duration = 0;
 
         public bool Stoped = false;
         public Bullet(Skill skill)
@@ -33,8 +33,13 @@ namespace Battle
             if (this.flyTime>duration)
             {
                 this.skill.DoHitDamages(this.hit);
-                this.Stoped = true;
+                Stop();
             }
+        }
+
+        public void Stop()
+        {
+            this.Stoped = true;
         }
     }
 }

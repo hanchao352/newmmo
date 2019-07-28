@@ -12,19 +12,12 @@ public class UINameBar : MonoBehaviour {
 
     public Character character;
 
-
+    public UIBuffIcons buffIcons;
     // Use this for initialization
     void Start () {
 		if(this.character!=null)
         {
-            //if (character.Info.Type==SkillBridge.Message.CharacterType.Monster)
-            //{
-            //    this.avatar.gameObject.SetActive(false);
-            //}
-            //else
-            //{
-            //    this.avatar.gameObject.SetActive(true);
-            //}
+            buffIcons.SetOwner(this.character);
         }
 	}
 	

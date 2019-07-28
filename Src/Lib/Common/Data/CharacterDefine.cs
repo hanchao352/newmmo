@@ -80,5 +80,10 @@ namespace Common.Data
         /// </summary>
         public float CRI { get; set; }
 
+        /// <summary>
+        /// AI类型
+        /// </summary>
+        public string AI { get; set; }
+
     }
 }

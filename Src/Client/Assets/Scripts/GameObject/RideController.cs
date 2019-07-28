@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class RideController : MonoBehaviour
 {
+    
     public Transform mountPoint;
     public EntityController rider;
     public Vector3 offset;

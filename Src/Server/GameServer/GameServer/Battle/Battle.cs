@@ -22,7 +22,11 @@ namespace GameServer.Battle
 
         Queue<NSkillCastInfo> Actions = new Queue<NSkillCastInfo>();
 
+        List<NSkillCastInfo> CastSkills = new List<NSkillCastInfo>();
+
         List<NSkillHitInfo> Hits = new List<NSkillHitInfo>();
+
+        List<NBuffInfo> BuffAction = new List<NBuffInfo>();
 
         List<Creature> DeahPool = new List<Creature>();
 
@@ -45,7 +49,9 @@ namespace GameServer.Battle
 
         internal void Update()
         {
+            this.CastSkills.Clear();
             this.Hits.Clear();
+            this.BuffAction.Clear();
             if (this.Actions.Count > 0)
             {
                 NSkillCastInfo skillCast = this.Actions.Dequeue();
@@ -55,7 +61,7 @@ namespace GameServer.Battle
             this.BroadcastHitsMessage();
         }
 
-      
+       
 
         public void JoinBattle(Creature unit)
         {
@@ -73,6 +79,7 @@ namespace GameServer.Battle
             context.Target = EntityManager.Instance.GetCreature(cast.targetId);
             context.CastSkill = cast;
             context.Position = cast.Position;
+            
             if (context.Caster!=null)
             {
                 this.JoinBattle(context.Caster);
@@ -84,27 +91,45 @@ namespace GameServer.Battle
 
             context.Caster.CastSkill(context,cast.skillId);
 
-            NetMessageResponse message = new NetMessageResponse();
-            message.skillCast = new SkillCastResponse();
-            message.skillCast.castInfo = context.CastSkill;
-            message.skillCast.Damage = context.Damage;
-            message.skillCast.Result = context.Result == SkillResult.Ok ? Result.Success : Result.Failed;
-            message.skillCast.Errormsg = context.Result.ToString();
-            this.Map.BroadcastBattleResponse(message);
+            //NetMessageResponse message = new NetMessageResponse();
+            //message.skillCast = new SkillCastResponse();
+            //message.skillCast.castInfoes = context.CastSkill;
+           
+            //message.skillCast.Result = context.Result == SkillResult.Ok ? Result.Success : Result.Failed;
+            //message.skillCast.Errormsg = context.Result.ToString();
+            //this.Map.BroadcastBattleResponse(message);
         }
 
         private void BroadcastHitsMessage()
         {
-            if (Hits.Count==0)
+            if (Hits.Count==0&&this.BuffAction.Count==0&&this.CastSkills.Count==0)
             {
                 return;
             }
             NetMessageResponse message = new NetMessageResponse();
-            message.skillHits = new SkillHitResponse();
-            message.skillHits.Hits.AddRange(this.Hits);
-            message.skillHits.Result = Result.Success;
-            message.skillHits.Errormsg = "";
-         
+
+            if (this.CastSkills.Count > 0)
+            {
+                message.skillCast = new SkillCastResponse();
+                message.skillCast.castInfoes.AddRange(this.CastSkills);
+                message.skillCast.Result = Result.Success;
+                message.skillCast.Errormsg = "";
+            }
+            if (this.Hits.Count>0)
+            {
+                message.skillHits = new SkillHitResponse();
+                message.skillHits.Hits.AddRange(this.Hits);
+                message.skillHits.Result = Result.Success;
+                message.skillHits.Errormsg = "";
+            }
+            if (this.BuffAction.Count > 0)
+            {
+                message.buffRes = new BuffResponse();
+                message.buffRes.Buffs.AddRange(this.BuffAction);
+                message.buffRes.Result = Result.Success;
+                message.buffRes.Errormsg = "";
+            }
+
             this.Map.BroadcastBattleResponse(message);
 
         }
@@ -139,9 +164,26 @@ namespace GameServer.Battle
             return result;
         }
 
+        internal List<Creature> FindUnitsInMapRange(Vector3Int pos, int range)
+        {
+            return EntityManager.Instance.GetMapEntitiesInRange<Creature>(this.Map.ID,pos,range);
+        }
+
+        public void AddCastSkillInfo(NSkillCastInfo cast)
+        {
+            this.CastSkills.Add(cast);
+        }
+
         internal void AddHitInfo(NSkillHitInfo hit)
         {
             this.Hits.Add(hit);
         }
+
+        internal void AddBuffAction(NBuffInfo buff)
+        {
+            this.BuffAction.Add(buff);
+        }
     }
+
+
 }

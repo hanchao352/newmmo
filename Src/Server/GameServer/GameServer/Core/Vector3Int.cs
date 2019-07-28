@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GameServer.Core
+﻿namespace GameServer.Core
 {
-    using Common.Utils;
     using SkillBridge.Message;
     // Vector3Int
     using System;
@@ -122,6 +115,17 @@ namespace GameServer.Core
         ///   <para>Returns the squared length of this vector (Read Only).</para>
         /// </summary>
         public int sqrMagnitude => x * x + y * y + z * z;
+
+
+        public Vector3Int normalized
+        {
+            get
+            {
+                var m = this.magnitude;
+                return new Vector3Int((int)(this .x*100f/m), (int)(this.y * 100f / m), (int)(this.z * 100f / m));
+            }
+        }
+
 
         /// <summary>
         ///   <para>Shorthand for writing Vector3Int (0, 0, 0).</para>
